@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261121005918.5938edbc5c.7d2d2a45@mail60.atl281.mcsv.net>",
+  "family": "Techmeme",
+  "letter": "Techmeme",
+  "issue_date": "2026-11-21",
+  "sent_at": "2026-11-21T00:59:39.000Z",
+  "subject": "Jensen Huang’s abusive behavior detailed, Anthropic posts Riemann hypothesis proof",
+  "notes": "Issue is headed 'Fri, Nov 20'. Headlines only; text is upper case in the source.",
+  "stories": [
+    {
+      "headline": "Databricks in early talks to raise several billion dollars at about a $225B valuation",
+      "quote": "SOURCES: DATABRICKS IS IN EARLY TALKS TO RAISE SEVERAL BILLION DOLLARS AT A ~$225B VALUATION, AFTER CLOSING A $5B ROUND AT A $190B VALUATION IN AUGUST",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "in_talks", "mention_type": "story",
+      "company": "Databricks", "aliases": [], "description": null, "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": null, "currency": "USD", "amount_qualifier": null,
+      "mixed_total": null, "other_finance": [],
+      "valuation": {"amount": 225000000000, "currency": "USD", "qualifier": "about"},
+      "valuation_basis": "unstated",
+      "non_raise_figures": [],
+      "leads": [], "tech_area": "ai_infrastructure", "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [
+        {"date": null, "text": "Amount under discussion is given only as 'several billion dollars'.", "quote": "DATABRICKS IS IN EARLY TALKS TO RAISE SEVERAL BILLION DOLLARS AT A ~$225B VALUATION"}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Databricks closed a $5B round at a $190B valuation in August",
+      "quote": "SOURCES: DATABRICKS IS IN EARLY TALKS TO RAISE SEVERAL BILLION DOLLARS AT A ~$225B VALUATION, AFTER CLOSING A $5B ROUND AT A $190B VALUATION IN AUGUST",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Databricks", "aliases": [], "description": null, "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 5000000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [],
+      "valuation": {"amount": 190000000000, "currency": "USD", "qualifier": "exact"},
+      "valuation_basis": "unstated",
+      "non_raise_figures": [],
+      "leads": [], "tech_area": "ai_infrastructure", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Cognition is considering raising $2B or more at a $75B valuation",
+      "quote": "SOURCES: COGNITION IS CONSIDERING RAISING $2B OR MORE AT A $75B VALUATION, AFTER RAISING OVER $3B IN 2026 SO FAR, INCLUDING $2B AT A $48B VALUATION IN SEPTEMBER",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "in_talks", "mention_type": "story",
+      "company": "Cognition", "aliases": [], "description": null, "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 2000000000, "currency": "USD", "amount_qualifier": "at_least",
+      "mixed_total": null, "other_finance": [],
+      "valuation": {"amount": 75000000000, "currency": "USD", "qualifier": "exact"},
+      "valuation_basis": "unstated",
+      "non_raise_figures": [],
+      "leads": [], "tech_area": "ai_applications", "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [
+        {"date": null, "text": "Cognition has raised over $3B in 2026 so far.", "quote": "AFTER RAISING OVER $3B IN 2026 SO FAR, INCLUDING $2B AT A $48B VALUATION IN SEPTEMBER"}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Cognition raised $2B at a $48B valuation in September",
+      "quote": "SOURCES: COGNITION IS CONSIDERING RAISING $2B OR MORE AT A $75B VALUATION, AFTER RAISING OVER $3B IN 2026 SO FAR, INCLUDING $2B AT A $48B VALUATION IN SEPTEMBER",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Cognition", "aliases": [], "description": null, "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 2000000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [],
+      "valuation": {"amount": 48000000000, "currency": "USD", "qualifier": "exact"},
+      "valuation_basis": "unstated",
+      "non_raise_figures": [],
+      "leads": [], "tech_area": "ai_applications", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Pragmatik Labs raised tens of millions of dollars at a $5B valuation, sources say",
+      "quote": "SOURCES: SHANGHAI-BASED PRAGMATIK LABS, FOUNDED BY EX-QWEN AI HEAD JUNYANG LIN, RAISED TENS OF MILLIONS OF DOLLARS AT A $5B VALUATION, UP FROM $2B IN AUGUST",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "story",
+      "company": "Pragmatik Labs", "aliases": [], "description": null,
+      "hq": [{"city": "Shanghai", "country": "CN"}],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": null, "currency": "USD", "amount_qualifier": null,
+      "mixed_total": null, "other_finance": [],
+      "valuation": {"amount": 5000000000, "currency": "USD", "qualifier": "exact"},
+      "valuation_basis": "unstated",
+      "non_raise_figures": [],
+      "leads": [], "tech_area": "other", "is_press_release_reprint": false,
+      "founder_background": "Founded by ex-Qwen AI head Junyang Lin",
+      "facts": [
+        {"date": null, "text": "Amount is given only as 'tens of millions of dollars'.", "quote": "RAISED TENS OF MILLIONS OF DOLLARS AT A $5B VALUATION"},
+        {"date": null, "text": "Earlier valuation was $2B in August.", "quote": "AT A $5B VALUATION, UP FROM $2B IN AUGUST"}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "BrightAI raised $97M led by Smith Point",
+      "quote": "BRIGHTAI, WHICH USES AI TO HELP INDUSTRIAL COMPANIES DETECT MALFUNCTIONING EQUIPMENT, RAISED $97M LED BY SMITH POINT, BRINGING ITS TOTAL FUNDING TO $184M",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "story",
+      "company": "BrightAI", "aliases": [],
+      "description": "Uses AI to help industrial companies detect malfunctioning equipment",
+      "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 97000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null,
+      "non_raise_figures": [{"kind": "other", "text": "total funding $184M"}],
+      "leads": ["Smith Point"], "tech_area": "ai_applications", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Linq raised a $90M Series B led by a16z",
+      "quote": "LINQ, WHICH OFFERS TEXTING AND CALLING INFRASTRUCTURE FOR AI AGENTS, RAISED A $90M SERIES B LED BY A16Z, FOLLOWING A $20M SERIES A IN FEBRUARY",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "story",
+      "company": "Linq", "aliases": [],
+      "description": "Texting and calling infrastructure for AI agents",
+      "hq": [],
+      "stage": "series_b", "stage_as_written": "Series B", "is_combined_round": false,
+      "equity_amount": 90000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["a16z"], "tech_area": "ai_applications", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Linq raised a $20M Series A in February",
+      "quote": "LINQ, WHICH OFFERS TEXTING AND CALLING INFRASTRUCTURE FOR AI AGENTS, RAISED A $90M SERIES B LED BY A16Z, FOLLOWING A $20M SERIES A IN FEBRUARY",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Linq", "aliases": [],
+      "description": "Texting and calling infrastructure for AI agents",
+      "hq": [],
+      "stage": "series_a", "stage_as_written": "Series A", "is_combined_round": false,
+      "equity_amount": 20000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "tech_area": "ai_applications", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Anthropic raises a further $12.2B from the greenshoe, taking its IPO total to $93.5B",
+      "quote": "ANTHROPIC RAISES AN ADDITIONAL $12.2B AS UNDERWRITERS EXERCISE THEIR “GREENSHOE” OVERALLOTMENT OF SHARES, BRINGING THE TOTAL RAISED IN ITS IPO TO $93.5B",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "ipo", "subtype": null, "status": "listed", "mention_type": "story",
+      "company": "Anthropic", "aliases": [], "description": null, "hq": [],
+      "is_press_release_reprint": false,
+      "facts": [
+        {"date": null, "text": "Underwriters exercised the greenshoe overallotment, raising an additional $12.2B; total raised in the IPO is $93.5B.", "quote": "ANTHROPIC RAISES AN ADDITIONAL $12.2B AS UNDERWRITERS EXERCISE THEIR “GREENSHOE” OVERALLOTMENT OF SHARES, BRINGING THE TOTAL RAISED IN ITS IPO TO $93.5B"},
+        {"date": null, "text": "Stock closed down 8.5% at $88.91 on its second day of trading; IPO price was $83.", "quote": "ANTHROPIC STOCK CLOSED DOWN 8.5% AT $88.91 ON ITS SECOND DAY OF TRADING, TRIMMING GAINS FROM ITS $83 IPO PRICE"},
+        {"date": null, "text": "Asian tech stocks fell despite the IPO: SoftBank about 15%, TSMC over 5%, Samsung and SK Hynix over 6%.", "quote": "ASIAN TECH STOCKS PLUNGE AS ANTHROPIC'S RECORD IPO FAILS TO STEM AN AI SELL-OFF; SOFTBANK FALLS ~15%, TSMC FALLS 5%+, AND SAMSUNG AND SK HYNIX FALL 6%+"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "DayOne pauses its US IPO plans to raise up to $5B",
+      "quote": "SOURCES: SINGAPORE-BASED DAYONE PAUSES ITS US IPO PLANS TO RAISE UP TO $5B AS SOON AS Q4 AMID MARKET VOLATILITY AND VALUATION CONCERNS AROUND AI INFRASTRUCTURE",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "ipo", "subtype": null, "status": "planned", "mention_type": "story",
+      "company": "DayOne", "aliases": [], "description": null,
+      "hq": [{"city": "Singapore", "country": "SG"}],
+      "is_press_release_reprint": false,
+      "facts": [
+        {"date": null, "text": "The planned US IPO, to raise up to $5B as soon as Q4, has been paused, per sources.", "quote": "DAYONE PAUSES ITS US IPO PLANS TO RAISE UP TO $5B AS SOON AS Q4 AMID MARKET VOLATILITY AND VALUATION CONCERNS AROUND AI INFRASTRUCTURE"}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "CrowdStrike in talks to acquire Zscaler, sources say",
+      "quote": "SOURCES: CROWDSTRIKE IS IN TALKS TO ACQUIRE ZSCALER, WHICH WOULD CREATE A CYBERSECURITY COMPANY WITH A COMBINED MARKET CAP OF ~$265B; ZS JUMPS 15%+ AFTER HOURS",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "acquisition", "subtype": null, "status": "in_talks", "mention_type": "story",
+      "company": "Zscaler", "aliases": ["ZS"], "description": "Cybersecurity company", "hq": [],
+      "acquirer": "CrowdStrike", "acquirer_type": "company", "price": null,
+      "consideration": "unstated", "confirmed_by_company": false, "is_pe_buy_and_build": false,
+      "tech_area": "other_software_consumer", "is_press_release_reprint": false,
+      "facts": [
+        {"date": null, "text": "Combined market cap would be about $265B; Zscaler shares rose over 15% after hours.", "quote": "WOULD CREATE A CYBERSECURITY COMPANY WITH A COMBINED MARKET CAP OF ~$265B; ZS JUMPS 15%+ AFTER HOURS"}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Wonder is exploring a sale of Grubhub, sources say",
+      "quote": "SOURCES: WONDER IS EXPLORING A SALE OF GRUBHUB, WHICH IT BOUGHT IN 2024 FOR $650M; BANKERS HAVE BEEN IN CONTACT WITH WALMART, TARGET, KROGER AND OTHER RETAILERS",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "acquisition", "subtype": null, "status": "in_talks", "mention_type": "story",
+      "company": "Grubhub", "aliases": [], "description": null, "hq": [],
+      "acquirer": null, "acquirer_type": null, "price": null,
+      "consideration": "unstated", "confirmed_by_company": false, "is_pe_buy_and_build": false,
+      "tech_area": "other_software_consumer", "is_press_release_reprint": false,
+      "facts": [
+        {"date": null, "text": "Seller is Wonder; no buyer is named. Bankers have contacted Walmart, Target, Kroger and other retailers.", "quote": "BANKERS HAVE BEEN IN CONTACT WITH WALMART, TARGET, KROGER AND OTHER RETAILERS"},
+        {"date": null, "text": "Wonder bought Grubhub in 2024 for $650M.", "quote": "GRUBHUB, WHICH IT BOUGHT IN 2024 FOR $650M"}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Wonder bought Grubhub for $650M in 2024",
+      "quote": "SOURCES: WONDER IS EXPLORING A SALE OF GRUBHUB, WHICH IT BOUGHT IN 2024 FOR $650M; BANKERS HAVE BEEN IN CONTACT WITH WALMART, TARGET, KROGER AND OTHER RETAILERS",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "acquisition", "subtype": null, "status": "completed", "mention_type": "passing",
+      "company": "Grubhub", "aliases": [], "description": null, "hq": [],
+      "acquirer": "Wonder", "acquirer_type": "company",
+      "price": {"amount": 650000000, "currency": "USD", "qualifier": "exact"},
+      "consideration": "unstated", "confirmed_by_company": false, "is_pe_buy_and_build": false,
+      "tech_area": "other_software_consumer", "is_press_release_reprint": false,
+      "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "KKR-launched Helix Digital in talks to buy EdgeCore at a $8B to $10B valuation",
+      "quote": "SOURCES: HELIX DIGITAL, LAUNCHED BY KKR TO INVEST IN DATA CENTERS, IS IN TALKS TO BUY EDGECORE IN A DEAL THAT VALUES THE DATA CENTER OPERATOR AT $8B TO $10B",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "acquisition", "subtype": null, "status": "in_talks", "mention_type": "story",
+      "company": "EdgeCore", "aliases": [], "description": "Data center operator", "hq": [],
+      "acquirer": "Helix Digital", "acquirer_type": "financial",
+      "price": {"amount": 8000000000, "currency": "USD", "qualifier": "at_least"},
+      "consideration": "unstated", "confirmed_by_company": false, "is_pe_buy_and_build": false,
+      "tech_area": "other", "is_press_release_reprint": false,
+      "facts": [
+        {"date": null, "text": "The deal would value EdgeCore at $8B to $10B (a range; the price field holds the lower bound).", "quote": "IN A DEAL THAT VALUES THE DATA CENTER OPERATOR AT $8B TO $10B"},
+        {"date": null, "text": "Helix Digital was launched by KKR to invest in data centers.", "quote": "HELIX DIGITAL, LAUNCHED BY KKR TO INVEST IN DATA CENTERS"}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Staff describe decades of abusive behaviour by Jensen Huang; Nvidia settled with two senior leaders",
+      "quote": "CURRENT AND EX-STAFFERS DESCRIBE ABUSIVE BEHAVIOR BY JENSEN HUANG THAT GOES BACK DECADES; NVIDIA SETTLED WITH TWO SENIOR LEADERS WHO ALLEGED ABUSIVE CONDUCT",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "leadership", "status": "reported", "mention_type": "story",
+      "company": "Nvidia", "aliases": ["NVDA"],
+      "facts": [
+        {"date": null, "text": "Sources: the board's main reason for ousting Huang was 'lying' and 'lack of candor' over the Alice Huang affair.", "quote": "SOURCES: NVIDIA BOARD'S MAIN REASON FOR OUSTING JENSEN HUANG WAS HIS “LYING” AND “LACK OF CANDOR” FROM OCTOBER 2025 UNTIL THIS FALL OVER THE ALICE HUANG AFFAIR"},
+        {"date": null, "text": "Trump says he would love to see Huang return as CEO.", "quote": "TRUMP SAYS HE “WOULD LOVE TO SEE” JENSEN HUANG RETURN AS CEO, SAYING “IF THEY WERE SMART”, NVIDIA WOULD “ACCEPT AN APOLOGY, AND LET HIM GO BACK TO WORK”"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Anthropic mathematician claims he used Claude to prove the Riemann hypothesis and posts the proof in Lean",
+      "quote": "ANTHROPIC MATHEMATICIAN LEVENT ALPÖGE CLAIMS HE USED CLAUDE TO PROVE THE 167-YEAR-OLD RIEMANN HYPOTHESIS AND POSTS THE PROOF IN THE LEAN PROGRAMMING LANGUAGE",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "product", "status": "reported", "mention_type": "story",
+      "company": "Anthropic", "aliases": [], "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "US SEC is probing Nvidia's accounting practices, sources say",
+      "quote": "SOURCES: THE US SEC IS PROBING NVIDIA'S ACCOUNTING PRACTICES; LAST YEAR, NVIDIA CHANGED HOW IT REPORTS REVENUE, REMOVING SINGAPORE FROM GEOGRAPHICAL BREAKDOWNS",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "regulation", "status": "reported", "mention_type": "story",
+      "company": "Nvidia", "aliases": ["NVDA"],
+      "facts": [
+        {"date": null, "text": "California's AG subpoenaed Nvidia over whether Huang's actions resulted in China getting advanced chips and whether Nvidia misled investors.", "quote": "CALIFORNIA'S AG SUBPOENAS NVIDIA TO INVESTIGATE WHETHER JENSEN HUANG'S ACTIONS RESULTED IN CHINA GETTING ADVANCED CHIPS, AND WHETHER NVIDIA MISLED INVESTORS"}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Nvidia shares closed down 14% on Friday, a seventh straight fall; Nasdaq 100 fell 5.6%",
+      "quote": "NVIDIA SHARES CLOSED DOWN 14% ON FRIDAY, SLIDING FOR A SEVENTH STRAIGHT DAY; THE STOCK FELL 44% OVER SEVEN WEEKS, PUSHING THE COMPANY'S MARKET CAP DOWN BY $2.5T",
+      "story_date": "2026-11-20", "date_basis": "stated", "timing": "new",
+      "event_type": "other", "subtype": "market_move", "status": "reported", "mention_type": "story",
+      "company": "Nvidia", "aliases": ["NVDA"],
+      "facts": [
+        {"date": "2026-11-20", "text": "Nasdaq 100 fell 5.6% on Friday and 10.4% for the week, its worst run in more than six years.", "quote": "NASDAQ 100 FELL 5.6% ON FRIDAY, TAKING ITS LOSS FOR THE WEEK TO 10.4%, ITS WORST RUN IN MORE THAN SIX YEARS, AMID FEARS OF A SLOWDOWN IN THE AI INVESTMENT BOOM"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Bitcoin falls to $57,000, its lowest level in over two years",
+      "quote": "BITCOIN FALLS TO $57,000, ITS LOWEST LEVEL IN OVER TWO YEARS; IT HAS LOST MORE THAN HALF ITS VALUE SINCE REACHING A PEAK ABOVE $126,000 IN OCTOBER 2025",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "market_move", "status": "reported", "mention_type": "story",
+      "company": "Bitcoin", "aliases": [], "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Take-Two says GTA VI generated $3.79B in day-one sales",
+      "quote": "TAKE-TWO SAYS GTA VI GENERATED $3.79B IN DAY-ONE SALES, SURPASSING THE $2.9B LIFETIME BOX-OFFICE GROSS OF THE HIGHEST-GROSSING FILM AVENGERS: ENDGAME",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "earnings", "status": "reported", "mention_type": "story",
+      "company": "Take-Two", "aliases": [], "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Trump says he would block US companies from building data centers overseas or tax them",
+      "quote": "TRUMP SAYS HE WOULD BLOCK US COMPANIES FROM BUILDING DATA CENTERS OVERSEAS OR IMPOSE A “TREMENDOUS TAX” ON THEM IF THEY DO",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "regulation", "status": "reported", "mention_type": "story",
+      "company": null, "aliases": [], "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "YouTube reaches agreement in principle to pay about $3B to US school districts, sources say",
+      "quote": "SOURCES: YOUTUBE REACHES AN AGREEMENT IN PRINCIPLE TO PAY ~$3B TO US SCHOOL DISTRICTS OVER CLAIMS YOUTUBE FOSTERS ADDICTION; A FINAL DEAL MAY BE MONTHS AWAY",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "legal", "status": "reported", "mention_type": "story",
+      "company": "YouTube", "aliases": [], "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "China will not approve overseas listings by Chinese companies registered abroad after 2023, sources say",
+      "quote": "SOURCES: CHINA SAYS IT WILL NOT APPROVE REQUESTS FROM CHINESE COMPANIES REGISTERED OVERSEAS AFTER 2023 TO LIST OUTSIDE MAINLAND CHINA, IMPACTING TECH STARTUPS",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "regulation", "status": "reported", "mention_type": "story",
+      "company": null, "aliases": [], "facts": [], "confidence": "medium"
+    }
+  ]
+}
