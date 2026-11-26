@@ -1,0 +1,560 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "story.schema.json",
+ "title": "One newsletter issue, extracted",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "schema_version",
+  "message_id",
+  "family",
+  "issue_date",
+  "stories"
+ ],
+ "properties": {
+  "schema_version": {
+   "const": 1
+  },
+  "message_id": {
+   "type": "string"
+  },
+  "family": {
+   "type": "string"
+  },
+  "letter": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "issue_date": {
+   "type": "string",
+   "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+  },
+  "sent_at": {
+   "type": [
+    "string",
+    "null"
+   ],
+   "description": "send timestamp from get_message, ISO 8601"
+  },
+  "subject": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "notes": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "stories": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "headline",
+     "quote",
+     "event_type",
+     "status",
+     "company",
+     "mention_type",
+     "story_date",
+     "confidence",
+     "timing"
+    ],
+    "properties": {
+     "headline": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 200
+     },
+     "quote": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 300,
+      "description": "verbatim from the issue"
+     },
+     "story_date": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "date of the event itself; null if the issue does not state or imply it"
+     },
+     "date_basis": {
+      "enum": [
+       "stated",
+       "undated"
+      ]
+     },
+     "event_type": {
+      "enum": [
+       "round",
+       "acquisition",
+       "ipo",
+       "fund",
+       "pricing",
+       "other",
+       "deal_mention"
+      ]
+     },
+     "subtype": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "status": {
+      "enum": [
+       "closed",
+       "announced",
+       "in_talks",
+       "rumour",
+       "planned",
+       "filed",
+       "priced",
+       "listed",
+       "signed",
+       "completed",
+       "bid",
+       "refused",
+       "abandoned",
+       "first_close",
+       "final_close",
+       "launched",
+       "reported"
+      ]
+     },
+     "mention_type": {
+      "enum": [
+       "story",
+       "deal_list",
+       "passing"
+      ]
+     },
+     "company": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "null only for event_type other with no single company"
+     },
+     "aliases": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "description": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "maxLength": 120
+     },
+     "hq": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "country"
+       ],
+       "properties": {
+        "city": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "country": {
+         "type": "string",
+         "pattern": "^[A-Z]{2}$"
+        }
+       }
+      }
+     },
+     "stage": {
+      "enum": [
+       "pre_seed",
+       "seed",
+       "series_a",
+       "series_b",
+       "series_c",
+       "series_d_plus",
+       "growth",
+       "extension",
+       "bridge",
+       "unstated",
+       null
+      ]
+     },
+     "stage_as_written": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "is_combined_round": {
+      "type": "boolean"
+     },
+     "equity_amount": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "currency": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "pattern": "^[A-Z]{3}$"
+     },
+     "amount_qualifier": {
+      "enum": [
+       "exact",
+       "about",
+       "at_least",
+       "up_to",
+       "more_than",
+       null
+      ]
+     },
+     "mixed_total": {
+      "type": [
+       "object",
+       "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+       "amount",
+       "currency",
+       "includes"
+      ],
+      "properties": {
+       "amount": {
+        "type": "number"
+       },
+       "currency": {
+        "type": "string"
+       },
+       "qualifier": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "includes": {
+        "type": "array",
+        "items": {
+         "enum": [
+          "equity",
+          "debt",
+          "grant",
+          "customer_value_fund",
+          "secondary",
+          "other"
+         ]
+        }
+       }
+      }
+     },
+     "other_finance": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "type"
+       ],
+       "properties": {
+        "type": {
+         "enum": [
+          "debt",
+          "grant",
+          "customer_value_fund",
+          "secondary",
+          "other"
+         ]
+        },
+        "amount": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "currency": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "note": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "qualifier": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "quote": {
+         "type": [
+          "string",
+          "null"
+         ]
+        }
+       }
+      }
+     },
+     "valuation": {
+      "type": [
+       "object",
+       "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+       "amount",
+       "currency"
+      ],
+      "properties": {
+       "amount": {
+        "type": "number",
+        "exclusiveMinimum": 0
+       },
+       "currency": {
+        "type": "string",
+        "pattern": "^[A-Z]{3}$"
+       },
+       "qualifier": {
+        "enum": [
+         "exact",
+         "about",
+         "at_least",
+         "up_to",
+         "more_than"
+        ]
+       }
+      }
+     },
+     "valuation_basis": {
+      "enum": [
+       "pre_money",
+       "post_money",
+       "unstated",
+       null
+      ]
+     },
+     "non_raise_figures": {
+      "type": "array",
+      "description": "revenue, ARR, run rate etc. Never a raise.",
+      "items": {
+       "type": "object"
+      }
+     },
+     "leads": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "acquirer": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "price": {
+      "type": [
+       "object",
+       "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+       "amount",
+       "currency"
+      ],
+      "properties": {
+       "amount": {
+        "type": "number",
+        "exclusiveMinimum": 0
+       },
+       "currency": {
+        "type": "string",
+        "pattern": "^[A-Z]{3}$"
+       },
+       "qualifier": {
+        "enum": [
+         "exact",
+         "about",
+         "at_least",
+         "up_to",
+         "more_than"
+        ]
+       }
+      }
+     },
+     "consideration": {
+      "enum": [
+       "cash",
+       "stock",
+       "cash_and_stock",
+       "unstated",
+       null
+      ]
+     },
+     "confirmed_by_company": {
+      "type": [
+       "boolean",
+       "null"
+      ]
+     },
+     "is_pe_buy_and_build": {
+      "type": [
+       "boolean",
+       "null"
+      ]
+     },
+     "fund_name": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "fund_size": {
+      "type": [
+       "object",
+       "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+       "amount",
+       "currency"
+      ],
+      "properties": {
+       "amount": {
+        "type": "number",
+        "exclusiveMinimum": 0
+       },
+       "currency": {
+        "type": "string",
+        "pattern": "^[A-Z]{3}$"
+       },
+       "qualifier": {
+        "enum": [
+         "exact",
+         "about",
+         "at_least",
+         "up_to",
+         "more_than"
+        ]
+       }
+      }
+     },
+     "fund_strategy": {
+      "enum": [
+       "early_stage",
+       "multi_stage",
+       "growth",
+       "late_stage",
+       "secondaries",
+       "other",
+       null
+      ]
+     },
+     "fund_geography": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "fund_focus": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "tech_area": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "is_press_release_reprint": {
+      "type": [
+       "boolean",
+       "null"
+      ]
+     },
+     "founder_background": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "facts": {
+      "type": "array",
+      "maxItems": 8,
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "text",
+        "quote"
+       ],
+       "properties": {
+        "date": {
+         "type": [
+          "string",
+          "null"
+         ],
+         "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "text": {
+         "type": "string",
+         "maxLength": 240
+        },
+        "quote": {
+         "type": "string",
+         "maxLength": 300
+        }
+       }
+      }
+     },
+     "confidence": {
+      "enum": [
+       "high",
+       "medium",
+       "low"
+      ]
+     },
+     "timing": {
+      "enum": [
+       "new",
+       "recap",
+       "background"
+      ],
+      "description": "new = reported as news in this issue; recap = the issue presents it as older than the period it covers; background = an older event cited as context"
+     },
+     "acquirer_type": {
+      "enum": [
+       "company",
+       "financial",
+       null
+      ],
+      "description": "financial = private equity, infrastructure or investment firm buying for its fund"
+     }
+    }
+   }
+  }
+ }
+}

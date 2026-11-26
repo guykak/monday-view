@@ -1,0 +1,538 @@
+{
+ "_source": "docs/w47_gate.md. Required / allowed / forbidden as defined there.",
+ "week": "2026-W47",
+ "counting_set": {
+  "issues": 54,
+  "from": "2026-11-16",
+  "to": "2026-11-22"
+ },
+ "words": {
+  "min": 500,
+  "max": 750
+ },
+ "footer": {
+  "total": 54,
+  "per_family": {
+   "TLDR": 12,
+   "Sifted": 9,
+   "AlphaSignal": 6,
+   "Techmeme": 6,
+   "Term Sheet": 5,
+   "Maddyness": 5,
+   "Newcomer": 4,
+   "Benedict Evans": 1,
+   "Sunday CET": 1,
+   "EU-Startups": 1,
+   "TechCrunch Mobility": 1,
+   "DeepLearning.AI": 1,
+   "Import AI": 1,
+   "Not Boring": 1
+  },
+  "silent_letters": [
+   "Maddyness IA"
+  ]
+ },
+ "dots": {
+  "Anthropic": {
+   "type": "ipo",
+   "families": [
+    "Sifted",
+    "Techmeme",
+    "TLDR",
+    "Benedict Evans",
+    "Newcomer",
+    "AlphaSignal",
+    "Term Sheet",
+    "Not Boring",
+    "DeepLearning.AI",
+    "Sunday CET"
+   ]
+  },
+  "Isomorphic Labs": {
+   "type": "round",
+   "families": [
+    "Sifted",
+    "Techmeme",
+    "Term Sheet",
+    "TLDR",
+    "EU-Startups",
+    "Newcomer",
+    "Not Boring"
+   ]
+  },
+  "Genesis AI": {
+   "type": "round",
+   "families": [
+    "Maddyness",
+    "Sifted",
+    "Techmeme",
+    "Term Sheet",
+    "TLDR",
+    "Newcomer",
+    "Not Boring"
+   ]
+  },
+  "Payhawk": {
+   "type": "round",
+   "families": [
+    "Term Sheet",
+    "Sifted",
+    "Techmeme",
+    "EU-Startups",
+    "Newcomer",
+    "Sunday CET"
+   ]
+  },
+  "Remanence": {
+   "type": "round",
+   "families": [
+    "Term Sheet",
+    "Maddyness",
+    "Sifted",
+    "Techmeme",
+    "Sunday CET"
+   ]
+  },
+  "Model ML": {
+   "type": "round",
+   "families": [
+    "Sifted",
+    "Techmeme",
+    "Term Sheet",
+    "EU-Startups"
+   ]
+  },
+  "Boltz": {
+   "type": "round",
+   "families": [
+    "Newcomer",
+    "Not Boring",
+    "Sifted",
+    "Techmeme"
+   ]
+  },
+  "Plural": {
+   "type": "fund",
+   "families": [
+    "Sifted",
+    "Techmeme",
+    "EU-Startups",
+    "Sunday CET"
+   ]
+  },
+  "Tiberius Aerospace": {
+   "type": "round",
+   "families": [
+    "Sifted",
+    "Techmeme",
+    "Term Sheet"
+   ]
+  },
+  "Daisytuner": {
+   "type": "round",
+   "families": [
+    "Sifted",
+    "Term Sheet",
+    "EU-Startups"
+   ]
+  },
+  "MountAIn": {
+   "type": "round",
+   "families": [
+    "Term Sheet",
+    "Sifted",
+    "EU-Startups"
+   ]
+  },
+  "Elysian Aircraft": {
+   "type": "round",
+   "families": [
+    "EU-Startups",
+    "TechCrunch Mobility",
+    "Sifted"
+   ]
+  },
+  "Applied Compute": {
+   "type": "acquisition",
+   "families": [
+    "Techmeme",
+    "Newcomer",
+    "TLDR"
+   ]
+  },
+  "Mailchimp": {
+   "type": "acquisition",
+   "families": [
+    "Techmeme",
+    "Newcomer",
+    "Sunday CET"
+   ]
+  },
+  "Vetaion": {
+   "type": "round",
+   "families": [
+    "EU-Startups",
+    "Sifted"
+   ]
+  },
+  "Mosaico": {
+   "type": "round",
+   "families": [
+    "Sifted",
+    "Term Sheet"
+   ]
+  },
+  "Stryx AI": {
+   "type": "round",
+   "families": [
+    "Maddyness",
+    "Sifted"
+   ]
+  },
+  "Sofinnova": {
+   "type": "fund",
+   "families": [
+    "Maddyness",
+    "Sifted"
+   ]
+  },
+  "Commit Biologics": {
+   "type": "round",
+   "families": [
+    "EU-Startups"
+   ]
+  },
+  "Dcubed": {
+   "type": "round",
+   "families": [
+    "Sifted"
+   ]
+  },
+  "Norwest": {
+   "type": "fund",
+   "families": [
+    "Term Sheet"
+   ]
+  }
+ },
+ "block1": {
+  "company": "Anthropic",
+  "event_type": "ipo",
+  "n_families": 10,
+  "dots": "●●●●●",
+  "required_facts": [
+   {
+    "date": "2026-11-18",
+    "must_contain": [
+     "$83",
+     "above",
+     "81.3",
+     "largest"
+    ]
+   },
+   {
+    "date": "2026-11-19",
+    "must_contain": [
+     "$111.50",
+     "34%",
+     "$97.17",
+     "17%",
+     "$1.3T"
+    ]
+   },
+   {
+    "date": "2026-11-20",
+    "must_contain": [
+     "SoftBank",
+     "15%",
+     "TSMC",
+     "5%",
+     "Samsung",
+     "SK Hynix",
+     "6%"
+    ]
+   }
+  ],
+  "must_contain_anywhere": [
+   "93.5"
+  ],
+  "for_us_required": true,
+  "forbidden_text": [
+   "reinstat",
+   "Huang"
+  ]
+ },
+ "block2": {
+  "count_world": {
+   "value": 55,
+   "tol": 2
+  },
+  "count_europe": {
+   "value": 28,
+   "tol": 2
+  },
+  "mix": {
+   "family": "Term Sheet",
+   "carried": {
+    "value": 30,
+    "tol": 2
+   },
+   "without": {
+    "value": 35,
+    "tol": 2
+   }
+  },
+  "big_early_europe": {
+   "exact": [
+    "Boltz",
+    "Commit Biologics",
+    "Genesis AI",
+    "Tiberius Aerospace"
+   ]
+  },
+  "big_early_rest_of_world": {
+   "value": 3,
+   "tol": 1
+  },
+  "named_required": [
+   {
+    "company": "Daisytuner",
+    "hq": "Darmstadt",
+    "amount": "€6m",
+    "stage": "seed"
+   },
+   {
+    "company": "MountAIn",
+    "hq": "Grenoble",
+    "amount": "€7.3m",
+    "stage": "seed"
+   },
+   {
+    "company": "Vetaion",
+    "hq": "Munich",
+    "amount": "€5.7m",
+    "stage": "pre-seed"
+   },
+   {
+    "company": "Mosaico",
+    "amount": "€7.5m"
+   },
+   {
+    "company": "Stryx AI",
+    "hq": "Paris",
+    "amount": "€7.7m",
+    "stage": "seed"
+   },
+   {
+    "company": "Elysian Aircraft",
+    "hq_country": "NL",
+    "amount_startswith": "€12m+",
+    "mixed": true
+   },
+   {
+    "company": "Dcubed",
+    "hq": "Munich",
+    "amount": "€27.2m",
+    "stage": "Series A"
+   },
+   {
+    "company": "Remanence",
+    "hq": "Paris",
+    "amount": "$30M",
+    "stage": "seed",
+    "notable_or_named": true
+   }
+  ]
+ },
+ "block3": {
+  "rows_required": [
+   {
+    "company": "Isomorphic Labs",
+    "hq": [
+     "London"
+    ],
+    "amount": "$5B",
+    "stage": "Series C",
+    "valuation": null
+   },
+   {
+    "company": "Genesis AI",
+    "hq": [
+     "Paris",
+     "San Carlos"
+    ],
+    "amount": "$500M",
+    "stage": "Series A",
+    "valuation": "$3.5B"
+   },
+   {
+    "company": "Payhawk",
+    "hq": [
+     "London"
+    ],
+    "amount": "$280M",
+    "stage": "Series C",
+    "valuation": null
+   },
+   {
+    "company": "Model ML",
+    "hq": [
+     "London"
+    ],
+    "amount": "$250M",
+    "stage": "Series B",
+    "valuation": "$1.5B"
+   },
+   {
+    "company": "Boltz",
+    "hq": [
+     "London"
+    ],
+    "amount": "$110M",
+    "stage": "Series A",
+    "valuation": null
+   },
+   {
+    "company": "Tiberius Aerospace",
+    "hq": [
+     "London",
+     "Newport Beach"
+    ],
+    "amount": "$85M",
+    "stage": "Series A",
+    "valuation": "$1B+"
+   },
+   {
+    "company": "Commit Biologics",
+    "hq": [
+     "Copenhagen"
+    ],
+    "amount": "€54m",
+    "stage": "seed",
+    "valuation": null
+   }
+  ],
+  "rows_allowed": [
+   "Stark Future",
+   "Mistral"
+  ],
+  "rows_forbidden": [
+   "Hone Health",
+   "Ramon.Space",
+   "Megarobo",
+   "Corma"
+  ],
+  "mega_count_world": {
+   "value": 14,
+   "tol": 2
+  },
+  "in_talks_required": [
+   {
+    "company": "Sierra",
+    "amount": "~$1.5B",
+    "valuation": "~$30B"
+   },
+   {
+    "company": "Cognition",
+    "amount": "$2B+",
+    "valuation": "$75B"
+   }
+  ]
+ },
+ "block4": {
+  "confirmed_required": [
+   {
+    "target": "Applied Compute",
+    "acquirer": "Palo Alto Networks",
+    "price": "$4.5B",
+    "consideration": "stock",
+    "n_families": 3,
+    "note_contains": [
+     "3.25"
+    ]
+   },
+   {
+    "target": "Mailchimp",
+    "acquirer": "Bending Spoons",
+    "price": "$3.68B",
+    "n_families": 3,
+    "note_contains": [
+     "12",
+     "2021"
+    ]
+   }
+  ],
+  "single_source_required": [
+   {
+    "target": "Inception",
+    "acquirer": "Nvidia",
+    "source": "Techmeme",
+    "price_startswith": "$500M",
+    "talks": true
+   },
+   {
+    "target": "Firebolt",
+    "acquirer": "MongoDB",
+    "source": "TLDR"
+   },
+   {
+    "target": "Avio",
+    "acquirer": "Iceye",
+    "source": "Sunday CET",
+    "price": "€2.05bn"
+   },
+   {
+    "target": "Zscaler",
+    "acquirer": "CrowdStrike",
+    "source": "Techmeme",
+    "talks": true
+   }
+  ],
+  "funds_required": [
+   {
+    "firm": "Plural",
+    "size": "€1bn",
+    "european_early": true,
+    "n_families": 4
+   },
+   {
+    "firm": "Sofinnova",
+    "size": "€725m",
+    "european_early": false,
+    "n_families": 2
+   },
+   {
+    "firm": "Norwest",
+    "size": "$4B",
+    "european_early": false,
+    "n_families": 1
+   }
+  ],
+  "forbidden": [
+   "Redalpine",
+   "Creandum"
+  ]
+ },
+ "block5": {
+  "must_contain": [
+   "GPT-6.2 Astra",
+   "20%",
+   "$8",
+   "$40",
+   "per million",
+   "one-third",
+   "per task",
+   "OpenAI",
+   "Gemini 4 Neon",
+   "$3",
+   "$15"
+  ],
+  "forbidden_regex": [
+   "one-third (?:cheaper|price cut|off)",
+   "cut (?:prices|its price) (?:by|to) (?:a |one-)third"
+  ]
+ },
+ "whole": {
+  "no_dollar_totals": true
+ }
+}

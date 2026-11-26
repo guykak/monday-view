@@ -1,0 +1,53 @@
+# Areas a round is tagged with (one per company). The extractor picks the id; Python reads deep_tech.
+# deep_tech follows README §2: AI applications, software, fintech and health are not deep tech.
+# show_in_named_list: false = counted in the area table but never named in the deep-tech list.
+areas:
+  ai_infrastructure:
+    label: "AI infrastructure (compilers, edge, model training)"
+    deep_tech: true
+    guide: "Tools and systems that models are built or run on: compilers, inference/training infrastructure, edge AI runtimes, foundation-model training, data for model training."
+  chips_photonics:
+    label: "Chips and photonics"
+    deep_tech: true
+    guide: "Semiconductors, chip design, photonics, optical hardware."
+  robotics_manufacturing:
+    label: "Robotics and manufacturing"
+    deep_tech: true
+    guide: "Robots, robot models and data, industrial automation, advanced manufacturing."
+  defence_aerospace:
+    label: "Defence and aerospace"
+    deep_tech: true
+    guide: "Defence systems, munitions, counter-drone, aircraft and aviation hardware."
+  space:
+    label: "Space"
+    deep_tech: true
+    guide: "Satellites, launch, in-orbit systems and components."
+  energy_climate_hardware:
+    label: "Energy and climate hardware"
+    deep_tech: true
+    guide: "Batteries, fusion, grid hardware, carbon removal hardware, new materials for energy."
+  quantum:
+    label: "Quantum"
+    deep_tech: true
+    guide: "Quantum computing, sensing, communication."
+  ai_applications:
+    label: "AI applications and agents"
+    deep_tech: false
+    guide: "Products that apply AI models to a job: agents, copilots, vertical AI software."
+  health:
+    label: "Health"
+    deep_tech: false
+    show_in_named_list: false
+    guide: "Biotech, therapeutics, drug discovery, medtech, digital health."
+  fintech:
+    label: "Fintech"
+    deep_tech: false
+    guide: "Payments, banking, insurance, spend management, crypto finance."
+  other_software_consumer:
+    label: "Other software and consumer"
+    deep_tech: false
+    guide: "Any other software, marketplace, consumer product, mobility service."
+  other:
+    label: "Other"
+    deep_tech: false
+    guide: "Use only when nothing above fits."
