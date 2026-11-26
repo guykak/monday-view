@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "message_id": "<20261120154404.3.3cf945eabb4e19ca@mg-d1.substack.com>",
+  "family": "Newcomer",
+  "letter": "Newcomer",
+  "issue_date": "2026-11-20",
+  "sent_at": "2026-11-20T15:44:04.000Z",
+  "subject": "After Anthropic Euphoria, Nvidia, AMD & the Broader Market Offer a Harsh Reality Check",
+  "notes": "Visible text is the free preview: the 'Six Notable Deals' section is cut off after its headline and one teaser line, so the deals carry no amounts. The teaser says 'Isomorphic Labs and another UK AI biotech land big rounds' without naming the second company.",
+  "stories": [
+    {
+      "headline": "Anthropic is newly public; its IPO went off better than expected and the stock soared Thursday while broader markets fell",
+      "quote": "The news added fuel to a broad selloff in tech stocks that was hitting even newly public Anthropic on Friday.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "ipo",
+      "subtype": null,
+      "status": "listed",
+      "mention_type": "passing",
+      "company": "Anthropic",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [
+        {
+          "date": null,
+          "text": "The issue says the IPO went through despite worrying news for the AI industry.",
+          "quote": "It was remarkable to see Anthropic’s IPO plow through the various bits of worrying news that are piling up for the AI industry, with the core thesis of the investing mania very much intact."
+        },
+        {
+          "date": null,
+          "text": "The IPO is described as having gone better than expected, with selling across the AI industry afterwards.",
+          "quote": "For months, investors have been waiting for the Anthropic IPO as the definitive validator of the industry and a counterpoint to all the talk about bubbles. It went off better than anyone could have expected."
+        },
+        {
+          "date": "2026-11-19",
+          "text": "Broader markets fell on Thursday while Anthropic rose.",
+          "quote": "Broader markets took a beating Thursday — it was only Anthropic that soared, and maybe not for long."
+        },
+        {
+          "date": "2026-11-20",
+          "text": "A tech selloff was hitting Anthropic shares on Friday.",
+          "quote": "The news added fuel to a broad selloff in tech stocks that was hitting even newly public Anthropic on Friday."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Palo Alto Networks buys Applied Compute for $4.5 billion",
+      "quote": "Palo Alto Networks scoops up Applied Compute for $4.5 billion.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "acquisition",
+      "subtype": null,
+      "status": "announced",
+      "mention_type": "deal_list",
+      "company": "Applied Compute",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "stake": null,
+      "acquirer": "Palo Alto Networks",
+      "acquirer_type": "company",
+      "price": {"amount": 4500000000, "currency": "USD", "qualifier": "exact"},
+      "consideration": "unstated",
+      "confirmed_by_company": false,
+      "is_pe_buy_and_build": false,
+      "status_note": null,
+      "tech_area": "other",
+      "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [
+        {
+          "date": null,
+          "text": "The issue describes the deal as part of Palo Alto Networks' run of AI acquisitions; it does not say what Applied Compute builds.",
+          "quote": "Palo Alto Networks continues its AI shopping spree with Applied Compute."
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Isomorphic Labs lands a big round (amount not given in the visible text)",
+      "quote": "Palo Alto Networks continues its AI shopping spree with Applied Compute. Plus, Isomorphic Labs and another UK AI biotech land big rounds...",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "round",
+      "subtype": null,
+      "status": "announced",
+      "mention_type": "deal_list",
+      "company": "Isomorphic Labs",
+      "aliases": [],
+      "description": "UK AI biotech",
+      "hq": [{"city": null, "country": "GB"}],
+      "stage": "unstated",
+      "stage_as_written": null,
+      "is_combined_round": false,
+      "equity_amount": null,
+      "currency": null,
+      "amount_qualifier": null,
+      "mixed_total": null,
+      "other_finance": [],
+      "valuation": null,
+      "non_raise_figures": [],
+      "leads": [],
+      "founder_leads": [],
+      "status_note": null,
+      "tech_area": "health",
+      "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Mailchimp named in the Six Notable Deals list, no detail in the visible text",
+      "quote": "Applied Compute, Mailchimp, Isomorphic Labs, Genesis AI, Payhawk, Boltz",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "deal_mention",
+      "subtype": null,
+      "status": "reported",
+      "mention_type": "deal_list",
+      "company": "Mailchimp",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Genesis AI named in the Six Notable Deals list, no detail in the visible text",
+      "quote": "Applied Compute, Mailchimp, Isomorphic Labs, Genesis AI, Payhawk, Boltz",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "deal_mention",
+      "subtype": null,
+      "status": "reported",
+      "mention_type": "deal_list",
+      "company": "Genesis AI",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Payhawk named in the Six Notable Deals list, no detail in the visible text",
+      "quote": "Applied Compute, Mailchimp, Isomorphic Labs, Genesis AI, Payhawk, Boltz",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "deal_mention",
+      "subtype": null,
+      "status": "reported",
+      "mention_type": "deal_list",
+      "company": "Payhawk",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Boltz named in the Six Notable Deals list, no detail in the visible text",
+      "quote": "Applied Compute, Mailchimp, Isomorphic Labs, Genesis AI, Payhawk, Boltz",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "deal_mention",
+      "subtype": null,
+      "status": "reported",
+      "mention_type": "deal_list",
+      "company": "Boltz",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [],
+      "confidence": "medium"
+    },
+    {
+      "headline": "AMD shares fall almost 10% after Hunterbrook short reports on customer financing and China chip firmware",
+      "quote": "AMD said the Hunterbrook reports didn’t properly represent its business, but shares fell almost 10% on the news.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "market_move",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "AMD",
+      "aliases": [],
+      "description": "Number two player in AI chips",
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [
+        {
+          "date": null,
+          "text": "Hunterbrook's report 'Bank of AMD' says AMD runs an extensive customer-financing-and-investing operation.",
+          "quote": "the number two player in AI chips has run an extensive customer-financing-and-investing operation that features “all of the circular financing of Nvidia, but without the margins or pricing power.”"
+        },
+        {
+          "date": null,
+          "text": "A separate Hunterbrook story says updated AMD chip firmware was delivered to blacklisted Chinese entities.",
+          "quote": "Hunterbrook said AMD has a China problem too, in the form of updated chip firmware being delivered to multiple blacklisted Chinese entities."
+        },
+        {
+          "date": null,
+          "text": "AMD disputed the reports; shares fell almost 10%.",
+          "quote": "AMD said the Hunterbrook reports didn’t properly represent its business, but shares fell almost 10% on the news."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Nvidia beats expectations with quarterly sales above $100 billion for the first time; stock closes down 3.3% at $146 Thursday",
+      "quote": "Nvidia on Tuesday reported earnings that comfortably beat Wall Street expectations, with quarterly sales surpassing $100 billion for the first time.",
+      "story_date": "2026-11-17",
+      "date_basis": "stated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "earnings",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Nvidia",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [
+        {
+          "date": "2026-11-17",
+          "text": "Earnings beat Wall Street expectations; quarterly sales passed $100 billion for the first time.",
+          "quote": "Nvidia on Tuesday reported earnings that comfortably beat Wall Street expectations, with quarterly sales surpassing $100 billion for the first time."
+        },
+        {
+          "date": "2026-11-19",
+          "text": "The stock rallied briefly, fell back Wednesday and closed down 3.3% at $146 on Thursday.",
+          "quote": "The figures were enough to rally the stock briefly, but it fell back Wednesday and closed down 3.3% at $146 Thursday."
+        },
+        {
+          "date": null,
+          "text": "Interim CEO Colette Kress intends to dial back Huang's dealmaking.",
+          "quote": "The biggest immediate concern in startup land is interim CEO Colette Kress making it clear that she intends to dial back Huang’s aggressive dealmaking."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Nvidia board chair rules out reinstating Jensen Huang as CEO after his forced resignation last week",
+      "quote": "New board chair Harvey Jones didn’t sound like a replacement CEO was coming anytime soon and ruled out reinstating Jensen Huang as CEO following his forced resignation last week.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "leadership",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Nvidia",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [
+        {
+          "date": null,
+          "text": "Huang's forced resignation happened the week before the issue; the board chair ruled out reinstating him.",
+          "quote": "ruled out reinstating Jensen Huang as CEO following his forced resignation last week."
+        },
+        {
+          "date": null,
+          "text": "Per Semafor, three directors have privately pushed for Huang's reinstatement after he said he would return if asked.",
+          "quote": "Chatter about a Huang comeback kicked up again after he said he’d be willing to return as CEO if the board asked, and three directors have privately pushed for him to be reinstated, per Semafor."
+        },
+        {
+          "date": null,
+          "text": "The issue cites allegations of possible export control violations as making a comeback unlikely.",
+          "quote": "Yet the gravity of the allegations relating to possible export control violations, to say nothing of affairs with a major customer and employees, makes a comeback unlikely."
+        },
+        {
+          "date": "2026-11-13",
+          "text": "Altimeter's Brad Gerstner sent the board a letter on Friday and said it was not an endorsement of a Huang comeback.",
+          "quote": "Altimeter’s Brad Gerstner said the letter he sent the board Friday, widely seen as endorsing a Huang comeback, was not that, and he doesn’t want the board to “take shortcuts” in its investigation."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Google releases Gemini 4 Neon, a medium-sized model ranking at or near the top of benchmarks",
+      "quote": "This week it released Gemini 4 Neon, a medium-sized model that had long been in the works. According to the benchmarks, Neon is ranking at or near the top of the most powerful models .",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Google",
+      "aliases": ["DeepMind"],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [
+        {
+          "date": null,
+          "text": "Gemini 3.5 Pro was delayed and earlier smaller models lagged rivals.",
+          "quote": "Gemini 3.5 Pro was delayed and its previous smaller models were not matching up with Anthropic and OpenAI (and even SpaceX)."
+        },
+        {
+          "date": null,
+          "text": "The issue refers to Demis Hassabis as the now former DeepMind leader.",
+          "quote": "SemiAnalysis was humble about it and (now former) DeepMind leader Demis Hassabis was good natured in response ."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Kalshi faces multiple investigations over whether it is circumventing state gambling laws",
+      "quote": "Kalshi faces multiple investigations around whether or not it’s circumventing state gambling laws.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "regulation",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Kalshi",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [],
+      "confidence": "medium"
+    },
+    {
+      "headline": "California and Arizona take action against OpenAI",
+      "quote": "California and Arizona take action against OpenAI.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "regulation",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "OpenAI",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Wall Street firms that promised about $500 billion in data center loans in August have not yet lent any, per the Wall Street Journal",
+      "quote": "Big Wall Street investment firms that promised in August to pony up some $500 billion in loans for data centers have yet to dispense a dime, the Wall Street Journal reported Wednesday.",
+      "story_date": "2026-11-18",
+      "date_basis": "stated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "market_move",
+      "status": "reported",
+      "mention_type": "passing",
+      "company": null,
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [],
+      "confidence": "high"
+    }
+  ]
+}
