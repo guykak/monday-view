@@ -18,6 +18,8 @@ thresholds:
   mega_round_usd: 100000000      # the worldwide "N rounds of $100M or more" line
   block3_max_rows: 8
   block3_talks_max: 4
+  # Softer wordings that may be shown in place of the plain status. Anything else an extractor writes is ignored.
+  status_notes: [considering, exploring, early talks, advanced talks, being finalised, first tranche]
   block4_single_full_max: 6     # single-source deals shown in full; any more are named on one line
   dots_cap: 5
   confirmed_min_families: 2      # block 4: confirmed acquisition

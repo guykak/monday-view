@@ -22,10 +22,10 @@
  },
  "extraction_failed": [],
  "repairs": {},
- "events": 329,
- "words": 743,
- "compact_level": 6,
- "html_bytes": 29727,
+ "events": 332,
+ "words": 830,
+ "compact_level": 2,
+ "html_bytes": 31911,
  "checks": {
   "words_in_range": true,
   "html_under_limit": true,
@@ -40,7 +40,7 @@
   ],
   "acquisition:mailchimp": [
    "signed",
-   "completed"
+   "announced"
   ],
   "acquisition:amplix": [
    "completed"
@@ -56,9 +56,6 @@
   ],
   "acquisition:coingecko": [
    "announced"
-  ],
-  "acquisition:commerzbank": [
-   "bid"
   ],
   "acquisition:criteo": [
    "in_talks"
@@ -85,7 +82,7 @@
    "completed"
   ],
   "acquisition:grubhub": [
-   "in_talks"
+   "rumour"
   ],
   "acquisition:hctec": [
    "completed"
@@ -96,11 +93,11 @@
   "acquisition:intermex": [
    "abandoned"
   ],
+  "acquisition:majority": [
+   "announced"
+  ],
   "acquisition:moviepass": [
    "rumour"
-  ],
-  "acquisition:rebtel": [
-   "completed"
   ],
   "acquisition:smartways": [
    "signed"
@@ -220,13 +217,16 @@
   "other:nvidia": [
    "reported"
   ],
-  "other:anthropic": [
-   "reported"
-  ],
   "other:google": [
    "reported"
   ],
   "other:tesla": [
+   "reported"
+  ],
+  "other:anthropic": [
+   "reported"
+  ],
+  "other:meta": [
    "reported"
   ],
   "other:openai": [
@@ -241,10 +241,10 @@
   "other:apple": [
    "reported"
   ],
-  "other:eu": [
+  "other:atomico": [
    "reported"
   ],
-  "other:meta": [
+  "other:eu": [
    "reported"
   ],
   "other:microsoft": [
@@ -256,67 +256,70 @@
   "other:ovhcloud": [
    "reported"
   ],
-  "other:spacex": [
+  "other:oracle": [
    "reported"
   ],
   "other:waymo": [
    "reported"
   ],
-  "other:analysis manufacturing utility and mining companies have shed 4 2t in market value since june ai picks and shovels trade reverses": [
+  "other:a 125 qubit chip teleports an error corrected qubit with weaker entanglement than expected": [
    "reported"
   ],
-  "other:bbc reports a pancreatic cancer pill trial in which some tumours became undetectable": [
+  "other:bbc reports pancreatic cancer pill trial in which some tumours became undetectable": [
+   "reported"
+  ],
+  "other:ceos of elevenlabs lovable and deepl urge eu to back homegrown": [
    "reported"
   ],
   "other:ceos of european startups including elevenlabs and lovable call on eu to raise ai investment and cut red tape": [
    "reported"
   ],
-  "other:china will not approve overseas listings by chinese companies registered abroad after 2023 sources say": [
+  "other:early stage ai native fintech back office rounds in europe rose from 62 to 87 up 40": [
    "reported"
   ],
-  "other:elevenlabs lovable and deepl ceos urge eu to back homegrown": [
+  "other:espoo closing in on helsinki finland startup funding hotspot per sifted data": [
    "reported"
   ],
-  "other:espoo closes in on helsinki finland startup funding capital per sifted data": [
+  "other:european chip funding almost quadruples investors back nvidia inference challengers": [
    "reported"
   ],
-  "other:european hardware startups have raised 26 9bn in equity so far this year 51 more than all of 2025": [
+  "other:european hardware startups have raised 26 9bn in equity so far this year 51 more than in all of 2025 per sifted data": [
    "reported"
   ],
-  "other:maddymoney 8 french startups raised 118 2m this week average ticket 14 8m": [
+  "other:french startups raised 118 2m across 8 rounds this week per maddymoney": [
    "reported"
   ],
-  "other:markets fell on monday after a survey in which 79 of summit respondents saw an ai bubble": [
+  "other:frontierml benchmark measures how well ai agents turn money into model performance across 21 ml tasks": [
    "reported"
   ],
-  "other:sifted data early stage ai native fintech back office rounds rose from 62 to 87 between 2025 and 2026 so far": [
+  "other:grand theft auto vi is out": [
    "reported"
   ],
-  "other:sources trump administration considers requiring us companies to disclose use of chinese ai models": [
+  "other:market swoon on monday followed summit survey in which 79 saw an ai bubble": [
+   "reported"
+  ],
+  "other:researchers match starting weights of chinese ai models to gpu thread layouts indicating training on nvidia blackwell chips": [
+   "reported"
+  ],
+  "other:sources trump administration considering requiring us companies to disclose use of chinese ai models on their websites": [
    "reported"
   ],
   "other:sources trump administration plans to name 24 ai national champions including nvidia amazon microsoft openai and anthropic": [
    "reported"
   ],
-  "other:sources wall street executives and nsa told congress this week outages came from a rush to patch ai found vulnerabilities": [
+  "other:sources wall street execs and nsa told congress this week outages came from a rush to patch ai found vulnerabilities": [
    "reported"
   ],
   "other:starling founder anne boden is building a new digital bank for ai agent payments": [
    "reported"
   ],
-  "other:starling founder anne boden is building a digital bank for ai agents to move money for customers": [
-   "reported"
-  ],
-  "other:state of european tech report has been published": [
+  "other:starling founder anne boden is building a digital bank for ai agents to move money": [
    "reported"
   ],
   "other:trump says he would block us companies from building data centers overseas or tax them": [
    "reported"
   ],
-  "other:u s series a funding reached 42 billion through october up 60 year over year while deal count stayed flat": [
-   "reported"
-  ],
-  "other:uk ai minister narayan draws backlash after snubbing sovereign frontier ai models": [
+  "other:uk ai minister narayan draws backlash after snubbing uk sovereign frontier ai models": [
    "reported"
   ],
   "other:us and pax silica allies agree to create a joint list of ai technologies and supply chains to protect from china": [
@@ -325,7 +328,10 @@
   "other:us issues a rule limiting remote access by china and others to us ai chips and servers in five countries": [
    "reported"
   ],
-  "other:wall street firms that promised about 500 billion in data centre loans have not yet lent any per wall street journal": [
+  "other:us series a funding reached 42 billion through october 2026 up 60 year over year while deal count stayed flat": [
+   "reported"
+  ],
+  "other:wall street firms that promised about 500 billion in data center loans in august have not yet lent any per wall street journal": [
    "reported"
   ],
   "other:aws": [
@@ -343,9 +349,6 @@
   "other:arcom": [
    "reported"
   ],
-  "other:atomico": [
-   "reported"
-  ],
   "other:baidu": [
    "reported"
   ],
@@ -361,13 +364,13 @@
   "other:cisa": [
    "reported"
   ],
-  "other:calif": [
-   "reported"
-  ],
   "other:cloudflare": [
    "reported"
   ],
   "other:cognition": [
+   "reported"
+  ],
+  "other:commerzbank": [
    "reported"
   ],
   "other:deepseek": [
@@ -385,6 +388,9 @@
   "other:europa fusion": [
    "reported"
   ],
+  "other:faa": [
+   "reported"
+  ],
   "other:facestealer": [
    "reported"
   ],
@@ -392,9 +398,6 @@
    "reported"
   ],
   "other:fireworks": [
-   "reported"
-  ],
-  "other:frontierml": [
    "reported"
   ],
   "other:gartner": [
@@ -409,10 +412,19 @@
   "other:grand theft auto": [
    "reported"
   ],
+  "other:hugging face": [
+   "reported"
+  ],
   "other:iea": [
    "reported"
   ],
   "other:infoblox": [
+   "reported"
+  ],
+  "other:instacart": [
+   "reported"
+  ],
+  "other:intel": [
    "reported"
   ],
   "other:jane street": [
@@ -422,9 +434,6 @@
    "reported"
   ],
   "other:klarna": [
-   "reported"
-  ],
-  "other:l3harris": [
    "reported"
   ],
   "other:lmsys": [
@@ -449,9 +458,6 @@
    "reported"
   ],
   "other:optimizely": [
-   "reported"
-  ],
-  "other:oracle": [
    "reported"
   ],
   "other:palo alto networks": [
@@ -487,9 +493,6 @@
   "other:revolut": [
    "reported"
   ],
-  "other:river": [
-   "reported"
-  ],
   "other:rockstar": [
    "reported"
   ],
@@ -502,7 +505,7 @@
   "other:slab": [
    "reported"
   ],
-  "other:samsung": [
+  "other:samsung sk hynix micron": [
    "reported"
   ],
   "other:scale": [
@@ -523,6 +526,12 @@
   "other:snowflake": [
    "reported"
   ],
+  "other:sophia": [
+   "reported"
+  ],
+  "other:spacex": [
+   "reported"
+  ],
   "other:starling bank": [
    "reported"
   ],
@@ -530,6 +539,9 @@
    "reported"
   ],
   "other:take two": [
+   "reported"
+  ],
+  "other:tempo": [
    "reported"
   ],
   "other:tencent": [
@@ -547,9 +559,6 @@
   "other:ula": [
    "reported"
   ],
-  "other:us air traffic control system": [
-   "reported"
-  ],
   "other:uber": [
    "reported"
   ],
@@ -559,13 +568,13 @@
   "other:workday": [
    "reported"
   ],
+  "other:world": [
+   "reported"
+  ],
   "other:youtube": [
    "reported"
   ],
   "other:zhejiang university": [
-   "reported"
-  ],
-  "other:zipline": [
    "reported"
   ],
   "other:zoox": [
@@ -690,7 +699,6 @@
    "closed"
   ],
   "round:stryx": [
-   "announced",
    "closed"
   ],
   "round:sumary": [
@@ -706,10 +714,6 @@
    "closed"
   ],
   "round:well": [
-   "announced",
-   "closed"
-  ],
-  "round:unnamed startup of other staniszewski brother raised 4 7m paul graham is a backer": [
    "closed"
   ],
   "round:accountable": [
@@ -767,7 +771,7 @@
    "closed"
   ],
   "round:cognition": [
-   "in_talks"
+   "rumour"
   ],
   "round:commit biologics": [
    "closed"
@@ -794,7 +798,7 @@
    "closed"
   ],
   "round:fractile": [
-   "closed"
+   "announced"
   ],
   "round:hone": [
    "closed"
@@ -963,41 +967,17 @@
   ]
  },
  "usage": {
-  "run": "A",
+  "run": "C (final instructions)",
   "extract": {
-   "started_utc": "2026-11-26T16:46:30Z",
-   "ended_utc": "2026-11-26T16:53:02Z",
-   "sub_agents": 54,
-   "get_message_calls": 54,
-   "failed": 0,
-   "retries": 0,
-   "tokens_reported": "about 85k-107k per extractor sub-agent as reported by the harness (each includes its fixed start-up context); roughly 4.9M in all",
-   "note": "up to 13 extractors ran at once for a short time during this run (limit is 10); corrected for run B"
-  },
-  "extract_run_B": {
-   "started_utc": "2026-11-26T16:50:59Z",
-   "ended_utc": "2026-11-26T16:58:37Z",
+   "started_utc": "2026-11-26T20:12:37Z",
+   "ended_utc": "2026-11-26T20:20:46Z",
    "sub_agents": 54,
    "get_message_calls": 54,
    "failed": 0,
    "retries": 0,
    "max_parallel": 10,
-   "tokens_reported": "about 84k-108k per extractor sub-agent; roughly 4.9M in all",
-   "note": "ran partly alongside the end of run A and the fact-check"
-  },
-  "factcheck": {
-   "sub_agents": 2,
-   "checks": 74,
-   "messages_reopened": 45,
-   "passed": 72,
-   "failed": 2,
-   "recheck": {
-    "checks": 1,
-    "messages_reopened": 3,
-    "passed": 1
-   },
-   "tokens_reported": "about 389k for the main check (140 tool calls, about 7 minutes) and 97k for the re-check"
-  },
-  "note_on_extract_times": "Run A was fed by hand in rolling groups while other work went on, so its wall time overstates what an unattended run needs; individual extractors took 20-155 seconds."
+   "tokens_reported": "about 84k-107k per extractor sub-agent as reported by the harness (each includes its fixed start-up context); roughly 4.9M in all",
+   "note": "fed by hand in rolling groups of up to 10, so the wall time overstates an unattended run; single extractors took 20-120 seconds"
+  }
  }
 }

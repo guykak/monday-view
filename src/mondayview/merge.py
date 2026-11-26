@@ -313,7 +313,8 @@ def build_event(ms):
         "acquirer_type": _most_common([m.get("acquirer_type") for m in ms]),
         "stake": _most_common([m.get("stake") for m in ms]),
         # the softer wording is kept only if every story that words it agrees the event is not past it
-        "status_note": _most_common([m.get("status_note") for m in ms if m["status"] == status]),
+        "status_note": _most_common([m.get("status_note") for m in ms if m["status"] == status
+                                     and (m.get("status_note") or "").strip().lower() in config.settings()["thresholds"]["status_notes"]]),
         "founder_leads": sorted({l for m in ms for l in (m.get("founder_leads") or [])}),
         "price": _pick_money(ms, "price"),
         "consideration": _most_common([m.get("consideration") for m in ms]),

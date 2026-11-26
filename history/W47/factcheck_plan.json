@@ -284,6 +284,38 @@
    "id": "c009",
    "block": 2,
    "kind": "dots",
+   "item": "Pretxt",
+   "claim": "Pretxt is carried by exactly these families: Term Sheet (1). Each listed issue reports or refers to this same event.",
+   "event_id": "round:pretxt:2026-11-18",
+   "event_ref": "round:pretxt",
+   "sources": [
+    {
+     "message_id": "<027109fc-5730-4d6a-85a3-3942a3fba23d@iad4s13mta0239.xt.local>",
+     "family": "Term Sheet",
+     "file": "2026-11-18_term-sheet_c355410b.json"
+    }
+   ]
+  },
+  {
+   "id": "c010",
+   "block": 2,
+   "kind": "number",
+   "item": "Pretxt",
+   "claim": "Pretxt (Aspen / Dublin): $5M seed; leads: none stated",
+   "event_id": "round:pretxt:2026-11-18",
+   "event_ref": "round:pretxt",
+   "sources": [
+    {
+     "message_id": "<027109fc-5730-4d6a-85a3-3942a3fba23d@iad4s13mta0239.xt.local>",
+     "family": "Term Sheet",
+     "file": "2026-11-18_term-sheet_c355410b.json"
+    }
+   ]
+  },
+  {
+   "id": "c011",
+   "block": 2,
+   "kind": "dots",
    "item": "Mosaico",
    "claim": "Mosaico is carried by exactly these families: Sifted, Term Sheet (2). Each listed issue reports or refers to this same event.",
    "event_id": "round:mosaico:2026-11-16",
@@ -307,7 +339,7 @@
    ]
   },
   {
-   "id": "c010",
+   "id": "c012",
    "block": 2,
    "kind": "number",
    "item": "Mosaico",
@@ -333,7 +365,7 @@
    ]
   },
   {
-   "id": "c011",
+   "id": "c013",
    "block": 2,
    "kind": "dots",
    "item": "Vetaion",
@@ -354,7 +386,7 @@
    ]
   },
   {
-   "id": "c012",
+   "id": "c014",
    "block": 2,
    "kind": "number",
    "item": "Vetaion",
@@ -375,7 +407,7 @@
    ]
   },
   {
-   "id": "c013",
+   "id": "c015",
    "block": 2,
    "kind": "dots",
    "item": "Elysian Aircraft",
@@ -401,7 +433,7 @@
    ]
   },
   {
-   "id": "c014",
+   "id": "c016",
    "block": 2,
    "kind": "number",
    "item": "Elysian Aircraft",
@@ -427,7 +459,7 @@
    ]
   },
   {
-   "id": "c015",
+   "id": "c017",
    "block": 2,
    "kind": "dots",
    "item": "Stryx AI",
@@ -448,7 +480,7 @@
    ]
   },
   {
-   "id": "c016",
+   "id": "c018",
    "block": 2,
    "kind": "number",
    "item": "Stryx AI",
@@ -469,7 +501,7 @@
    ]
   },
   {
-   "id": "c017",
+   "id": "c019",
    "block": 2,
    "kind": "dots",
    "item": "Dcubed",
@@ -485,7 +517,7 @@
    ]
   },
   {
-   "id": "c018",
+   "id": "c020",
    "block": 2,
    "kind": "number",
    "item": "Dcubed",
@@ -501,7 +533,7 @@
    ]
   },
   {
-   "id": "c019",
+   "id": "c021",
    "block": 2,
    "kind": "dots",
    "item": "Anyos",
@@ -517,11 +549,11 @@
    ]
   },
   {
-   "id": "c020",
+   "id": "c022",
    "block": 2,
    "kind": "number",
    "item": "Anyos",
-   "claim": "Anyos (FR): €5.5m ; leads: none stated",
+   "claim": "Anyos (FR): €5.5m , being finalised; leads: none stated",
    "event_id": "round:anyos:2026-11-18",
    "event_ref": "round:anyos",
    "sources": [
@@ -533,7 +565,7 @@
    ]
   },
   {
-   "id": "c021",
+   "id": "c023",
    "block": 2,
    "kind": "dots",
    "item": "Remanence",
@@ -574,11 +606,11 @@
    ]
   },
   {
-   "id": "c022",
+   "id": "c024",
    "block": 2,
    "kind": "number",
    "item": "Remanence",
-   "claim": "Remanence (Paris): $30M seed; leads: EQT Ventures, FirstMark; team: cofounded by a trio of H Company alumni",
+   "claim": "Remanence (Paris): $30M seed; leads: EQT Ventures, FirstMark; team: ex-CTO of H Company",
    "event_id": "round:remanence:2026-11-17",
    "event_ref": "round:remanence",
    "sources": [
@@ -615,7 +647,7 @@
    ]
   },
   {
-   "id": "c023",
+   "id": "c025",
    "block": 2,
    "kind": "dots",
    "item": "Treat",
@@ -641,7 +673,7 @@
    ]
   },
   {
-   "id": "c024",
+   "id": "c026",
    "block": 2,
    "kind": "number",
    "item": "Treat",
@@ -667,7 +699,7 @@
    ]
   },
   {
-   "id": "c025",
+   "id": "c027",
    "block": 3,
    "kind": "dots",
    "item": "Isomorphic Labs",
@@ -718,7 +750,7 @@
    ]
   },
   {
-   "id": "c026",
+   "id": "c028",
    "block": 3,
    "kind": "number",
    "item": "Isomorphic Labs",
@@ -769,7 +801,7 @@
    ]
   },
   {
-   "id": "c027",
+   "id": "c029",
    "block": 3,
    "kind": "dots",
    "item": "Genesis AI",
@@ -815,7 +847,7 @@
    ]
   },
   {
-   "id": "c028",
+   "id": "c030",
    "block": 3,
    "kind": "number",
    "item": "Genesis AI",
@@ -861,7 +893,7 @@
    ]
   },
   {
-   "id": "c029",
+   "id": "c031",
    "block": 3,
    "kind": "dots",
    "item": "Payhawk",
@@ -902,7 +934,7 @@
    ]
   },
   {
-   "id": "c030",
+   "id": "c032",
    "block": 3,
    "kind": "number",
    "item": "Payhawk",
@@ -943,7 +975,7 @@
    ]
   },
   {
-   "id": "c031",
+   "id": "c033",
    "block": 3,
    "kind": "dots",
    "item": "Model ML",
@@ -974,7 +1006,7 @@
    ]
   },
   {
-   "id": "c032",
+   "id": "c034",
    "block": 3,
    "kind": "number",
    "item": "Model ML",
@@ -1005,7 +1037,7 @@
    ]
   },
   {
-   "id": "c033",
+   "id": "c035",
    "block": 3,
    "kind": "dots",
    "item": "Stark Future",
@@ -1031,7 +1063,7 @@
    ]
   },
   {
-   "id": "c034",
+   "id": "c036",
    "block": 3,
    "kind": "number",
    "item": "Stark Future",
@@ -1057,7 +1089,7 @@
    ]
   },
   {
-   "id": "c035",
+   "id": "c037",
    "block": 3,
    "kind": "dots",
    "item": "Boltz",
@@ -1088,7 +1120,7 @@
    ]
   },
   {
-   "id": "c036",
+   "id": "c038",
    "block": 3,
    "kind": "number",
    "item": "Boltz",
@@ -1119,7 +1151,7 @@
    ]
   },
   {
-   "id": "c037",
+   "id": "c039",
    "block": 3,
    "kind": "dots",
    "item": "Tiberius Aerospace",
@@ -1145,7 +1177,7 @@
    ]
   },
   {
-   "id": "c038",
+   "id": "c040",
    "block": 3,
    "kind": "number",
    "item": "Tiberius Aerospace",
@@ -1171,7 +1203,7 @@
    ]
   },
   {
-   "id": "c039",
+   "id": "c041",
    "block": 3,
    "kind": "dots",
    "item": "Commit Biologics",
@@ -1187,7 +1219,7 @@
    ]
   },
   {
-   "id": "c040",
+   "id": "c042",
    "block": 3,
    "kind": "number",
    "item": "Commit Biologics",
@@ -1203,11 +1235,11 @@
    ]
   },
   {
-   "id": "c041",
+   "id": "c043",
    "block": 3,
    "kind": "number",
    "item": "Databricks",
-   "claim": "Databricks: in talks, not closed; amount not stated at ~$225B",
+   "claim": "Databricks: early talks, not closed; amount not stated at ~$225B",
    "event_id": "round:databricks:2026-11-20:talks",
    "event_ref": "round:databricks",
    "sources": [
@@ -1219,11 +1251,11 @@
    ]
   },
   {
-   "id": "c042",
+   "id": "c044",
    "block": 3,
    "kind": "number",
    "item": "Cognition",
-   "claim": "Cognition: in talks, not closed; $2B+ at $75B",
+   "claim": "Cognition: considering, not closed; $2B+ at $75B",
    "event_id": "round:cognition:2026-11-20:talks",
    "event_ref": "round:cognition",
    "sources": [
@@ -1235,11 +1267,11 @@
    ]
   },
   {
-   "id": "c043",
+   "id": "c045",
    "block": 3,
    "kind": "number",
    "item": "Ramp",
-   "claim": "Ramp: in talks, not closed; $1B+ at $70B+",
+   "claim": "Ramp: early talks, not closed; $1B+ at $70B+",
    "event_id": "round:ramp:2026-11-17:talks",
    "event_ref": "round:ramp",
    "sources": [
@@ -1251,7 +1283,7 @@
    ]
   },
   {
-   "id": "c044",
+   "id": "c046",
    "block": 3,
    "kind": "number",
    "item": "Sierra",
@@ -1267,7 +1299,7 @@
    ]
   },
   {
-   "id": "c045",
+   "id": "c047",
    "block": 4,
    "kind": "dots",
    "item": "Applied Compute",
@@ -1293,7 +1325,7 @@
    ]
   },
   {
-   "id": "c046",
+   "id": "c048",
    "block": 4,
    "kind": "number",
    "item": "Applied Compute",
@@ -1319,7 +1351,7 @@
    ]
   },
   {
-   "id": "c047",
+   "id": "c049",
    "block": 4,
    "kind": "dots",
    "item": "Mailchimp",
@@ -1345,7 +1377,7 @@
    ]
   },
   {
-   "id": "c048",
+   "id": "c050",
    "block": 4,
    "kind": "number",
    "item": "Mailchimp",
@@ -1371,7 +1403,7 @@
    ]
   },
   {
-   "id": "c049",
+   "id": "c051",
    "block": 4,
    "kind": "number",
    "item": "World Labs",
@@ -1387,7 +1419,7 @@
    ]
   },
   {
-   "id": "c050",
+   "id": "c052",
    "block": 4,
    "kind": "number",
    "item": "Avio",
@@ -1403,11 +1435,11 @@
    ]
   },
   {
-   "id": "c051",
+   "id": "c053",
    "block": 4,
    "kind": "number",
    "item": "Inception",
-   "claim": "Nvidia / Inception: $500M+; status in_talks; reported only by Techmeme",
+   "claim": "Nvidia / Inception: $500M+; full stake; status advanced talks; reported only by Techmeme",
    "event_id": "acquisition:inception:2026-11-19",
    "event_ref": "acquisition:inception",
    "sources": [
@@ -1419,7 +1451,7 @@
    ]
   },
   {
-   "id": "c052",
+   "id": "c054",
    "block": 4,
    "kind": "number",
    "item": "Criteo",
@@ -1435,7 +1467,7 @@
    ]
   },
   {
-   "id": "c053",
+   "id": "c055",
    "block": 4,
    "kind": "number",
    "item": "Zscaler",
@@ -1451,11 +1483,11 @@
    ]
   },
   {
-   "id": "c054",
+   "id": "c056",
    "block": 4,
    "kind": "number",
    "item": "CoinGecko",
-   "claim": "Solana Foundation / CoinGecko: no price; status announced; reported only by Techmeme",
+   "claim": "Solana Foundation / CoinGecko: no price; majority stake; status announced; reported only by Techmeme",
    "event_id": "acquisition:coingecko:2026-11-18",
    "event_ref": "acquisition:coingecko",
    "sources": [
@@ -1467,7 +1499,7 @@
    ]
   },
   {
-   "id": "c055",
+   "id": "c057",
    "block": 4,
    "kind": "number",
    "item": "Firebolt",
@@ -1483,7 +1515,7 @@
    ]
   },
   {
-   "id": "c056",
+   "id": "c058",
    "block": 4,
    "kind": "number",
    "item": "TechWolf",
@@ -1499,7 +1531,7 @@
    ]
   },
   {
-   "id": "c057",
+   "id": "c059",
    "block": 4,
    "kind": "dots",
    "item": "Plural",
@@ -1535,7 +1567,7 @@
    ]
   },
   {
-   "id": "c058",
+   "id": "c060",
    "block": 4,
    "kind": "number",
    "item": "Plural",
@@ -1561,7 +1593,7 @@
    ]
   },
   {
-   "id": "c059",
+   "id": "c061",
    "block": 4,
    "kind": "dots",
    "item": "Sofinnova Partners",
@@ -1582,11 +1614,11 @@
    ]
   },
   {
-   "id": "c060",
+   "id": "c062",
    "block": 4,
    "kind": "number",
    "item": "Sofinnova Partners",
-   "claim": "Sofinnova Partners closed a fund of €725m; strategy late_stage; geography Europe; focus life sciences (biopharma and medtech)",
+   "claim": "Sofinnova Partners closed a fund of €725m; strategy late_stage; geography Europe; focus biopharma and medtech (life sciences)",
    "event_id": "fund:sofinnova-partners:2026-11-17",
    "event_ref": "fund:sofinnova partners",
    "sources": [
@@ -1603,7 +1635,7 @@
    ]
   },
   {
-   "id": "c061",
+   "id": "c063",
    "block": 4,
    "kind": "dots",
    "item": "Norwest",
@@ -1619,7 +1651,7 @@
    ]
   },
   {
-   "id": "c062",
+   "id": "c064",
    "block": 4,
    "kind": "number",
    "item": "Norwest",
@@ -1635,7 +1667,7 @@
    ]
   },
   {
-   "id": "c063",
+   "id": "c065",
    "block": 5,
    "kind": "number",
    "item": "market move",
@@ -1677,6 +1709,11 @@
    "company": "MountAIn",
    "tech_area": "ai_infrastructure",
    "description": "Runs AI applications on low-cost, low-power chips"
+  },
+  {
+   "company": "Pretxt",
+   "tech_area": "ai_infrastructure",
+   "description": "Runtime supervision software for enterprise AI agents"
   },
   {
    "company": "Mosaico",

@@ -16,31 +16,32 @@ For us: public investors have now priced a frontier lab. Late-stage AI marks get
 
 2. Early-stage rounds (pre-seed to Series A, all sizes)
 
-63 rounds reported, 36 in Europe. Term Sheet carried 33 of the 63; the total is 41 without it. W47 was Slush week, so no comparison with previous weeks.
+62 rounds reported, 36 in Europe. Term Sheet carried 33 of the 62; the total is 40 without it. W47 was Slush week, so no comparison with previous weeks.
 
   Europe, by area  ·  Rounds
   AI applications and agents  ·  14
-  Fintech  ·  4
-  AI infrastructure (compilers, edge, model training)  ·  3
+  AI infrastructure (compilers, edge, model training)  ·  4
+  Fintech  ·  3
   Robotics and manufacturing  ·  2
   Defence and aerospace  ·  2
   Health  ·  2
-  Other software and consumer  ·  2
-  Space; Energy and climate hardware; Other  ·  1 each
+  Other  ·  2
+  Space; Energy and climate hardware; Other software and consumer  ·  1 each
 
 32 = 36 European rounds less the 4 of $50M or more (section 3). Rest of world: 3 early rounds of $50M or more.
 
 European deep tech:
-- Daisytuner (Darmstadt), €6m seed, Elaia. ●●●
-- MountAIn (Grenoble / Meylan), €7.3m seed, 360 Capital. ●●●
-- Mosaico (Reggio Emilia), €7.5m seed. ●●
-- Vetaion (Munich), €5.7m pre-seed. ●●
-- Elysian Aircraft (Hoofddorp), €12m+ in grants and equity. ●●●
-- Stryx AI (Paris), €7.7m seed. ●●
-- Dcubed (Munich), €27.2m Series A. ●
-- Anyos (FR), €5.5m. ●
+- Daisytuner (Darmstadt), €6m seed, Elaia and LEA Ventures. Open-source compiler that runs AI code natively on Nvidia, AMD and newer accelerators. ●●●
+- MountAIn (Grenoble / Meylan), €7.3m seed, 360 Capital and Supernova Invest. Runs AI applications on low-cost, low-power chips. ●●●
+- Pretxt (Aspen / Dublin), $5M seed. ●
+- Mosaico (Reggio Emilia), €7.5m seed, United Ventures. Data for robotics AI. ●●
+- Vetaion (Munich), €5.7m pre-seed, Visionaries Tomorrow and UVC Partners. Robotic manufacturing of electrical control cabinets. ●●
+- Elysian Aircraft (Hoofddorp), €12m+ in grants and equity. Battery-electric aircraft. ●●●
+- Stryx AI (Paris), €7.7m seed, Armand Thiberge and Impala. Radar and interceptors against drones. ●●
+- Dcubed (Munich), €27.2m Series A, Warsaw Equity Group. ●
+- Anyos (FR), €5.5m, being finalised. ●
 
-Notable team: Remanence (Paris), $30M seed, EQT Ventures. Cofounded by a trio of H Company alumni. ●●●●●
+Notable team: Remanence (Paris), $30M seed, EQT Ventures and FirstMark. Ex-CTO of H Company. ●●●●●
 
 3. Big rounds and marks
 
@@ -54,7 +55,7 @@ Notable team: Remanence (Paris), $30M seed, EQT Ventures. Cofounded by a trio of
   Tiberius Aerospace (London / Newport Beach)  ·  $85M Series A  ·  $1B+  ·  ●●●
   Commit Biologics (Copenhagen)  ·  €54m seed  ·  –  ·  ●
 
-Also $50M or more in Europe: Resilience, Mistral AI (top-up). 16 rounds of $100M or more were reported, equity only. In talks, not closed: Databricks at ~$225B, Cognition $2B+ at $75B, Ramp $1B+ at $70B+, Sierra ~$1.5B at ~$30B.
+Also $50M or more in Europe: Resilience, Mistral AI (top-up). 16 rounds of $100M or more were reported, equity only. In talks, not closed: Databricks early talks at ~$225B, Cognition considering $2B+ at $75B, Ramp early talks $1B+ at $70B+, Sierra ~$1.5B at ~$30B.
 
 4. Exits and new funds
 
@@ -63,7 +64,11 @@ Also $50M or more in Europe: Resilience, Mistral AI (top-up). 16 rounds of $100M
 - Single source, unconfirmed:
   - AMD → World Labs, ~$8.2B in stock (DeepLearning.AI)
   - Iceye → Avio, €2.05bn cash, bid (Sunday CET)
-  - Also, one source each: Inception, Criteo, Zscaler, CoinGecko (Techmeme); Firebolt, TechWolf (TLDR)
+  - Nvidia → Inception, $500M+, advanced talks (Techmeme)
+  - AppLovin → Criteo, talks (Techmeme)
+  - CrowdStrike → Zscaler, talks (Techmeme)
+  - Solana Foundation → CoinGecko, majority stake (Techmeme)
+  - Also, one source each: Firebolt, TechWolf (TLDR)
 - Funds: Plural closes €1bn for European early stage, 30+ companies. ●●●● Also closed: Sofinnova Crossover II €725m (late-stage life sciences) ●●; Norwest 18th fund $4B (US venture and growth) ●.
 
 5. Market move
@@ -72,4 +77,4 @@ OpenAI's GPT-6.2 Astra: API tokens 20% cheaper than GPT-6 Astra, at $8 / $40 per
 
 ---
 
-Sources this week (issues): TLDR 12, Sifted 9, AlphaSignal 6, Techmeme 6, Maddyness 5, Term Sheet 5, Newcomer 4; others 1 each. Maddyness IA sent none. 1 item withheld after the fact-check. Next monthly price check: 7 Dec.
+Sources this week (issues): TLDR 12, Sifted 9, AlphaSignal 6, Techmeme 6, Maddyness 5, Term Sheet 5, Newcomer 4; others 1 each. Maddyness IA sent none. Next monthly price check: 7 Dec.

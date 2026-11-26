@@ -503,3 +503,14 @@ def test_fc3_softer_wording_is_shown_as_the_source_has_it():
     iss.append(issue("Sifted", "2026-11-19", [story("Anyos", equity_amount=5_500_000, currency="EUR", stage="seed", tech_area="energy_climate_hardware")]))
     ev2, _ = build_blocks(iss)
     assert ev(ev2, "Anyos")["status_note"] in (None, "being finalised")
+
+
+def test_fc4_only_listed_status_notes_are_shown():
+    """Run C wrote 'one of several' as a note on a deal in talks; an unclear note is ignored, not printed."""
+    iss = [issue("Techmeme", "2026-11-18", [story("Criteo", "acquisition", "in_talks", acquirer="AppLovin", status_note="one of several"),
+                                             story("Inception", "acquisition", "in_talks", acquirer="Nvidia", status_note="advanced talks",
+                                                   price={"amount": 5e8, "currency": "USD", "qualifier": "at_least"})])]
+    _, b = build_blocks(iss)
+    md = render_email.render_md(b)
+    assert "AppLovin → Criteo, talks (Techmeme)" in md and "one of several" not in md
+    assert "Nvidia → Inception, $500M+, advanced talks (Techmeme)" in md

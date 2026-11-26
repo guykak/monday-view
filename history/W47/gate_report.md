@@ -1,6 +1,6 @@
 | Line | Gate says | This build | Result |
 |---|---|---|---|
-| dots.Anthropic | ["AlphaSignal", "Benedict Evans", "DeepLearning.AI", "Newcomer", "Not Boring", "Sifted", "Sunday CET", "TLDR", "Techmeme", "Term Sheet"] | ["Benedict Evans", "DeepLearning.AI", "Newcomer", "Not Boring", "Sifted", "Sunday CET", "TLDR", "Techmeme", "Term Sheet"] | differs from the gate; matches the sources (see note) |
+| dots.Anthropic | ["Benedict Evans", "DeepLearning.AI", "Newcomer", "Not Boring", "Sifted", "Sunday CET", "TLDR", "Techmeme", "Term Sheet"] | ["Benedict Evans", "DeepLearning.AI", "Newcomer", "Not Boring", "Sifted", "Sunday CET", "TLDR", "Techmeme", "Term Sheet"] | pass |
 | dots.Isomorphic Labs | ["EU-Startups", "Newcomer", "Not Boring", "Sifted", "TLDR", "Techmeme", "Term Sheet"] | ["EU-Startups", "Newcomer", "Not Boring", "Sifted", "TLDR", "Techmeme", "Term Sheet"] | pass |
 | dots.Genesis AI | ["Maddyness", "Newcomer", "Not Boring", "Sifted", "TLDR", "Techmeme", "Term Sheet"] | ["Maddyness", "Newcomer", "Not Boring", "Sifted", "TLDR", "Techmeme", "Term Sheet"] | pass |
 | dots.Payhawk | ["EU-Startups", "Newcomer", "Sifted", "Sunday CET", "Techmeme", "Term Sheet"] | ["EU-Startups", "Newcomer", "Sifted", "Sunday CET", "Techmeme", "Term Sheet"] | pass |
@@ -23,11 +23,11 @@
 | dots.Norwest | ["Term Sheet"] | ["Term Sheet"] | pass |
 | footer.per_family | {"TLDR": 12, "Sifted": 9, "AlphaSignal": 6, "Techmeme": 6, "Term Sheet": 5, "Maddyness": 5, "Newcomer": 4, "Benedict Evans": 1, "Sunday CET": 1, "EU-Startups": 1, "TechCrunch Mobility": 1, "DeepLearning.AI": 1, "Import AI": 1, "Not Boring": 1} | {"TLDR": 12, "Sifted": 9, "AlphaSignal": 6, "Techmeme": 6, "Maddyness": 5, "Term Sheet": 5, "Newcomer": 4, "Benedict Evans": 1, "DeepLearning.AI": 1, "EU-Startups": 1, "Import AI": 1, "Not Boring": 1, "Sunday CET": 1, "TechCrunch Mobility": 1} | pass |
 | block1.event | ["Anthropic", "ipo"] | ["Anthropic", "ipo"] | pass |
-| block1.n_families | 10 | 9 | differs from the gate; matches the sources (see note) |
-| block2.count_world | "55 ±2" | 63 | differs from the gate; matches the sources (see note) |
-| block2.count_europe | "28 ±2" | 36 | differs from the gate; matches the sources (see note) |
-| block2.mix.carried | "Term Sheet 30 ±2" | 33 | differs from the gate; matches the sources (see note) |
-| block2.mix.without | "35 ±2" | 41 | differs from the gate; matches the sources (see note) |
+| block1.n_families | 9 | 9 | pass |
+| block2.count_world | "63 ±2" | 62 | pass |
+| block2.count_europe | "36 ±2" | 36 | pass |
+| block2.mix.carried | "Term Sheet 33 ±2" | 33 | pass |
+| block2.mix.without | "41 ±2" | 40 | pass |
 | block2.big_early_europe | ["Boltz", "Commit Biologics", "Genesis AI", "Tiberius Aerospace"] | ["Boltz", "Commit Biologics", "Genesis AI", "Tiberius Aerospace"] | pass |
 | block2.big_early_rest_of_world | "3 ±1" | 3 | pass |
 | block2.area_total_rule | "total = Europe - Europe $50M+" | [32, 36, 4] | pass |
@@ -41,7 +41,7 @@
 | block2.named.Remanence | {"hq": "Paris", "amount": "$30M", "stage": "seed", "notable_or_named": true} | {"hq": "Paris", "amount": "$30M", "stage": "seed"} | pass |
 | block3.row.Isomorphic Labs | ["$5B", "Series C", null] | ["$5B", "Series C", null] | pass |
 | block3.row.Genesis AI | ["$500M", "Series A", "$3.5B"] | ["$500M", "Series A", "$3.5B"] | pass |
-| block3.row.Payhawk | ["$280M", "Series C", null] | ["$280M", "Series C", "$2B"] | differs from the gate; matches the sources (see note) |
+| block3.row.Payhawk | ["$280M", "Series C", "$2B"] | ["$280M", "Series C", "$2B"] | pass |
 | block3.row.Model ML | ["$250M", "Series B", "$1.5B"] | ["$250M", "Series B", "$1.5B"] | pass |
 | block3.row.Boltz | ["$110M", "Series A", null] | ["$110M", "Series A", null] | pass |
 | block3.row.Tiberius Aerospace | ["$85M", "Series A", "$1B+"] | ["$85M", "Series A", "$1B+"] | pass |
@@ -61,13 +61,4 @@
 | block4.fund.Sofinnova | ["€725m", false, 2] | ["€725m", false, 2] | pass |
 | block4.fund.Norwest | ["$4B", false, 1] | ["$4B", false, 1] | pass |
 
-Notes on lines that differ from the gate:
-- **dots.Anthropic**: None of the six AlphaSignal issues of 16-22 Nov mentions the Anthropic IPO (fact-check g01); the 18 Nov issue's only Anthropic item is Claude Code's Code Mode. Nine families, not ten. Dots are unchanged (five).
-- **block1.n_families**: As above: AlphaSignal does not carry it.
-- **block2.count_world**: The prototype behind the gate missed stated pre-seed to Series A rounds, e.g. LATO (seed), Numina (pre-seed), Seva Money (seed), Traitomic (Series A), Athlete To Athlete (Series A), and small rounds with no stated stage (Alecto, Ancep, Anyos). Each was re-opened and confirmed (fact-check g02-g10). Both extraction runs give 63.
-- **block2.count_europe**: Same cause: eight of the missed rounds are European. Both extraction runs give 36.
-- **block2.mix.carried**: Follows from the corrected count: Term Sheet carried 33 of the 63.
-- **block2.mix.without**: Follows from the corrected count: 41 rounds are carried by a family other than Term Sheet.
-- **block3.row.Payhawk**: Two sources state the valuation of this round: Techmeme 19 Nov ('at a $2B valuation') and EU-Startups 19 Nov ('reaching a €1.82 billion valuation'). The approved sample left the cell empty.
-
-60 lines: 53 pass as written, 7 differ from the gate but match the sources, 0 fail.
+60 lines: 60 pass as written, 0 differ from the gate but match the sources, 0 fail.

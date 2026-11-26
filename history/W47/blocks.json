@@ -111,13 +111,13 @@
   }
  },
  "block2": {
-  "count_world": 63,
+  "count_world": 62,
   "count_europe": 36,
   "mix_world": {
    "family": "Term Sheet",
    "carried": 33,
-   "total": 63,
-   "without": 41,
+   "total": 62,
+   "without": 40,
    "dominant": true,
    "label": "worldwide"
   },
@@ -144,13 +144,13 @@
     "rounds": 14
    },
    {
-    "area": "fintech",
-    "label": "Fintech",
+    "area": "ai_infrastructure",
+    "label": "AI infrastructure (compilers, edge, model training)",
     "rounds": 4
    },
    {
-    "area": "ai_infrastructure",
-    "label": "AI infrastructure (compilers, edge, model training)",
+    "area": "fintech",
+    "label": "Fintech",
     "rounds": 3
    },
    {
@@ -169,8 +169,8 @@
     "rounds": 2
    },
    {
-    "area": "other_software_consumer",
-    "label": "Other software and consumer",
+    "area": "other",
+    "label": "Other",
     "rounds": 2
    },
    {
@@ -184,8 +184,8 @@
     "rounds": 1
    },
    {
-    "area": "other",
-    "label": "Other",
+    "area": "other_software_consumer",
+    "label": "Other software and consumer",
     "rounds": 1
    }
   ],
@@ -210,6 +210,7 @@
      "Elaia",
      "LEA Ventures"
     ],
+    "status_note": null,
     "description": "Open-source compiler that runs AI code natively on Nvidia, AMD and newer accelerators",
     "valuation": null,
     "valuation_basis": null,
@@ -249,6 +250,7 @@
      "360 Capital",
      "Supernova Invest"
     ],
+    "status_note": null,
     "description": "Runs AI applications on low-cost, low-power chips",
     "valuation": null,
     "valuation_basis": null,
@@ -261,6 +263,41 @@
     "dots": "●●●",
     "tech_area": "ai_infrastructure",
     "usd": 7884000.000000001,
+    "founder_background": null,
+    "n_reprints": 0,
+    "other_finance": []
+   },
+   {
+    "id": "round:pretxt:2026-11-18",
+    "company": "Pretxt",
+    "hq": "Aspen / Dublin",
+    "hq_list": [
+     {
+      "city": "Aspen",
+      "country": "US",
+      "mentions": 1
+     },
+     {
+      "city": "Dublin",
+      "country": "IE",
+      "mentions": 1
+     }
+    ],
+    "amount": "$5M",
+    "mixed": false,
+    "stage": "seed",
+    "leads": [],
+    "status_note": null,
+    "description": "Runtime supervision software for enterprise AI agents",
+    "valuation": null,
+    "valuation_basis": null,
+    "families": [
+     "Term Sheet"
+    ],
+    "n_families": 1,
+    "dots": "●",
+    "tech_area": "ai_infrastructure",
+    "usd": 5000000.0,
     "founder_background": null,
     "n_reprints": 0,
     "other_finance": []
@@ -282,6 +319,7 @@
     "leads": [
      "United Ventures"
     ],
+    "status_note": null,
     "description": "Data for robotics AI",
     "valuation": null,
     "valuation_basis": null,
@@ -315,6 +353,7 @@
      "Visionaries Tomorrow",
      "UVC Partners"
     ],
+    "status_note": null,
     "description": "Robotic manufacturing of electrical control cabinets",
     "valuation": null,
     "valuation_basis": null,
@@ -345,6 +384,7 @@
     "mixed": true,
     "stage": null,
     "leads": [],
+    "status_note": null,
     "description": "Battery-electric aircraft",
     "valuation": null,
     "valuation_basis": null,
@@ -379,6 +419,7 @@
      "Armand Thiberge",
      "Impala"
     ],
+    "status_note": null,
     "description": "Radar and interceptors against drones",
     "valuation": null,
     "valuation_basis": null,
@@ -411,6 +452,7 @@
     "leads": [
      "Warsaw Equity Group"
     ],
+    "status_note": null,
     "description": "Satellite deployment and power systems",
     "valuation": null,
     "valuation_basis": null,
@@ -440,6 +482,7 @@
     "mixed": false,
     "stage": null,
     "leads": [],
+    "status_note": "being finalised",
     "description": "Upgradable EV charging stations",
     "valuation": null,
     "valuation_basis": null,
@@ -474,6 +517,7 @@
      "EQT Ventures",
      "FirstMark"
     ],
+    "status_note": null,
     "description": "Turns AI agents' execution traces into specialised models customers own",
     "valuation": null,
     "valuation_basis": null,
@@ -488,7 +532,7 @@
     "dots": "●●●●●",
     "tech_area": "ai_infrastructure",
     "usd": 30000000.0,
-    "founder_background": "cofounded by a trio of H Company alumni",
+    "founder_background": "ex-CTO of H Company",
     "n_reprints": 0,
     "other_finance": []
    },
@@ -510,6 +554,7 @@
      "byFounders",
      "Illusian"
     ],
+    "status_note": null,
     "description": "AI-assisted patient intake and medical consultations for private healthcare",
     "valuation": null,
     "valuation_basis": null,
@@ -584,7 +629,6 @@
    "round:tiberius-aerospace:2026-11-17",
    "round:traitomic:2026-11-18",
    "round:treat:2026-11-18",
-   "round:unnamed-startup-of-the-other-staniszews:2026-11-19",
    "round:valeria:2026-11-17",
    "round:vero-security:2026-11-19",
    "round:vetaion:2026-11-18",
@@ -652,7 +696,8 @@
      "Greenoaks",
      "Sequoia"
     ],
-    "description": "Alphabet-backed company building a drug-design engine and foundational biology models",
+    "status_note": null,
+    "description": "Alphabet-backed AI drug-design company building the IsoDDE design engine",
     "valuation": null,
     "valuation_basis": null,
     "families": [
@@ -695,6 +740,7 @@
      "Premji Invest",
      "Khosla Ventures"
     ],
+    "status_note": null,
     "description": "Builds Eno, a headless wheeled robot with in-house actuators and hands",
     "valuation": "$3.5B",
     "valuation_basis": null,
@@ -733,7 +779,8 @@
      "Growth Equity at Goldman Sachs Alternatives",
      "Goldman Sachs"
     ],
-    "description": "enterprise SaaS now selling AI agents from a native-AI platform",
+    "status_note": null,
+    "description": "Sells AI agents out of a native-AI platform; formerly enterprise SaaS",
     "valuation": "$2B",
     "valuation_basis": null,
     "families": [
@@ -770,7 +817,8 @@
      "General Atlantic",
      "QED Investors"
     ],
-    "description": "AI agents in Excel or PowerPoint automating pitch deck, research, diligence",
+    "status_note": null,
+    "description": "AI agents in Excel or PowerPoint automating pitch deck, research, diligence tasks",
     "valuation": "$1.5B",
     "valuation_basis": null,
     "families": [
@@ -804,6 +852,7 @@
     "leads": [
      "Highland Europe"
     ],
+    "status_note": null,
     "description": "Designs, builds and sells high-performance electric motorcycles",
     "valuation": "€1.2bn pre-money",
     "valuation_basis": "pre_money",
@@ -838,6 +887,7 @@
      "Bessemer",
      "Bessemer Venture Partners"
     ],
+    "status_note": null,
     "description": "AI models for pharma and biotech researchers to design drug candidates",
     "valuation": null,
     "valuation_basis": null,
@@ -878,6 +928,7 @@
      "Lakestar",
      "Rochefort Asset Management"
     ],
+    "status_note": null,
     "description": "Defense-as-a-service startup using AI to design long-range supersonic artillery munitions",
     "valuation": "$1B+",
     "valuation_basis": null,
@@ -909,7 +960,8 @@
     "mixed": false,
     "stage": "seed",
     "leads": [],
-    "description": "Next-generation immunotherapies for cancer and autoimmune diseases",
+    "status_note": null,
+    "description": "Next-generation immunotherapies targeting cancer and autoimmune diseases",
     "valuation": null,
     "valuation_basis": null,
     "families": [
@@ -956,7 +1008,8 @@
     "families": [
      "Techmeme"
     ],
-    "status": "in_talks"
+    "status": "in_talks",
+    "status_note": "early talks"
    },
    {
     "id": "round:cognition:2026-11-20:talks",
@@ -966,7 +1019,8 @@
     "families": [
      "Techmeme"
     ],
-    "status": "in_talks"
+    "status": "rumour",
+    "status_note": "considering"
    },
    {
     "id": "round:ramp:2026-11-17:talks",
@@ -976,7 +1030,8 @@
     "families": [
      "Techmeme"
     ],
-    "status": "in_talks"
+    "status": "in_talks",
+    "status_note": "early talks"
    },
    {
     "id": "round:sierra:2026-11-18:talks",
@@ -986,7 +1041,8 @@
     "families": [
      "Techmeme"
     ],
-    "status": "in_talks"
+    "status": "in_talks",
+    "status_note": null
    }
   ]
  },
@@ -1000,6 +1056,8 @@
     "price_usd": 4500000000.0,
     "consideration": "stock",
     "status": "signed",
+    "stake": "full",
+    "status_note": null,
     "families": [
      "Newcomer",
      "TLDR",
@@ -1019,6 +1077,8 @@
     "price_usd": 3680000000.0,
     "consideration": "cash_and_stock",
     "status": "signed",
+    "stake": "full",
+    "status_note": null,
     "families": [
      "Newcomer",
      "Sunday CET",
@@ -1040,12 +1100,14 @@
     "price_usd": 8200000000.0,
     "consideration": "stock",
     "status": "completed",
+    "stake": null,
+    "status_note": null,
     "families": [
      "DeepLearning.AI"
     ],
     "n_families": 1,
     "dots": "●",
-    "description": "Builds world models that generate 3D scenes and camera-controllable video",
+    "description": "World models that turn text and images into 3D scenes",
     "note": null,
     "confirmed_by_company": true
    },
@@ -1057,12 +1119,14 @@
     "price_usd": 2214000000.0,
     "consideration": "cash",
     "status": "bid",
+    "stake": null,
+    "status_note": null,
     "families": [
      "Sunday CET"
     ],
     "n_families": 1,
     "dots": "●",
-    "description": "Milan-listed Italian rocket maker",
+    "description": "Milan-listed Italian rocket manufacturer",
     "note": null,
     "confirmed_by_company": false
    },
@@ -1074,6 +1138,8 @@
     "price_usd": 500000000.0,
     "consideration": null,
     "status": "in_talks",
+    "stake": "full",
+    "status_note": "advanced talks",
     "families": [
      "Techmeme"
     ],
@@ -1091,6 +1157,8 @@
     "price_usd": null,
     "consideration": null,
     "status": "in_talks",
+    "stake": null,
+    "status_note": null,
     "families": [
      "Techmeme"
     ],
@@ -1108,6 +1176,8 @@
     "price_usd": null,
     "consideration": null,
     "status": "in_talks",
+    "stake": null,
+    "status_note": null,
     "families": [
      "Techmeme"
     ],
@@ -1125,6 +1195,8 @@
     "price_usd": null,
     "consideration": null,
     "status": "announced",
+    "stake": "majority",
+    "status_note": null,
     "families": [
      "Techmeme"
     ],
@@ -1144,12 +1216,14 @@
     "price_usd": null,
     "consideration": null,
     "status": "completed",
+    "stake": null,
+    "status_note": null,
     "families": [
      "TLDR"
     ],
     "n_families": 1,
     "dots": "●",
-    "description": "Analytics engine",
+    "description": "Analytics engine for fast queries on fresh data",
     "note": null,
     "confirmed_by_company": false
    },
@@ -1161,12 +1235,14 @@
     "price_usd": null,
     "consideration": null,
     "status": "completed",
+    "stake": null,
+    "status_note": null,
     "families": [
      "TLDR"
     ],
     "n_families": 1,
     "dots": "●",
-    "description": "Talent and work intelligence, joining SAP SuccessFactors portfolio",
+    "description": "Talent and work intelligence; joining the SAP SuccessFactors portfolio",
     "note": null,
     "confirmed_by_company": false
    }
@@ -1204,7 +1280,7 @@
     "size": "€725m",
     "strategy": "late_stage",
     "geography": "Europe",
-    "focus": "life sciences (biopharma and medtech)",
+    "focus": "biopharma and medtech (life sciences)",
     "description": "late-stage life sciences",
     "european_early": false,
     "families": [
@@ -1306,7 +1382,7 @@
   ],
   "silent_deal_carrying": [],
   "next_price_check": "7 Dec",
-  "withheld": 1
+  "withheld": 0
  },
  "fx_log": [
   {
@@ -1322,5 +1398,5 @@
   "failed": {},
   "flags": {}
  },
- "compact_level": 6
+ "compact_level": 2
 }
