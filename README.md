@@ -27,7 +27,7 @@ Every Monday morning (Europe/Athens), Guy, a partner at Big Pi Ventures (an earl
 
 **Format**
 - A headline sentence (bold), then the dot legend, five blocks, and a footer. Example: `w47_sample.md`.
-- The markdown version is 500–750 words by `wc -w`, everything included.
+- The markdown version is 500–850 words by `wc -w`, everything included. If a week does not fit, the view is trimmed in fixed steps (`render_email.py`): single-source overflow first, then descriptions and lead investors of the least-covered rounds. Counts and required lines are never trimmed.
 - **Dots:** one ● per **source family** carrying the item, capped at ●●●●●. A family is one publisher: Sifted's 5 letters count as 1, TLDR's 4 as 1, Maddyness and Maddyness IA as 1. The mapping is `config/families.yaml`. Dots show breadth of coverage, not importance, and the legend says so.
 - **Europe** means at least one stated HQ in Europe (UK and Switzerland included).
 - **Deep-tech areas:** AI infrastructure (compilers, chips, edge, training), chips and photonics, robotics and manufacturing, defence and aerospace, space, energy and climate hardware, quantum. AI applications, software, fintech and health are not deep tech for this purpose. Health is counted in the area table but not named.
@@ -35,6 +35,8 @@ Every Monday morning (Europe/Athens), Guy, a partner at Big Pi Ventures (an earl
 **Block 1: the week's story.** The single event carried by the most families this week. It must have been first reported, or reached a new status (priced, signed, closed, refused), this week. It shows 3–4 dated facts and one "for us" line.
 
 **Block 2: early-stage rounds.** Covers pre-seed to Series A, closed equity, any size.
+- A round whose stage no source states counts as early-stage only if it is under $25M (`unstated_stage_early_max_usd`).
+- Where the source's wording is softer than "raised" (a round "being finalised"), the line says so.
 - Counts: worldwide and Europe, each with a source-mix line ("Term Sheet carried 30 of the 55; 35 without it").
 - Area table: European rounds **under $50M**. Its total equals the European count minus European $50M+ early rounds, and a note says so.
 - Named list: **every** European deep-tech round under $50M, with amount and dots, plus HQ, stage and lead where the source states them.
@@ -52,7 +54,8 @@ Every Monday morning (Europe/Athens), Guy, a partner at Big Pi Ventures (an earl
   - Confirmed (2+ families, or confirmed by the company): price and dots.
   - Everything else goes in a "single source, unconfirmed" list that names the source.
   - IPO status changes, unless already in block 1. PE buy-and-build excluded.
-- VC fund closes this week: European early-stage funds first with dots; others on one line, each with its stage.
+  - A private-equity or other financial buyer is listed only when a price is stated. A stake short of a full acquisition is named as such ("majority stake").
+- VC fund closes this week: European early-stage funds first with dots; others on one line, each with its stage. Buyout and other private-equity funds are left out.
 
 **Block 5: market move (optional, one line).** Only if it changes price, distribution or legality for a named startup category. Name the measure (per token, per task) and the source.
 
@@ -67,6 +70,7 @@ The details are in `docs/automation_spec.md`.
 - **Scheduled task**, Monday 06:11 Athens. Each run is a fresh cloud session.
 - The run attaches this repo (`add_repo`, push access), clones it, and follows `docs/runbook.md` (written in Phase 0a).
 - **Claude** makes every connector call (AgentMail list, get, send, label) and does the reading (extraction, tagging, fact-check), through sub-agents defined in `.claude/agents/`.
+- `get_message` returns each issue several times over (text, HTML and two extracted copies), too large to read inline. The sub-agent runs one fixed command, `src/mondayview/body.py`, which keeps only the plain text, and reads that file. Bodies go under `run/` and are never committed.
 - **Python** does everything exact: week maths, merging, counting, block rules, rendering the email (HTML and plain text), and guards. It writes files that tell Claude exactly what to send. Python cannot call connectors.
 - **Store:** this repo. Runs commit only under `history/` and `logs/`. Newsletter bodies are never committed. The fallback store is a private Claude artifact.
 - **Email v1:** 640 px, one column, inline styles, no images (bars and unit squares are coloured table cells), HTML under 40 KB, plus a plain-text part. No full-page link until Phase 0b.
@@ -74,8 +78,8 @@ The details are in `docs/automation_spec.md`.
 ## 4. Repo layout and git
 
 ```
-.claude/agents/extractor.md   per-issue sub-agent (tools: AgentMail get_message, Write)
-.claude/agents/factcheck.md   fact-check agent (tools: get_message, Read, Write)
+.claude/agents/extractor.md   per-issue sub-agent (tools: AgentMail get_message, Bash for body.py only, Read, Write)
+.claude/agents/factcheck.md   fact-check agent (same tools; writes its report only)
 config/families.yaml          seeded: sender address -> family; ignore list
 config/taxonomy.yaml          areas, with a deep_tech flag
 config/settings.yaml          recipient, mode, times, thresholds, budgets
@@ -113,7 +117,7 @@ Each one caused a real error. ID prefixes:
 | 1 | Cluster date instead of story date (R1: "Nvidia reinstates Huang" shown in W47; it happened 23 Nov) | Date each story by its own event. Clusters never cross a week boundary or a status change | T |
 | 2 | The "first seen" rule dropped the Anthropic IPO (R2) | Include an event if first reported **or** it reached a new status this week, using the status history in `summary.json` | T |
 | 3 | "In talks" counted as closed (B1: Monzo, Cohere "up to $5B") | `status` field; only closed or announced counts; talks go on their own line | T |
-| 4 | Undated stories | Weekly digests: issue date. Morning dailies: issue date − 1 day | T |
+| 4 | Undated stories | Ordinary dailies: issue date. Morning dailies and weekly digests: issue date − 1 day, because they look back (a Monday digest's undated items belong to the week that just ended) | T |
 | 5 | Wrong week on a Monday run (A6) | Report week = ISO week of (run date − 1 day), Athens time | T |
 | 6 | Window overlap, summer time (A13, H7) | Collect from the stored cut-off; skip processed threads; use zoneinfo | T |
 | 7 | "Who was first" broken by same-day ties (recheck R1) | Order by send timestamp; Techmeme's morning email recaps the previous US day | T |

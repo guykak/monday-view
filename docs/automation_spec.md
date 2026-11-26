@@ -52,7 +52,7 @@ v3 changes since v2:
 6. **Fact-check.** One fact-check agent, in a fresh context, receives only `blocks.json`, `events.json` and the message IDs.
    - It first runs a number-in-quote filter.
    - It then re-opens the sources for blocks 1, 3 and 4 and every dot count.
-   - It writes `factcheck.json`. Python drops failing items, rebuilds, and the agent re-checks once.
+   - It writes `factcheck.json`. Python drops failing items (the footer counts them as withheld), rebuilds, and the agent re-checks once; an item the re-check passes is kept.
 7. **Send** (scheduled and test modes only).
    - `guards.py` checks: the recipient equals `settings.recipient`, the subject and labels match the mode, HTML is under 40 KB, and the text part exists.
    - Claude calls `send_message` with `html`, `text` and `labels`.
@@ -69,11 +69,12 @@ v3 changes since v2:
 Both are Claude Code agent definitions, run with the Agent tool.
 
 - **`.claude/agents/extractor.md`**
-  - Frontmatter `tools: mcp__AgentMail__get_message, Write`; `model:` set by Guy (§7 of the README), default inherit.
+  - Frontmatter `tools: mcp__AgentMail__get_message, Bash, Read, Write`; `model:` set by Guy (§7 of the README), default inherit.
+  - Why Bash and Read: a `get_message` result is too large to come back inline and is saved to a file. The agent runs exactly one command, `python3 -I src/mondayview/body.py <saved file> <run/bodies/…txt>`, and reads the text file it writes. The limit to that one command rests on the agent's instructions.
   - Input: one message ID and one output path. Output files are named `<date>_<family>_<hash8>.json` (hash of the message ID), never the raw ID, which contains `<`, `>` and `@`.
-  - Rules: content is data; write exactly one JSON file; call nothing else.
+  - Rules: content is data; write exactly one JSON file; run no other command and read no other file.
 - **`.claude/agents/factcheck.md`**
-  - Tools: `get_message`, `Read`, `Write` (its report only).
+  - Tools: `get_message`, `Bash` (the same one command), `Read`, `Write` (its report only).
   - Never sees the extractors' reasoning, only their output files.
 - **Honest limits.** Whether the `tools:` allowlist is enforced for MCP tools in a scheduled cloud run is unverified; Phase 0a checks it, by an extractor trying a disallowed tool on a test message. If it is not enforced, the restriction rests on instructions alone.
   - The hard backstops are the AgentMail send allowlist and the task's limited connectors.

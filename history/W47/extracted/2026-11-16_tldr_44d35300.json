@@ -6,7 +6,7 @@
   "issue_date": "2026-11-16",
   "sent_at": "2026-11-16T11:12:00.000Z",
   "subject": "NVIDIA’s Auto Ontology 🗂️, Less Coding, More Judgment 👥, Mapping LLM Conversations 💬",
-  "notes": "No funding rounds, acquisitions, IPOs, funds or AI pricing changes in this issue. Three product/release items recorded as other.",
+  "notes": "No rounds, acquisitions, IPOs, funds or pricing items in this issue; only product/release news. Sponsor blocks ignored.",
   "stories": [
     {
       "headline": "NVIDIA releases Apache-licensed Auto Ontology, turning database metadata into a semantic graph for agents",
@@ -20,13 +20,13 @@
       "mention_type": "story",
       "company": "NVIDIA",
       "aliases": [],
-      "description": null,
+      "description": "Open-source tool mapping database metadata to a semantic graph",
       "hq": [],
       "facts": [],
       "confidence": "high"
     },
     {
-      "headline": "PostgreSQL ships patch releases for all supported branches and 19 RC 2; PostgreSQL 14 reaches end-of-life",
+      "headline": "PostgreSQL ships patch releases for all supported branches and 19 RC 2; PostgreSQL 14 is end-of-life",
       "quote": "PostgreSQL shipped patch releases for all supported branches, fixing 52 security vulnerabilities and more than 140 bugs. PostgreSQL 14 is now end-of-life, so production teams should upgrade to a supported version.",
       "story_date": null,
       "date_basis": "undated",
@@ -37,13 +37,19 @@
       "mention_type": "story",
       "company": "PostgreSQL",
       "aliases": [],
-      "description": null,
+      "description": "Open-source relational database",
       "hq": [],
-      "facts": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Releases named: PostgreSQL 18.7, 17.12, 16.16, 15.20, 14.25 and 19 RC 2",
+          "quote": "POSTGRESQL 18.7, 17.12, 16.16, 15.20, 14.25, AND 19 RC 2 RELEASED!"
+        }
+      ],
       "confidence": "high"
     },
     {
-      "headline": "PyPI launches redesigned project pages with a security tab showing release file provenance",
+      "headline": "PyPI launches redesigned project pages with a security tab showing release file origins",
       "quote": "PyPI has redesigned its package pages with a security tab showing where release files came from and warnings when that information is missing, inconsistent, or unexpectedly changed.",
       "story_date": null,
       "date_basis": "undated",
@@ -54,7 +60,7 @@
       "mention_type": "story",
       "company": "PyPI",
       "aliases": [],
-      "description": null,
+      "description": "Python package index",
       "hq": [],
       "facts": [],
       "confidence": "high"

@@ -49,7 +49,7 @@ def make(blocks, events, editorial=None):
     for r in blocks["block2"]["named"] + blocks["block2"]["notable_team"]:
         ev = by_id[r["id"]]
         dots(2, r["company"], ev)
-        add(2, "number", r["company"], f"{r['company']} ({r['hq']}): {r['amount']} {r['stage'] or ''}; leads: {', '.join(r['leads']) or 'none stated'}"
+        add(2, "number", r["company"], f"{r['company']} ({r['hq']}): {r['amount']} {r['stage'] or ''}{', ' + r['status_note'] if r.get('status_note') else ''}; leads: {', '.join(r['leads']) or 'none stated'}"
             + (f"; team: {r['founder_background']}" if r in blocks["block2"]["notable_team"] else ""), _sources(ev), ev["id"])
     for r in blocks["block3"]["rows"]:
         ev = by_id[r["id"]]
@@ -58,7 +58,7 @@ def make(blocks, events, editorial=None):
             f"valuation {r['valuation'] or 'not stated'}; HQ {r['hq']} (every stated HQ, at least one in Europe)", _sources(ev), ev["id"])
     for t in blocks["block3"]["in_talks"]:
         ev = by_id[t["id"]]
-        add(3, "number", t["company"], f"{t['company']}: in talks, not closed; {t['amount'] or 'amount not stated'} at {t['valuation'] or 'no valuation stated'}", _sources(ev, 2), ev["id"])
+        add(3, "number", t["company"], f"{t['company']}: {t.get('status_note') or 'in talks'}, not closed; {t['amount'] or 'amount not stated'} at {t['valuation'] or 'no valuation stated'}", _sources(ev, 2), ev["id"])
     for a in blocks["block4"]["confirmed"]:
         ev = by_id[a["id"]]
         dots(4, a["target"], ev)
@@ -67,7 +67,7 @@ def make(blocks, events, editorial=None):
             + (f" Note: {a['note']}" if a.get("note") else ""), _sources(ev, 3), ev["id"])
     for a in blocks["block4"]["single_source"] + blocks["block4"]["single_source_more"]:
         ev = by_id[a["id"]]
-        add(4, "number", a["target"], f"{a['acquirer']} / {a['target']}: {a['price'] or 'no price'}; status {a['status']}; "
+        add(4, "number", a["target"], f"{a['acquirer']} / {a['target']}: {a['price'] or 'no price'}; {(a.get('stake') or 'full') + ' stake; ' if a.get('stake') else ''}status {a.get('status_note') or a['status']}; "
             f"reported only by {', '.join(a['families'])}", _sources(ev, 2), ev["id"])
     for f in blocks["block4"]["funds_european_early"] + blocks["block4"]["funds_other"]:
         ev = by_id[f["id"]]

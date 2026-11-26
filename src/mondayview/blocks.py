@@ -125,7 +125,9 @@ def source_mix(events, total_label):
 def _round_row(e, fx_log, editorial):
     amt, mixed = amount_label(e)
     return {"id": e["id"], "company": e["company"], "hq": hq_label(e), "hq_list": e["hq"],
-            "amount": amt, "mixed": mixed, "stage": stage_label(e), "leads": e["leads"][:2],
+            "amount": amt, "mixed": mixed, "stage": stage_label(e),
+            "leads": [l + " (founder)" if l in (e.get("founder_leads") or []) else l for l in e["leads"][:2]],
+            "status_note": e.get("status_note"),
             "description": (editorial.get("descriptions") or {}).get(e["company"]) or e.get("description"),
             # a pre-money valuation is said to be one (fact-check, W47: Stark Future)
             "valuation": (fmt(**{k: e["valuation"][k] for k in ("amount", "currency", "qualifier")})
@@ -189,7 +191,7 @@ def build(events, issues, monday, sunday, prior=None, editorial=None, run_date=N
         "mega_count_world": len(mega), "mega_ids": sorted(e["id"] for e in mega),
         "in_talks": [{"id": e["id"], "company": e["company"], "amount": amount_label(e)[0],
                       "valuation": fmt(e["valuation"]["amount"], e["valuation"]["currency"], e["valuation"].get("qualifier")) if e.get("valuation") else None,
-                      "families": e["families"], "status": e["status"]} for e in talks[:th["block3_talks_max"]]],
+                      "families": e["families"], "status": e["status"], "status_note": e.get("status_note")} for e in talks[:th["block3_talks_max"]]],
     }
 
     # ---- block 1: the week's story ----
@@ -216,7 +218,7 @@ def build(events, issues, monday, sunday, prior=None, editorial=None, run_date=N
         return {"id": e["id"], "acquirer": e.get("acquirer"), "target": e["company"],
                 "price": fmt(e["price"]["amount"], e["price"]["currency"], e["price"].get("qualifier")) if e.get("price") else None,
                 "price_usd": to_usd(e["price"]["amount"], e["price"]["currency"], fx_log) if e.get("price") else None,
-                "consideration": e.get("consideration"), "status": e["status"],
+                "consideration": e.get("consideration"), "status": e["status"], "stake": e.get("stake"), "status_note": e.get("status_note"),
                 "families": e["families"], "n_families": e["n_families"], "dots": dots(e["n_families"]),
                 "description": (editorial.get("descriptions") or {}).get(e["company"]) or e.get("description"),
                 "note": (editorial.get("block4_notes") or {}).get(e["company"], {}).get("text"),

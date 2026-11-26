@@ -43,6 +43,8 @@ def round_line(r, max_leads=2):
         bits.append(r["amount"] + (f" {r['stage']}" if r["stage"] and not r["mixed"] else ""))
     elif r["stage"]:
         bits.append(r["stage"])
+    if r.get("status_note"):
+        bits.append(r["status_note"])
     if r["leads"] and max_leads:
         bits.append(_join(r["leads"][:max_leads]))
     line = ", ".join([head] + bits) + "."
@@ -54,6 +56,8 @@ def round_line(r, max_leads=2):
 def acq_line(a, with_source=False):
     name = f"{a['acquirer']} → {a['target']}" if a.get("acquirer") else a["target"]
     bits = []
+    if a.get("stake") in ("majority", "minority"):
+        bits.append(f"{a['stake']} stake")
     if a.get("price"):
         p = a["price"]
         if a.get("consideration") == "stock":
@@ -63,7 +67,9 @@ def acq_line(a, with_source=False):
         elif a.get("consideration") == "cash":
             p += " cash"
         bits.append(p)
-    if a["status"] in ("in_talks", "rumour"):
+    if a.get("status_note"):
+        bits.append(a["status_note"])
+    elif a["status"] in ("in_talks", "rumour"):
         bits.append("talks")
     elif a["status"] == "bid":
         bits.append("bid")
@@ -185,8 +191,8 @@ def render_md(b, compact=0):
     s += f"{b3['mega_count_world']} rounds of $100M or more were reported, equity only."
     if b3["in_talks"]:
         s += " In talks, not closed: " + ", ".join(
-            t["company"] + (f" {t['amount']}" if t["amount"] else "") + (f" at {t['valuation']}" if t["valuation"] else "")
-            for t in b3["in_talks"]) + "."
+            t["company"] + (f" {t['status_note']}" if t.get("status_note") else "") + (f" {t['amount']}" if t["amount"] else "")
+            + (f" at {t['valuation']}" if t["valuation"] else "") for t in b3["in_talks"]) + "."
     L.append(s)
     L.append("")
     b4 = b["block4"]
@@ -371,6 +377,8 @@ def render_html(b, compact=None):
         n_leads = 0 if (compact >= 7 and not r.get("_notable")) or (compact >= 4 and r["n_families"] < 3) else 1 if compact >= 3 else 2
         desc = _sentence(r["founder_background"]) if r.get("_notable") else "" if bare else _sentence(r.get("description"))
         stage = ("in " + r["amount"].split(" in ", 1)[1]) if r["mixed"] else (r["stage"] or "")
+        if r.get("status_note"):
+            stage = (stage + ", " if stage else "") + r["status_note"]
         amt = r["amount"].split(" in ", 1)[0] if r["amount"] else ""
         R.append(
             f'<tr><td style="padding:0 0 8px 0;"><table width="100%" cellpadding="0" cellspacing="0" bgcolor="{CARD}" '
@@ -402,7 +410,7 @@ def render_html(b, compact=None):
         R.append(_p("Also $50M or more in Europe: " + e(_join(b3["more"], ", ")) + ".", 13))
     if b3["in_talks"]:
         R.append(_p(f'<span style="font-size:11px;letter-spacing:1px;color:{MUTE};text-transform:uppercase;"><b>In talks, not closed</b></span><br>'
-                    + "; ".join(f'<b>{e(t["company"])}</b>' + (f' {e(t["amount"])}' if t["amount"] else "") + (f' at {e(t["valuation"])}' if t["valuation"] else "")
+                    + "; ".join(f'<b>{e(t["company"])}</b>' + (f' {e(t["status_note"])}' if t.get("status_note") else "") + (f' {e(t["amount"])}' if t["amount"] else "") + (f' at {e(t["valuation"])}' if t["valuation"] else "")
                                 for t in b3["in_talks"]) + ".", 13, INK, "8px 0 6px 0"))
     b4 = b["block4"]
     R.append(_label(4, "Exits and new funds"))

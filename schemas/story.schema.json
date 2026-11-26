@@ -552,6 +552,30 @@
        null
       ],
       "description": "financial = private equity, infrastructure or investment firm buying for its fund"
+     },
+     "status_note": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "maxLength": 40,
+      "description": "the issue's own wording when it is weaker or narrower than the status: 'considering', 'being finalised'"
+     },
+     "stake": {
+      "enum": [
+       "full",
+       "majority",
+       "minority",
+       null
+      ],
+      "description": "acquisitions: what is being bought, when the issue says"
+     },
+     "founder_leads": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      },
+      "description": "lead investors who are the company's own founders"
      }
     }
    }

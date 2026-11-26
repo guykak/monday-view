@@ -58,6 +58,7 @@ If the issue has none of these, write `"stories": []`.
   - `new`: the issue reports it as news of the period it covers (the last day or two for a daily, the last week for a weekly). The default for news items and deal lists.
   - `recap`: the issue itself says it happened before that period ("earlier this month", "last month", "as we reported in October").
   - `background`: an older event cited as context inside another story ("which raised €3bn in September", "Intuit bought it for $12B in 2021", "prior to 2026 it had led two rounds"). A background round or deal still gets its own entry, marked this way, so that it is never counted as this week's.
+- `status_note`: only when the issue's wording is weaker or narrower than the status you chose, two or three words in the issue's own sense: `considering` ("is considering raising"), `exploring`, `being finalised` ("is finalising a round", part still open), `first tranche`. Otherwise `null`. Do not use it to repeat the status.
 - `mention_type`: `story` (its own item), `deal_list` (one line in a list of deals), `passing` (referred to inside another story or essay).
 - `company`: the company the event is about, as the issue writes it (round: the company raising; acquisition: the **target**; ipo: the company listing; fund: the firm; pricing: the vendor). `aliases`: other spellings in the issue.
 - `description`: what the company does, at most 12 words, from the issue.
@@ -69,8 +70,8 @@ If the issue has none of these, write `"stories": []`.
   - If the issue gives only one figure covering equity plus something else ("€12m in grants and equity"), set `equity_amount` null and fill `mixed_total` as `{"amount": 12000000, "currency": "EUR", "qualifier": "at_least", "includes": ["grant", "equity"]}`; `includes` is a list drawn from `equity, debt, grant, customer_value_fund, secondary, other`.
   - `valuation` (`{amount, currency, qualifier}`) only when the issue states it as the valuation of **this** round or deal ("at a $3.5B valuation", "valuing it at over $1B"). An earlier, rumoured or reported-elsewhere valuation ("Bloomberg earlier reported a roughly $50B valuation", "last valued at") is not: put it in `facts`. `valuation_basis`: `pre_money, post_money, unstated`. A raise is never a valuation and a valuation is never a raise.
   - Revenue, ARR and run rate are never a raise: put them in `non_raise_figures[]` as `{"kind": "revenue|arr|run_rate|users|other", "text": "..."}`.
-  - `leads`: lead investors as stated (led by / co-led by). Other participants are not leads.
-- Acquisition: `acquirer`, `acquirer_type` (`company` for an operating company buying another; `financial` for a private-equity, infrastructure or investment firm buying for its fund), `price` (`{amount, currency, qualifier}`), `consideration` (`cash, stock, cash_and_stock, unstated`), `confirmed_by_company` (true only if the issue says a party confirmed or announced it), `is_pe_buy_and_build` (true for a PE-owned platform adding a bolt-on).
+  - `leads`: lead investors as stated (led by / co-led by). Other participants are not leads. `founder_leads`: any of those leads the issue identifies as a founder of the company itself.
+- Acquisition: `stake` (`full`, `majority`, `minority`; "takes a majority stake" is `majority`; `null` if not said), `acquirer`, `acquirer_type` (`company` for an operating company buying another; `financial` for a private-equity, infrastructure or investment firm buying for its fund), `price` (`{amount, currency, qualifier}`), `consideration` (`cash, stock, cash_and_stock, unstated`), `confirmed_by_company` (true only if the issue says a party confirmed or announced it), `is_pe_buy_and_build` (true for a PE-owned platform adding a bolt-on).
 - Fund: `fund_name`, `fund_size`, `fund_strategy` (`early_stage, multi_stage, growth, late_stage, secondaries, other`), `fund_geography` (e.g. "Europe", "US"), `fund_focus` (e.g. "life sciences").
 - `tech_area` (rounds and acquisitions), exactly one of:
   `ai_infrastructure` (compilers, inference/training infrastructure, edge AI, foundation-model training, training data) ·
@@ -107,7 +108,7 @@ Write exactly this shape (unused fields may be omitted, except those shown in th
       "stage": "seed", "stage_as_written": "seed", "is_combined_round": false,
       "equity_amount": 6000000, "currency": "EUR", "amount_qualifier": "exact",
       "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
-      "leads": [], "tech_area": "ai_infrastructure", "is_press_release_reprint": false,
+      "leads": [], "founder_leads": [], "status_note": null, "tech_area": "ai_infrastructure", "is_press_release_reprint": false,
       "founder_background": null, "facts": [], "confidence": "high"
     }
   ]

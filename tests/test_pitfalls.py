@@ -479,3 +479,27 @@ def test_fc2_failed_fact_check_items_are_dropped_unless_the_recheck_passes():
     assert build.drops_from(report) == {"acquisition:instacart", "round:stark future"}
     assert build.drops_from(report, recheck) == {"acquisition:instacart"}        # block 1 failures hold the run instead
     assert build.event_ref({"event_type": "acquisition", "company": "Instacart"}) == "acquisition:instacart"
+
+
+def test_fc3_softer_wording_is_shown_as_the_source_has_it():
+    """Fact-check caveats, W47: Cognition is 'considering' a raise; Anyos's round is 'being finalised';
+    CoinGecko is a majority stake; Stryx AI's lead Armand Thiberge is its own founder."""
+    iss = [issue("Techmeme", "2026-11-21", [story("Cognition", status="in_talks", status_note="considering", equity_amount=2e9, amount_qualifier="at_least",
+                                                    stage="unstated", valuation={"amount": 75e9, "currency": "USD"}),
+                                             story("CoinGecko", "acquisition", "announced", acquirer="Solana Foundation", stake="majority")]),
+           issue("Maddyness", "2026-11-18", [story("Anyos", equity_amount=5_500_000, currency="EUR", stage="unstated", status_note="being finalised",
+                                                     tech_area="energy_climate_hardware")]),
+           issue("Sifted", "2026-11-20", [story("Stryx AI", equity_amount=7_700_000, currency="EUR", tech_area="defence_aerospace",
+                                                  leads=["Armand Thiberge", "Impala"], founder_leads=["Armand Thiberge"])])]
+    events, b = build_blocks(iss)
+    md = render_email.render_md(b)
+    assert "Cognition considering $2B+ at $75B" in md
+    assert "**Anyos** (Paris), €5.5m, being finalised." in md
+    assert "Solana Foundation → CoinGecko, majority stake (Techmeme)" in md
+    assert "Armand Thiberge (founder) and Impala" in md
+    html = render_email.render_html(b, 0)
+    assert "being finalised" in html and "Armand Thiberge (founder)" in html and "majority stake" in html and "considering" in html
+    # a note is dropped once other stories report the event as further along
+    iss.append(issue("Sifted", "2026-11-19", [story("Anyos", equity_amount=5_500_000, currency="EUR", stage="seed", tech_area="energy_climate_hardware")]))
+    ev2, _ = build_blocks(iss)
+    assert ev(ev2, "Anyos")["status_note"] in (None, "being finalised")

@@ -54,11 +54,8 @@ def test_every_gate_line_passes_or_matches_a_documented_correction(r, expected):
     res = gate.lines(r["blocks"], r["events"], expected)
     bad = [(l["line"], l["gate"], l["actual"]) for l in res if not (l["ok"] or l["corrected_ok"])]
     assert bad == []
-    # a correction is used only where the gate line really differs, and the list of corrections is closed
-    differs = {l["line"] for l in res if not l["ok"]}
-    assert differs <= set(expected["corrections"]) - {"_note"}
-    assert differs == {"dots.Anthropic", "block1.n_families", "block2.count_world", "block2.count_europe",
-                       "block2.mix.carried", "block2.mix.without", "block3.row.Payhawk"}
+    # the corrections of 26 Nov 2026 are now part of the gate: every line passes as written
+    assert [l["line"] for l in res if not l["ok"]] == []
 
 
 def test_headline_legend_length(r, expected):
@@ -73,7 +70,7 @@ def test_headline_legend_length(r, expected):
 def test_block1(r, expected):
     b1, x = r["blocks"]["block1"], expected["block1"]
     assert (b1["company"], b1["event_type"], b1["dots"]) == (x["company"], x["event_type"], x["dots"])
-    assert b1["n_families"] == expected["corrections"]["block1.n_families"]["value"]     # the gate says 10; see corrections
+    assert b1["n_families"] == x["n_families"]
     facts = {f["date"]: f["text"] for f in b1["facts"]}
     assert 3 <= len(b1["facts"]) <= 4
     for req in x["required_facts"]:
@@ -91,12 +88,11 @@ def test_block1(r, expected):
 
 def test_block2_counts(r, expected):
     b2, x = r["blocks"]["block2"], expected["block2"]
-    c = expected["corrections"]                      # the gate's 55 / 28 / 30 / 35 are contradicted by the sources
-    assert near(b2["count_world"], c["block2.count_world"]), b2["count_world"]
-    assert near(b2["count_europe"], c["block2.count_europe"]), b2["count_europe"]
+    assert near(b2["count_world"], x["count_world"]), b2["count_world"]
+    assert near(b2["count_europe"], x["count_europe"]), b2["count_europe"]
     mix = b2["mix_world"]
     assert mix["family"] == x["mix"]["family"]
-    assert near(mix["carried"], c["block2.mix.carried"]) and near(mix["without"], c["block2.mix.without"]), mix
+    assert near(mix["carried"], x["mix"]["carried"]) and near(mix["without"], x["mix"]["without"]), mix
     assert sorted(b2["big_early_europe"]) == x["big_early_europe"]["exact"]
     assert near(b2["big_early_rest_of_world"], x["big_early_rest_of_world"]), b2["big_early_rest_of_world"]
     assert b2["area_total"] == b2["count_europe"] - len(b2["big_early_europe"]) == sum(a["rounds"] for a in b2["area_table"])
@@ -132,8 +128,7 @@ def test_block3(r, expected):
     for req in x["rows_required"]:
         assert req["company"] in rows, req["company"]
         row = rows[req["company"]]
-        want = expected["corrections"].get(f"block3.row.{req['company']}", {}).get("value", [req["amount"], req["stage"], req["valuation"]])
-        assert [row["amount"], row["stage"], row["valuation"]] == want, row
+        assert [row["amount"], row["stage"], row["valuation"]] == [req["amount"], req["stage"], req["valuation"]], row
         for city in req["hq"]:
             assert city in row["hq"], row
         assert row["dots"] == "●" * min(5, len(expected["dots"][req["company"]]["families"]))

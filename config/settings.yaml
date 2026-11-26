@@ -27,7 +27,7 @@ thresholds:
   merge_amount_tolerance: 0.15   # relative, after conversion to USD
   min_weeks_for_trends: 8
   words_min: 500
-  words_max: 750
+  words_max: 850
   html_max_bytes: 40000
   quote_max_chars: 300
 
