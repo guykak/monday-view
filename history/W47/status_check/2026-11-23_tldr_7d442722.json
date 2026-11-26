@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "message_id": "<010001a208c0f94b-2b34cbf5-9a28-400f-b670-1cbe69f0f17e-000000@email.amazonses.com>",
+  "family": "TLDR",
+  "letter": "TLDR Fintech",
+  "issue_date": "2026-11-23",
+  "sent_at": "2026-11-23T14:13:14.000Z",
+  "subject": "Ramp to raise at $70Bn 💸, Bilt expands beyond rent rewards 💳, TPG to take BILL private 🤝",
+  "notes": null,
+  "stories": [
+    {
+      "headline": "Ramp in early discussions to raise at least $1B at a valuation above $70B",
+      "quote": "Ramp is in early discussions to raise at least $1 billion at a valuation above $70 billion, which would be its third funding round in a year and more than double its valuation over that period.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "in_talks", "mention_type": "story",
+      "company": "Ramp", "aliases": [],
+      "description": "Corporate cards, AI-powered expense management and financial software",
+      "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 1000000000, "currency": "USD", "amount_qualifier": "at_least",
+      "mixed_total": null, "other_finance": [],
+      "valuation": {"amount": 70000000000, "currency": "USD", "qualifier": "more_than"},
+      "valuation_basis": "unstated",
+      "non_raise_figures": [],
+      "leads": [], "tech_area": "fintech", "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [
+        {"date": null, "text": "Would be Ramp's third funding round in a year and more than double its valuation over that period", "quote": "which would be its third funding round in a year and more than double its valuation over that period"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Bilt seeking to raise $500M at an $18B valuation",
+      "quote": "Bilt is seeking to raise $500 million at an $18 billion valuation, up more than 60% from the $10.8 billion valuation it reached last year.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "in_talks", "mention_type": "story",
+      "company": "Bilt", "aliases": [],
+      "description": "Rent rewards, expanding to a neighborhood-based rewards platform",
+      "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 500000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [],
+      "valuation": {"amount": 18000000000, "currency": "USD", "qualifier": "exact"},
+      "valuation_basis": "unstated",
+      "non_raise_figures": [],
+      "leads": [], "tech_area": "fintech", "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [
+        {"date": null, "text": "Bilt reached a $10.8B valuation last year; the new valuation would be up more than 60%", "quote": "up more than 60% from the $10.8 billion valuation it reached last year"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "TPG and Corpay agree to acquire BILL Holdings for about $6B in cash",
+      "quote": "TPG and Corpay agreed to acquire BILL Holdings for about $6 billion in cash, offering $63.25 per share, a 31% premium to BILL's 60-day volume-weighted average price before takeover reports emerged.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "acquisition", "subtype": null, "status": "signed", "mention_type": "story",
+      "company": "BILL Holdings", "aliases": ["BILL"],
+      "description": "SMB financial software",
+      "hq": [],
+      "acquirer": "TPG and Corpay",
+      "price": {"amount": 6000000000, "currency": "USD", "qualifier": "about"},
+      "consideration": "cash",
+      "confirmed_by_company": null,
+      "is_pe_buy_and_build": false,
+      "tech_area": "fintech", "is_press_release_reprint": false,
+      "facts": [
+        {"date": null, "text": "Offer of $63.25 per share, a 31% premium to BILL's 60-day volume-weighted average price before takeover reports", "quote": "offering $63.25 per share, a 31% premium to BILL's 60-day volume-weighted average price before takeover reports emerged"},
+        {"date": null, "text": "Corpay invests $1.1B for roughly one-third of BILL, with an option to buy the rest in 2030", "quote": "Corpay will invest $1.1 billion for roughly one-third of BILL and retain an option to buy the rest in 2030"},
+        {"date": null, "text": "Deal follows activist pressure, workforce cuts and intensifying competition", "quote": "the deal follows activist pressure, workforce cuts, and intensifying competition in SMB financial software"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Intuit agrees to sell Mailchimp to Bending Spoons for $3.68B",
+      "quote": "Intuit agreed to sell Mailchimp to Bending Spoons for $3.68 billion, less than one-third of the $12 billion it paid for the email-marketing company in 2021.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "acquisition", "subtype": null, "status": "signed", "mention_type": "story",
+      "company": "Mailchimp", "aliases": [],
+      "description": "Email-marketing company",
+      "hq": [],
+      "acquirer": "Bending Spoons",
+      "price": {"amount": 3680000000, "currency": "USD", "qualifier": "exact"},
+      "consideration": "unstated",
+      "confirmed_by_company": null,
+      "is_pe_buy_and_build": false,
+      "tech_area": "other_software_consumer", "is_press_release_reprint": false,
+      "facts": [
+        {"date": null, "text": "Intuit paid $12B for Mailchimp in 2021; the sale price is less than one-third of that", "quote": "less than one-third of the $12 billion it paid for the email-marketing company in 2021"},
+        {"date": null, "text": "Mailchimp revenue declined 1% and became a drag on growth", "quote": "Mailchimp revenue declined 1% and became a drag on growth"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Intuit bought Mailchimp for $12B in 2021 (background)",
+      "quote": "Intuit agreed to sell Mailchimp to Bending Spoons for $3.68 billion, less than one-third of the $12 billion it paid for the email-marketing company in 2021.",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "acquisition", "subtype": null, "status": "completed", "mention_type": "passing",
+      "company": "Mailchimp", "aliases": [],
+      "description": "Email-marketing company",
+      "hq": [],
+      "acquirer": "Intuit",
+      "price": {"amount": 12000000000, "currency": "USD", "qualifier": "exact"},
+      "consideration": "unstated",
+      "confirmed_by_company": null,
+      "is_pe_buy_and_build": false,
+      "tech_area": "other_software_consumer", "is_press_release_reprint": false,
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Rogo close to raising about $350M at a $3.75B valuation, led by Bessemer and General Catalyst",
+      "quote": "Rogo Technologies is close to raising about $350 million in a round led by Bessemer Venture Partners and General Catalyst, valuing the AI startup at $3.75 billion, up from $2 billion in April.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "in_talks", "mention_type": "story",
+      "company": "Rogo Technologies", "aliases": ["Rogo"],
+      "description": "AI tools automating repetitive investment banking and finance work",
+      "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 350000000, "currency": "USD", "amount_qualifier": "about",
+      "mixed_total": null, "other_finance": [],
+      "valuation": {"amount": 3750000000, "currency": "USD", "qualifier": "exact"},
+      "valuation_basis": "unstated",
+      "non_raise_figures": [],
+      "leads": ["Bessemer Venture Partners", "General Catalyst"],
+      "tech_area": "ai_applications", "is_press_release_reprint": false,
+      "founder_background": "former Lazard and JPMorgan junior bankers",
+      "facts": [
+        {"date": null, "text": "Valuation was $2B in April", "quote": "valuing the AI startup at $3.75 billion, up from $2 billion in April"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Anthropic closes IPO at $83 per share, raising about $93.5B gross; shares trade on Nasdaq as ANT",
+      "quote": "Anthropic closed its IPO at $83 per share, raising about $93.5 billion in gross proceeds and roughly $91.6 billion for the company, with shares beginning to trade on Nasdaq under the ticker ANT.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "ipo", "subtype": null, "status": "listed", "mention_type": "story",
+      "company": "Anthropic", "aliases": [],
+      "description": null,
+      "hq": [],
+      "is_press_release_reprint": false,
+      "facts": [
+        {"date": null, "text": "IPO price $83 per share; about $93.5B gross proceeds, roughly $91.6B for the company", "quote": "Anthropic closed its IPO at $83 per share, raising about $93.5 billion in gross proceeds and roughly $91.6 billion for the company"},
+        {"date": null, "text": "Shares began trading on Nasdaq under the ticker ANT", "quote": "with shares beginning to trade on Nasdaq under the ticker ANT"},
+        {"date": null, "text": "Concurrent $26B private placement by AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC", "quote": "AMD, Broadcom, Google, Micron, Microsoft, Nvidia, and TSMC invested another $26 billion in a concurrent private placement"},
+        {"date": null, "text": "Total gross proceeds across both transactions approximately $119.5B", "quote": "bringing total gross proceeds across both transactions to approximately $119.5 billion"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "GTCR explores potential takeover of Global Payments with other private equity firms",
+      "quote": "GTCR already owns 16.35% of Global Payments from its Worldpay sale and is working with other private equity firms to finance a potential takeover.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "acquisition", "subtype": null, "status": "in_talks", "mention_type": "story",
+      "company": "Global Payments", "aliases": [],
+      "description": "Payments firm",
+      "hq": [],
+      "acquirer": "GTCR",
+      "price": null,
+      "consideration": "unstated",
+      "confirmed_by_company": null,
+      "is_pe_buy_and_build": false,
+      "tech_area": "fintech", "is_press_release_reprint": false,
+      "facts": [
+        {"date": null, "text": "GTCR already owns 16.35% of Global Payments from its Worldpay sale", "quote": "GTCR already owns 16.35% of Global Payments from its Worldpay sale"}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Citi's updated agreement treats actions by customer-authorised AI agents as authorized, including leaked credentials",
+      "quote": "Citi's updated agreement treats actions by an AI agent granted account access as authorized, including actions that exceed the customer's instructions.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "other", "status": "reported", "mention_type": "story",
+      "company": "Citi", "aliases": [],
+      "facts": [
+        {"date": null, "text": "Treatment extends to credentials later leaked by the agent, subject to applicable law", "quote": "It extends that treatment to credentials subsequently leaked by the agent, subject to applicable law."},
+        {"date": null, "text": "Citi exempts tools it supplies itself", "quote": "Citi exempts tools it supplies itself"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Stripe Treasury public preview lets AI assistants pay vendors, convert currencies and top up accounts",
+      "quote": "Stripe Treasury's public preview lets AI assistants pay vendors, convert currencies, and top up accounts ahead of bills or payroll.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "product", "status": "reported", "mention_type": "story",
+      "company": "Stripe", "aliases": ["Stripe Treasury"],
+      "facts": [
+        {"date": null, "text": "Agents connected through a user's Stripe account need confirmation for every money-moving action; agents with own API keys work under custom approval rules", "quote": "Agents connected through a user's Stripe account need confirmation for every action that moves money, while agents with their own API keys can work in the background under custom approval rules."}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Chargebee unveils Arc, an agentic AI platform for enterprise finance workflows",
+      "quote": "The billing software provider is giving accounting teams a way to turn signed contracts into proposed billing setups, draft collections replies, and track how contract amendments affect recognized revenue.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "product", "status": "reported", "mention_type": "story",
+      "company": "Chargebee", "aliases": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Leaked Deutsche Bank files show $582M in flagged Epstein payments",
+      "quote": "Two whistleblowers copied 15M internal Deutsche Bank files and gave them to journalists, and more than 200 reporters published on Tuesday.",
+      "story_date": "2026-11-17", "date_basis": "stated", "timing": "new",
+      "event_type": "other", "subtype": "legal", "status": "reported", "mention_type": "story",
+      "company": "Deutsche Bank", "aliases": [],
+      "facts": [
+        {"date": null, "text": "Item title gives $582M in flagged Epstein payments", "quote": "LEAKED DEUTSCHE BANK FILES SHOW $582M IN FLAGGED EPSTEIN PAYMENTS"}
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

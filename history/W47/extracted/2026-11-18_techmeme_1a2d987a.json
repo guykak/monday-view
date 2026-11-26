@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261118010358.6b5f4136ce.c9583b46@mail21.atl301.rsgsv.net>",
+  "family": "Techmeme",
+  "letter": "Techmeme",
+  "issue_date": "2026-11-18",
+  "sent_at": "2026-11-18T01:04:15.000Z",
+  "subject": "Jensen Huang wants back in, board says no; Nvidia Q3 revenue up 103% YoY",
+  "notes": "Issue is headed 'Tue, Nov 17'. Headlines only; no event dates stated for the deals.",
+  "stories": [
+    {
+      "headline": "Isomorphic Labs raised a $5B Series C led by Sequoia and Greenoaks",
+      "quote": "ALPHABET'S ISOMORPHIC LABS RAISED A $5B SERIES C LED BY SEQUOIA AND GREENOAKS, AFTER RAISING $2.1B IN MAY AND $600M IN MARCH 2025, TO ACCELERATE CLINICAL TRIALS",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Isomorphic Labs", "aliases": ["Alphabet's Isomorphic Labs"], "description": "Alphabet company; funding to accelerate clinical trials", "hq": [],
+      "stage": "series_c", "stage_as_written": "Series C", "is_combined_round": false,
+      "equity_amount": 5000000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["Sequoia", "Greenoaks"], "tech_area": "health", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Isomorphic Labs raised $2.1B in May (earlier round, cited as context)",
+      "quote": "ALPHABET'S ISOMORPHIC LABS RAISED A $5B SERIES C LED BY SEQUOIA AND GREENOAKS, AFTER RAISING $2.1B IN MAY AND $600M IN MARCH 2025, TO ACCELERATE CLINICAL TRIALS",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Isomorphic Labs", "aliases": ["Alphabet's Isomorphic Labs"], "description": "Alphabet company; funding to accelerate clinical trials", "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 2100000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "tech_area": "health", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Isomorphic Labs raised $600M in March 2025 (earlier round, cited as context)",
+      "quote": "ALPHABET'S ISOMORPHIC LABS RAISED A $5B SERIES C LED BY SEQUOIA AND GREENOAKS, AFTER RAISING $2.1B IN MAY AND $600M IN MARCH 2025, TO ACCELERATE CLINICAL TRIALS",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Isomorphic Labs", "aliases": ["Alphabet's Isomorphic Labs"], "description": "Alphabet company; funding to accelerate clinical trials", "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 600000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "tech_area": "health", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Ramp in early talks to raise $1B or more at a $70B+ valuation, led by Coatue and Thrive (sources)",
+      "quote": "SOURCES: RAMP IS IN EARLY TALKS TO RAISE $1B OR MORE LED BY COATUE AND THRIVE AT A VALUATION OF $70B+, IN ITS THIRD FUNDING ROUND IN A YEAR",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "in_talks", "mention_type": "deal_list",
+      "company": "Ramp", "aliases": [], "description": null, "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 1000000000, "currency": "USD", "amount_qualifier": "at_least",
+      "mixed_total": null, "other_finance": [],
+      "valuation": {"amount": 70000000000, "currency": "USD", "qualifier": "at_least"}, "valuation_basis": "unstated",
+      "non_raise_figures": [],
+      "leads": ["Coatue", "Thrive"], "tech_area": "fintech", "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [
+        {"date": null, "text": "Would be Ramp's third funding round in a year", "quote": "IN ITS THIRD FUNDING ROUND IN A YEAR"}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Genesis AI raised a $500M Series A at a $3.5B valuation",
+      "quote": "PARIS-BASED GENESIS AI, WHICH IS BUILDING A GENERAL-PURPOSE ROBOT WITH GREATER DEXTERITY FOR WAREHOUSES AND HOMES, RAISED A $500M SERIES A AT A $3.5B VALUATION",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Genesis AI", "aliases": [], "description": "Building a general-purpose robot with greater dexterity for warehouses and homes", "hq": [{"city": "Paris", "country": "FR"}],
+      "stage": "series_a", "stage_as_written": "Series A", "is_combined_round": false,
+      "equity_amount": 500000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [],
+      "valuation": {"amount": 3500000000, "currency": "USD", "qualifier": "exact"}, "valuation_basis": "unstated",
+      "non_raise_figures": [],
+      "leads": [], "tech_area": "robotics_manufacturing", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Science Corp raised $400M at a $3.5B valuation",
+      "quote": "NEURALINK CO-FOUNDER MAX HODAK'S SCIENCE CORP, WHICH OFFERS A RETINAL IMPLANT FOR AGE-RELATED MACULAR DEGENERATION, RAISED $400M AT A $3.5B VALUATION",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Science Corp", "aliases": [], "description": "Offers a retinal implant for age-related macular degeneration", "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 400000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [],
+      "valuation": {"amount": 3500000000, "currency": "USD", "qualifier": "exact"}, "valuation_basis": "unstated",
+      "non_raise_figures": [],
+      "leads": [], "tech_area": "health", "is_press_release_reprint": false,
+      "founder_background": "Neuralink co-founder Max Hodak", "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Model ML raised $250M at a $1.5B valuation",
+      "quote": "MODEL ML, WHICH BUILDS AI AGENTS INTEGRATED IN EXCEL OR POWERPOINT TO AUTOMATE PITCH DECK, RESEARCH, AND DUE DILIGENCE TASKS, RAISED $250M AT A $1.5B VALUATION",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Model ML", "aliases": [], "description": "AI agents in Excel or PowerPoint automating pitch deck, research, diligence", "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 250000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [],
+      "valuation": {"amount": 1500000000, "currency": "USD", "qualifier": "exact"}, "valuation_basis": "unstated",
+      "non_raise_figures": [],
+      "leads": [], "tech_area": "ai_applications", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Tiberius Aerospace raised an $85M Series A at a $1B+ valuation",
+      "quote": "TIBERIUS AEROSPACE, A DEFENSE-AS-A-SERVICE STARTUP THAT USES AI TO DESIGN LONG-RANGE SUPERSONIC ARTILLERY MUNITIONS, RAISED AN $85M SERIES A AT A $1B+ VALUATION",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Tiberius Aerospace", "aliases": [], "description": "Defense-as-a-service startup using AI to design long-range supersonic artillery munitions", "hq": [],
+      "stage": "series_a", "stage_as_written": "Series A", "is_combined_round": false,
+      "equity_amount": 85000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [],
+      "valuation": {"amount": 1000000000, "currency": "USD", "qualifier": "at_least"}, "valuation_basis": "unstated",
+      "non_raise_figures": [],
+      "leads": [], "tech_area": "defence_aerospace", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Codex raised a $30M Series A led by Pantera",
+      "quote": "CODEX, WHICH LETS BUSINESSES USE STABLECOINS FOR CROSS-BORDER PAYMENTS ACROSS ASIA, LATIN AMERICA, AND SUB-SAHARAN AFRICA, RAISED A $30M SERIES A LED BY PANTERA",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Codex", "aliases": [], "description": "Lets businesses use stablecoins for cross-border payments", "hq": [],
+      "stage": "series_a", "stage_as_written": "Series A", "is_combined_round": false,
+      "equity_amount": 30000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["Pantera"], "tech_area": "fintech", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Anthropic guiding IPO investors to pricing at or above the high end of its $70 to $78 range (sources)",
+      "quote": "SOURCES: ANTHROPIC IS GUIDING PROSPECTIVE IPO INVESTORS THAT IT EXPECTS TO PRICE ITS SHARES AT OR ABOVE THE HIGH END OF ITS $70 TO $78 MARKETED RANGE",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "ipo", "subtype": null, "status": "filed", "mention_type": "story",
+      "company": "Anthropic", "aliases": [], "description": null, "hq": [],
+      "facts": [
+        {"date": null, "text": "Marketed IPO price range is $70 to $78 per share; expects to price at or above the high end (sources)", "quote": "IT EXPECTS TO PRICE ITS SHARES AT OR ABOVE THE HIGH END OF ITS $70 TO $78 MARKETED RANGE"},
+        {"date": null, "text": "SEC filing: Amazon and Google set to hold nearly 15% and 14% of Anthropic's outstanding capital stock after the IPO and private placement", "quote": "SEC FILING: AMAZON AND GOOGLE ARE SET TO HOLD NEARLY 15% AND 14% OF ANTHROPIC'S OUTSTANDING CAPITAL STOCK, RESPECTIVELY, AFTER ITS IPO AND PRIVATE PLACEMENT"},
+        {"date": null, "text": "Anthropic Direct data center network plans commit $900B+ through 2045; docs show it will lease ~875K TPUs for ~$7.2B per year", "quote": "A LOOK AT ANTHROPIC'S DATA CENTER NETWORK PLANS, DUBBED ANTHROPIC DIRECT, COMMITTING $900B+ THROUGH 2045; DOCS SHOW IT WILL LEASE ~875K TPUS FOR ~$7.2B PER YEAR"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "AppLovin among companies in talks to acquire ad tech company Criteo (sources)",
+      "quote": "SOURCES: APPLOVIN IS AMONG COMPANIES IN TALKS TO ACQUIRE AD TECH COMPANY CRITEO, WHICH HAS A ~$1B MARKET CAP AFTER ITS STOCK FELL 50%+ OVER THE PAST FIVE YEARS",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "acquisition", "subtype": null, "status": "in_talks", "mention_type": "story",
+      "company": "Criteo", "aliases": [], "description": "Ad tech company", "hq": [],
+      "acquirer": "AppLovin", "acquirer_type": "company", "price": null, "consideration": "unstated",
+      "confirmed_by_company": false, "is_pe_buy_and_build": false,
+      "tech_area": "other_software_consumer", "is_press_release_reprint": false,
+      "facts": [
+        {"date": null, "text": "Criteo has a ~$1B market cap after its stock fell 50%+ over the past five years", "quote": "CRITEO, WHICH HAS A ~$1B MARKET CAP AFTER ITS STOCK FELL 50%+ OVER THE PAST FIVE YEARS"}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "OpenAI GPT-6.2 Astra priced at $8/1M input and $40/1M output tokens; GPT-6.2 Sol keeps $2/$10",
+      "quote": "GPT-6.2 ASTRA COSTS $8/1M INPUT AND $40/1M OUTPUT TOKENS, DOWN 20% FROM GPT-6 ASTRA; GPT-6.2 SOL KEEPS GPT-6.1 SOL'S $2/1M INPUT AND $10/1M OUTPUT TOKEN PRICING",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "pricing", "subtype": null, "status": "reported", "mention_type": "story",
+      "company": "OpenAI", "aliases": [], "description": null, "hq": [],
+      "facts": [
+        {"date": null, "text": "GPT-6.2 Astra: $8 per 1M input tokens and $40 per 1M output tokens, down 20% from GPT-6 Astra", "quote": "GPT-6.2 ASTRA COSTS $8/1M INPUT AND $40/1M OUTPUT TOKENS, DOWN 20% FROM GPT-6 ASTRA"},
+        {"date": null, "text": "GPT-6.2 Sol keeps GPT-6.1 Sol's pricing: $2 per 1M input tokens and $10 per 1M output tokens", "quote": "GPT-6.2 SOL KEEPS GPT-6.1 SOL'S $2/1M INPUT AND $10/1M OUTPUT TOKEN PRICING"},
+        {"date": null, "text": "OpenAI says Astra sets records on work and science evals at under a third of GPT-6 Astra's cost", "quote": "OPENAI DEBUTS GPT-6.2 ASTRA AND SOL IN CHATGPT WORK, CODEX, AND API, SAYING ASTRA SETS RECORDS ON WORK AND SCIENCE EVALS AT UNDER A THIRD OF GPT-6 ASTRA'S COST"},
+        {"date": null, "text": "Artificial Analysis has GPT-6.2 Astra trailing only Claude Fable 5.2 in its main index; Epoch AI has them tied", "quote": "ARTIFICIAL ANALYSIS SHOWS GPT-6.2 ASTRA TRAILING ONLY CLAUDE FABLE 5.2 IN ITS MAIN INDEX, FLAT VS. GPT-6 ASTRA IN CODING; EPOCH AI HAS ASTRA TIED WITH FABLE 5.2"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Microsoft says MAI Code 2 has 98% of GPT-6.1 Sol's performance at 40% of the price",
+      "quote": "MICROSOFT UNVEILS SIX AI MODELS SPANNING CODING, CYBERSECURITY, IMAGES, AND VOICE, SAYING MAI CODE 2 HAS 98% OF GPT-6.1 SOL'S PERFORMANCE AT 40% OF THE PRICE",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "pricing", "subtype": null, "status": "reported", "mention_type": "story",
+      "company": "Microsoft", "aliases": [], "description": null, "hq": [],
+      "facts": [
+        {"date": null, "text": "Microsoft's own claim: MAI Code 2 at 40% of GPT-6.1 Sol's price; no absolute price stated", "quote": "MAI CODE 2 HAS 98% OF GPT-6.1 SOL'S PERFORMANCE AT 40% OF THE PRICE"}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Jensen Huang says he would be honored to return as Nvidia CEO; chair says board does not intend to reinstate him",
+      "quote": "JENSEN HUANG BREAKS HIS SILENCE, SAYING HE “WOULD BE HONORED” TO RETURN IF THE BOARD DECIDES IT IS IN THE “BEST INTEREST” OF SHAREHOLDERS, STAFF, AND THE US",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "leadership", "status": "reported", "mention_type": "story",
+      "company": "Nvidia", "aliases": ["NVIDIA"], "description": null, "hq": [],
+      "facts": [
+        {"date": null, "text": "On the Q3 earnings call, chair Harvey Jones said the board does not intend to reinstate Huang as CEO", "quote": "ON Q3 EARNINGS CALL, NVIDIA CHAIR HARVEY JONES SAYS THE BOARD DOES NOT INTEND TO REINSTATE JENSEN HUANG AS CEO"},
+        {"date": null, "text": "Sources: Nvidia director Nader Khalil wrote to the board that not reinstating Huang could cost irreplaceable talent", "quote": "SOURCES: NVIDIA DIRECTOR OF DEVELOPER TECH NADER KHALIL WROTE TO THE BOARD ARGUING THAT NOT REINSTATING JENSEN HUANG COULD COST NVIDIA “IRREPLACEABLE TALENT”"},
+        {"date": "2026-12-01", "text": "Huang will appear before the House Foreign Affairs, Intelligence and China Select committees on December 1", "quote": "JENSEN HUANG WILL APPEAR BEFORE THE HOUSE FOREIGN AFFAIRS, INTELLIGENCE, AND CHINA SELECT COMMITTEES ON DECEMBER 1, PER THE LEADERS OF THE PANELS"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Nvidia reports Q3 revenue up 103% YoY to $115.8B, above estimates",
+      "quote": "NVIDIA REPORTS Q3 REVENUE UP 103% YOY TO $115.8B, ABOVE $109.1B EST., DATA CENTER REVENUE UP 110% TO $107.6B, AND FORECASTS Q4 REVENUE ABOVE ESTIMATES",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "earnings", "status": "reported", "mention_type": "story",
+      "company": "Nvidia", "aliases": ["NVIDIA"], "description": null, "hq": [],
+      "facts": [
+        {"date": null, "text": "Q3 revenue $115.8B, up 103% YoY, versus $109.1B estimate; data center revenue $107.6B, up 110%", "quote": "NVIDIA REPORTS Q3 REVENUE UP 103% YOY TO $115.8B, ABOVE $109.1B EST., DATA CENTER REVENUE UP 110% TO $107.6B"},
+        {"date": null, "text": "Interim CEO Colette Kress says Nvidia will stay disciplined and selective in supporting neoclouds; CoreWeave and Nebius rose 9%+ after hours", "quote": "NVIDIA INTERIM CEO COLETTE KRESS SAYS THE COMPANY WILL STAY “DISCIPLINED AND SELECTIVE” IN SUPPORTING NEOCLOUDS; COREWEAVE AND NEBIUS JUMP 9%+ AFTER HOURS"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Nvidia will no longer sell H200 chips in China",
+      "quote": "COLETTE KRESS SAYS NVIDIA WILL NO LONGER SELL H200 CHIPS IN CHINA, ENDING ITS ROLE IN A DEAL BROKERED BY HUANG AND TRUMP THAT LET THE US COLLECT A 25% TARIFF",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "market_move", "status": "reported", "mention_type": "story",
+      "company": "Nvidia", "aliases": ["NVIDIA"], "description": null, "hq": [],
+      "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Sources: US SEC is investigating Nvidia, including whether its disclosures misled investors",
+      "quote": "SOURCES: THE US SEC IS INVESTIGATING NVIDIA, INCLUDING WHETHER THE COMPANY'S DISCLOSURES MISLED INVESTORS",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "legal", "status": "reported", "mention_type": "story",
+      "company": "Nvidia", "aliases": ["NVIDIA"], "description": null, "hq": [],
+      "facts": [
+        {"date": null, "text": "Nvidia's board established a National Security and Export Control Oversight Committee", "quote": "NVIDIA'S BOARD ESTABLISHES A NATIONAL SECURITY AND EXPORT CONTROL OVERSIGHT COMMITTEE TO OVERSEE NATIONAL SECURITY POLICIES, EXPORT CONTROL COMPLIANCE, AND MORE"},
+        {"date": null, "text": "US Commerce Department says it began probing Megaspeed in 2024; Nvidia put Megaspeed on its no-sell list in June 2025", "quote": "THE US COMMERCE DEPARTMENT SAYS IT BEGAN PROBING MEGASPEED IN 2024 OVER POSSIBLE EXPORT RULE VIOLATIONS; NVIDIA PUT MEGASPEED ON ITS “NO SELL” LIST IN JUNE 2025"}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Calif says it used GPT-6 Cyber to find a Java RCE flaw dubbed Java4Shell; Oracle has released a patch",
+      "quote": "CYBERSECURITY STARTUP CALIF SAYS IT USED GPT-6 CYBER TO UNCOVER AN RCE FLAW IN JAVA DUBBED “JAVA4SHELL”; ORACLE HAS RELEASED A PATCH",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "other", "status": "reported", "mention_type": "story",
+      "company": "Calif", "aliases": [], "description": "Cybersecurity startup", "hq": [],
+      "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Sources: NSA Net, the NSA's classified internal network, is down; no evidence of a cyberattack so far",
+      "quote": "SOURCES: NSA NET, THE HIGHLY CLASSIFIED NETWORK THAT THE NSA USES FOR ITS INTERNAL COMMUNICATIONS, IS DOWN; AT THIS POINT, THERE IS NO EVIDENCE OF A CYBERATTACK",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "other", "status": "reported", "mention_type": "story",
+      "company": "NSA", "aliases": [], "description": null, "hq": [],
+      "facts": [
+        {"date": null, "text": "DHS Secretary Markwayne Mullin says recent tech outages are not tied to cyberattacks", "quote": "US DHS SECRETARY MARKWAYNE MULLIN SAYS RECENT TECH OUTAGES ARE NOT TIED TO CYBERATTACKS BUT TO “PUSHING NEW TECHNOLOGY ON TOP OF REALLY OLD COMPUTER SYSTEMS”"}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "California bans Waymo robotaxis from freeways; Waymo halts freeway service nationwide",
+      "quote": "CALIFORNIA BANS WAYMO ROBOTAXIS FROM FREEWAYS AFTER A VIRAL VIDEO SHOWED ONE FAILING TO YIELD TO THE HIGHWAY PATROL; WAYMO HALTS FREEWAY SERVICE NATIONWIDE",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "regulation", "status": "reported", "mention_type": "story",
+      "company": "Waymo", "aliases": [], "description": null, "hq": [],
+      "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Sources: Take-Two's Firaxis lays off 33% of staff, about 60 jobs",
+      "quote": "SOURCES: TAKE-TWO'S FIRAXIS, WHICH MAKES THE CIVILIZATION AND XCOM FRANCHISES, LAYS OFF 33% OF ITS STAFF, OR ~60 JOBS; STUDIO HEAD HEATHER HAZEN WILL ALSO LEAVE",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "layoffs", "status": "reported", "mention_type": "story",
+      "company": "Firaxis", "aliases": ["Take-Two's Firaxis"], "description": "Makes the Civilization and XCOM franchises", "hq": [],
+      "facts": [], "confidence": "medium"
+    }
+  ]
+}

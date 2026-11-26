@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "message_id": "<010001a1e40e8821-3afdce33-b2f3-439e-83d1-177f49e05b70-000000@email.amazonses.com>",
+  "family": "TLDR",
+  "letter": "TLDR Data",
+  "issue_date": "2026-11-16",
+  "sent_at": "2026-11-16T11:12:00.000Z",
+  "subject": "NVIDIA’s Auto Ontology 🗂️, Less Coding, More Judgment 👥, Mapping LLM Conversations 💬",
+  "notes": "No funding rounds, acquisitions, IPOs, funds or AI pricing changes in this issue. Three product/release items recorded as other.",
+  "stories": [
+    {
+      "headline": "NVIDIA releases Apache-licensed Auto Ontology, turning database metadata into a semantic graph for agents",
+      "quote": "NVIDIA's Apache-licensed Auto Ontology turns database metadata into a semantic graph that humans can review and certify, and agents can access over MCP, API, or CLI.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "NVIDIA",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "PostgreSQL ships patch releases for all supported branches and 19 RC 2; PostgreSQL 14 reaches end-of-life",
+      "quote": "PostgreSQL shipped patch releases for all supported branches, fixing 52 security vulnerabilities and more than 140 bugs. PostgreSQL 14 is now end-of-life, so production teams should upgrade to a supported version.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "PostgreSQL",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "PyPI launches redesigned project pages with a security tab showing release file provenance",
+      "quote": "PyPI has redesigned its package pages with a security tab showing where release files came from and warnings when that information is missing, inconsistent, or unexpectedly changed.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "PyPI",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "facts": [],
+      "confidence": "high"
+    }
+  ]
+}

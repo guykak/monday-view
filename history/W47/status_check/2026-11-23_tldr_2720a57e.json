@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "message_id": "<010001a2081aa168-a45fa436-16bb-46b1-b613-61af74bb73ca-000000@email.amazonses.com>",
+  "family": "TLDR",
+  "letter": "TLDR Data",
+  "issue_date": "2026-11-23",
+  "sent_at": "2026-11-23T11:11:32.000Z",
+  "subject": "PostgreSQL 19 Released 🐘, Booking.com’s AI Rebuild 🏗️, Claude Starts Most Agent Pipelines 🤖",
+  "notes": "No funding rounds, acquisitions, IPOs, funds or model pricing in this issue. Only product/engineering items; the main ones are listed as other/product.",
+  "stories": [
+    {
+      "headline": "PostgreSQL 19 released",
+      "quote": "PostgreSQL 19 lets teams reclaim disk space without blocking reads or writes and gives them more control over query plans.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "PostgreSQL",
+      "aliases": [],
+      "description": "Open-source relational database",
+      "hq": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Grafana introduces Grafana Notebooks",
+      "quote": "Grafana Notebooks bring charts, queries, and findings from Grafana Assistant into one shareable working document.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Grafana",
+      "aliases": [],
+      "description": "Shareable working documents for charts, queries and findings",
+      "hq": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "OpenMetadata 2.1 adds semantic context features to the open-source catalog",
+      "quote": "OpenMetadata 2.1 turns the open-source catalog into more of a semantic context layer: it imports metric definitions from warehouses and BI tools, adds hierarchies and finer-grained lineage, and exposes an RDF knowledge graph through MCP.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "OpenMetadata",
+      "aliases": [],
+      "description": "Open-source metadata catalog",
+      "hq": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Microsoft presents database updates at Ignite 2026",
+      "quote": "Microsoft is folding transactional databases, governance, vector search, and Fabric into one AI-ready stack, tightening integration across the database estate.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Microsoft",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "facts": [],
+      "confidence": "medium"
+    },
+    {
+      "headline": "dltHub reports Claude Code started 92% of agent-run dlt pipelines in October",
+      "quote": "AI coding agents can now build, run, and fix dlt data pipelines with little human input, and Claude Code started 92% of agent-run pipelines in October.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "dltHub",
+      "aliases": [],
+      "description": "Maker of dlt data pipelines",
+      "hq": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "About 28,000 distinct custom data sources in use, versus roughly 700 connectors in a typical catalog",
+          "quote": "dltHub tracked about 28,000 distinct custom data sources in use, compared with roughly 700 connectors in a typical catalog."
+        }
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

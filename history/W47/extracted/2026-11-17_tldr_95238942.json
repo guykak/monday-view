@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "message_id": "<010001a1e9a3b646-80d8e6d1-4633-424e-babc-4ed97154f86e-000000@email.amazonses.com>",
+  "family": "TLDR",
+  "letter": "TLDR IT",
+  "issue_date": "2026-11-17",
+  "sent_at": "2026-11-17T13:13:02.000Z",
+  "subject": "Sierra’s agent protocol 🤖, Infoblox data breach 🔓, Cloudflare open-sources Kitesurf 🪁",
+  "notes": "No funding rounds, acquisitions, IPOs, funds or pricing changes in this issue; only top news stories extracted.",
+  "stories": [
+    {
+      "headline": "Sierra releases version 1.0 of the Personal Agent Protocol (Poppy); Shopify enables it for merchants",
+      "quote": "Sierra has released version 1.0 of the Personal Agent Protocol, known\nas Poppy, a standard that enables personal agents to interact securely\nwith businesses. Shopify has enabled the protocol for its merchants",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Sierra",
+      "aliases": [],
+      "description": "Released a standard for personal agents to interact securely with businesses",
+      "hq": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Design partners Mercury, Synchrony and Turkish Airlines are going live with implementations.",
+          "quote": "design partners including Mercury, Synchrony, and Turkish Airlines\nare going live with implementations"
+        },
+        {
+          "date": null,
+          "text": "v1.0 integrates with OAuth and OpenAPI and has a commerce extension co-authored by Shopify.",
+          "quote": "integrates with existing standards like OAuth\nand OpenAPI, and features a commerce extension co-authored by Shopify"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Infoblox investigates breach via compromised migration vendor; customer and employee data stolen from SharePoint",
+      "quote": "Infoblox is investigating a compromised migration vendor whose access\nwas reportedly used to steal SharePoint data, including customer\nnetwork configurations and sensitive employee information.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Infoblox",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Infoblox says it found no indication its products, cloud services or software releases were involved.",
+          "quote": "The company\nsays it has found no indication that its products, cloud services, or\nsoftware releases were involved."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Gartner predicts weak AI governance will disrupt 40% of infrastructure and operations organizations scaling AI by 2028",
+      "quote": "Gartner predicts weak governance will cause business-critical\ndisruptions at 40% of infrastructure and operations organizations\nscaling AI by 2028.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Gartner",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Survey: 15% of respondents have automatic circuit breakers for runaway agents; 95% reported an agent-related incident in the past year.",
+          "quote": "only 15% of respondents have\nautomatic circuit breakers to stop runaway agents, despite 95%\nreporting an agent-related incident in the past year"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Cloudflare open-sources Kitesurf, its stateless browser for AI agents, under Apache 2.0",
+      "quote": "Cloudflare has open-sourced Kitesurf, its stateless browser for AI\nagents that runs entirely on Cloudflare Workers. Available under the\nApache 2.0 license on GitHub",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Cloudflare",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Dell announces Agentic Data Gateway and hybrid pipelines connecting agents to enterprise data",
+      "quote": "Dell announced an Agentic Data Gateway and hybrid pipelines that\nconnect agents to approved enterprise data, models, and tools on\ncustomer-controlled infrastructure.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Dell",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Integrations with LangChain, OpenAI Codex and Unstructured.",
+          "quote": "Integrations with LangChain,\nOpenAI Codex, and Unstructured add agent development and\ndocument-processing capabilities."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "GitHub Copilot app adds support for GitHub Enterprise Server repositories, issues and pull requests",
+      "quote": "The Copilot app now supports GitHub Enterprise Server repositories,\nissues, and pull requests, although cloud sessions remain unavailable\nfor those repositories.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "GitHub",
+      "aliases": ["GitHub Copilot"],
+      "description": null,
+      "hq": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "United Launch Alliance rocket fails to deliver 40 Amazon broadband satellites to orbit",
+      "quote": "A United Launch Alliance rocket failed to deliver 40 Amazon broadband\nsatellites to orbit after an anomaly during Sunday's flight.",
+      "story_date": "2026-11-15",
+      "date_basis": "stated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Amazon",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "facts": [
+        {
+          "date": "2026-11-15",
+          "text": "First mission to use a Vulcan configuration tailored for Amazon's constellation; impact on later launches unclear.",
+          "quote": "The\nmission was the first to use a Vulcan configuration tailored for\nAmazon's constellation, and the impact on subsequent launches remains\nunclear."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "NVIDIA releases SkillEvaluator, a framework for evaluating AI agent skills",
+      "quote": "NVIDIA has released SkillEvaluator, a multi-tier framework for\nevaluating AI agent skills through quality gates, semantic overlap\ndetection, synthetic evaluation dataset generation, and live agent\ntesting.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "NVIDIA",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "facts": [],
+      "confidence": "high"
+    }
+  ]
+}

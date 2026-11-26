@@ -63,7 +63,7 @@ def _w47(extracted_dir, editorial_path):
     ed = json.loads(Path(editorial_path).read_text(encoding="utf-8")) if Path(editorial_path).exists() else {}
     res = build.run("2026-W47", extracted_dir, il, editorial=ed)
     res["md"], res["compact"] = render_email.fit_md(res["blocks"])
-    res["html"] = render_email.render_html(res["blocks"])
+    res["html"] = render_email.render_html(res["blocks"], res["compact"])
     res["text"] = render_email.render_text(res["blocks"])
     res["editorial"] = ed
     return res

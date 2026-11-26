@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "message_id": "<010f01a1e9d3e37b-8857b982-ddad-4bdd-8586-475cccc76391-000000@us-east-2.amazonses.com>",
+  "family": "AlphaSignal",
+  "letter": "AlphaSignal",
+  "issue_date": "2026-11-17",
+  "sent_at": "2026-11-17T14:05:40.000Z",
+  "subject": "📱 Claude Code folds iPhone Duo layouts; OpenCode cuts memory 25x",
+  "notes": "No funding rounds, acquisitions, IPOs or funds in this issue. Sponsor blocks (Google Cloud, MongoDB, Fish Audio) ignored, including the Fish Audio per-minute price, which is a sponsored line.",
+  "stories": [
+    {
+      "headline": "Liquid AI releases d1.2 and d1.2-ultra decision models, priced at $0.02 and $0.042 per 1M input tokens with no output cost",
+      "quote": "Pricing: $0.02/1M tokens for d1.2, $0.042 for ultra. You only pay for inputs, zero output cost.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "pricing",
+      "subtype": null,
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Liquid AI",
+      "aliases": ["LiquidAI"],
+      "description": "Builds decision models for text, images and audio",
+      "hq": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "d1.2 costs $0.02 per 1M tokens and d1.2-ultra $0.042; only input tokens are charged.",
+          "quote": "Pricing: $0.02/1M tokens for d1.2, $0.042 for ultra. You only pay for inputs, zero output cost."
+        },
+        {
+          "date": null,
+          "text": "Two models, d1.2 and d1.2-ultra, make decisions from text, image or audio input.",
+          "quote": "two models built for one thing: making decisions from any input you throw at them, text, images, or audio."
+        },
+        {
+          "date": null,
+          "text": "The issue gives d1.2-ultra's calibration error as 0.8.",
+          "quote": "d1.2-ultra's calibration error is 0.8 , meaning when it says 80%, it's right about 80% of the time."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Claude Code can now run the iPhone Duo simulator and test foldable layouts",
+      "quote": "Anthropic's Claude Code now tests iPhone Duo foldable layouts in iOS simulator",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Anthropic",
+      "aliases": ["Claude Code"],
+      "description": "Maker of the Claude Code coding agent",
+      "hq": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Claude Code folds and unfolds the simulated device and checks the layout at each position.",
+          "quote": "You describe what you want to test, and Claude folds and unfolds the device itself, checking how your layout holds up at each position."
+        },
+        {
+          "date": null,
+          "text": "Needs macOS with Xcode 27.1 or later.",
+          "quote": "Requires macOS with Xcode 27.1 or later"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "OpenCode Browse v0.1.0 is a Rust rewrite using 25x less memory",
+      "quote": "OpenCode Browse just dropped v0.1.0, and it's a full rewrite in Rust.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "OpenCode",
+      "aliases": ["OpenCode Browse"],
+      "description": "Browser tool connecting AI coding agents to a browser",
+      "hq": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Memory per session fell from about 190 MB to 5.6 MB.",
+          "quote": "25x less memory used, dropping from ~190 MB down to 5.6 MB per session"
+        },
+        {
+          "date": null,
+          "text": "Binary is 4.3 MB, down from 53-64 MB.",
+          "quote": "23x smaller binary , now just 4.3 MB instead of 53-64 MB"
+        },
+        {
+          "date": null,
+          "text": "The issue's intro says the rewrite cost $60.",
+          "quote": "OpenCode rewrote its browser bridge in Rust for $60 and got 25x less memory."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "OpenAI study finds ChatGPT nearly doubles productivity for 1,800 academic scientists",
+      "quote": "OpenAI study finds ChatGPT nearly doubles productivity for 1,800 academic scientists",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "OpenAI",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "facts": [],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Nvidia releases a free 4GB model that runs offline on a laptop",
+      "quote": "Nvidia drops a free 4GB model that runs fully offline on any laptop",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Nvidia",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "facts": [],
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "message_id": "<20261123141118.3.1dc08ead4d536eeb@mg2.substack.com>",
+  "family": "Import AI",
+  "letter": "Import AI",
+  "issue_date": "2026-11-23",
+  "sent_at": "2026-11-23T14:11:18.000Z",
+  "subject": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
+  "notes": "Research-paper issue (AscendGYM, SciResearch-Eval, A2A-UAV datasets/benchmarks) plus fiction; the only deal or market event reported is the Noeri raise.",
+  "stories": [
+    {
+      "headline": "Noeri, a neolab launched by Stanford professors Yejin Choi and Carlos Guestrin, has raised $110m",
+      "quote": "Stanford profs Yejin Choi and Carlos Guestrin have launched Noeri, “a neolab to push the frontier of plural intelligence”. They have raised $110m and are relatively light on technical details",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "round",
+      "subtype": null,
+      "status": "closed",
+      "mention_type": "story",
+      "company": "Noeri",
+      "aliases": [],
+      "description": "Neolab building many small, specialized, continually learning AI models",
+      "hq": [],
+      "stage": "unstated",
+      "stage_as_written": null,
+      "is_combined_round": false,
+      "equity_amount": 110000000,
+      "currency": "USD",
+      "amount_qualifier": "exact",
+      "mixed_total": null,
+      "other_finance": [],
+      "valuation": null,
+      "non_raise_figures": [],
+      "leads": [],
+      "tech_area": "ai_infrastructure",
+      "is_press_release_reprint": false,
+      "founder_background": "Stanford professors Yejin Choi and Carlos Guestrin",
+      "facts": [],
+      "confidence": "high"
+    }
+  ]
+}

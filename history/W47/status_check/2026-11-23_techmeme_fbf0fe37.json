@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261123010809.0f6b7b625e.8ac2e2c2@mail189.atl101.mcdlv.net>",
+  "family": "Techmeme",
+  "letter": "Techmeme",
+  "issue_date": "2026-11-23",
+  "sent_at": "2026-11-23T01:08:45.000Z",
+  "subject": "Lean and Mathlib back Alpöge's Riemann proof, OpenAI shares models' perplexity",
+  "notes": "Issue is headed 'Sun, Nov 22'. Headlines only; no event dates stated.",
+  "stories": [
+    {
+      "headline": "Amazon reported to be nearing a $7.5B deal to buy AI startup Decart",
+      "quote": "SOURCES: AMAZON IS NEARING A $7.5B DEAL TO BUY AI STARTUP DECART; TALKS ARE AT AN ADVANCED STAGE AND A DEAL COULD COME TOGETHER AS SOON AS NEXT WEEK",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "acquisition", "subtype": null, "status": "in_talks", "mention_type": "story",
+      "company": "Decart", "aliases": [], "description": "AI startup", "hq": [],
+      "acquirer": "Amazon",
+      "price": {"amount": 7500000000, "currency": "USD", "qualifier": "exact"},
+      "consideration": "unstated", "confirmed_by_company": false, "is_pe_buy_and_build": false,
+      "tech_area": "other", "is_press_release_reprint": false,
+      "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Masayoshi Son explored a possible $1T buyout of SK Hynix; SoftBank says it is no longer under active consideration",
+      "quote": "SOURCES: MASAYOSHI SON RECENTLY EXPLORED A POSSIBLE $1T BUYOUT OF SK HYNIX; SOFTBANK SAYS THE DEAL IS “NO LONGER UNDER ACTIVE CONSIDERATION”",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "acquisition", "subtype": null, "status": "abandoned", "mention_type": "story",
+      "company": "SK Hynix", "aliases": [], "description": null, "hq": [],
+      "acquirer": "SoftBank",
+      "price": {"amount": 1000000000000, "currency": "USD", "qualifier": "about"},
+      "consideration": "unstated", "confirmed_by_company": false, "is_pe_buy_and_build": false,
+      "tech_area": "chips_photonics", "is_press_release_reprint": false,
+      "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Anthropic reported to have restricted its IPO banks over leak fears",
+      "quote": "SOURCES: AMID LEAK FEARS, ANTHROPIC LIMITED SOME IPO BANKS TO FOUR-PERSON TEAMS, USED A VIEW-LOGGING FILE PLATFORM, AND SOUGHT SIX-MONTH BANS ON ADVISING RIVALS",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "ipo", "subtype": null, "status": "planned", "mention_type": "story",
+      "company": "Anthropic", "aliases": [], "description": null, "hq": [],
+      "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Lean and Mathlib communities say they have full confidence Alpöge's proof of the Riemann hypothesis is correct",
+      "quote": "A JOINT STATEMENT BY THE LEAN AND MATHLIB COMMUNITIES SAYS “WE HAVE FULL CONFIDENCE THAT ALPÖGE'S PROOF OF THE RIEMANN HYPOTHESIS IS CORRECT”",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "other", "status": "reported", "mention_type": "story",
+      "company": null, "aliases": [],
+      "facts": [
+        {"date": null, "text": "NYU's Tristan Buckmaster and Anthropic's Levent Alpöge published an AI-aided proof of Navier-Stokes blowup", "quote": "NYU'S TRISTAN BUCKMASTER AND ANTHROPIC'S LEVENT ALPÖGE PUBLISH AN AI-AIDED PROOF OF NAVIER-STOKES BLOWUP, SAYING IT CLOSES A LOOPHOLE IN OPENAI'S SOLUTION"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "OpenAI shares its models' perplexity and urges pacing limits based on such metrics",
+      "quote": "OPENAI SHARES ITS MODELS' PERPLEXITY, OR HOW WELL THEY PREDICT DATA, AND URGES PACING LIMITS BASED ON SUCH METRICS, CITING A POSSIBLE 2027 AVALANCHE OF AI GAINS",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "regulation", "status": "reported", "mention_type": "story",
+      "company": "OpenAI", "aliases": [], "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Researchers found AI routers such as OpenRouter and Vercel often broke privacy promises, with keys stolen",
+      "quote": "RESEARCHERS USED CANARY CREDENTIALS IN REQUESTS TO AI ROUTERS LIKE OPENROUTER AND VERCEL, EVEN UNDER “ZDR” POLICIES, AND SAW “PRIVACY” OFTEN BROKEN, KEYS STOLEN",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "other", "status": "reported", "mention_type": "story",
+      "company": "OpenRouter", "aliases": [], "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "FBI reported to be investigating an apparent breach of its NCIC database",
+      "quote": "SOURCES: THE FBI IS INVESTIGATING AN APPARENT BREACH OF ITS NCIC DATABASE, WHICH IS USED BY LAW ENFORCEMENT TO SHARE INFO ON WARRANTS AND BACKGROUND CHECKS",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "other", "status": "reported", "mention_type": "story",
+      "company": null, "aliases": [], "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Jay Clayton reported to become acting National Cyber Director pending Kirsten A. Davies' Senate confirmation",
+      "quote": "SOURCES: JAY CLAYTON, DIRECTOR OF NATIONAL INTELLIGENCE AND AI CZAR, WILL ALSO BE ACTING NATIONAL CYBER DIRECTOR PENDING KIRSTEN A. DAVIES' SENATE CONFIRMATION",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "leadership", "status": "reported", "mention_type": "story",
+      "company": null, "aliases": [],
+      "facts": [
+        {"date": null, "text": "Clayton said Americans should prepare for bumps in the road after FAA, Microsoft and bank outages", "quote": "AFTER FAA, MICROSOFT, AND BANK OUTAGES, DNI JAY CLAYTON SAYS AMERICANS SHOULD PREPARE FOR “BUMPS IN THE ROAD” AS SYSTEMS ARE UPGRADED TO ADAPT TO THE AI AGE"}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Microsoft plans to retire its To Do app on 30 June 2027",
+      "quote": "MICROSOFT PLANS TO RETIRE ITS TO DO APP ON JUNE 30, 2027, OFFERING MIGRATION TO PLANNER FOR WORK AND SCHOOL ACCOUNTS, BUT NO REPLACEMENT FOR PERSONAL ACCOUNTS",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "product", "status": "reported", "mention_type": "story",
+      "company": "Microsoft", "aliases": [], "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Tesla rolls out FSD v15 with photorealistic rendering of car surroundings",
+      "quote": "TESLA ROLLS OUT FSD V15, FEATURING A PHOTOREALISTIC RENDERING OF CAR SURROUNDINGS; ELON MUSK SAYS IT IS REAL-TIME AI VIDEO GENERATION WITHOUT USING GAME ENGINES",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "product", "status": "reported", "mention_type": "story",
+      "company": "Tesla", "aliases": [], "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Alice Huang reported to have been in touch with an officer of China's MSS; associates tied to AI chip smuggling to China",
+      "quote": "SOURCES: ALICE HUANG WAS IN TOUCH WITH AN OFFICER OF CHINA'S SPY AGENCY MSS FROM SPRING 2025 UNTIL THIS FALL; HER BUSINESS PARTNER KANG WEI ALSO WORKED WITH MSS",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "legal", "status": "reported", "mention_type": "story",
+      "company": null, "aliases": [],
+      "facts": [
+        {"date": null, "text": "Associate Li Ming, charged with fraud by Singapore in 2025, said to be central to smuggling restricted AI chips to China", "quote": "SOURCES: ALICE HUANG ASSOCIATE LI MING, WHOM SINGAPORE CHARGED WITH FRAUD IN 2025, WAS CENTRAL TO SMUGGLING RESTRICTED AI CHIPS FROM SOUTHEAST ASIA TO CHINA"},
+        {"date": null, "text": "Investigation ties Huang to a network of shell companies moving Nvidia chips to China", "quote": "INVESTIGATION: ALICE HUANG HAD TIES TO GAMING FIRMS, ALLEGED PRINCE GROUP FIGURES AND HUNDREDS OF SHELL COMPANIES IN A NETWORK MOVING NVIDIA CHIPS TO CHINA"},
+        {"date": null, "text": "Scott Bessent says Jensen Huang's return should depend on probes of Nvidia's China chip sales", "quote": "A WEEK AFTER URGING AN NVIDIA SHAKE-UP, SCOTT BESSENT SAYS JENSEN HUANG'S RETURN SHOULD DEPEND ON PROBES OF ITS CHINA CHIP SALES AND PRESSES NVIDIA FOR ANSWERS"}
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

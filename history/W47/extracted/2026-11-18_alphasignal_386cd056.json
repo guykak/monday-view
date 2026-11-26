@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "message_id": "<010f01a1eef8058b-7c5d504f-4904-41c1-a3c3-cd98a903b193-000000@us-east-2.amazonses.com>",
+  "family": "AlphaSignal",
+  "letter": "AlphaSignal",
+  "issue_date": "2026-11-18",
+  "sent_at": "2026-11-18T14:03:14.000Z",
+  "subject": "OpenAI GPT-6.2 Astra 🧠, Anthropic Claude Code Mode ⛓️",
+  "notes": "No funding rounds, acquisitions, IPOs or funds in this issue. The TensorWave/OpenAI capacity item is a sponsor block and was skipped.",
+  "stories": [
+    {
+      "headline": "OpenAI releases GPT-6.2 Astra and Sol; Astra API priced at $8 input / $40 output per million tokens, 20% lower; Sol stays at $2 / $10",
+      "quote": "OpenAI ships GPT-6.2 Astra and Sol at one-third the cost of GPT-6",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "pricing",
+      "subtype": null,
+      "status": "reported",
+      "mention_type": "story",
+      "company": "OpenAI",
+      "aliases": [],
+      "description": "AI lab; maker of the GPT models",
+      "hq": [],
+      "is_press_release_reprint": false,
+      "facts": [
+        {
+          "date": null,
+          "text": "GPT-6.2 Astra API tokens are priced 20% lower than GPT-6 Astra, at $8 input / $40 output per million tokens",
+          "quote": "compared to GPT-6 Astra, with API tokens priced 20% lower at $8 input / $40 output per million tokens."
+        },
+        {
+          "date": null,
+          "text": "Astra is said to cost less than one third the price per task of GPT-6 Astra (measured per task; the issue does not say who measured it)",
+          "quote": "Astra costs less than 1/3 the price per task"
+        },
+        {
+          "date": null,
+          "text": "GPT-6.2 Sol keeps the same pricing of $2 input / $10 output (per million tokens)",
+          "quote": ", keeping the same $2 input / $10 output pricing."
+        },
+        {
+          "date": null,
+          "text": "Sol is said to approach Astra's coding performance at roughly one fifth of the cost",
+          "quote": "Sol approaches Astra's coding performance at roughly"
+        },
+        {
+          "date": null,
+          "text": "Astra gained 22 points on cybersecurity benchmarks and is the first externally released model rated High for AI self-improvement",
+          "quote": "Astra jumped 22 points on cybersecurity benchmarks and is the first externally released model rated High for AI self-improvement, meaning it can meaningfully help accelerate AI research itself."
+        },
+        {
+          "date": null,
+          "text": "Available in the OpenAI API and for Plus, Pro, Enterprise and Edu users in ChatGPT Work and Codex",
+          "quote": "in the OpenAI API. Available now for Plus, Pro, Enterprise, and Edu users in ChatGPT Work and Codex."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Sarvam launches an India-hosted inference platform, described as 80% cheaper than Gemma",
+      "quote": "Sarvam launches India-hosted inference platform with 80% cheaper pricing than Gemma",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "pricing",
+      "subtype": null,
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Sarvam",
+      "aliases": [],
+      "description": "India-hosted inference platform",
+      "hq": [],
+      "is_press_release_reprint": false,
+      "facts": [],
+      "confidence": "low"
+    },
+    {
+      "headline": "Anthropic adds an experimental Code Mode to Claude Code that chains tool calls in a script and answers while commands run",
+      "quote": "Anthropic's experimental Claude Code mode chains tools and answers mid-run",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Anthropic",
+      "aliases": [],
+      "description": "AI lab; maker of Claude and Claude Code",
+      "hq": [],
+      "is_press_release_reprint": false,
+      "facts": [
+        {
+          "date": null,
+          "text": "In Code Mode Claude writes a JavaScript program that chains the tool calls; the script runs in the session and returns a summary",
+          "quote": "that chains all your tool calls together. That script runs in your session, collects only the useful output, and hands Claude a clean summary. You can also get answers while long commands are still running."
+        },
+        {
+          "date": null,
+          "text": "Terminal only; does not work in VS Code or the Desktop app",
+          "quote": "Terminal only, does not work in VS Code or the Desktop app"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "OpenAI gives four outside safety teams (Apollo Research, METR, Transluce, Goodfire) deep access to assess its models",
+      "quote": "OpenAI just invited four independent safety teams to dig deep inside its models and look for problems. This is called an",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "OpenAI",
+      "aliases": [],
+      "description": "AI lab; maker of the GPT models",
+      "hq": [],
+      "is_press_release_reprint": false,
+      "facts": [
+        {
+          "date": null,
+          "text": "The outside experts get access to internal systems, not only the public API",
+          "quote": ", meaning outside experts get real access to internal systems, not just the public API."
+        },
+        {
+          "date": null,
+          "text": "Apollo Research says the access is still limited and does not yet meet its bar for a full evaluation",
+          "quote": "and does not yet meet its bar for a full evaluation. Still, this opens a path toward real third-party accountability in AI development."
+        }
+      ],
+      "confidence": "high"
+    }
+  ]
+}

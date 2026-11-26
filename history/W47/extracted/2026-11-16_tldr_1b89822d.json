@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "message_id": "<010001a1e4b21c88-b50fd86e-21bf-49b3-94b0-21b125b63e52-000000@email.amazonses.com>",
+  "family": "TLDR",
+  "letter": "TLDR Hardware",
+  "issue_date": "2026-11-16",
+  "sent_at": "2026-11-16T14:10:40.000Z",
+  "subject": "SpaceX catches Ship 42 🦾, thousands petition for Jensen ✍️, Tesla opens Cybercab orders 🚕",
+  "notes": "No funding rounds, acquisitions, IPOs, funds or pricing items in this issue; top news stories only.",
+  "stories": [
+    {
+      "headline": "SpaceX catches Ship 42 on Flight 15, the first upper-stage catch; Booster 22 aborts its catch and splashes down in the Gulf",
+      "quote": "After 14 orbits, Ship 42 made a 10-second single-engine deorbit burn and was caught by the tower's chopsticks 22.5 hours after launch, the first upper-stage catch. It deployed 26 Starlink V3 satellites and had its heat shield checked using satellite cameras.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "SpaceX",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Booster's boostback ended early on a low-fuel-mass alarm; it diverted to a Gulf splashdown, root cause under investigation.",
+          "quote": "The V3 booster's boostback ended early on a low-fuel-mass alarm, so guidance detected it was off-position and diverted to a Gulf splashdown, with the root cause still under investigation."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Petition backed by Musk, Replit's Masad and Epic's Sweeney asks Nvidia to reinstate Jensen Huang during the investigation",
+      "quote": "The petition says it has over 115,000 signatures, including 5,965 current Nvidia employees and 63,063 shareholders, and argues Huang was removed without due process, asking the board to restore him while an independent investigation establishes the facts.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "leadership",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Nvidia",
+      "aliases": [],
+      "facts": [
+        {
+          "date": "2026-11-12",
+          "text": "Huang resigned on Thursday after admitting a relationship with an executive US intelligence suspects of spying for China.",
+          "quote": "Huang resigned Thursday after admitting a relationship with an executive US intelligence suspects of spying for China."
+        },
+        {
+          "date": null,
+          "text": "CFO Colette Kress is interim CEO.",
+          "quote": "CFO Colette Kress is interim CEO."
+        },
+        {
+          "date": "2026-11-13",
+          "text": "Nvidia shares fell 2% on Friday.",
+          "quote": "Nvidia fell 2% on Friday."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Tesla opens Cybercab pre-orders to select customers at $29,990 plus $299 per month, geofenced to Robotaxi areas",
+      "quote": "Tesla says the Cybercab will run unsupervised only inside the same geofences as its Robotaxi service, with delivery limited to a handful of Texas cities and an estimated date of December.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Tesla",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Pre-order price is $29,990 plus $299 per month.",
+          "quote": "TESLA OPENS CYBERCAB PRE-ORDERS TO SELECT CUSTOMERS AT $29,990 PLUS $299 PER MONTH, GEOFENCED TO ROBOTAXI'S AREAS"
+        },
+        {
+          "date": null,
+          "text": "Musk called the $299 monthly fee too high and said nationwide availability depends on regulatory approval.",
+          "quote": "Musk called the $299 monthly fee too high, saying it should match the roughly $115 per month for FSD and connectivity, and that nationwide availability depends on regulatory approval."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Researchers match starting weights of Chinese AI models to GPU thread layouts, indicating training on Nvidia Blackwell chips",
+      "quote": "DeepSeek-V4, Kimi K3, MiniMax-M3, and Ling-3.1-flash matched Blackwell, while earlier models matched Hopper.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "DeepSeek",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "The headline says six models were shown to have trained on Blackwell; the text names four.",
+          "quote": "RESEARCHERS MATCHED THE RANDOM STARTING WEIGHTS OF CHINESE AI MODELS TO GPU THREAD LAYOUTS TO SHOW SIX TRAINED ON BLACKWELL"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "ULA's Vulcan loses 40 Amazon Leo satellites about 10 minutes into flight; Centaur burn suspected",
+      "quote": "This was ULA's first total failure since 2006 and the first Vulcan flight in nine months after its solid booster nozzle fixes.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "ULA",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "40 Amazon Leo satellites lost about 10 minutes in, with Centaur's burn the suspect.",
+          "quote": "ULA'S VULCAN LOSES 40 AMAZON LEO SATELLITES ABOUT 10 MINUTES IN, WITH CENTAUR'S BURN THE SUSPECT"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "OpenAI folds its standalone robotics team into its main research and Applied organisations; still plans a humanoid demo for 2027",
+      "quote": "OpenAI moved its robotics researchers into its main research org and its applied robotics and hardware teams into Applied, betting general models can control robots without specialized “robot brains.”",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "OpenAI",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "OpenAI still plans its own humanoid, with a demo targeted for 2027.",
+          "quote": "OpenAI still plans its own humanoid, with a demo targeted for 2027, while robotics startups argue real-world deployment data remains their edge."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Applied Materials total revenue up 53% to $10.41 billion; semiconductor systems revenue up 64% to $7.99 billion",
+      "quote": "Total revenue rose 53% to $10.41 billion, with the semiconductor systems unit up from $4.88 billion to $7.99 billion.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "earnings",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Applied Materials",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Headline cites a $5B EPIC Center for shared R&D.",
+          "quote": "APPLIED MATERIALS' SYSTEMS REVENUE JUMPS 64% TO $7.99B AS CHIPMAKERS EXPAND FABS, WITH A $5B EPIC CENTER FOR SHARED R&D"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Federal judge denies Samsung, SK hynix and Micron's motion to dismiss DRAM price-fixing suit",
+      "quote": "A federal judge denied Samsung, SK hynix, and Micron's motion to dismiss in full, finding a plausible claim that they restricted conventional DRAM supply and drove prices up 697% over 18 months.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "legal",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Samsung",
+      "aliases": ["SK hynix", "Micron"],
+      "facts": [],
+      "confidence": "high"
+    }
+  ]
+}

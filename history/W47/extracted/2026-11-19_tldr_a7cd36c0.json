@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "message_id": "<010001a1f3f01c37-6e5db73c-6e0b-424c-b0c6-5a2f80cb706b-000000@email.amazonses.com>",
+  "family": "TLDR",
+  "letter": "TLDR IT",
+  "issue_date": "2026-11-19",
+  "sent_at": "2026-11-19T13:12:41.000Z",
+  "subject": "AWS links with Azure ☁️, Gemini takes on busywork 🤖, Java4Shell threatens enterprise apps 🚨",
+  "notes": "No funding rounds, acquisitions, IPOs, funds or model pricing in this issue; only top news stories extracted. Sponsor blocks (Redwood, Dataiku) ignored.",
+  "stories": [
+    {
+      "headline": "AWS Interconnect reaches general availability, linking AWS and Microsoft Azure privately",
+      "quote": "AWS Interconnect now links AWS and Microsoft Azure privately, replacing the do-it-yourself networking customers previously had to build.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "AWS",
+      "aliases": ["AWS Interconnect"],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Microsoft and other organizations launch AI transparency initiative for enterprise AI models and agents",
+      "quote": "The initiative aims to establish open, industrywide standards for AI security, governance, and transparency across models and providers to help enterprises independently verify AI agent behavior.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Microsoft",
+      "aliases": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Google's Gemini Tasks performs agentic actions, powered by the Gemini 4 Hydrogen model",
+      "quote": "Gemini Tasks can perform agentic actions such as calling businesses, booking appointments, managing calendars, and completing purchases via Google Pay.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Google",
+      "aliases": ["Gemini", "Gemini Tasks"],
+      "facts": [
+        {
+          "date": null,
+          "text": "The new features run on Google's Gemini 4 Hydrogen model.",
+          "quote": "The new features are powered by Google's latest Gemini 4 Hydrogen model."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Microsoft announces general availability of its Windows endpoint security platform",
+      "quote": "Microsoft has announced general availability of its Windows endpoint security platform, which gives third-party security vendors a way to protect systems without relying as heavily on kernel-level software.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Microsoft",
+      "aliases": ["Windows"],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Oracle patches Java4Shell, a Java flaw allowing unauthenticated code execution",
+      "quote": "Oracle patched a Java vulnerability that can let unauthenticated attackers execute code or crash affected systems.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Oracle",
+      "aliases": ["Java4Shell"],
+      "facts": [
+        {
+          "date": null,
+          "text": "Researchers demonstrated attacks on Jira, Confluence, Jenkins and Elasticsearch; exposure depends on Java version and CPU configuration.",
+          "quote": "Researchers demonstrated attacks against applications including Jira, Confluence, Jenkins, and Elasticsearch, with exposure depending on the underlying Java version and CPU configuration."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Microsoft expands Intel agreement: multi-year Xeon supply and EMIB packaging for Azure's own chips",
+      "quote": "Microsoft's expanded Intel agreement includes multi-year Xeon supply and plans to use Intel's EMIB packaging technology for Azure's own chips.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "market_move",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Intel",
+      "aliases": ["Microsoft", "Azure"],
+      "facts": [],
+      "confidence": "high"
+    }
+  ]
+}

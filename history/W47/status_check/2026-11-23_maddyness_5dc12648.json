@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "message_id": "<1f9e9e85c9528007cd57c0250.68f8285b8b.20261123063050.6a8204566e.03633df3@mail236.atl271.mcdlv.net>",
+  "family": "Maddyness",
+  "letter": "Maddyness",
+  "issue_date": "2026-11-23",
+  "sent_at": "2026-11-23T06:31:13.000Z",
+  "subject": "23.11 - Le fondateur de Skype et d’Atomico se confie à Maddyness",
+  "notes": "Teaser-only issue: headlines with one-paragraph summaries. The MaddyMoney item gives a weekly total (9 French startups, €525.8M) but names only Genesis AI; the other eight rounds are not listed. The issue does not say what Genesis AI builds, so tech_area is 'other'.",
+  "stories": [
+    {
+      "headline": "Genesis AI raises a €455M Series A, about 87% of the week's French startup funding",
+      "quote": "Cette semaine dans le MaddyMoney, 9 startups françaises ont levé 525,8 millions d’euros, pour un ticket moyen de 58,4 millions d’euros. Genesis AI concentre à elle seule près de 87 % des montants recensés avec sa série A de 455 millions d’euros.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "round",
+      "subtype": null,
+      "status": "closed",
+      "mention_type": "story",
+      "company": "Genesis AI",
+      "aliases": [],
+      "description": null,
+      "hq": [{"city": null, "country": "FR"}],
+      "stage": "series_a",
+      "stage_as_written": "série A",
+      "is_combined_round": false,
+      "equity_amount": 455000000,
+      "currency": "EUR",
+      "amount_qualifier": "exact",
+      "mixed_total": null,
+      "other_finance": [],
+      "valuation": null,
+      "non_raise_figures": [],
+      "leads": [],
+      "tech_area": "other",
+      "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [],
+      "confidence": "medium"
+    }
+  ]
+}
