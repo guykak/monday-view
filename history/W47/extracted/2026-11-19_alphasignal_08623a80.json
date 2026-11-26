@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "message_id": "<010f01a1f42bfc92-dc0a07a5-5789-40a8-8a8f-f44f19da788d-000000@us-east-2.amazonses.com>",
+  "family": "AlphaSignal",
+  "letter": "AlphaSignal",
+  "issue_date": "2026-11-19",
+  "sent_at": "2026-11-19T14:18:05.000Z",
+  "subject": "Gemini 4 Neon 🧠, OpenAI Chip Model +14% PPA 🔧, Devin Bots 🤖",
+  "notes": null,
+  "stories": [
+    {
+      "headline": "Google DeepMind releases Gemini 4 Neon at $3 per million input tokens and $15 per million output tokens",
+      "quote": "Priced at $3 per million input tokens and $15 per million output tokens",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "pricing",
+      "subtype": null,
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Google DeepMind",
+      "aliases": ["Google"],
+      "description": "Gemini 4 Neon, a model between the cheaper Hydrogen and Carbon",
+      "status_note": null,
+      "facts": [
+        {
+          "date": null,
+          "text": "Gemini 4 Neon is priced at $3 per million input tokens and $15 per million output tokens.",
+          "quote": "Priced at $3 per million input tokens and $15 per million output tokens"
+        },
+        {
+          "date": null,
+          "text": "Gemini 4 Neon sits between the cheaper Hydrogen and the more powerful Carbon.",
+          "quote": "Gemini 4 Neon , a new model sitting between the cheaper Hydrogen and the more powerful Carbon."
+        },
+        {
+          "date": null,
+          "text": "1M token context window shared across input, thinking and output.",
+          "quote": "1M token context window shared across input, thinking, and output, so you can feed it entire codebases or long documents"
+        },
+        {
+          "date": null,
+          "text": "Four thinking levels: low, medium, high and xhigh.",
+          "quote": "Four thinking levels: low, medium, high, and xhigh, so you control how hard it thinks and what you spend"
+        },
+        {
+          "date": null,
+          "text": "The issue's headline ranks it #3 on the Intelligence Index.",
+          "quote": "Google DeepMind ships Gemini 4 Neon, ranking #3 on the Intelligence Index"
+        },
+        {
+          "date": null,
+          "text": "Available via the Gemini API, AI Studio and Android Studio.",
+          "quote": "You can use it right now via the Gemini API, AI Studio, and Android Studio with model ID gemini-4-neon"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "OpenAI's chip design models found up to 14% PPA improvement on AMD's flagship GPU",
+      "quote": "OpenAI's chip design model delivers 14% hardware gains on AMD's GPU",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "OpenAI",
+      "aliases": [],
+      "description": null,
+      "status_note": null,
+      "facts": [
+        {
+          "date": null,
+          "text": "Working with AMD, OpenAI's models rewrote chip circuit code and found up to 14% PPA (power, performance, area) improvement on AMD's flagship GPU.",
+          "quote": "OpenAI's models rewrote chip circuit code and found up to 14% PPA improvement on AMD's flagship GPU."
+        },
+        {
+          "date": null,
+          "text": "The issue describes this as roughly a year of progress in less than five months.",
+          "quote": "That's roughly a year of progress achieved in less than five months."
+        },
+        {
+          "date": null,
+          "text": "AMD has included some of the changes in a recent design sent for manufacturing.",
+          "quote": "AMD has already included some changes in a recent design sent for manufacturing, with others added to production files for future versions."
+        },
+        {
+          "date": null,
+          "text": "OpenAI applied the same approach to Jalapeño, its own custom chip, with gains confirmed on real silicon.",
+          "quote": "Jalapeño , its own custom chip built to run AI models, with gains confirmed on real silicon."
+        },
+        {
+          "date": null,
+          "text": "GPT-Synopsys is a new model trained to use Synopsys EDA tools.",
+          "quote": "GPT-Synopsys : a new model trained to use Synopsys EDA tools the way expert chip designers do."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Cognition launches Devin Bots, an AI manager that runs multiple Devin agents in parallel",
+      "quote": "Cognition launches Devin Bots, helping engineers merge 4.5x more PRs",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Cognition",
+      "aliases": [],
+      "description": null,
+      "status_note": null,
+      "facts": [
+        {
+          "date": null,
+          "text": "A Bot takes a goal, breaks it into tasks and runs multiple Devin agents in parallel.",
+          "quote": "The Bot takes a big goal, breaks it into tasks, spins up multiple Devin agents to work in parallel, checks their output, and only pings you when a real decision is needed."
+        },
+        {
+          "date": null,
+          "text": "Beta testers are reported to merge 4.5x more pull requests per message.",
+          "quote": "Beta testers are merging 4.5x more pull requests per message."
+        },
+        {
+          "date": null,
+          "text": "One team is reported to have gone from 50 to nearly 2,000 PRs a week.",
+          "quote": "One team went from 50 to nearly 2,000 PRs a week"
+        }
+      ],
+      "confidence": "high"
+    }
+  ]
+}
