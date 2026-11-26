@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Monday view · Week 47 · 16–22 Nov 2026</title>
+<style>
+  :root{
+    --paper:#FAF8F3; --card:#FFFFFF; --ink:#1A1A1A; --ink2:#55524B; --ink3:#6E6A62; --rule:#E3DFD6; --rule2:#C9C4B8;
+    --eu:#1F5AA6; --row:#A9A59C; --neg:#B23A2B; --muted:#8C887F;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--paper)}
+  body{width:1440px;margin:0 auto;color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,"Liberation Sans",sans-serif;-webkit-font-smoothing:antialiased;font-feature-settings:"tnum" 1;overflow-x:hidden}
+  .serif,h1,h2,.big .n{font-family:Charter,"Iowan Old Style","Palatino Linotype",Georgia,serif}
+  .wrap{padding:36px 72px 40px}
+  .mast{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--ink);padding-bottom:8px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2)}
+  .mast b{color:var(--ink)}
+  .top{display:grid;grid-template-columns:1fr 400px;gap:56px;margin-top:22px;align-items:end}
+  h1{font-size:40px;line-height:1.12;font-weight:400;letter-spacing:-.01em}
+  .legend{font-size:12.5px;color:var(--ink2);line-height:1.45;border-left:1px solid var(--rule2);padding-left:18px}
+  .legend b{color:var(--ink)}
+  .dots{letter-spacing:1px;white-space:nowrap;font-size:12px;color:var(--ink)}
+  .dots i{font-style:normal;color:var(--rule2)}
+  .dots em{font-style:normal;font-size:11px;color:var(--ink2);letter-spacing:0;margin-left:3px}
+  section{margin-top:30px;padding-top:14px;border-top:1px solid var(--ink)}
+  .sh{display:flex;justify-content:space-between;align-items:baseline;gap:20px}
+  .sh h2{font-size:24px;font-weight:400;letter-spacing:-.005em}
+  .sh h2 small{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);margin-right:10px;vertical-align:3px}
+  .sh .meta{font-size:12.5px;color:var(--ink2)}
+  .cap{font-size:13px;color:var(--ink2);line-height:1.45;margin-top:6px}
+  .cap b{color:var(--ink);font-weight:600}
+  .forus{margin-top:14px;font-size:14px;line-height:1.45;padding:10px 14px;background:#F1EEE6;border-left:3px solid var(--ink)}
+  .forus b{font-weight:700}
+  .g1{display:grid;grid-template-columns:560px 330px 1fr;gap:36px;margin-top:14px}
+  .big{display:flex;flex-direction:column;gap:16px}
+  .big .n{font-size:44px;line-height:1;letter-spacing:-.02em}
+  .big .c{font-size:12.5px;color:var(--ink2);margin-top:3px;line-height:1.35}
+  .g2{display:grid;grid-template-columns:560px 1fr;gap:36px;margin-top:14px}
+  .cards{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .card{background:var(--card);border:1px solid var(--rule);border-top:3px solid var(--eu);padding:9px 11px 10px;font-size:12.5px;line-height:1.38}
+  .card .hd{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+  .card .nm{font-weight:700;font-size:14px}
+  .card .am{font-family:Charter,"Iowan Old Style",Georgia,serif;font-size:18px}
+  .card .st{color:var(--ink2)}
+  .card .ld{color:var(--ink2);font-size:12px}
+  .card.team{border-top-color:var(--ink)}
+  .card .tag{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);font-weight:700}
+  .g3{display:grid;grid-template-columns:640px 1fr;gap:44px;margin-top:0}
+  .g3>div{padding-top:0}
+  .single{margin-top:10px;font-size:12.5px;color:var(--muted);line-height:1.6}
+  .single .u{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--muted)}
+  .single li{list-style:none;display:flex;justify-content:space-between;border-bottom:1px dotted var(--rule2)}
+  svg{display:block;overflow:visible}
+  svg text{font-family:"Helvetica Neue",Helvetica,Arial,"Liberation Sans",sans-serif}
+  footer{margin-top:28px;padding-top:10px;border-top:1px solid var(--rule2);display:grid;grid-template-columns:1fr 1fr;gap:40px;font-size:11.5px;color:var(--ink2);line-height:1.5}
+  footer b{color:var(--ink)}
+  #tip{position:fixed;pointer-events:none;background:#1A1A1A;color:#fff;font:12px/1.4 "Helvetica Neue",Arial,sans-serif;padding:7px 9px;border-radius:3px;max-width:280px;opacity:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="mast"><span><b>Monday view</b> · week 47 · 16–22 Nov 2026</span><span>Big Pi Ventures · from 15 newsletters</span></div>
+  <div class="top">
+    <h1>Anthropic listed at a $1.3T market cap, and Europe’s early-stage money went to AI tooling for chips, robots and space.</h1>
+    <div class="legend"><span class="dots" id="lgd"></span> <b>Coverage dots.</b> One dot per source family carrying the item (Sifted, TLDR, Term Sheet, Techmeme…); five means five or more. They show <b>breadth of coverage, not importance</b>: a press release reprinted by three deal digests gets three dots.</div>
+  </div>
+
+  <!-- 1 -->
+  <section id="b1">
+    <div class="sh"><h2><small>1 · The week’s story</small>Anthropic goes public</h2><span class="meta" id="b1m"></span></div>
+    <div class="g1">
+      <div><svg id="ipo" width="560" height="10"></svg></div>
+      <div class="big" id="bign"></div>
+      <div>
+        <div class="cap" style="margin-top:0"><b>Friday 20 Nov: AI sell-off in Asian tech</b></div>
+        <svg id="sell" width="10" height="10"></svg>
+        <div class="forus"><b>For us:</b> public investors have now priced a frontier lab. Late-stage AI marks get a public comparable, and early-stage pricing does not.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2 -->
+  <section id="b2">
+    <div class="sh"><h2><small>2 · Early-stage rounds</small>Pre-seed to Series A: 55 rounds, 28 in Europe</h2><span class="meta">W47 was Slush week, so no comparison with previous weeks</span></div>
+    <div class="g2">
+      <div>
+        <svg id="units" width="560" height="10"></svg>
+        <svg id="mix" width="560" height="10" style="margin-top:14px"></svg>
+      </div>
+      <div>
+        <div class="cap" style="margin-top:0;margin-bottom:8px"><b>European deep tech this week</b> · amount, stage, lead investors</div>
+        <div class="cards" id="cards"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 + 4 -->
+  <section id="b34" style="border-top:none;padding-top:0">
+  <div class="g3">
+    <div id="b3" style="border-top:1px solid var(--ink);padding-top:14px">
+      <div class="sh"><h2><small>3 · Big rounds and marks</small>Round size and stated valuation</h2></div>
+      <div class="cap" id="b3c"></div>
+      <svg id="bigr" width="640" height="10" style="margin-top:10px"></svg>
+    </div>
+    <div id="b4" style="border-top:1px solid var(--ink);padding-top:14px">
+      <div class="sh"><h2><small>4 · Exits and new funds</small>Price against the last mark</h2></div>
+      <svg id="exits" width="612" height="10" style="margin-top:8px"></svg>
+      <div class="single"><span class="u">Single source, unconfirmed</span><ul id="single"></ul></div>
+      <div class="cap" style="margin-top:16px"><b>Funds closed</b> · USD-equivalent bars, original currency labelled (EUR×1.08)</div>
+      <svg id="funds" width="612" height="10" style="margin-top:6px"></svg>
+    </div>
+  </div>
+  </section>
+
+  <!-- 5 -->
+  <section id="b5">
+    <div class="sh"><h2><small>5 · Market move</small>Inference got cheaper again</h2></div>
+    <div style="display:grid;grid-template-columns:560px 1fr;gap:36px;margin-top:10px;align-items:center">
+      <svg id="mm" width="560" height="10"></svg>
+      <div class="cap" style="font-size:14px;margin:0">OpenAI’s GPT-6.2 Astra: API tokens <b>20% cheaper</b> than GPT-6 Astra, at $8 / $40 per million input / output tokens. Google’s Gemini 4 Neon: <b>$3 / $15</b> per million. Cheaper inference helps application startups and squeezes resellers.</div>
+    </div>
+  </section>
+
+  <footer>
+    <div><b>Sources this week</b> (issues): <span id="srcs"></span>; others 1 each. Maddyness IA sent none. Counts and dots are on story dates within 16–22 Nov, merged by company before counting families.</div>
+    <div><b>Notes.</b> Block 2 counts all pre-seed to Series A rounds; 7 of them are $50M or more (4 European ones appear in block 3). Areas are tagged for European rounds only. Next monthly price check: 7 Dec.</div>
+  </footer>
+</div>
+<div id="tip"></div>
+<script>function fit(){document.body.style.zoom=Math.min(1,window.innerWidth/1440);}fit();addEventListener('resize',fit);</script>
+<script id="data" type="application/json">{"early":{"n":55,"eu":28,"row":27,"ts_any":30,"ts_only":20,"ts_plus":10,"no_ts":25,"without_ts":35,"big_eu":["Boltz","Commit Biologics","Genesis AI","Tiberius Aerospace"],"big_row":3,"areas":[["AI applications and agents",10],["AI infrastructure (compilers, edge, model training)",3],["Other software and consumer",3],["Robotics and manufacturing",2],["Defence and aerospace",2],["Health",2],["Space",1],["Fintech",1]]},"deep":[{"name":"Daisytuner","city":"Darmstadt","amt":"€6m","stage":"seed","lead":"Elaia and LEA Ventures","line":"Open-source compiler that runs AI code natively on Nvidia, AMD and newer accelerators.","dots":3},{"name":"MountAIn","city":"Grenoble","amt":"€7.3m","stage":"seed","lead":"360 Capital","line":"Runs AI applications on low-cost, low-power chips.","dots":3},{"name":"Vetaion","city":"Munich","amt":"€5.7m","stage":"pre-seed","lead":"Visionaries Tomorrow and UVC","line":"Robotic manufacturing of electrical control cabinets.","dots":2},{"name":"Mosaico","city":"","amt":"€7.5m","stage":"","lead":"","line":"Data for robotics AI.","dots":2},{"name":"Stryx AI","city":"Paris","amt":"€7.7m","stage":"seed","lead":"Armand Thiberge (Brevo founder) and Impala","line":"Radar and interceptors against drones.","dots":2},{"name":"Elysian Aircraft","city":"NL","amt":"€12m+","stage":"in grants and equity","lead":"","line":"Battery-electric aircraft.","dots":3},{"name":"Dcubed","city":"Munich","amt":"€27.2m","stage":"Series A","lead":"Warsaw Equity Group","line":"Satellite deployment and power systems.","dots":1}],"reman":{"name":"Remanence","city":"Paris","amt":"$30m","stage":"seed","lead":"EQT Ventures and FirstMark","line":"Founded by H Company alumni, including its ex-CTO.","dots":5},"big":[{"name":"Isomorphic Labs","where":"London, Alphabet","label":"$5B Series C","usd":5000000000.0,"val":null,"vlab":"","dots":7},{"name":"Genesis AI","where":"Paris / San Carlos","label":"$500M Series A","usd":500000000.0,"val":3500000000.0,"vlab":"$3.5B","dots":7},{"name":"Payhawk","where":"London","label":"$280M Series C","usd":280000000.0,"val":null,"vlab":"","dots":6},{"name":"Model ML","where":"London","label":"$250M Series B","usd":250000000.0,"val":1500000000.0,"vlab":"$1.5B","dots":4},{"name":"Boltz","where":"London","label":"$110M Series A","usd":110000000.0,"val":null,"vlab":"","dots":4},{"name":"Tiberius Aerospace","where":"London / Newport Beach","label":"$85M Series A","usd":85000000.0,"val":1000000000.0,"vlab":"$1B+","dots":3},{"name":"Commit Biologics","where":"Copenhagen","label":"€54m seed","usd":58320000.00000001,"val":null,"vlab":"","dots":1}],"talks":[{"name":"Sierra","label":"~$1.5B","usd":1500000000.0,"val":30000000000.0,"vlab":"~$30B"},{"name":"Cognition","label":"$2B+","usd":2000000000.0,"val":75000000000.0,"vlab":"$75B"}],"ipo":{"price":83,"open":111.5,"close":97.17,"raised":"$81.3bn","cap":"$1.3T","total":"$93.5bn","fams":10,"open_pct":34,"close_pct":17,"selloff":[["SoftBank",15,"about −15%"],["Samsung",6,"−6%+"],["SK Hynix",6,"−6%+"],["TSMC",5,"−5%+"]]},"exits":[{"acq":"Palo Alto Networks","tgt":"Applied Compute","what":"customises open-weight models","before":3250000000.0,"blab":"$3.25B mark, earlier in Nov","after":4500000000.0,"alab":"$4.5B in stock","dots":3,"chg":38},{"acq":"Bending Spoons","tgt":"Mailchimp","what":"","before":12000000000.0,"blab":"~$12B paid by Intuit, 2021","after":3680000000.0,"alab":"$3.68B","dots":3,"chg":-69}],"single":[{"acq":"Nvidia","tgt":"Inception (diffusion LLMs)","what":"advanced talks, $500M+","src":"Techmeme"},{"acq":"MongoDB","tgt":"Firebolt","what":"buys","src":"TLDR"},{"acq":"Iceye","tgt":"Avio","what":"€2.05B cash bid","src":"Sunday CET"},{"acq":"CrowdStrike","tgt":"Zscaler","what":"in talks","src":"Techmeme"}],"funds":[{"name":"Plural","lab":"€1bn","usd":1080000000.0,"note":"European early stage, 30+ companies","dots":4},{"name":"Sofinnova Crossover II","lab":"€725m","usd":783000000.0,"note":"late-stage life sciences","dots":2},{"name":"Norwest fund 18","lab":"$4B","usd":4000000000.0,"note":"US venture and growth","dots":1}],"sources":[["TLDR",12],["Sifted",9],["AlphaSignal",6],["Techmeme",6],["Term Sheet",5],["Maddyness",5],["Newcomer",4]]}</script>
+<script>
+const D=JSON.parse(document.getElementById('data').textContent);
+const NS='http://www.w3.org/2000/svg';
+const el=(t,a,p,x)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(x!=null)e.textContent=x;if(p)p.appendChild(e);return e;};
+const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const INK=css('--ink'),INK2=css('--ink2'),INK3=css('--ink3'),RULE=css('--rule'),RULE2=css('--rule2'),EU=css('--eu'),ROW=css('--row'),NEG=css('--neg'),MUT=css('--muted'),PAPER=css('--paper');
+const tip=document.getElementById('tip'); document.documentElement.appendChild(tip);
+const show=(e,h)=>{tip.innerHTML=h;tip.style.opacity=1;tip.style.left=Math.min(e.clientX+14,innerWidth-300)+'px';tip.style.top=(e.clientY+14)+'px'};
+const hide=()=>tip.style.opacity=0;
+const hov=(node,h)=>{node.addEventListener('mousemove',e=>show(e,h));node.addEventListener('mouseleave',hide);};
+const dotsHTML=(n,extra)=>`<span class="dots" title="${n} source famil${n>1?'ies':'y'}">${'●'.repeat(Math.min(n,5))}<i>${'●'.repeat(5-Math.min(n,5))}</i>${extra?`<em>${extra}</em>`:''}</span>`;
+function dotsSVG(g,x,y,n,anchorEnd){const k=Math.min(n,5);const x0=anchorEnd?x-5*9:x;for(let i=0;i<5;i++)el('circle',{cx:x0+i*9+3.5,cy:y,r:3.2,fill:i<k?INK:RULE2},g);}
+const usd=v=>v>=1e9?'$'+String(+(v/1e9).toFixed(2))+'B':'$'+Math.round(v/1e6)+'M';
+
+document.getElementById('lgd').innerHTML=dotsHTML(3);
+// ---------- 1. IPO strip
+(function(){
+  const I=D.ipo; document.getElementById('b1m').innerHTML=dotsHTML(I.fams,`${I.fams} families`);
+  const svg=document.getElementById('ipo'), W=560, H=250, L=44, R=W-10, T=34, B=H-44;
+  const cols=[['Wed 18 Nov','Priced'],['Thu 19 Nov','Nasdaq debut'],['Fri 20 Nov','AI sell-off']];
+  const cw=(R-L)/3, xc=i=>L+cw*(i+.5);
+  const y=v=>B-(v-70)/(120-70)*(B-T);
+  el('rect',{x:L+cw*2,y:T-6,width:cw,height:B-T+6,fill:'#F1EEE6'},svg);
+  cols.forEach(([d,s],i)=>{el('text',{x:xc(i),y:14,'text-anchor':'middle','font-size':12,'font-weight':700,fill:INK},svg,d);el('text',{x:xc(i),y:28,'text-anchor':'middle','font-size':11.5,fill:INK2},svg,s);
+    if(i) el('line',{x1:L+cw*i,x2:L+cw*i,y1:T-6,y2:B,stroke:RULE},svg);});
+  [80,90,100,110,120].forEach(v=>{el('line',{x1:L,x2:R,y1:y(v),y2:y(v),stroke:RULE,'stroke-width':.8},svg);el('text',{x:L-6,y:y(v)+4,'text-anchor':'end','font-size':10.5,fill:INK3},svg,'$'+v);});
+  el('line',{x1:L,x2:R,y1:y(I.price),y2:y(I.price),stroke:INK2,'stroke-dasharray':'4 3'},svg);
+  el('text',{x:R-4,y:y(I.price)-5,'text-anchor':'end','font-size':11,fill:INK2},svg,`IPO price $${I.price}`);
+  const pP=[xc(0),y(I.price)], pO=[xc(1)-cw*.22,y(I.open)], pC=[xc(1)+cw*.22,y(I.close)];
+  el('path',{d:`M${pO} L${pC}`,stroke:INK,'stroke-width':2.2,fill:'none'},svg);
+  el('path',{d:`M${pP} L${pO}`,stroke:INK,'stroke-width':1.2,'stroke-dasharray':'2 3',fill:'none'},svg);
+  [[pP,`$${I.price}`,'above the range','start',10],[pO,`$${I.open.toFixed(2)}`,`open, +${I.open_pct}%`,'end',-10],[pC,`$${I.close}`,`close, +${I.close_pct}%`,'start',10]].forEach(([p,a,b,anc,dx])=>{
+    el('circle',{cx:p[0],cy:p[1],r:5,fill:INK,stroke:PAPER,'stroke-width':2},svg);
+    el('text',{x:p[0]+dx,y:p[1]-2,'text-anchor':anc,'font-size':13,'font-weight':700,fill:INK},svg,a);
+    el('text',{x:p[0]+dx,y:p[1]+13,'text-anchor':anc,'font-size':11.5,fill:INK2},svg,b);});
+  el('text',{x:xc(2),y:y(78),'text-anchor':'middle','font-size':11.5,fill:INK2},svg,'Anthropic’s Friday price');
+  el('text',{x:xc(2),y:y(78)+15,'text-anchor':'middle','font-size':11.5,fill:INK2},svg,'is not in the sources');
+  el('text',{x:L,y:H-16,'font-size':11.5,fill:INK2},svg,'Share price, US$. Priced on Wednesday, listed on Thursday.');
+  svg.setAttribute('height',H);
+  document.getElementById('bign').innerHTML=`
+    <div><div class="n">~${I.raised.replace('bn','bn')}</div><div class="c">raised at pricing, the largest IPO on record</div></div>
+    <div><div class="n">${I.total}</div><div class="c">total proceeds after the greenshoe</div></div>
+    <div><div class="n">~${I.cap}</div><div class="c">market cap at Thursday’s close</div></div>`;
+  // sell-off bars
+  const s=document.getElementById('sell'), SW=330, sl=80, sc=(SW-sl-90)/15; s.setAttribute('width',SW);
+  I.selloff.forEach(([n,v,lab],i)=>{const yy=10+i*26; el('text',{x:0,y:yy+12,'font-size':12.5,fill:INK},s,n);
+    el('rect',{x:sl,y:yy+2,width:v*sc,height:14,fill:NEG,rx:1},s);
+    el('text',{x:sl+v*sc+6,y:yy+13,'font-size':12,fill:INK2},s,lab);});
+  s.setAttribute('height',10+I.selloff.length*26);
+})();
+
+// ---------- 2. unit chart
+(function(){
+  const E=D.early, svg=document.getElementById('units'), W=560, sz=15, gap=4, LW=232;
+  let y=4;
+  el('text',{x:0,y:y+10,'font-size':11.5,'font-weight':700,fill:EU,'letter-spacing':'.08em'},svg,`EUROPE · ${E.eu} ROUNDS`); y+=24;
+  const sq=(x,yy,fill,outline,h)=>{const r=el('rect',{x,y:yy,width:sz,height:sz,rx:2,fill:outline?PAPER:fill,stroke:outline?fill:'none','stroke-width':outline?2:0},svg); if(outline) el('path',{d:`M${x+3},${yy+sz-3} L${x+sz-3},${yy+3}`,stroke:fill,'stroke-width':1.5},svg); hov(r,h); return r;};
+  E.areas.forEach(([a,c])=>{
+    el('text',{x:0,y:y+12,'font-size':12.5,fill:INK},svg,a.replace(' (compilers, edge, model training)',''));
+    if(a.includes('compilers')) el('text',{x:0,y:y+26,'font-size':10.5,fill:INK3},svg,'compilers, edge, model training');
+    for(let k=0;k<c;k++) sq(LW+k*(sz+gap),y,EU,false,`<b>${a}</b><br>${c} European round${c>1?'s':''}`);
+    el('text',{x:LW+c*(sz+gap)+4,y:y+12,'font-size':12,'font-weight':700,fill:INK},svg,c);
+    y+= a.includes('compilers')?34:22;
+  });
+  el('text',{x:0,y:y+12,'font-size':12.5,fill:INK},svg,'$50M or more (in block 3)');
+  E.big_eu.forEach((n,k)=>sq(LW+k*(sz+gap),y,EU,true,`<b>${n}</b><br>$50M or more: listed in Big rounds`));
+  el('text',{x:LW+E.big_eu.length*(sz+gap)+4,y:y+12,'font-size':12,'font-weight':700,fill:INK},svg,E.big_eu.length);
+  el('text',{x:LW,y:y+30,'font-size':11,fill:INK2},svg,E.big_eu.join(', '));
+  y+=46;
+  el('line',{x1:0,x2:W,y1:y-8,y2:y-8,stroke:RULE},svg);
+  el('text',{x:0,y:y+10,'font-size':11.5,'font-weight':700,fill:INK2,'letter-spacing':'.08em'},svg,`REST OF WORLD · ${E.row} ROUNDS`); y+=20;
+  const per=Math.floor((W-0)/(sz+gap));
+  for(let k=0;k<E.row;k++){const big=k>=E.row-E.big_row; sq((k%per)*(sz+gap),y+Math.floor(k/per)*(sz+gap),ROW,big,big?'$50M or more':'Rest-of-world round (area not tagged this week)');}
+  y+=Math.ceil(E.row/per)*(sz+gap)+4;
+  el('text',{x:0,y:y+10,'font-size':11.5,fill:INK2},svg,`Each square is one round. Outlined: $50M or more (${E.big_eu.length} Europe, ${E.big_row} elsewhere).`);
+  el('text',{x:0,y:y+25,'font-size':11.5,fill:INK2},svg,'Areas are tagged for European rounds only.');
+  svg.setAttribute('height',y+30);
+  // source mix bar
+  const m=document.getElementById('mix'), u=(W)/E.n; let x=0, my=22;
+  el('text',{x:0,y:12,'font-size':12.5,fill:INK},m,'');
+  const t=el('text',{x:0,y:12,'font-size':12.5,fill:INK},m); el('tspan',{'font-weight':700},t,`Source mix: Term Sheet carried ${E.ts_any} of the ${E.n}.`); el('tspan',{fill:INK2},t,` Without it the count is ${E.without_ts}.`);
+  [[E.ts_only,INK,'Term Sheet only',`#fff`],[E.ts_plus,'#6B675F','Term Sheet + others','#fff'],[E.no_ts,'#D8D4CA','other sources only',INK]].forEach(([v,c,l,tc])=>{
+    const r=el('rect',{x:x+1,y:my,width:v*u-2,height:22,fill:c},m); hov(r,`<b>${l}</b><br>${v} rounds`);
+    el('text',{x:x+8,y:my+15,'font-size':12,'font-weight':700,fill:tc},m,v);
+    el('text',{x:x+(v>12?28:8),y:my+(v>12?15:38),'font-size':11.5,fill:v>12?tc:INK2},m,l);
+    x+=v*u;});
+  m.setAttribute('height',my+30);
+  // cards
+  const cd=document.getElementById('cards');
+  const card=(d,team)=>`<div class="card${team?' team':''}">${team?'<div class="tag">Notable team</div>':''}<div class="hd"><span class="nm">${d.name}${d.city?` <span class="st" style="font-weight:400">· ${d.city}</span>`:''}</span>${dotsHTML(d.dots)}</div>
+     <div class="hd" style="margin-top:2px"><span class="am">${d.amt}</span><span class="st">${d.stage}</span></div>
+     <div>${d.line}</div>${d.lead?`<div class="ld">Lead: ${d.lead}</div>`:''}</div>`;
+  cd.innerHTML=D.deep.map(d=>card(d)).join('')+card(D.reman,true);
+})();
+
+// ---------- 3. big rounds
+(function(){
+  const svg=document.getElementById('bigr'), W=640, L=190, R=W-70, lo=Math.log10(4e7), hi=Math.log10(1.2e11), x=v=>L+(Math.log10(v)-lo)/(hi-lo)*(R-L), rh=38, top=24;
+  const rows=[...D.big,null,...D.talks];
+  document.getElementById('b3c').innerHTML=`<b>14 rounds of $100M or more</b> were reported, equity only. Seven named below; bars = round size, ◇ = stated valuation where reported. Log scale.`;
+  [1e8,1e9,1e10,1e11].forEach(v=>{el('line',{x1:x(v),x2:x(v),y1:top-8,y2:top+rows.length*rh-10,stroke:RULE},svg);el('text',{x:x(v),y:top-12,'text-anchor':'middle','font-size':10.5,fill:INK3},svg,usd(v));});
+  rows.forEach((d,i)=>{const y=top+i*rh; if(!d){el('text',{x:0,y:y+8,'font-size':11,'font-weight':700,fill:INK2,'letter-spacing':'.08em'},svg,'IN TALKS, NOT CLOSED');return;}
+    const talk=!d.where;
+    el('text',{x:0,y:y+4,'font-size':13,'font-weight':700,fill:talk?INK2:INK},svg,d.name);
+    if(d.where) el('text',{x:0,y:y+18,'font-size':11,fill:INK2},svg,d.where);
+    const b=el('rect',{x:x(4e7),y:y-6,width:x(d.usd)-x(4e7),height:14,fill:talk?PAPER:INK,stroke:talk?INK2:'none','stroke-dasharray':talk?'3 2':'none',rx:1},svg);
+    el('text',{x:x(d.usd)+6,y:y+5,'font-size':12,'font-weight':700,fill:talk?INK2:INK},svg,d.label);
+    hov(b,`<b>${d.name}</b> ${d.label}${d.vlab?' at '+d.vlab:''}${talk?' (in talks)':''}`);
+    if(d.val){const vx=x(d.val), vy=y+15; el('line',{x1:x(d.usd),x2:vx,y1:vy,y2:vy,stroke:INK2,'stroke-dasharray':'1 2'},svg);
+      el('path',{d:`M${vx},${vy-6} l6,6 l-6,6 l-6,-6z`,fill:PAPER,stroke:INK,'stroke-width':1.3},svg);
+      el('text',{x:vx+(d.val>3e10?-10:10),y:vy+4,'font-size':11,'text-anchor':d.val>3e10?'end':'start',fill:INK2},svg,`valued at ${d.vlab}`);}
+    if(!talk) dotsSVG(svg,W,y+1,d.dots,true);
+  });
+  el('text',{x:W,y:top-12,'text-anchor':'end','font-size':10.5,fill:INK3},svg,'coverage');
+  svg.setAttribute('height',top+rows.length*rh-6);
+})();
+
+// ---------- 4. exits + funds
+(function(){
+  const svg=document.getElementById('exits'), W=612, L=0, bw=330, sc=bw/12e9; let y=6;
+  D.exits.forEach(e=>{
+    el('text',{x:0,y:y+12,'font-size':14,'font-weight':700,fill:INK},svg,`${e.acq} → ${e.tgt}`);
+    if(e.what) el('text',{x:0,y:y+27,'font-size':11.5,fill:INK2},svg,e.what);
+    const t=el('text',{x:W,y:y+12,'text-anchor':'end','font-size':20,fill:e.chg<0?NEG:INK},svg,`${e.chg>0?'+':'−'}${Math.abs(e.chg)}%`); t.setAttribute('class','serif');
+    dotsSVG(svg,W-74,y+7,e.dots,true);
+    const yb=y+(e.what?36:22);
+    [[e.before,e.blab,'#CFCAC0',INK],[e.after,e.alab,INK,INK]].forEach(([v,l,c],k)=>{const yy=yb+k*20;
+      const r=el('rect',{x:L,y:yy,width:v*sc,height:14,fill:c,rx:1},svg); hov(r,l);
+      el('text',{x:v*sc+6,y:yy+11,'font-size':12,fill:k?INK:INK2,'font-weight':k?700:400},svg,l);});
+    y=yb+52;});
+  el('text',{x:0,y:y-6,'font-size':11,fill:INK3},svg,'Grey = previous price or mark; black = this week’s price. Same $ scale.');
+  svg.setAttribute('height',y);
+  document.getElementById('single').innerHTML=D.single.map(s=>`<li><span>${s.acq} → ${s.tgt} · ${s.what}</span><span>● ${s.src}</span></li>`).join('');
+  const f=document.getElementById('funds'), fl=170, fs=(W-fl-130)/4e9;
+  D.funds.forEach((d,i)=>{const yy=4+i*30;
+    el('text',{x:0,y:yy+11,'font-size':12.5,'font-weight':700,fill:INK},f,d.name);
+    el('text',{x:0,y:yy+25,'font-size':10.5,fill:INK2},f,d.note);
+    const r=el('rect',{x:fl,y:yy,width:d.usd*fs,height:15,fill:i===0?EU:'#8E8A80',rx:1},f); hov(r,`<b>${d.name}</b> ${d.lab}`);
+    el('text',{x:fl+d.usd*fs+6,y:yy+12,'font-size':12,'font-weight':700,fill:INK},f,d.lab);
+    dotsSVG(f,W,yy+7,d.dots,true);});
+  el('text',{x:0,y:4+D.funds.length*30+8,'font-size':11,fill:INK3},f,'Blue = European early-stage fund.');
+  f.setAttribute('height',4+D.funds.length*30+12);
+})();
+
+// ---------- 5. market move
+(function(){
+  const svg=document.getElementById('mm'), L=150, W=560, bw=W-L-110;
+  el('text',{x:0,y:11,'font-size':11,'font-weight':700,fill:INK2,'letter-spacing':'.08em'},svg,'API TOKEN PRICE, INDEXED');
+  [['GPT-6 Astra',100,'#CFCAC0','= 100'],['GPT-6.2 Astra',80,INK,'80 (−20%) · $8 / $40 per M']].forEach(([n,v,c,l],i)=>{const y=20+i*24;
+    el('text',{x:0,y:y+12,'font-size':12.5,'font-weight':700,fill:INK},svg,n);
+    el('rect',{x:L,y,width:bw*v/100,height:15,fill:c,rx:1},svg);
+    el('text',{x:L+bw*v/100+6,y:y+12,'font-size':12,fill:i?INK:INK2,'font-weight':i?700:400},svg,l);});
+  el('text',{x:0,y:86,'font-size':11,'font-weight':700,fill:INK2,'letter-spacing':'.08em'},svg,'COST PER TASK · OPENAI’S CLAIM, OWN EVALS');
+  el('text',{x:0,y:107,'font-size':12.5,'font-weight':700,fill:INK},svg,'GPT-6.2 Astra');
+  el('rect',{x:L,y:95,width:bw/3,height:15,fill:PAPER,stroke:INK,'stroke-dasharray':'3 2',rx:1},svg);
+  el('text',{x:L+bw/3+6,y:107,'font-size':12,fill:INK2},svg,'under one-third of GPT-6 Astra (claim)');
+  el('text',{x:0,y:130,'font-size':11,fill:INK3},svg,'Prices per million input / output tokens. Source: OpenAI via Techmeme and AlphaSignal, 18 Nov.');
+  svg.setAttribute('height',136);
+})();
+document.getElementById('srcs').textContent=D.sources.map(([s,n])=>`${s} ${n}`).join(', ');
+</script>
+</body>
+</html>

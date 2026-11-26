@@ -1,0 +1,18 @@
+# Newsletter bodies and raw mail must never be committed
+raw/
+*.eml
+*.mbox
+cache/
+run/
+scratch/
+# secrets and local env
+.env
+.env.*
+*.key
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+# OS
+.DS_Store

@@ -1,0 +1,83 @@
+# Seed: sender address -> source family. Built from reference/data/inbox_inventory.json
+# (senders of the 223 issues used for W45-W47). A family = one publisher.
+# Only senders listed under `families` are collected; everything else is logged and ignored.
+# deal_carrying: true = a missing issue from this family is named in the footer and matters for counts.
+
+families:
+  Sifted:
+    deal_carrying: true
+    senders: [sifted@sifted.eu]   # 5 letters share this address: Sifted Daily, AI & Deeptech, Fintech, Up Round, Startup Life
+    letters_by_sender_name: [Sifted Daily, AI & Deeptech by Sifted, Fintech by Sifted, Up Round by Sifted, Startup Life by Sifted]
+    cadence: daily
+  TLDR:
+    deal_carrying: true
+    senders: [dan@tldrnewsletter.com]   # letters: TLDR IT, Hardware, Data, Fintech (sender name)
+    letters_by_sender_name: [TLDR IT, TLDR Hardware, TLDR Data, TLDR Fintech]
+    cadence: daily
+  Term Sheet:
+    deal_carrying: true
+    senders: [termsheet@mail.fortune.com, newsletters@nl.fortune.com]
+    cadence: daily
+  Techmeme:
+    deal_carrying: true
+    senders: [newsletter@techmeme.com]
+    cadence: daily        # morning email recaps the previous US day
+  AlphaSignal:
+    deal_carrying: false
+    senders: [news@alphasignal.ai]
+    cadence: daily
+  Maddyness:
+    deal_carrying: false
+    senders: [maddynews@maddyness.com, ia@maddyness.com]   # Maddyness + Maddyness IA = one family; footer may name a silent letter
+    letters_by_sender_name: [Maddyness, Maddyness IA]
+    cadence: daily
+  Newcomer:
+    deal_carrying: false
+    senders: [newcomer@substack.com]
+    cadence: weekly
+  EU-Startups:
+    deal_carrying: false
+    senders: [thomas.ohr@eu-startups.com]
+    cadence: weekly
+  Sunday CET:
+    deal_carrying: false
+    senders: [sundaycet@substack.com]   # Dragos Novac
+    cadence: weekly
+  TechCrunch Mobility:
+    deal_carrying: false
+    senders: [newsletters@techcrunch.com]   # check sender name "Kirsten at TechCrunch Mobility"; other TechCrunch letters are not subscribed in the corpus
+    cadence: weekly
+  DeepLearning.AI:
+    deal_carrying: false
+    senders: [thebatch@deeplearning.ai, hello@deeplearning.ai]
+    cadence: weekly
+  Benedict Evans:
+    deal_carrying: false
+    senders: [list@ben-evans.com]
+    cadence: weekly
+  Not Boring:
+    deal_carrying: false
+    senders: [notboring@substack.com]
+    cadence: weekly
+  Import AI:
+    deal_carrying: false
+    senders: [importai@substack.com]
+    cadence: weekly
+
+# Seen in the inbox but excluded from the W45-W47 corpus. Guy can move any of these into `families`.
+ignore_senders:
+  - aidev@deeplearning.ai        # AI Dev (6 issues Oct-Nov), not in the corpus
+  - news@thehustle.co            # The Hustle
+  - marketing@sifted.eu          # Sifted Pro promotions
+  - federico@sifted.eu           # personal note from Sifted staff
+  - contact@maddyness.com
+  - maddyness@news.maddyness.com
+  - mail@em.fortune.com
+  - "@bigpi.vc"                  # Big Pi test mail
+  - "@agentmail.to"
+
+# Subjects to ignore even from listed senders (sign-up and admin mail).
+ignore_subject_patterns:
+  - "(?i)confirm (your )?(signup|subscription|email)"
+  - "(?i)verify your email"
+  - "(?i)^welcome to"

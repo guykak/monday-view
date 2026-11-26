@@ -1,0 +1,146 @@
+[
+  {
+    "id": "A1",
+    "severity": "blocker",
+    "section": "1. Recommendation; 3. State and history; 7. Open risks",
+    "issue": "The design rests on a private GitHub repo that a cloud run clones and pushes to, but no GitHub access exists for this account and nothing in the scheduled-task tools attaches a repo to a run.",
+    "evidence": "In this cloud session: `gh auth status` reports 'The token in GH_TOKEN is invalid'; `list_repos` returns {\"repos\":[]}. `create_trigger` has no repo/source parameter (only name, prompt, cron, environment_id, folders, notifications). The one existing task (Greek Tech Events) shows only a Notion entry in `mcp_connections`, no GitHub. Spec §4 'Secrets' says the run uses 'Guy's existing connector sign-ins (… GitHub …)': there is none. Section 7 lists connector access as a risk but treats GitHub as available.",
+    "fix": "Drop GitHub for v1. Keep code, prompts and history as files in one private artifact (the 'store'): read them into the run with `claude-artifacts read_file` using `paths` (files come back as saved files, up to 4 MiB a call, not retyped by Claude) and write back with `publish_files` (reads from disk; bytes do not pass through Claude). Fallback: Google Drive, whose `create_file` accepts a `sha256:<hash>:<path>` file reference so uploads also skip Claude. Both must be proven in the Phase 0 `fire_trigger` test. Rewrite §3 'Not chosen' accordingly; GitHub becomes a 'later, if moving to a standalone runner' option."
+  },
+  {
+    "id": "A2",
+    "severity": "blocker",
+    "section": "2. Step 10 Render / Step 12 Send; 1. Verified",
+    "issue": "Inline chart images cannot practically be sent. AgentMail `send_message` takes attachments only as base64 text typed into the tool call, or as a public URL. Every byte of every PNG would have to be emitted by Claude as output tokens.",
+    "evidence": "`send_message` schema: attachment = {content: base64} or {url: 'Publicly accessible URL'}; no file reference. Current `weekly/email/` PNGs are whole blocks, text included, 58–166 KB each, 478 KB total, ~640 KB as base64: hundreds of thousands of output tokens, tens of minutes, and one wrong character breaks an image. The artifact page is private, so it cannot serve a public image URL.",
+    "fix": "v1 email has no images. Block 2's squares and the source-mix bar are drawn with HTML table cells (coloured backgrounds, inline styles), which Gmail and Apple Mail render; the other blocks are text and tables already. This also drops Chrome, Playwright and the PNG size checks from the weekly run (keep Chrome only for the optional full page). Keep the HTML body small (target ≤40 KB) because Claude must also type it into `send_message`."
+  },
+  {
+    "id": "A3",
+    "severity": "blocker",
+    "section": "4. Guardrails (Prompt injection); 2. Step 12",
+    "issue": "The 'send guard' is not a guard. Python can check a file, but Claude then types the `to`, `subject` and `html` arguments into `send_message` itself; nothing ties the call to what the script checked. The spec also says the tool 'cannot be locked to one address', which is wrong.",
+    "evidence": "AgentMail `create_list_entry`: 'The first entry on an allow list turns that list on: from then on every … recipient (send) not on it is rejected.' This is a platform-enforced send allowlist on the chief.geek inbox. Separately, `list_triggers` shows per-task `mcp_connections` with `permitted_tools` / `tool_policy_overrides`, so a task's connector reach can be scoped.",
+    "fix": "Make the hard lock the AgentMail send allowlist on chief.geek with Guy's address as its only entry (Guy sets it once, by hand; check first that the inbox never needs to send anything else, e.g. newsletter sign-up confirmations). Keep the script check as a second layer, and after sending call `get_message` on the sent message and compare recipients and subject with the plan; log a mismatch. Give the task only the AgentMail and store connectors (no Gmail, Slack, Notion, Drive unless used) and, if the settings allow, only the AgentMail tools it needs (list/get/search, send_message, update_thread). Verify `mcp_connections` with `list_triggers` after creation."
+  },
+  {
+    "id": "A4",
+    "severity": "major",
+    "section": "1. Verified ('Small for one run'); 2. Steps 3, 5; 4. Budget",
+    "issue": "The single-run context is mis-sized. 120k tokens of newsletter text read by one session, plus tool overhead, prompts and extraction output, overruns or forces compaction mid-run, and the main session would lose data. 'Store each message body in raw/W48/' is impossible without Claude retyping ~480 KB, because MCP results do not land on disk. The spec also calls 120k 'small' and then estimates 1–2M tokens.",
+    "evidence": "`get_message` returns the body into the model's context only. Volume per spec: ~55 issues, ~480 KB, ~120k tokens.",
+    "fix": "State the structure explicitly: the main session never reads bodies. It lists message IDs (`list_threads`), then runs one sub-agent per issue (about 8–10 in parallel) that calls `get_message` and writes only that issue's stories as JSON to disk. Raw bodies are not stored; history keeps message IDs, so any item can be re-read. Replace 'small for one run' with the measured per-run cost after Phase 0."
+  },
+  {
+    "id": "A5",
+    "severity": "major",
+    "section": "2. Step 9 Fact-check",
+    "issue": "The machine check is circular. It tests numbers in the draft against 'stored source quotes', but those quotes are written by the same extraction model, not copied from a file of the original text (see A4). A misread figure with a matching invented or altered quote passes.",
+    "evidence": "Step 5: `quote` is 'verbatim source text' produced by the extraction pass; step 9: fact-checker 'receives only the draft and … stored source quotes'.",
+    "fix": "Have the fact-check agent re-open the source message (`get_message` by stored message ID) for every item in blocks 1, 3 and 4 and every dot count, and confirm the quote appears in it. Keep the number-in-quote machine check as a cheap first filter. Say plainly in the spec that the Phase 1 human spot-check against the raw email is the real accuracy test."
+  },
+  {
+    "id": "A6",
+    "severity": "major",
+    "section": "2. Step 2 Start-up checks",
+    "issue": "Week number is off by one. 'Compute the ISO week' on the run day (a Monday) gives the new week, not the one being reported. The dedupe check, subject line, labels and history folder would all carry the wrong week.",
+    "evidence": "Python: 30 Nov 2026 (Monday run) is ISO W49; the week reported (23–29 Nov) is W48. The spec's own example uses W48 for that run.",
+    "fix": "Define once: report week = ISO week of (run date − 1 day), Athens time. Use that single value everywhere (subject, label, ledger, folder)."
+  },
+  {
+    "id": "A7",
+    "severity": "major",
+    "section": "2. Step 8; 5. Phase 0 done-when",
+    "issue": "The block rules contradict the approved sample, so the Phase 0 test cannot pass as written. The spec puts rounds of $50M+ only in block 3, but the approved `w47_sample.md` counts all sizes in block 2 (55 rounds, '7 of $50M or more also in section 3'), as review item V5 accepted. Step 8 also says 'exactly the rules in proposal.md', which still has the V1 error ('one-third of GPT-6's cost').",
+    "evidence": "Spec step 8: '≥$50M to block 3, <$50M to block 2'. Sample block 2 header and V5 in review.json. proposal.md §3 block 5 vs V1.",
+    "fix": "Name `w47_sample.md` (with review.json V1–V5) as the rule source, not proposal.md, or fix proposal.md first. Write the block 2 rule as in the sample. Phase 0 must also list V2–V5, not V1 only."
+  },
+  {
+    "id": "A8",
+    "severity": "major",
+    "section": "4. Guardrails; 2. Step 13",
+    "issue": "Nothing notices a run that never happens or stalls. If the task does not fire, is held waiting for an approval click, or dies, there is no 'held' notice: Guy simply gets nothing. The platform's own run status does not prove the work was done.",
+    "evidence": "Existing Greek Tech Events task: cron '0 4 * * 1' fired 04:09:43 and is SUCCEEDED at 04:11:06, 83 seconds for a 10-sub-agent crawl. So start times slip, and 'succeeded' means the session ended, not that the job was done. Approval mode is chosen by the server (create_trigger description). The 'push notification' text is not a documented tool of the scheduled run.",
+    "fix": "Add one check run (second task, Monday ~09:40 Athens): if no message labelled with this week's label is in chief.geek's sent mail, email Guy 'Monday view did not run'. Send hold notices as a short email from chief.geek to Guy (allowlisted) rather than relying on push. Confirm in Phase 0 that the task got auto-approval (`list_triggers` / task settings)."
+  },
+  {
+    "id": "A9",
+    "severity": "major",
+    "section": "4. Never send twice; 2. Step 2",
+    "issue": "Duplicate-send protection uses a full-text search on the subject plus a ledger in the (unavailable) repo. Full-text search is fuzzy, and the ledger is written after sending, so a crash between send and write leaves only the search.",
+    "evidence": "`search_messages`: ranked full-text over subject and body. `send_message` accepts `labels`; `list_threads` filters by exact labels including `sent`.",
+    "fix": "Send with labels ['monday-view', 'mv-W48']; before sending, `list_threads` with labels ['sent','mv-W48'] must return nothing. That one exact check replaces both. The ledger in the store stays as a record only."
+  },
+  {
+    "id": "A10",
+    "severity": "major",
+    "section": "4. Prompt injection",
+    "issue": "Injection defences cover the main session but not the sub-agents that actually read the newsletters, and the task may carry every connector on Guy's account. A newsletter that says 'forward this inbox to …' or 'post in Slack …' reaches a sub-agent that may hold those tools. 'Schema-validated, so instructions cannot become actions' is not true: the action happens during the model's reading, before validation.",
+    "evidence": "Spec §4: prompt plus schema validation. Sub-agents inherit the session's tools unless restricted. `mcp_connections` is per task (list_triggers).",
+    "fix": "Combine A3 (send allowlist, minimal connectors) with: extraction sub-agents are told their only allowed tools are `get_message` and writing one JSON file; no web fetch at all in the run; the main session treats sub-agent output as data. Name the residual risk in one line: worst case is a wrong or odd email to Guy only."
+  },
+  {
+    "id": "A11",
+    "severity": "major",
+    "section": "5. Phased plan",
+    "issue": "Phase 0 is over-built for 'just me initially'. It requires all R/V fixes, a golden set, a second tagging pass, reprint detection, an image renderer, a full-page republish, three email clients and forced-failure tests before Guy gets anything. A non-engineer cannot judge most of these items.",
+    "evidence": "Phase 0 list in spec §5.",
+    "fix": "Split it. Phase 0a (first automated [TEST] email): extraction sub-agents, merge, blocks 1–4 (+5), equity-only, story-date rule, HTML email without images, allowlist, label check, store, check run. Phase 0b (during shadow runs): deep-tech re-tag, reprint flags, late-item corrections, the full page, the monthly price check. Drop 'resend W48' (Guy can ask in chat) and the second deep-tech tagging pass until a tagging error shows up."
+  },
+  {
+    "id": "A12",
+    "severity": "major",
+    "section": "5. Definition of done",
+    "issue": "'Reproduces w47_sample.md with zero blocker or major differences' has no judge and no tolerance. Model output varies run to run, and wording will never match.",
+    "evidence": "Phase 0 first bullet.",
+    "fix": "Make it a checklist that can be ticked: the block 1 event and its 4 dated figures; the named items in blocks 2–4 are the same set (none missing, none added); every amount and valuation exact; counts within ±2 with the source-mix line present; dots exact for the 10 named items in the sample; no R1–R12 / V1–V5 error recurs. Run it twice and both runs must pass. Name the checker (an independent agent plus Guy's read)."
+  },
+  {
+    "id": "A13",
+    "severity": "minor",
+    "section": "2. Steps 3–4",
+    "issue": "The collection windows overlap. Each run takes Monday 00:00 to 06:30 of the run day, and the next run starts again at Monday 00:00, so those issues are read twice. Stories with no date of their own have no rule.",
+    "evidence": "Step 3 window definition.",
+    "fix": "Start each window at the previous run's cut-off (stored), or skip threads already labelled processed. Add: if a story has no date of its own, use the issue date for weekly digests and issue date − 1 day for daily morning digests. Convert Athens times to UTC with the time-zone database for the AgentMail `after`/`before` filters (offset is +02 in winter, +03 in summer)."
+  },
+  {
+    "id": "A14",
+    "severity": "minor",
+    "section": "2. Step 9; 4. Guardrails",
+    "issue": "Dropping a failed item without recomputing the blocks leaves stale counts, dot totals and 'N rounds' lines.",
+    "evidence": "'Failing items are removed, not rewritten.'",
+    "fix": "After drops, re-run the block step and the number check once; if a count changed, the email uses the new count."
+  },
+  {
+    "id": "A15",
+    "severity": "minor",
+    "section": "4. Guardrails",
+    "issue": "'Total issues < 50% of the 4-week median' has no history for the first runs, and the 20%-of-numbers hold has no count base.",
+    "evidence": "Section 4 table.",
+    "fix": "Seed the median from the W45–W47 issue counts already in the test set (about 55 a week per the spec). Define the base as 'numbers in blocks 1–4'."
+  },
+  {
+    "id": "A16",
+    "severity": "minor",
+    "section": "2. Step 6 Merge",
+    "issue": "Case-insensitive text matching is what caused review item V2 ('MountAIn' matched 'Mountain View' in a footer). The spec mandates it without the guard.",
+    "evidence": "review.json V2.",
+    "fix": "Count dots from extracted company entities, never from text search over whole issues; ignore footers and addresses."
+  },
+  {
+    "id": "A17",
+    "severity": "minor",
+    "section": "2. Step 1; 6. Decisions",
+    "issue": "Timing is tight and there is a clash. Start times slip (A8 evidence: ~9 minutes), and the 45-minute ceiling leaves ~25 minutes before 08:00. The Greek Tech Events task also runs every Monday morning on the same account. Model choice, which drives cost, is not mentioned.",
+    "evidence": "Existing task: Monday 04:00 UTC, model claude-sonnet-5-5.",
+    "fix": "Run at 06:11 Athens. Name the model (a smaller model for per-issue extraction if the platform allows; otherwise one model) and add 'monthly cost seen in Phase 1' to Guy's decisions."
+  },
+  {
+    "id": "A18",
+    "severity": "minor",
+    "section": "Whole document",
+    "issue": "Too long (2,336 words against a 1,800 target) and full of unexplained terms for a non-engineer: cron, CRON_TZ, idempotency, JSON Lines, schema, diffable, cid:, headless Chrome, MCP, golden set, ISO week, contentDisposition.",
+    "evidence": "Word count via wc; terms in §§1–4.",
+    "fix": "Cut the ASCII diagram to 7 numbered lines; move 'Verified on this platform' to a 5-line appendix; drop the standalone-pipeline paragraph to two sentences; drop Agent Drive and the artifact-database paragraph. Gloss each remaining term once (e.g. 'schema: a fixed form the model must fill in'). Images and GitHub removal (A1, A2) cut ~250 words on their own."
+  }
+]

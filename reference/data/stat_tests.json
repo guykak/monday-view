@@ -1,0 +1,2884 @@
+{
+ "weeks": [
+  "W44p",
+  "W45",
+  "W46",
+  "W47",
+  "W48p"
+ ],
+ "full_weeks": [
+  "W45",
+  "W46",
+  "W47"
+ ],
+ "n_closed_rounds": 289,
+ "tests": [
+  {
+   "id": "S1",
+   "name": "Capital deployed in closed rounds ($M)",
+   "kind": "sum",
+   "weekly": {
+    "W44p": 3609.1,
+    "W45": 16679.7,
+    "W46": 7446.8,
+    "W47": 9113.2,
+    "W48p": 885.4
+   },
+   "full_week_range": [
+    7446.8,
+    16679.7
+   ],
+   "mean": 11079.9,
+   "cv_pct": 36.3,
+   "max_wow_change_pct": 55.4,
+   "W47_sources": {
+    "n_families": 8,
+    "top_family": "Fortune Term Sheet",
+    "top_family_share_pct": 53.8,
+    "only_techmeme_items": 13
+   },
+   "without_techmeme_only": {
+    "W44p": 2103.1,
+    "W45": 14811.2,
+    "W46": 6280.3,
+    "W47": 8194.2,
+    "W48p": 788.4
+   },
+   "without_largest_round": {
+    "W44p": 2923.3,
+    "W45": 5679.7,
+    "W46": 6446.8,
+    "W47": 4113.2,
+    "W48p": 608.4
+   },
+   "largest_round_share_pct": {
+    "W44p": 19.0,
+    "W45": 65.9,
+    "W46": 13.4,
+    "W47": 54.9,
+    "W48p": 31.3
+   },
+   "rating": "not supportable as a headline number",
+   "note": "Sum is driven by 1-3 rounds a week and by which mega-rounds the newsletters chose to carry. Use only as context under the mega-round list.",
+   "verdict": "not supportable as a headline number",
+   "works_from_week1": "no",
+   "baseline_needed": "12+ weeks, and even then only as a 4-week rolling sum"
+  },
+  {
+   "id": "S2",
+   "name": "Closed company rounds (count, deduplicated)",
+   "kind": "count",
+   "weekly": {
+    "W44p": 55,
+    "W45": 53,
+    "W46": 73,
+    "W47": 80,
+    "W48p": 28
+   },
+   "full_week_range": [
+    53,
+    80
+   ],
+   "mean": 68.667,
+   "cv_pct": 16.7,
+   "max_wow_change_pct": 37.7,
+   "W47_sources": {
+    "n_families": 8,
+    "top_family": "Fortune Term Sheet",
+    "top_family_share_pct": 53.8,
+    "only_techmeme_items": 13
+   },
+   "without_techmeme_only": {
+    "W44p": 45,
+    "W45": 42,
+    "W46": 63,
+    "W47": 67,
+    "W48p": 25
+   },
+   "rating": "stands above noise (as a count, with caveat)",
+   "note": "Stable W45-W47 because issue supply per family is stable. Measures newsletter coverage of deals, not the market; compare only after 8+ weeks.",
+   "robustness_drop_one_family": {
+    "Techmeme": {
+     "W44p": 45,
+     "W45": 42,
+     "W46": 63,
+     "W47": 67,
+     "W48p": 25
+    },
+    "Fortune Term Sheet": {
+     "W44p": 41,
+     "W45": 43,
+     "W46": 57,
+     "W47": 53,
+     "W48p": 23
+    },
+    "Sifted": {
+     "W44p": 50,
+     "W45": 32,
+     "W46": 61,
+     "W47": 70,
+     "W48p": 15
+    },
+    "EU-Startups": {
+     "W44p": 46,
+     "W45": 53,
+     "W46": 68,
+     "W47": 74,
+     "W48p": 28
+    }
+   },
+   "verdict": "stands above noise only as context",
+   "works_from_week1": "yes (as a count)",
+   "baseline_needed": "8+ weeks before week-on-week means anything"
+  },
+  {
+   "id": "S3",
+   "name": "Early-stage rounds (pre-seed to A, or <=$20M) by technical area",
+   "kind": "count table",
+   "weekly": {
+    "W44p": 38,
+    "W45": 30,
+    "W46": 53,
+    "W47": 56,
+    "W48p": 25
+   },
+   "full_week_range": [
+    30,
+    56
+   ],
+   "mean": 46.333,
+   "cv_pct": 25.1,
+   "max_wow_change_pct": 76.7,
+   "W47_sources": {
+    "n_families": 7,
+    "top_family": "Fortune Term Sheet",
+    "top_family_share_pct": 53.6,
+    "only_techmeme_items": 6
+   },
+   "by_area": {
+    "AI agents, models & dev tools": {
+     "W44p": 17,
+     "W45": 10,
+     "W46": 18,
+     "W47": 17,
+     "W48p": 7
+    },
+    "Bio & health": {
+     "W44p": 6,
+     "W45": 4,
+     "W46": 7,
+     "W47": 9,
+     "W48p": 3
+    },
+    "Chips & photonics": {
+     "W44p": 0,
+     "W45": 2,
+     "W46": 4,
+     "W47": 8,
+     "W48p": 2
+    },
+    "Cybersecurity": {
+     "W44p": 1,
+     "W45": 1,
+     "W46": 1,
+     "W47": 2,
+     "W48p": 0
+    },
+    "Defence & security hardware": {
+     "W44p": 2,
+     "W45": 2,
+     "W46": 2,
+     "W47": 6,
+     "W48p": 1
+    },
+    "Energy, compute & climate hardware": {
+     "W44p": 0,
+     "W45": 2,
+     "W46": 5,
+     "W47": 0,
+     "W48p": 2
+    },
+    "Fintech & crypto": {
+     "W44p": 1,
+     "W45": 1,
+     "W46": 4,
+     "W47": 2,
+     "W48p": 3
+    },
+    "Other software & services": {
+     "W44p": 6,
+     "W45": 4,
+     "W46": 6,
+     "W47": 6,
+     "W48p": 4
+    },
+    "Robotics & autonomy": {
+     "W44p": 4,
+     "W45": 3,
+     "W46": 4,
+     "W47": 4,
+     "W48p": 3
+    },
+    "Space": {
+     "W44p": 1,
+     "W45": 1,
+     "W46": 2,
+     "W47": 2,
+     "W48p": 0
+    }
+   },
+   "deep_tech_early": {
+    "W44p": 13,
+    "W45": 14,
+    "W46": 24,
+    "W47": 29,
+    "W48p": 11
+   },
+   "deep_tech_early_without_techmeme": {
+    "W44p": 12,
+    "W45": 11,
+    "W46": 22,
+    "W47": 28,
+    "W48p": 10
+   },
+   "rating": "stands above noise as a count/ranking; per-area week-on-week needs 8-12 weeks",
+   "note": "Fed mainly by Sifted, Term Sheet, EU-Startups; Techmeme contributes few early rounds so dropping it barely moves it.",
+   "robustness_drop_one_family": {
+    "Techmeme": {
+     "W44p": 33,
+     "W45": 24,
+     "W46": 47,
+     "W47": 50,
+     "W48p": 22
+    },
+    "Fortune Term Sheet": {
+     "W44p": 27,
+     "W45": 25,
+     "W46": 37,
+     "W47": 36,
+     "W48p": 22
+    },
+    "Sifted": {
+     "W44p": 35,
+     "W45": 15,
+     "W46": 43,
+     "W47": 48,
+     "W48p": 13
+    },
+    "EU-Startups": {
+     "W44p": 30,
+     "W45": 30,
+     "W46": 49,
+     "W47": 51,
+     "W48p": 25
+    }
+   },
+   "eu_early_rounds": {
+    "W44p": 19,
+    "W45": 17,
+    "W46": 25,
+    "W47": 29,
+    "W48p": 15
+   },
+   "classifier_spot_check_W47": {
+    "flagged_deep_early": 29,
+    "correct_on_reading_text": 16,
+    "precision_pct": 55,
+    "errors": [
+     "Fermat (fashion AI) tagged Space",
+     "Fairly (rental marketplace) tagged Chips",
+     "Arva AI, Corma (software) tagged Defence",
+     "Hone/Knit Health (care services/software) tagged Bio",
+     "Stryx AI counted twice (Sifted + Maddyness French line)"
+    ],
+    "implication": "Technical-area tags must come from an LLM reading the deal paragraph against a fixed taxonomy, with a weekly spot-check; keyword/topic tags are not good enough."
+   },
+   "verdict": "stands above noise as a ranked count, once tagging is fixed",
+   "works_from_week1": "yes (ranking by area)",
+   "baseline_needed": "8-12 weeks for per-area trends"
+  },
+  {
+   "id": "S4",
+   "name": "Mega-rounds >= $100M (count)",
+   "kind": "list",
+   "weekly": {
+    "W44p": 9,
+    "W45": 14,
+    "W46": 18,
+    "W47": 15,
+    "W48p": 3
+   },
+   "full_week_range": [
+    14,
+    18
+   ],
+   "mean": 15.667,
+   "cv_pct": 10.8,
+   "max_wow_change_pct": 28.6,
+   "W47_sources": {
+    "n_families": 6,
+    "top_family": "Techmeme",
+    "top_family_share_pct": 66.7,
+    "only_techmeme_items": 3
+   },
+   "without_techmeme_only": {
+    "W44p": 3,
+    "W45": 10,
+    "W46": 13,
+    "W47": 12,
+    "W48p": 3
+   },
+   "W47_list": [
+    [
+     "2026-11-18",
+     "EU",
+     5000,
+     "Isomorphic Labs raises $5B",
+     [
+      "EU-Startups",
+      "Fortune Term Sheet",
+      "Sifted",
+      "TLDR",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-18",
+     "EU",
+     500,
+     "Genesis AI raises $500M Series A for AI models designed to run",
+     [
+      "Fortune Term Sheet",
+      "Sifted",
+      "TLDR",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-18",
+     "EU",
+     280,
+     "Payhawk raises $280M",
+     [
+      "EU-Startups",
+      "Fortune Term Sheet",
+      "Sifted",
+      "Sunday CET (Dragos Novac)",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-18",
+     "EU",
+     250,
+     "Model ML raises $250M",
+     [
+      "EU-Startups",
+      "Fortune Term Sheet",
+      "Sifted",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-18",
+     "US",
+     228,
+     "Hone Health raises $228M Series A",
+     [
+      "Fortune Term Sheet"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "ELSE",
+     200,
+     "Megarobo raises $200M for Robotics and AI to automate",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-17",
+     "ELSE",
+     176,
+     "Blue j raises $176M Series E for AI-powered tax research software",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-17",
+     "EU",
+     162,
+     "Stark Future raises $162M",
+     [
+      "Sifted"
+     ]
+    ],
+    [
+     "2026-11-17",
+     "ELSE",
+     125,
+     "Corma raises $125M Series A for AI agents custom-trained for Cyber",
+     [
+      "Fortune Term Sheet",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-18",
+     "UNK",
+     124,
+     "Ramon.Space raises $124M Series B for space computing infrastructure",
+     [
+      "Fortune Term Sheet"
+     ]
+    ],
+    [
+     "2026-11-17",
+     "US",
+     110,
+     "Noeri raises $110M",
+     [
+      "Fortune Term Sheet",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-19",
+     "UNK",
+     110,
+     "Variational raises $110M Series B for blockchain-based derivatives tied to crypt",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "EU",
+     110,
+     "Boltz raises $110M Series A for AI models for pharma and",
+     [
+      "Fortune Term Sheet",
+      "Sifted",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-19",
+     "EU",
+     108,
+     "Paris-based AI unicorn Mistral AI secured an additional \u20ac100 million from Deutsc",
+     [
+      "EU-Startups"
+     ]
+    ],
+    [
+     "2026-11-17",
+     "US",
+     100,
+     "Seawolf Therapeutics raises $100M Seed for DNA-based therapeutics",
+     [
+      "Fortune Term Sheet"
+     ]
+    ]
+   ],
+   "rating": "noisy but useful as a list",
+   "note": "Techmeme carries a large share of US mega-rounds; the list is the product, not the count.",
+   "verdict": "noisy count, strong as a list",
+   "works_from_week1": "yes (list)",
+   "baseline_needed": "n/a"
+  },
+  {
+   "id": "S5",
+   "name": "European share of EU+US closed rounds (% count)",
+   "kind": "share",
+   "weekly": {
+    "W44p": 54.3,
+    "W45": 55.8,
+    "W46": 59.6,
+    "W47": 57.4,
+    "W48p": 70.8
+   },
+   "full_week_range": [
+    55.8,
+    59.6
+   ],
+   "mean": 57.6,
+   "cv_pct": 2.7,
+   "max_wow_change_pct": 6.8,
+   "W47_sources": {
+    "n_families": 8,
+    "top_family": "Fortune Term Sheet",
+    "top_family_share_pct": 55.7,
+    "only_techmeme_items": 4
+   },
+   "pct_dollars": {
+    "W44p": 37.2,
+    "W45": 4.5,
+    "W46": 47.2,
+    "W47": 86.9,
+    "W48p": 41.4
+   },
+   "early_only_pct_count": {
+    "W44p": 57.6,
+    "W45": 73.9,
+    "W46": 64.1,
+    "W47": 60.4,
+    "W48p": 68.2
+   },
+   "without_techmeme_pct_count": {
+    "W44p": 59.5,
+    "W45": 61.5,
+    "W46": 63.3,
+    "W47": 59.6,
+    "W48p": 77.3
+   },
+   "rating": "not supportable",
+   "note": "Share is set by the subscription mix (Sifted, EU-Startups, Maddyness are European; Term Sheet/Techmeme US) and by whether EU-Startups/Sunday CET arrived that week. Says nothing about the market.",
+   "verdict": "not supportable",
+   "works_from_week1": "no",
+   "baseline_needed": "never: measures subscriptions"
+  },
+  {
+   "id": "S6",
+   "name": "Median round size, Seed/pre-seed ($M)",
+   "kind": "median",
+   "weekly": {
+    "W44p": 8.0,
+    "W45": 7.6,
+    "W46": 10.0,
+    "W47": 8.0,
+    "W48p": 10.1
+   },
+   "full_week_range": [
+    7.6,
+    10.0
+   ],
+   "mean": 8.533,
+   "cv_pct": 12.3,
+   "max_wow_change_pct": 31.6,
+   "W47_sources": {
+    "n_families": 5,
+    "top_family": "Fortune Term Sheet",
+    "top_family_share_pct": 54.3,
+    "only_techmeme_items": 3
+   },
+   "n_seed": {
+    "W44p": 19,
+    "W45": 14,
+    "W46": 19,
+    "W47": 35,
+    "W48p": 14
+   },
+   "median_series_A": {
+    "W44p": 27.5,
+    "W45": 28.5,
+    "W46": 24.5,
+    "W47": 30.0,
+    "W48p": 32.0
+   },
+   "n_series_A": {
+    "W44p": 11,
+    "W45": 9,
+    "W46": 26,
+    "W47": 15,
+    "W48p": 3
+   },
+   "median_seed_EU": {
+    "W44p": 5.4,
+    "W45": 4.4,
+    "W46": 6.5,
+    "W47": 6.3,
+    "W48p": 6.6
+   },
+   "median_A_EU": {
+    "W44p": 28.9,
+    "W45": 14.6,
+    "W46": 18.7,
+    "W47": 57.2,
+    "W48p": 11.0
+   },
+   "rating": "noisy weekly; useful as a rolling 4-week figure",
+   "note": "n per week is 15-25 seeds and 10-20 As; weekly medians swing. Publish 4-week rolling median with n; week-on-week means nothing.",
+   "verdict": "noisy weekly; usable as 4-week rolling median with n",
+   "works_from_week1": "no",
+   "baseline_needed": "4-week rolling from week 4; trend after 12 weeks"
+  },
+  {
+   "id": "S7",
+   "name": "Deep-tech share of closed rounds (% count)",
+   "kind": "share",
+   "weekly": {
+    "W44p": 36.4,
+    "W45": 49.1,
+    "W46": 46.6,
+    "W47": 48.8,
+    "W48p": 46.4
+   },
+   "full_week_range": [
+    46.6,
+    49.1
+   ],
+   "mean": 48.167,
+   "cv_pct": 2.3,
+   "max_wow_change_pct": 5.1,
+   "W47_sources": {
+    "n_families": 8,
+    "top_family": "Fortune Term Sheet",
+    "top_family_share_pct": 61.5,
+    "only_techmeme_items": 4
+   },
+   "deep_usd_M": {
+    "W44p": 1865.3,
+    "W45": 1959.0,
+    "W46": 4880.8,
+    "W47": 7092.0,
+    "W48p": 600.8
+   },
+   "without_techmeme": {
+    "W44p": 40.0,
+    "W45": 52.4,
+    "W46": 47.6,
+    "W47": 52.2,
+    "W48p": 48.0
+   },
+   "rating": "stands above noise as a count; share needs a longer baseline",
+   "note": "Keyword+topic classifier; robust to Techmeme removal.",
+   "classifier_spot_check_W47": "same classifier as S3, ~55% precision on deep-tech early rounds; share not publishable until re-tagged",
+   "verdict": "not supportable until re-tagged",
+   "works_from_week1": "no",
+   "baseline_needed": "12 weeks"
+  },
+  {
+   "id": "S8",
+   "name": "Tech M&A events (PE roll-ups excluded)",
+   "kind": "list",
+   "weekly": {
+    "W44p": 10,
+    "W45": 22,
+    "W46": 22,
+    "W47": 19,
+    "W48p": 9
+   },
+   "full_week_range": [
+    19,
+    22
+   ],
+   "mean": 21,
+   "cv_pct": 6.7,
+   "max_wow_change_pct": 13.6,
+   "W47_sources": {
+    "n_families": 7,
+    "top_family": "Techmeme",
+    "top_family_share_pct": 47.4,
+    "only_techmeme_items": 6
+   },
+   "all_MA_events_incl_PE": {
+    "W44p": 18,
+    "W45": 29,
+    "W46": 31,
+    "W47": 31,
+    "W48p": 11
+   },
+   "W47_list": [
+    [
+     "2026-11-16",
+     "Sifted",
+     300000000,
+     "Onodrim acquisition deal ($300M)",
+     [
+      "Sifted"
+     ]
+    ],
+    [
+     "2026-11-16",
+     "Techmeme",
+     1500000000,
+     "Jd.com completes its takeover of German electronics retailer ceconomy",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-17",
+     "Sifted",
+     null,
+     "Thiel-backed Majority to merge with Rebtel",
+     [
+      "Sifted"
+     ]
+    ],
+    [
+     "2026-11-17",
+     "Techmeme",
+     null,
+     "Kalshi bought fb securities, a small new York-based broker, in July",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-18",
+     "Techmeme",
+     1000000000,
+     "Applovin is among companies in talks to acquire ad tech company criteo,",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-18",
+     "Fortune Term Sheet",
+     null,
+     "EQT Transition Infrastructure agreed to acquire Flatiron Energy, a developer and operator",
+     [
+      "Fortune Term Sheet"
+     ]
+    ],
+    [
+     "2026-11-19",
+     "AlphaSignal",
+     null,
+     "Cognition launches Devin Bots , helping engineers merge 4.5x more PRs Signals",
+     [
+      "AlphaSignal"
+     ]
+    ],
+    [
+     "2026-11-19",
+     "Techmeme",
+     null,
+     "Palo Alto Networks agrees to buy Applied compute, which helps companies customize",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-19",
+     "Fortune Term Sheet",
+     null,
+     "UPS agreed to acquire Smartways acquisition deal",
+     [
+      "Fortune Term Sheet"
+     ]
+    ],
+    [
+     "2026-11-19",
+     "TLDR",
+     null,
+     "MongoDB Acquires Firebolt",
+     [
+      "TLDR"
+     ]
+    ],
+    [
+     "2026-11-19",
+     "TLDR",
+     null,
+     "Reports should Tesla and SpaceX merge?",
+     [
+      "TLDR",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "Techmeme",
+     null,
+     "Intuit agrees to sell marketing subsidiary Mailchimp to Bending Spoons for $3.68b",
+     [
+      "TLDR",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "Techmeme",
+     500000000,
+     "Nvidia is in advanced talks to acquire diffusion LLM developer Inception",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "Fortune Term Sheet",
+     null,
+     "Gimv agreed to acquire a majority stake in SpiraTec, a Speyer, Germany-based",
+     [
+      "Fortune Term Sheet"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "DeepLearning.AI The Batch",
+     8200000000,
+     "In September 2026, AMD agreed to acquire World Labs in an all-stock",
+     [
+      "DeepLearning.AI The Batch"
+     ]
+    ],
+    [
+     "2026-11-21",
+     "Techmeme",
+     265000000000,
+     "CrowdStrike is in talks to acquire Zscaler, which would create a cybersecurity",
+     [
+      "TLDR",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-21",
+     "Techmeme",
+     8000000000,
+     "Helix digital, launched by KKR to invest in data centers, is",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-22",
+     "Sunday CET (Dragos Novac)",
+     2214000000,
+     "Iceye has launched a \u20ac2.05b cash bid for Milan-listed rocket maker Avio",
+     [
+      "Sunday CET (Dragos Novac)"
+     ]
+    ],
+    [
+     "2026-11-22",
+     "Sunday CET (Dragos Novac)",
+     null,
+     "Bending Spoons bought Mailchimp for 3x revenues and less than one-third",
+     [
+      "Sunday CET (Dragos Novac)"
+     ]
+    ]
+   ],
+   "rating": "noisy but useful as a list",
+   "note": "Term Sheet adds ~10 PE roll-ups a week; filtering them leaves a 15-25 item list of tech acquisitions. Count is classifier-dependent.",
+   "curated_W47_startup_exits": [
+    "Palo Alto Networks buys Applied Compute (customises open-weight models) for $4.5B in stock; valued at $3.25B earlier this month (Techmeme 19 Nov, Newcomer 20 Nov)",
+    "MongoDB acquires Firebolt (analytics engine) (TLDR Data 19 Nov)",
+    "Nvidia in advanced talks to buy Inception (diffusion LLMs) for $500M+ plus earnouts (Techmeme 20 Nov)",
+    "Bending Spoons buys Mailchimp from Intuit for $3.68B; Intuit paid ~$12B in 2021 (Techmeme 20 Nov, Sunday CET 22 Nov)",
+    "Iceye launches EUR2.05B cash bid for Avio (Sunday CET 22 Nov)",
+    "CrowdStrike in talks to acquire Zscaler (Techmeme/TLDR 21 Nov)"
+   ],
+   "verdict": "noisy count, strong as a curated list",
+   "works_from_week1": "yes (list)",
+   "baseline_needed": "n/a"
+  },
+  {
+   "id": "S9",
+   "name": "New VC funds closed/raised (events)",
+   "kind": "list",
+   "weekly": {
+    "W44p": 5,
+    "W45": 2,
+    "W46": 4,
+    "W47": 3,
+    "W48p": 0
+   },
+   "full_week_range": [
+    2,
+    4
+   ],
+   "mean": 3,
+   "cv_pct": 27.2,
+   "max_wow_change_pct": 100.0,
+   "W47_sources": {
+    "n_families": 3,
+    "top_family": "Sifted",
+    "top_family_share_pct": 100.0,
+    "only_techmeme_items": 0
+   },
+   "W47_list": [
+    [
+     "2026-11-16",
+     "Sifted",
+     700000000,
+     "Europe",
+     "Defence startup Uforce raised $700m backed by the UK National Wealth Fund"
+    ],
+    [
+     "2026-11-17",
+     "Sifted",
+     1080000000,
+     "Europe",
+     "Early stage VC firm Plural raised a new \u20ac1bn fund to back"
+    ],
+    [
+     "2026-11-20",
+     "Sifted",
+     783000000,
+     "France",
+     "Paris-based VC Sofinnova Partners raised \u20ac725m for its second crossover fund."
+    ]
+   ],
+   "rating": "noisy but useful as a list",
+   "note": "Fund closes come from Term Sheet \"Funds\" section, Sifted, Maddyness. Regex detection misses most; needs an LLM pass and a VC-vs-PE filter (Gemspring, Argonaut are PE). 3 VC closes a week in each full week.",
+   "curated_fund_closes": {
+    "W45": [
+     "Creandum new fund (4 families)",
+     "Yvonne Bajela new fund (~$17M)",
+     "Robin Capital EUR15m fund II"
+    ],
+    "W46": [
+     "Redalpine ~EUR222m fund VIII",
+     "Course Corrected fund II (~$86M)",
+     "Zacua Ventures $135M"
+    ],
+    "W47": [
+     "Plural EUR1bn (3 families)",
+     "Sofinnova Crossover II EUR725m",
+     "Norwest fund 18 $4B (US, venture+growth)"
+    ],
+    "W48p": [
+     "a16z in talks to raise ~$20B (not closed)"
+    ]
+   },
+   "verdict": "strong as a list",
+   "works_from_week1": "yes (list)",
+   "baseline_needed": "running total from week 1; compare after a quarter"
+  },
+  {
+   "id": "S10",
+   "name": "IPO/listing events",
+   "kind": "list",
+   "weekly": {
+    "W44p": 10,
+    "W45": 7,
+    "W46": 8,
+    "W47": 8,
+    "W48p": 3
+   },
+   "full_week_range": [
+    7,
+    8
+   ],
+   "mean": 7.667,
+   "cv_pct": 6.1,
+   "max_wow_change_pct": 14.3,
+   "W47_sources": {
+    "n_families": 8,
+    "top_family": "Techmeme",
+    "top_family_share_pct": 50.0,
+    "only_techmeme_items": 3
+   },
+   "W47_list": [
+    [
+     "2026-11-16",
+     "Sifted",
+     "Nscale could delay its planned $35bn IPO until next year, following",
+     [
+      "Sifted"
+     ]
+    ],
+    [
+     "2026-11-16",
+     "Techmeme",
+     "Anthropic's IPO is ~7X oversubscribed",
+     [
+      "Benedict Evans",
+      "DeepLearning.AI The Batch",
+      "Sifted",
+      "TLDR",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-18",
+     "Fortune Term Sheet",
+     "Core Specialty Insurance raises funding for specialty insurance to small and",
+     [
+      "Fortune Term Sheet"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "TechCrunch Mobility",
+     "Mahindra Last Mile Mobility**, an electric three-wheeler business under Mahindra & Mahindr",
+     [
+      "TechCrunch Mobility"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "Techmeme",
+     "A job listing shows apple is developing an AI agent that can",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-21",
+     "Techmeme",
+     "Anthropic raises an additional $12.2b as underwriters exercise their \u201cgreenshoe\u201d overallot",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-21",
+     "Techmeme",
+     "Singapore-based dayone pauses its US IPO plans to raise up to $5b",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-22",
+     "Sunday CET (Dragos Novac)",
+     "UniCredit\u2019s \u20ac45b takeover of Commerzbank is moving on - the Italians",
+     [
+      "Sunday CET (Dragos Novac)"
+     ]
+    ]
+   ],
+   "rating": "noisy but useful as a list",
+   "note": "One storyline (Anthropic IPO) dominates mentions; count events, not mentions.",
+   "verdict": "list only when an event is new; mostly one storyline",
+   "works_from_week1": "partial",
+   "baseline_needed": "n/a"
+  },
+  {
+   "id": "S11",
+   "name": "Consensus events (first seen in week, >=3 source families)",
+   "kind": "list",
+   "weekly": {
+    "W44p": 6,
+    "W45": 4,
+    "W46": 2,
+    "W47": 7,
+    "W48p": 0
+   },
+   "full_week_range": [
+    2,
+    7
+   ],
+   "mean": 4.333,
+   "cv_pct": 47.4,
+   "max_wow_change_pct": 250.0,
+   "ge2_families": {
+    "W44p": 17,
+    "W45": 14,
+    "W46": 19,
+    "W47": 30,
+    "W48p": 9
+   },
+   "ge2_without_techmeme": {
+    "W44p": 9,
+    "W45": 9,
+    "W46": 10,
+    "W47": 19,
+    "W48p": 2
+   },
+   "W47_ge2_list": [
+    [
+     "2026-11-18",
+     5,
+     "funding round",
+     "Isomorphic Labs raises $5B",
+     [
+      "EU-Startups",
+      "Fortune Term Sheet",
+      "Sifted",
+      "TLDR",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-18",
+     5,
+     "funding round",
+     "Payhawk raises $280M",
+     [
+      "EU-Startups",
+      "Fortune Term Sheet",
+      "Sifted",
+      "Sunday CET (Dragos Novac)",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-18",
+     4,
+     "funding round",
+     "Model ML raises $250M",
+     [
+      "EU-Startups",
+      "Fortune Term Sheet",
+      "Sifted",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-16",
+     4,
+     "news",
+     "Nvidia board reinstates Jensen Huang as CEO",
+     [
+      "Maddyness",
+      "Sifted",
+      "TLDR",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-17",
+     3,
+     "funding round",
+     "Plural raises new \u20ac1bn fund",
+     [
+      "EU-Startups",
+      "Sifted",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-17",
+     3,
+     "funding round",
+     "Daisytuner raises $6M Seed for software that optimizes AI model",
+     [
+      "EU-Startups",
+      "Fortune Term Sheet",
+      "Sifted"
+     ]
+    ],
+    [
+     "2026-11-18",
+     3,
+     "funding round",
+     "Genesis AI raises $500M Series A for AI models designed to run",
+     [
+      "Fortune Term Sheet",
+      "Sifted",
+      "TLDR"
+     ]
+    ],
+    [
+     "2026-11-18",
+     2,
+     "news",
+     "Atomico State of European Tech 2026",
+     [
+      "Maddyness",
+      "Sifted"
+     ]
+    ],
+    [
+     "2026-11-20",
+     2,
+     "news",
+     "Slush 2026 in Helsinki",
+     [
+      "Maddyness",
+      "Sifted"
+     ]
+    ],
+    [
+     "2026-11-19",
+     2,
+     "M&A",
+     "Tesla\u2013SpaceX merger talks advance",
+     [
+      "TLDR",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-20",
+     2,
+     "funding round",
+     "Boltz raises $110M Series A for AI models for pharma and",
+     [
+      "Fortune Term Sheet",
+      "Sifted"
+     ]
+    ],
+    [
+     "2026-11-17",
+     2,
+     "news",
+     "Anthropic's Claude Code now tests iPhone Duo foldable layouts in iOS simulator",
+     [
+      "AlphaSignal",
+      "TLDR"
+     ]
+    ],
+    [
+     "2026-11-17",
+     2,
+     "funding round",
+     "Remanence raises $30M Seed",
+     [
+      "Fortune Term Sheet",
+      "Sifted"
+     ]
+    ],
+    [
+     "2026-11-21",
+     2,
+     "M&A",
+     "CrowdStrike to buy Zscaler ($43.9B)",
+     [
+      "TLDR",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-16",
+     2,
+     "news",
+     "Applications Tesla opens Cybercab pre-orders to select customers at $29,990 plus",
+     [
+      "TLDR",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-16",
+     2,
+     "funding round",
+     "Luminal raises $25M Series A for an inference cloud and develops",
+     [
+      "Fortune Term Sheet",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-16",
+     2,
+     "news",
+     "Ula's Vulcan loses 40 Amazon LEO satellites about 10 minutes in",
+     [
+      "TLDR",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-16",
+     2,
+     "funding round",
+     "Dreamteam raises $53M Seed for AI agents for CRM tasks",
+     [
+      "Fortune Term Sheet",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-17",
+     2,
+     "funding round",
+     "Noeri raises $110M",
+     [
+      "Fortune Term Sheet",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-18",
+     2,
+     "product launch",
+     "OpenAI ships GPT-6.2 Astra and Sol at one-third the cost of GPT-6",
+     [
+      "AlphaSignal",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-18",
+     2,
+     "funding round",
+     "Tiberius Aerospace raises $85M Series A",
+     [
+      "Fortune Term Sheet",
+      "Sifted"
+     ]
+    ],
+    [
+     "2026-11-18",
+     2,
+     "funding round",
+     "MountAIn raises $8M Seed for affordable AI infrastructure solutions designed",
+     [
+      "Fortune Term Sheet",
+      "Sifted"
+     ]
+    ],
+    [
+     "2026-11-18",
+     2,
+     "news",
+     "Applications tesla's Powercore packs transformer, inverter, and breaker into one",
+     [
+      "Not Boring",
+      "TLDR"
+     ]
+    ],
+    [
+     "2026-11-19",
+     2,
+     "funding round",
+     "The other Staniszewski brother just raised $4.7m \u2013 and Y Combinator cofounder",
+     [
+      "EU-Startups",
+      "Sifted"
+     ]
+    ],
+    [
+     "2026-11-19",
+     2,
+     "funding round",
+     "Iconic raises $10M Seed",
+     [
+      "EU-Startups",
+      "Sifted"
+     ]
+    ],
+    [
+     "2026-11-19",
+     2,
+     "funding round",
+     "Linq raises $90M Series B for texting and calling infrastructure for",
+     [
+      "Fortune Term Sheet",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-19",
+     2,
+     "funding round",
+     "Vetaion raises $6M Pre-Seed",
+     [
+      "EU-Startups",
+      "Sifted"
+     ]
+    ],
+    [
+     "2026-11-20",
+     2,
+     "M&A",
+     "Intuit agrees to sell marketing subsidiary Mailchimp to Bending Spoons for $3.68",
+     [
+      "TLDR",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-21",
+     2,
+     "news",
+     "SK Hynix becomes kioxia's largest shareholder with a 14.1% indirect stake",
+     [
+      "TLDR",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-22",
+     2,
+     "funding round",
+     "Remanence raises $30M Seed",
+     [
+      "Sifted",
+      "Sunday CET (Dragos Novac)"
+     ]
+    ]
+   ],
+   "by_type_ge2_all_weeks": [
+    [
+     "funding round",
+     51
+    ],
+    [
+     "news",
+     16
+    ],
+    [
+     "product launch",
+     8
+    ],
+    [
+     "M&A",
+     5
+    ],
+    [
+     "incident",
+     4
+    ],
+    [
+     "IPO/listing",
+     2
+    ],
+    [
+     "analysis-opinion",
+     1
+    ],
+    [
+     "earnings",
+     1
+    ],
+    [
+     "people move",
+     1
+    ]
+   ],
+   "rating": "stands above noise as an importance filter (list)",
+   "note": "Only ~4% of events reach 2+ families. Using >=2 families with at least one non-Techmeme gives 15-30 items/week; >=3 gives 2-8.",
+   "verdict": "stands above noise as an importance filter",
+   "works_from_week1": "yes (list)",
+   "baseline_needed": "n/a"
+  },
+  {
+   "id": "S12",
+   "name": "Big-company product launches (labs + big tech)",
+   "kind": "list",
+   "weekly": {
+    "W44p": 20,
+    "W45": 18,
+    "W46": 31,
+    "W47": 29,
+    "W48p": 24
+   },
+   "full_week_range": [
+    18,
+    31
+   ],
+   "mean": 26,
+   "cv_pct": 22.0,
+   "max_wow_change_pct": 72.2,
+   "W47_sources": {
+    "n_families": 5,
+    "top_family": "Techmeme",
+    "top_family_share_pct": 55.2,
+    "only_techmeme_items": 15
+   },
+   "W47_list": [
+    [
+     "2026-11-16",
+     "AlphaSignal",
+     "DeepSeek opens web search, file parsing, and voice to API developers Signals",
+     [
+      "AlphaSignal"
+     ]
+    ],
+    [
+     "2026-11-16",
+     "Techmeme",
+     "Apple plans to unveil smart glasses at wwdc and Ship them",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-17",
+     "AlphaSignal",
+     "LiquidAI ships decision models that read, locate, and extract from text, images,",
+     [
+      "AlphaSignal"
+     ]
+    ],
+    [
+     "2026-11-17",
+     "Benedict Evans",
+     "Anthropic launched a way for Claude to join your video calls",
+     [
+      "Benedict Evans"
+     ]
+    ],
+    [
+     "2026-11-17",
+     "Techmeme",
+     "Apple Partners with openevidence to launch health AI usage study, an app",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-17",
+     "Techmeme",
+     "Amazon's Prime air drone service, which operates across 18 sites in 10",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-17",
+     "TLDR",
+     "Amazon loses 40 broadband satellites in failed launch",
+     [
+      "TLDR"
+     ]
+    ],
+    [
+     "2026-11-18",
+     "AlphaSignal",
+     "OpenAI ships GPT-6.2 Astra and Sol at one-third the cost of GPT-6",
+     [
+      "AlphaSignal",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-18",
+     "AlphaSignal",
+     "OpenAI gives four outside safety teams deep access to probe its models",
+     [
+      "AlphaSignal"
+     ]
+    ],
+    [
+     "2026-11-18",
+     "Techmeme",
+     "Cybersecurity startup calif says it used gpt-6 Cyber to uncover an rce",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-18",
+     "Techmeme",
+     "Microsoft unveils six AI models spanning coding, cybersecurity, images, and voice",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-18",
+     "Techmeme",
+     "Nvidia unveils its Rubin hpc GPU with \u201cmore than 50,000\u201d cuda cores,",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-18",
+     "TLDR",
+     "Microsoft and Salesforce introduce copilotforce",
+     [
+      "TLDR"
+     ]
+    ],
+    [
+     "2026-11-18",
+     "TLDR",
+     "Red HAT enterprise Linux GitHub hosted runner images now generally available",
+     [
+      "TLDR"
+     ]
+    ],
+    [
+     "2026-11-19",
+     "AlphaSignal",
+     "Google DeepMind ships Gemini 4 Neon , ranking #3 on the Intelligence",
+     [
+      "AlphaSignal"
+     ]
+    ],
+    [
+     "2026-11-19",
+     "Techmeme",
+     "Google rolls out Gemini 4 Neon",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-19",
+     "Techmeme",
+     "Google rolls out project Genie Updates to AI Ultra subscribers, including Genie",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-19",
+     "Techmeme",
+     "Disney and AWS partner to develop AI-powered audio-animatronics of three star wars",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-19",
+     "Techmeme",
+     "Microsoft makes word, Excel, and powerpoint generally available inside Copilot, which Saty",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-19",
+     "Techmeme",
+     "US House Democrats launch an investigation into commerce Secretary howard lutnick",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-19",
+     "Techmeme",
+     "YouTube rolls out \u201cco-views\u201d, or the estimated number of people watching together",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "AlphaSignal",
+     "Google releases Gemini 4 Neon with 1M context at $3 per million",
+     [
+      "AlphaSignal"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "AlphaSignal",
+     "OpenAI ships GPT-Live-1.1 to API with standby mode cutting idle costs 60%",
+     [
+      "AlphaSignal"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "TechCrunch Mobility",
+     "Waymo pulling its [robotaxis off freeways] (again) and Zoox robotaxis [launching",
+     [
+      "TechCrunch Mobility"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "Techmeme",
+     "Google Partners with Jeff Bezos' Blue Origin to launch tpu-powered AI server",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "Techmeme",
+     "Snap launches easy lens CLI on Mac, Windows, and Linux, letting developers",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "TLDR",
+     "Google Books a dedicated new Glenn launch in Q1 2029 for project",
+     [
+      "TLDR"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "TLDR",
+     "Introducing agent controls",
+     [
+      "TLDR"
+     ]
+    ],
+    [
+     "2026-11-21",
+     "Techmeme",
+     "Google is rolling out a collapsible sidebar on its desktop search homepage,",
+     [
+      "Techmeme"
+     ]
+    ]
+   ],
+   "rating": "noisy but useful as a list (needs judgement)",
+   "note": "Raw count is mostly AlphaSignal/TLDR product notes. Only a handful per week move into a startup category; that filter is editorial, not statistical.",
+   "verdict": "editorial list, not a stat",
+   "works_from_week1": "yes (list, max 3 items)",
+   "baseline_needed": "n/a"
+  },
+  {
+   "id": "S13",
+   "name": "Layoffs / shutdowns / insolvencies (events)",
+   "kind": "list",
+   "weekly": {
+    "W44p": 1,
+    "W45": 2,
+    "W46": 4,
+    "W47": 3,
+    "W48p": 0
+   },
+   "full_week_range": [
+    2,
+    4
+   ],
+   "mean": 3,
+   "cv_pct": 27.2,
+   "max_wow_change_pct": 100.0,
+   "W47_sources": {
+    "n_families": 1,
+    "top_family": "Techmeme",
+    "top_family_share_pct": 100.0,
+    "only_techmeme_items": 3
+   },
+   "W47_list": [
+    [
+     "2026-11-17",
+     "Techmeme",
+     "The Trump administration plans to name Nvidia, Amazon, Microsoft, OpenAI, and Anthropic"
+    ],
+    [
+     "2026-11-18",
+     "Techmeme",
+     "The Trump administration is moving ahead with an FCC proposal to ban"
+    ],
+    [
+     "2026-11-19",
+     "Techmeme",
+     "The Trump administration is considering requiring US companies to disclose on their"
+    ]
+   ],
+   "rating": "not supportable as a stat",
+   "note": "Too few items, keyword hits include government shutdown and outages. Mention individually if a consensus event.",
+   "verdict": "not supportable",
+   "works_from_week1": "no",
+   "baseline_needed": "insufficient items"
+  },
+  {
+   "id": "S14",
+   "name": "Policy/regulation events",
+   "kind": "list",
+   "weekly": {
+    "W44p": 13,
+    "W45": 12,
+    "W46": 17,
+    "W47": 22,
+    "W48p": 16
+   },
+   "full_week_range": [
+    12,
+    22
+   ],
+   "mean": 17,
+   "cv_pct": 24.0,
+   "max_wow_change_pct": 41.7,
+   "W47_sources": {
+    "n_families": 5,
+    "top_family": "Techmeme",
+    "top_family_share_pct": 72.7,
+    "only_techmeme_items": 15
+   },
+   "W47_list": [
+    [
+     "2026-11-16",
+     "Sifted",
+     "Why a ban on non-competes could hurt startups",
+     [
+      "Sifted"
+     ]
+    ],
+    [
+     "2026-11-16",
+     "Techmeme",
+     "Free speech group fire says DOJ and dhs will end efforts",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-16",
+     "TLDR",
+     "Judge keeps DRAM price-fixing suit alive, calling the chipmakers' alleged behavior \u201chawks",
+     [
+      "TLDR"
+     ]
+    ],
+    [
+     "2026-11-17",
+     "Sifted",
+     "Why Europe\u2019s AI founders are opening accounting and law firms",
+     [
+      "Sifted"
+     ]
+    ],
+    [
+     "2026-11-17",
+     "Techmeme",
+     "The US DOJ will review doordash's ~$17b acquisition of Instacart",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-17",
+     "Techmeme",
+     "Canada faces intense lobbying from meta, apple, Alphabet, and Signal over BILL",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-18",
+     "Techmeme",
+     "The US SEC is investigating Nvidia, including whether the company's disclosures misled",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-18",
+     "Techmeme",
+     "Nvidia's board establishes a national security and export control oversight committee",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-18",
+     "Techmeme",
+     "California bans Waymo robotaxis from freeways after a viral video showed one",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-18",
+     "Techmeme",
+     "The Trump administration is moving ahead with an FCC proposal to ban",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-19",
+     "Techmeme",
+     "Gavin newsom unveils a proposal to give California broad powers to regulate",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-19",
+     "Techmeme",
+     "A US court sentences tyler Robert buchanan, a 24-year-old British leader",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-19",
+     "Techmeme",
+     "Swiss nonprofit quad9 withdraws its DNS resolver from France after a court",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-19",
+     "TLDR",
+     "Italian court places Revolut unit under supervision over anti-money laundering failures",
+     [
+      "TLDR"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "Sifted",
+     "UK AI minister sparks backlash with sovereign models snub",
+     [
+      "Sifted"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "Techmeme",
+     "Anthropic-backed pro-ai safety nonprofit public first action's pacs spent $25m+ in 12",
+     [
+      "Benedict Evans",
+      "DeepLearning.AI The Batch",
+      "Sifted",
+      "TLDR",
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "Techmeme",
+     "Amazon warns NYC customers that they could be charged up to $5",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "Techmeme",
+     "The US DOJ indicts a Russian national for allegedly working for moscow",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "Techmeme",
+     "National Cyber director Sean cairncross is leaving now to let the White",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-20",
+     "TLDR",
+     "California's attorney General subpoenas Nvidia over whether advanced chips or confidential",
+     [
+      "TLDR"
+     ]
+    ],
+    [
+     "2026-11-21",
+     "Techmeme",
+     "The US SEC is probing Nvidia's accounting practices",
+     [
+      "Techmeme"
+     ]
+    ],
+    [
+     "2026-11-21",
+     "Techmeme",
+     "Tom cotton, the GOP Senator who chairs the Senate intelligence committee, says",
+     [
+      "Techmeme"
+     ]
+    ]
+   ],
+   "rating": "noisy but useful as a list",
+   "note": "Techmeme supplies ~75% of policy items. Keep only items that change a market a startup can sell into (EU AI Act, export controls, defence procurement).",
+   "verdict": "editorial list; Techmeme supplies ~70%",
+   "works_from_week1": "partial",
+   "baseline_needed": "n/a"
+  },
+  {
+   "id": "S15",
+   "name": "People moves (events)",
+   "kind": "list",
+   "weekly": {
+    "W44p": 4,
+    "W45": 6,
+    "W46": 3,
+    "W47": 5,
+    "W48p": 4
+   },
+   "full_week_range": [
+    3,
+    6
+   ],
+   "mean": 4.667,
+   "cv_pct": 26.7,
+   "max_wow_change_pct": 66.7,
+   "W47_sources": {
+    "n_families": 6,
+    "top_family": "Sifted",
+    "top_family_share_pct": 60.0,
+    "only_techmeme_items": 0
+   },
+   "W47_list": [
+    [
+     "2026-11-16",
+     "Techmeme",
+     "Jensen Huang has discussed a comeback as Nvidia CEO with confidants"
+    ],
+    [
+     "2026-11-16",
+     "Techmeme",
+     "Jensen Huang's resignation is a setback for US open models"
+    ],
+    [
+     "2026-11-17",
+     "Sifted",
+     "Starling CEO Raman Bhatia will step down from his role"
+    ],
+    [
+     "2026-11-18",
+     "Fortune Term Sheet",
+     "Lovell Minnick, a New York City-based private equity firm, promoted JasonBarg to"
+    ],
+    [
+     "2026-11-18",
+     "Fortune Term Sheet",
+     "TapestryVC, a London, U.K.-based venture capital firm, hired MandeepSingh as general partn"
+    ]
+   ],
+   "founders_leaving_labs_all_weeks": [
+    [
+     "2026-10-29",
+     "Franchise Equity Partners, a New York City-based private equity firm, hired ChrisHolzshu"
+    ],
+    [
+     "2026-11-18",
+     "Lovell Minnick, a New York City-based private equity firm, promoted JasonBarg to"
+    ]
+   ],
+   "rating": "not supportable as a stat",
+   "note": "32 items in 4 weeks, half the Huang saga. Lab departures to found startups are rare and better caught by the spinout list.",
+   "verdict": "not supportable",
+   "works_from_week1": "no",
+   "baseline_needed": "insufficient items"
+  },
+  {
+   "id": "S16",
+   "name": "Valuation marks mentioned (events)",
+   "kind": "list",
+   "weekly": {
+    "W44p": 19,
+    "W45": 27,
+    "W46": 23,
+    "W47": 25,
+    "W48p": 12
+   },
+   "full_week_range": [
+    23,
+    27
+   ],
+   "mean": 25,
+   "cv_pct": 6.5,
+   "max_wow_change_pct": 14.8,
+   "W47_sources": {
+    "n_families": 7,
+    "top_family": "Techmeme",
+    "top_family_share_pct": 76.0,
+    "only_techmeme_items": 15
+   },
+   "W47_list": [
+    [
+     "2026-11-16",
+     "Techmeme",
+     "Databento raises $100M Series C for market data APIs and says"
+    ],
+    [
+     "2026-11-16",
+     "Techmeme",
+     "Operand raises $31M Seed for AI-powered due diligence tools for"
+    ],
+    [
+     "2026-11-16",
+     "TLDR",
+     "Kalshi in talks to raise funds at $65 billion valuation for compute"
+    ],
+    [
+     "2026-11-17",
+     "Techmeme",
+     "Blue j raises $176M Series E for AI-powered tax research software"
+    ],
+    [
+     "2026-11-18",
+     "Sifted",
+     "Genesis AI raises $500M Series A for AI models designed to run"
+    ],
+    [
+     "2026-11-18",
+     "Techmeme",
+     "Ramp is in early talks to raise $1b or more led"
+    ],
+    [
+     "2026-11-18",
+     "Techmeme",
+     "Genesis AI raises $500M Series A for a general-purpose robot with greater"
+    ],
+    [
+     "2026-11-18",
+     "Techmeme",
+     "Neuralink co-founder Max hodak's science Corp, which offers a retinal implant"
+    ],
+    [
+     "2026-11-18",
+     "Techmeme",
+     "Model ML, which builds AI agents integrated in Excel or powerpoint"
+    ],
+    [
+     "2026-11-18",
+     "Techmeme",
+     "Tiberius aerospace, a defense-as-a-service startup that uses AI to design long-range supersonic"
+    ],
+    [
+     "2026-11-19",
+     "Techmeme",
+     "Palo Alto Networks agrees to buy Applied compute, which helps companies customize"
+    ],
+    [
+     "2026-11-19",
+     "Techmeme",
+     "Bret taylor's Sierra is in talks to raise ~$1.5b at a ~$30b"
+    ],
+    [
+     "2026-11-19",
+     "Techmeme",
+     "Payhawk raises $280M Series C for enterprise expense and procurement management"
+    ],
+    [
+     "2026-11-19",
+     "Techmeme",
+     "Variational raises $110M Series B for blockchain-based derivatives tied to cryptocurrencies"
+    ],
+    [
+     "2026-11-19",
+     "EU-Startups",
+     "Paris-based AI unicorn Mistral AI secured an additional \u20ac100 million from Deutsche"
+    ],
+    [
+     "2026-11-19",
+     "EU-Startups",
+     "Barcelona-based electric motorcycle manufacturer Stark Future raised more than \u20ac150 million"
+    ],
+    [
+     "2026-11-20",
+     "Techmeme",
+     "Megarobo raises $200M for Robotics and AI to automate"
+    ],
+    [
+     "2026-11-20",
+     "DeepLearning.AI The Batch",
+     "Promotional banner for Arize and DeepLearning.AI's latest course on agentic application evaluation."
+    ],
+    [
+     "2026-11-20",
+     "DeepLearning.AI The Batch",
+     "In September 2026, AMD agreed to acquire World Labs in an all-stock"
+    ],
+    [
+     "2026-11-21",
+     "Techmeme",
+     "METR Updates its time Horizon plot to add judgment-heavy tasks, finding some"
+    ],
+    [
+     "2026-11-21",
+     "Techmeme",
+     "Databricks is in early talks to raise several billion dollars"
+    ],
+    [
+     "2026-11-21",
+     "Techmeme",
+     "Singapore-based dayone pauses its US IPO plans to raise up to $5b"
+    ],
+    [
+     "2026-11-21",
+     "Techmeme",
+     "Cognition is considering raising $2b or more at a $75b valuation"
+    ],
+    [
+     "2026-11-21",
+     "Techmeme",
+     "Shanghai-based pragmatik Labs, founded by ex-qwen AI head junyang Lin, raised tens"
+    ],
+    [
+     "2026-11-22",
+     "Sunday CET (Dragos Novac)",
+     "Bending Spoons, software roll-up - $18.4b valuation (Nasdaq)"
+    ]
+   ],
+   "rating": "noisy but useful as a list",
+   "note": "Mostly late-stage US AI marks (Techmeme). Useful as a list of new unicorns; no robust aggregate.",
+   "verdict": "useful as list of new marks/markups",
+   "works_from_week1": "yes (list)",
+   "baseline_needed": "n/a"
+  },
+  {
+   "id": "S17",
+   "name": "Negative/alarm sentiment share of stories (%)",
+   "kind": "share",
+   "weekly": {
+    "W44p": 10.5,
+    "W45": 10.5,
+    "W46": 11.0,
+    "W47": 11.2,
+    "W48p": 12.8
+   },
+   "full_week_range": [
+    10.5,
+    11.2
+   ],
+   "mean": 10.9,
+   "cv_pct": 2.7,
+   "max_wow_change_pct": 4.8,
+   "without_techmeme": {
+    "W44p": 5.4,
+    "W45": 6.5,
+    "W46": 6.9,
+    "W47": 5.3,
+    "W48p": 6.0
+   },
+   "without_huang_and_anthropic_ipo": {
+    "W44p": 10.3,
+    "W45": 10.5,
+    "W46": 11.2,
+    "W47": 11.5,
+    "W48p": 13.1
+   },
+   "curated_keys": [
+    "agile_robotics_500m",
+    "agility_listing",
+    "ai_bubble",
+    "alphabet_q3",
+    "anthropic_ipo",
+    "anthropic_q3_rev",
+    "atomico_report",
+    "binance_hack",
+    "chatgpt_wallet",
+    "creandum_fund",
+    "crowdstrike_zscaler",
+    "doordash_instacart",
+    "emulate_700m",
+    "eth_disproof",
+    "exa_7b",
+    "fractile",
+    "gemini4_carbon",
+    "isomorphic_5b",
+    "jensen_resigns",
+    "jensen_return",
+    "kalshi_65b",
+    "lovable_exposed",
+    "m365_outage",
+    "macbook_touch",
+    "mensch_eu",
+    "mistral_acq",
+    "model_ml",
+    "monzo_raise",
+    "nvidia_q3",
+    "nvidia_spy_probe",
+    "onepassword_hack",
+    "openai_raise",
+    "paloalto_appliedcompute",
+    "payhawk_280m",
+    "plural_fund",
+    "ramp_70b",
+    "riemann_proof",
+    "sequoia_london",
+    "slush",
+    "spacex_starmind",
+    "starling_ceo",
+    "tesla_spacex_merger",
+    "uk_budget",
+    "us_midterms",
+    "waymo_uber",
+    "zipline_1_5b"
+   ],
+   "rating": "not supportable",
+   "note": "LLM-tagged tone of headlines; moves with one scandal. Says nothing about market conditions a VC acts on.",
+   "verdict": "not supportable",
+   "works_from_week1": "no",
+   "baseline_needed": "media metric"
+  },
+  {
+   "id": "S18",
+   "name": "Chips & semiconductors share of coverage (family-normalised %)",
+   "kind": "share",
+   "weekly": {
+    "W44p": 3.5,
+    "W45": 4.5,
+    "W46": 13.8,
+    "W47": 9.9,
+    "W48p": 7.9
+   },
+   "full_week_range": [
+    4.5,
+    13.8
+   ],
+   "mean": 9.4,
+   "cv_pct": 40.6,
+   "max_wow_change_pct": 206.7,
+   "raw_share": {
+    "W44p": 7.5,
+    "W45": 9.3,
+    "W46": 11.9,
+    "W47": 10.6,
+    "W48p": 10.2
+   },
+   "rating": "not supportable for this brief",
+   "note": "Attention, not money; a media metric (rejected direction). Driven by the Nvidia storyline.",
+   "verdict": "not supportable for this brief",
+   "works_from_week1": "no",
+   "baseline_needed": "media metric (rejected direction)"
+  },
+  {
+   "id": "S19",
+   "name": "AI share of closed rounds (% count, headline mentions AI/agent/model)",
+   "kind": "share",
+   "weekly": {
+    "W44p": 52.7,
+    "W45": 39.6,
+    "W46": 41.1,
+    "W47": 46.2,
+    "W48p": 32.1
+   },
+   "full_week_range": [
+    39.6,
+    46.2
+   ],
+   "mean": 42.3,
+   "cv_pct": 6.7,
+   "max_wow_change_pct": 12.4,
+   "rating": "noisy; needs longer baseline",
+   "note": "Depends on how newsletters write headlines (\"AI-powered\"); not a clean measure.",
+   "verdict": "noisy",
+   "works_from_week1": "no",
+   "baseline_needed": "12 weeks"
+  },
+  {
+   "id": "S20",
+   "name": "Spinouts / out-of-stealth / ex-big-lab founders (events)",
+   "kind": "list",
+   "weekly": {
+    "W44p": 3,
+    "W45": 7,
+    "W46": 10,
+    "W47": 2,
+    "W48p": 4
+   },
+   "full_week_range": [
+    2,
+    10
+   ],
+   "mean": 6.333,
+   "cv_pct": 52.1,
+   "max_wow_change_pct": 80.0,
+   "W47_sources": {
+    "n_families": 2,
+    "top_family": "Fortune Term Sheet",
+    "top_family_share_pct": 50.0,
+    "only_techmeme_items": 1
+   },
+   "W47_list": [
+    [
+     "2026-11-17",
+     "Fortune Term Sheet",
+     100000000,
+     "Seawolf Therapeutics raises $100M Seed for DNA-based therapeutics"
+    ],
+    [
+     "2026-11-21",
+     "Techmeme",
+     null,
+     "Shanghai-based pragmatik Labs, founded by ex-qwen AI head junyang Lin, raised tens"
+    ]
+   ],
+   "rating": "noisy but useful as a list",
+   "note": "Keyword-based; small weekly n. Good deal-sourcing list; not a stat.",
+   "verdict": "useful as list (deal sourcing)",
+   "works_from_week1": "yes (list)",
+   "baseline_needed": "n/a"
+  },
+  {
+   "id": "S21",
+   "name": "Most active lead investors (from \"led by\" text)",
+   "kind": "ranking",
+   "weekly": {
+    "W44p": null,
+    "W45": null,
+    "W46": null,
+    "W47": null,
+    "W48p": null
+   },
+   "top_leads_W45_W47": [
+    [
+     "Lightspeed Venture Partners",
+     2
+    ],
+    [
+     "Cherry Ventures",
+     2
+    ],
+    [
+     "Heartcore",
+     1
+    ],
+    [
+     "Acrew Capital",
+     1
+    ],
+    [
+     "Capital One Ventures",
+     1
+    ],
+    [
+     "Picus Capital",
+     1
+    ],
+    [
+     "Obvious Ventures",
+     1
+    ],
+    [
+     "Tiger Global",
+     1
+    ],
+    [
+     "VC firm Singular",
+     1
+    ],
+    [
+     "Innovation Global",
+     1
+    ],
+    [
+     "Sifted",
+     1
+    ],
+    [
+     "Scania",
+     1
+    ],
+    [
+     "Treehouse Delmar Investments",
+     1
+    ],
+    [
+     "KDDI",
+     1
+    ],
+    [
+     "StandardCapital",
+     1
+    ]
+   ],
+   "n_led_by_mentions": 21,
+   "rating": "not supportable",
+   "note": "Lead investor is named in a minority of items (deal lists strip it). Would need full-text parsing of every issue.",
+   "verdict": "not supportable from current parsing",
+   "works_from_week1": "no",
+   "baseline_needed": "needs full-text deal parsing"
+  }
+ ],
+ "revision_2026_11_26": {
+  "source": "review.json R1-R12; recomputed in weekly/w47_fix.py (story-dated, company-merged family counts from raw text 16-22 Nov)",
+  "R1_dating": "Huang reinstatement is W48 (23 Nov); W47 fact is board ruling out return (Term Sheet/TLDR 18 Nov, Newcomer 20 Nov). CrowdStrike-Zscaler: W47 = talks (Techmeme 21 Nov); the deal is W48.",
+  "week_story_W47": {
+   "event": "Anthropic IPO",
+   "families_in_week": 10,
+   "facts": "priced 18 Nov at $83/share above range, ~$81.3bn raised (Sifted Up Round 20 Nov); Nasdaq debut 19 Nov opened $111.50 (+34%), closed $97.17 (+17%), ~$1.3T market cap (Techmeme 20 Nov); greenshoe takes total to $93.5bn (Techmeme 21 Nov); Friday 20 Nov AI sell-off, SoftBank ~-15%, TSMC -5%+, Samsung and SK Hynix -6%+ (Techmeme 21 Nov, Newcomer 20 Nov)"
+  },
+  "family_counts_W47": {
+   "Anthropic IPO priced/listed": {
+    "Sifted": [
+     "2026-11-16",
+     "2026-11-18",
+     "2026-11-18",
+     "2026-11-20",
+     "2026-11-20"
+    ],
+    "Techmeme": [
+     "2026-11-16",
+     "2026-11-17",
+     "2026-11-18",
+     "2026-11-19",
+     "2026-11-20",
+     "2026-11-21"
+    ],
+    "TLDR": [
+     "2026-11-16",
+     "2026-11-19"
+    ],
+    "Benedict Evans": [
+     "2026-11-17"
+    ],
+    "Newcomer": [
+     "2026-11-17",
+     "2026-11-17",
+     "2026-11-19",
+     "2026-11-20"
+    ],
+    "AlphaSignal": [
+     "2026-11-18"
+    ],
+    "Fortune Term Sheet": [
+     "2026-11-18",
+     "2026-11-19",
+     "2026-11-20"
+    ],
+    "Not Boring": [
+     "2026-11-20"
+    ],
+    "DeepLearning.AI The Batch": [
+     "2026-11-20"
+    ],
+    "Sunday CET (Dragos Novac)": [
+     "2026-11-22"
+    ]
+   },
+   "Nvidia board rules out Huang return": {
+    "Fortune Term Sheet": [
+     "2026-11-18"
+    ],
+    "TLDR": [
+     "2026-11-18"
+    ],
+    "Newcomer": [
+     "2026-11-20"
+    ]
+   },
+   "Isomorphic Labs $5B": {
+    "Sifted": [
+     "2026-11-18",
+     "2026-11-20"
+    ],
+    "Techmeme": [
+     "2026-11-18"
+    ],
+    "Fortune Term Sheet": [
+     "2026-11-18"
+    ],
+    "TLDR": [
+     "2026-11-18"
+    ],
+    "EU-Startups": [
+     "2026-11-19"
+    ],
+    "Newcomer": [
+     "2026-11-20"
+    ],
+    "Not Boring": [
+     "2026-11-20"
+    ]
+   },
+   "Genesis AI $500M A": {
+    "Maddyness": [
+     "2026-11-18"
+    ],
+    "Sifted": [
+     "2026-11-18"
+    ],
+    "Techmeme": [
+     "2026-11-18"
+    ],
+    "Fortune Term Sheet": [
+     "2026-11-18"
+    ],
+    "TLDR": [
+     "2026-11-18"
+    ],
+    "Newcomer": [
+     "2026-11-20"
+    ],
+    "Not Boring": [
+     "2026-11-20"
+    ]
+   },
+   "Payhawk $280M": {
+    "Fortune Term Sheet": [
+     "2026-11-18"
+    ],
+    "Sifted": [
+     "2026-11-19"
+    ],
+    "Techmeme": [
+     "2026-11-19"
+    ],
+    "EU-Startups": [
+     "2026-11-19"
+    ],
+    "Newcomer": [
+     "2026-11-20"
+    ],
+    "Sunday CET (Dragos Novac)": [
+     "2026-11-22"
+    ]
+   },
+   "Model ML $250M": {
+    "Sifted": [
+     "2026-11-18"
+    ],
+    "Techmeme": [
+     "2026-11-18"
+    ],
+    "Fortune Term Sheet": [
+     "2026-11-18"
+    ],
+    "EU-Startups": [
+     "2026-11-19"
+    ]
+   },
+   "Boltz $110M A": {
+    "Newcomer": [
+     "2026-11-20"
+    ],
+    "Not Boring": [
+     "2026-11-20"
+    ],
+    "Sifted": [
+     "2026-11-20"
+    ],
+    "Techmeme": [
+     "2026-11-20"
+    ]
+   },
+   "Tiberius $85M A": {
+    "Sifted": [
+     "2026-11-18"
+    ],
+    "Techmeme": [
+     "2026-11-18"
+    ],
+    "Fortune Term Sheet": [
+     "2026-11-20"
+    ]
+   },
+   "Hone Health": {
+    "Fortune Term Sheet": [
+     "2026-11-18"
+    ]
+   },
+   "Ramon.Space $124M B": {
+    "Fortune Term Sheet": [
+     "2026-11-18"
+    ]
+   },
+   "Megarobo $200M": {
+    "Techmeme": [
+     "2026-11-20"
+    ]
+   },
+   "Stark Future": {
+    "Sifted": [
+     "2026-11-17"
+    ],
+    "EU-Startups": [
+     "2026-11-19"
+    ],
+    "TechCrunch Mobility": [
+     "2026-11-20"
+    ]
+   },
+   "Remanence $30M seed": {
+    "Fortune Term Sheet": [
+     "2026-11-17"
+    ],
+    "Maddyness": [
+     "2026-11-18",
+     "2026-11-19"
+    ],
+    "Sifted": [
+     "2026-11-18"
+    ],
+    "Techmeme": [
+     "2026-11-19"
+    ],
+    "Sunday CET (Dragos Novac)": [
+     "2026-11-22"
+    ]
+   },
+   "Daisytuner": {
+    "Sifted": [
+     "2026-11-17"
+    ],
+    "Fortune Term Sheet": [
+     "2026-11-17"
+    ],
+    "EU-Startups": [
+     "2026-11-19"
+    ]
+   },
+   "MountAIn": {
+    "Fortune Term Sheet": [
+     "2026-11-18"
+    ],
+    "Sifted": [
+     "2026-11-19"
+    ],
+    "EU-Startups": [
+     "2026-11-19"
+    ],
+    "DeepLearning.AI The Batch": [
+     "2026-11-20"
+    ]
+   },
+   "Vetaion": {
+    "EU-Startups": [
+     "2026-11-19"
+    ],
+    "Sifted": [
+     "2026-11-20"
+    ]
+   },
+   "Mosaico": {
+    "Sifted": [
+     "2026-11-16",
+     "2026-11-16"
+    ],
+    "Fortune Term Sheet": [
+     "2026-11-17"
+    ]
+   },
+   "Stryx AI": {
+    "Maddyness": [
+     "2026-11-20"
+    ],
+    "Sifted": [
+     "2026-11-20"
+    ]
+   },
+   "Elysian Aircraft": {
+    "EU-Startups": [
+     "2026-11-19"
+    ],
+    "TechCrunch Mobility": [
+     "2026-11-20"
+    ],
+    "Sifted": [
+     "2026-11-20"
+    ]
+   },
+   "Commit Biologics": {
+    "EU-Startups": [
+     "2026-11-19"
+    ]
+   },
+   "Dcubed": {
+    "Sifted": [
+     "2026-11-19"
+    ]
+   },
+   "Seawolf": {
+    "Fortune Term Sheet": [
+     "2026-11-17"
+    ]
+   },
+   "Plural EUR1bn": {
+    "Sifted": [
+     "2026-11-17",
+     "2026-11-20"
+    ],
+    "Techmeme": [
+     "2026-11-17"
+    ],
+    "EU-Startups": [
+     "2026-11-19"
+    ],
+    "Maddyness": [
+     "2026-11-20"
+    ],
+    "Sunday CET (Dragos Novac)": [
+     "2026-11-22"
+    ]
+   },
+   "Sofinnova Crossover II": {
+    "Maddyness": [
+     "2026-11-17"
+    ],
+    "Sifted": [
+     "2026-11-20"
+    ]
+   },
+   "Norwest fund 18": {
+    "Fortune Term Sheet": [
+     "2026-11-16"
+    ]
+   },
+   "Applied Compute (PANW)": {
+    "Techmeme": [
+     "2026-11-19"
+    ],
+    "Newcomer": [
+     "2026-11-20"
+    ],
+    "TLDR": [
+     "2026-11-20"
+    ]
+   },
+   "Mailchimp (Bending Spoons)": {
+    "Techmeme": [
+     "2026-11-20"
+    ],
+    "Sunday CET (Dragos Novac)": [
+     "2026-11-22"
+    ]
+   },
+   "Inception (Nvidia)": {
+    "Techmeme": [
+     "2026-11-20"
+    ]
+   },
+   "Firebolt (MongoDB)": {
+    "TLDR": [
+     "2026-11-19"
+    ]
+   },
+   "Avio (Iceye)": {
+    "Sunday CET (Dragos Novac)": [
+     "2026-11-22"
+    ]
+   },
+   "Zscaler (CrowdStrike)": {
+    "Techmeme": [
+     "2026-11-21"
+    ]
+   },
+   "Sell-off Friday": {
+    "Sifted": [
+     "2026-11-16"
+    ],
+    "Newcomer": [
+     "2026-11-20"
+    ],
+    "Techmeme": [
+     "2026-11-21"
+    ]
+   },
+   "Redalpine": {
+    "Sifted": [
+     "2026-11-20"
+    ]
+   },
+   "Creandum": {
+    "Sifted": [
+     "2026-11-17"
+    ],
+    "Sunday CET (Dragos Novac)": [
+     "2026-11-22"
+    ]
+   }
+  },
+  "R5_hone": "Hone Health = $28M Series A equity + $200M GC Customer Value Fund; W47 $100M+ rounds 15 -> 14",
+  "S3_W47_corrected": {
+   "early_rounds": 55,
+   "europe": 28,
+   "stryx_duplicate_removed": true,
+   "carried_by_term_sheet": 30,
+   "without_term_sheet": 35,
+   "without_sifted": 48,
+   "without_techmeme": 49,
+   "without_eu_startups": 50,
+   "europe_without_sifted": 21
+  },
+  "S6_rolling_29Oct_22Nov": {
+   "seed": {
+    "all": [
+     7.9,
+     85
+    ],
+    "EU": [
+     6.3,
+     46
+    ],
+    "US": [
+     10.0,
+     28
+    ]
+   },
+   "series_A": {
+    "all": [
+     27.5,
+     59
+    ],
+    "EU": [
+     20.5,
+     20
+    ],
+    "US": [
+     25.8,
+     18
+    ]
+   },
+   "note": "$M median, n; Seawolf combined seed+A excluded; Hone at $28M equity. Moved to monthly."
+  }
+ }
+}

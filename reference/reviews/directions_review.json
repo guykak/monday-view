@@ -1,0 +1,248 @@
+{
+ "reviewer": "Adversarial QA (graphics editor + fact-checker), independent of production team",
+ "date": "2026-11-26",
+ "verdicts": {
+  "A": "Strongest concept and craft. Ship after fixing headline unit (events not stories), the EU tag on the AI-bubble theme, and the Fractile 'travel slowly' misreading.",
+  "B": "Not shippable as is. Funding table is not deduplicated despite the footer saying so; several hero numbers are wrong; the Europe-vs-US contrast is largely an artefact of subscriptions and stage mix. Fixable, and the like-for-like version is more useful to Guy.",
+  "C": "Hero claim misreads a one-story spike (Huang scandal) as an eight-month trend; 'Anthropic fell during its IPO' and 'agents peaked in September' do not survive checks. Form is good; lead needs rewriting."
+ },
+ "issues": [
+  {
+   "id": "B1",
+   "direction": "B",
+   "severity": "blocker",
+   "category": "fact accuracy / data integrity",
+   "issue": "funding_rounds.json is not deduplicated, though the page footer says '354 company rounds, deduplicated across newsletters'. Several amounts and geographies are wrong.",
+   "evidence": "Curated company-name dedupe (/tmp/qa/dedup2.py) finds 35 companies listed more than once, 46 surplus rows (13%): Pliant x5, Sumary x5, Tendrils x3, Mosaico x3, Treat x3, Stark Future x3, Agon x3, Mirendil x2 ($1B counted twice), Upwind, Path Robotics, Harbinger, Hypersonica, etc. Europe 172 -> 143 rounds, US 103 -> 98. Kalshi '$5B in talks' is its annual run-rate (Techmeme 13 Nov: 'in talks to raise at a $65B valuation ... run rate recently surpassed $5B'). No raise amount is given. Hypersonica (British-German, Sifted 3 Nov) is tagged US, twice. Debt and credit lines are counted as rounds (Lovey EUR298M credit facility, Sennder $167M debt). Monzo 'in talks' is marked closed. Cohere 'round expected to total up to $5B' is counted as a closed $5B. After dedupe and cleaning: Europe 45.0% of rounds, 25.6% of dollars (27.0% closed-only), medians $9.8M vs $31M. 'US has 8 rounds above $1B' falls to 4 closed, distinct rounds of $1B or more (OpenAI, Zipline, Fal, Mirendil), and 3 strictly above $1B.",
+   "fix": "Dedupe rounds by normalised company name within +/-10 days, keeping the max amount. Drop debt and credit facilities. Null the Kalshi amount. Set Hypersonica and Hiverge to Europe. Fix the Monzo status and the Cohere amount. Rerun all B numbers. The headline survives ('about half the rounds, about a quarter of the dollars'). Replace '8 US rounds above $1B' with the recomputed figure, and keep 'deduplicated' in the footer only once it is true."
+  },
+  {
+   "id": "C1",
+   "direction": "C",
+   "severity": "blocker",
+   "category": "statistical honesty / insight",
+   "issue": "Hero 'Nvidia went from 0.2% to 15% of subject lines in eight months' presents a one-story spike as a durable shift. The rationale says it 'separates durable shifts from noise', which is the opposite of what the data shows.",
+   "evidence": "Monthly Nvidia share: Apr 0.2 (1 issue), May 1.3, Jun 2.0, Jul 2.5, Aug 5.2, Sep 3.1, Oct 5.9, Nov 15.1. In November, about 25 of the 33 matching subject lines are the Huang spy, resignation and reinstatement saga (the regex includes 'jensen'). Without the saga, November is about 3-4%, in line with Aug-Oct. On a constant panel of 21 senders present all 8 months the pattern is the same (0.6 -> 14.0), so pruning is not the cause. The saga is.",
+   "fix": "Lead with the real shape: 'Nvidia rose from ~0% to ~5% of subject lines over the summer. Then the Huang scandal tripled it in November.' Annotate the November point as the saga, or show a 'Nvidia excluding Jensen/Huang' line. Pick a durable mover for the headline instead (e.g. Anthropic/Claude 10.8% -> 19.2% on the constant panel)."
+  },
+  {
+   "id": "A1",
+   "direction": "A",
+   "severity": "major",
+   "category": "fact accuracy / statistical honesty",
+   "issue": "The headline '96% of stories never leave the newsletter that ran them' mixes units, and the figure depends on the clustering.",
+   "evidence": "96.0% is events (2,121/2,210). By stories it is 86.7% (2,272/2,620). The unit is a newsletter family, not a newsletter. Under-merge test: 213 single-family events have a plausible same-story twin from another family within +/-4 days (shared rare entity or 3 or more headline tokens). In a random sample of 40, about 13-14 were the same story (e.g. Kindo $30M Term Sheet vs Techmeme; AlphaGenome 2 Techmeme vs Not Boring; Oura-Counsel Health; Meta-Fourier humanoid; Elysian Aircraft; Port; Bites; Claude PR-review feature). Extrapolated, about 70 missed merges, so the single-family share is about 93-95%. Also, 858 of the 2,121 single-family events are Techmeme-only.",
+   "fix": "Say: 'Only 19 of ~2,200 news events reached three or more newsletter families. About 19 in 20 appeared in just one.' Use 'events' throughout and add 'auto-clustered; likely 93-96%' to the method note."
+  },
+  {
+   "id": "A2",
+   "direction": "A",
+   "severity": "major",
+   "category": "misattributed geography / mislabeled event",
+   "issue": "'AI bubble and correction debate' has an EU tag in the top band and counts toward '9 of 19 involve European companies'. It is a theme of opinion pieces, not a European company event.",
+   "evidence": "e0003 has 8 items: 4 Maddyness IA/Maddyness ('la bulle explose ?'), Benedict Evans, Sifted Up Round, Term Sheet ('Software stocks...') and Newcomer. Its geography is France only because tag.py lines 106-107 default every Maddyness story to France and every Sifted, EU-Startups and Sunday CET story to Europe. The 27-day line visually equals the Anthropic IPO. Separately, Sequoia's London office closure is tagged US, though it is the most Europe-relevant VC story in the set. Genesis AI ('Paris-based', Techmeme) and Isomorphic (London, an Alphabet subsidiary) are fair EU tags.",
+   "fix": "Remove the EU tag from e0003 and label it 'theme' (e.g. a dashed line), or drop it from the event bands. Restate as '8 of 19 involve European companies or funds' and footnote Isomorphic as 'London-based, Alphabet-owned'. Consider an EU marker on Sequoia London ('European VC news')."
+  },
+  {
+   "id": "A3",
+   "direction": "A",
+   "severity": "major",
+   "category": "fact accuracy / interpretation",
+   "issue": "'17 days: Fractile's reporting tail ... European scoops travel slowly' misreads the data.",
+   "evidence": "Sifted broke it on 30 Oct from company filings, and Sifted AI & Deeptech repeated it on 2 Nov. Every other family (EU-Startups, Term Sheet, Techmeme) ran it on 12 Nov, the day Fractile confirmed it ('Fractile confirms £540m raise first revealed by Sifted'). The 16 Nov end of the tail is Sifted re-running its own profile. So the other families picked it up on announcement day, and Sifted was 13 days early.",
+   "fix": "Rewrite as '13 days: Sifted's lead on Fractile. It found the £540M in filings on 30 Oct; the rest of the inbox ran it on 12 Nov, when the company confirmed.' This is a better insight: it shows which letter is early."
+  },
+  {
+   "id": "A4",
+   "direction": "A",
+   "severity": "major",
+   "category": "insight / statistical honesty",
+   "issue": "'What does cross over is mostly deals ... a market signal' is partly structural: four of the 14 families exist to list deals.",
+   "evidence": "Funding-round share of each family's stories: EU-Startups 91%, Term Sheet 67%, Sifted 40%, TechCrunch Mobility 35%, Sunday CET 22%. AlphaSignal, Benedict Evans, Import AI and Newcomer are at 0%. Deals/VC are 30% of all events but 13 of 19 (68%) of the 3+ family events and 48 of 70 (69%) of the 2-family events. The over-representation is real (~2.3x), but it reflects how the inbox is built.",
+   "fix": "Keep the claim but add the reason in the dek: 'partly because four of these letters are deal roundups'. Show the 30% base rate next to the 13/19."
+  },
+  {
+   "id": "B2",
+   "direction": "B",
+   "severity": "major",
+   "category": "statistical honesty / method",
+   "issue": "89.7% vs 5.9% ('each side mostly reports on itself') uses different geography rules for the two sides.",
+   "evidence": "tag.py lines 106-107 default any European-source story with no location to Europe, while US-source stories default to Unknown. European sources show 0% Unknown and US sources 29.8%. Re-running geo_of without the source fallback: 233 of 711 European-source stories lose their Europe tag. On stories with an identifiable location the split is 84.7% vs 8.3%.",
+   "fix": "Report on located stories with the same rule for both sides: 'About 85% vs 8% of stories with an identifiable company location'. Remove the source fallback from geography or flag it, and recompute the 'other' share."
+  },
+  {
+   "id": "B3",
+   "direction": "B",
+   "severity": "major",
+   "category": "insight / statistical honesty",
+   "issue": "The 'funding paradox' reads as a market fact, but the count share and the median gap mostly reflect Guy's subscriptions and stage mix.",
+   "evidence": "127 of 172 European rounds come only from European letters, which list pre-seed and seed rounds exhaustively (41 European rounds under $5M vs 7 US). 54 of 103 US rounds come only from Term Sheet. Medians by stage (from headline and round field): seed EU $8.1M (n=45) vs US $11.7M (n=30); Series A $20M (21) vs $27.5M (19); pre-seed $3.2M vs $2.1M. Like-for-like the gap is about 1.4x, not 3.3x.",
+   "fix": "Scope the headline to the inbox ('In your inbox, Europe is half the funding news and a quarter of the money'). Add a small stage-by-stage median panel: seed and Series A, Europe vs US. That is the comparison an early-stage VC can use for pricing and LP talk. Move 'stage as third dimension' from 'next steps' into this version."
+  },
+  {
+   "id": "C2",
+   "direction": "C",
+   "severity": "major",
+   "category": "statistical honesty",
+   "issue": "The annotation 'Anthropic fell during its own IPO' (92 -> 72) is not supported.",
+   "evidence": "The fortnights are unequal (1,404 vs 1,216 stories), so the raw counts favour the first. As a share, Anthropic went from 6.6% to 5.9%. The whole drop is AlphaSignal (22 -> 13) and TLDR (16 -> 7) product-launch items. IPO-storyline items rose from 18 to 23, and Sifted went from 0 to 10.",
+   "fix": "Delete the annotation. Plot shares (per 100 stories), not counts, or note the volume difference. If kept: 'Anthropic product news thinned while IPO coverage rose.'"
+  },
+  {
+   "id": "C3",
+   "direction": "C",
+   "severity": "major",
+   "category": "artefact of extraction",
+   "issue": "'Agents peaked in September at 13.1%' is an artefact of inbox pruning.",
+   "evidence": "TLDR AI, Dev, Marketing, InfoSec, DevOps, Founders, TechCrunch Daily, Techpresso and others stop in Aug-Sep (monthly issues 549 -> 214), while TLDR Hardware starts in August. On a constant panel of the 21 senders present all 8 months, agents peak in May (15.2%). September is 13.1% and November 5.7%.",
+   "fix": "Compute all eight-month small multiples on the constant panel and say so. Restate as 'Agents are at their lowest share since April (5.7%)'."
+  },
+  {
+   "id": "C4",
+   "direction": "C",
+   "severity": "major",
+   "category": "statistical honesty / encoding",
+   "issue": "Topic change bars and the brightest heatmap cells are mostly noise.",
+   "evidence": "With about 1,200-1,400 stories per fortnight, the standard error of a share difference is roughly 1.0-1.2 pts. Only Chips (+2.0, or +1.6 without the Nvidia-saga stories) approaches significance. VC/M&A/models at -1.4 are within noise. In the heatmap, the most saturated cells come from small sources: Import AI science 7.0x is 5 of 16 stories, Not Boring health 6.0x is 7 of 29, Benedict Evans Big Tech 4.9x is 7 of 34, and Newcomer has 16 stories.",
+   "fix": "Grey out topic changes under about 1.5 pts, or add an 'within noise' band. In the heatmap, mute rows with n<40 (or shrink the cells) and add a note. Keep the lifts from the large sources (TLDR dev tools 5.3x, n=446; Sifted VC 2.7x, n=487; AlphaSignal models 5.5x, n=79) as the headline examples."
+  },
+  {
+   "id": "ALL1",
+   "direction": "all",
+   "severity": "major",
+   "category": "insight",
+   "issue": "Each lead is mainly a property of the inbox (overlap, subscription mix, scandal), not a signal Guy can act on as a European early-stage investor. Several more useful cuts are available in the data and not used.",
+   "evidence": "Available but unused: first-source lead time per letter (Sifted 13 days early on Fractile); lead investors named in European rounds (Plural, Creandum, Lakestar, Seedcamp, Accel recur); European seed and Series A by sector (AI agents 63 rounds, the biggest category); CEE/SEE presence (Payhawk is Bulgaria's first unicorn; Sunday CET covers the region); stage-matched medians (B3).",
+   "fix": "A: add a 'who was first' column to the cross-over list. B: add stage-matched medians and a 'most active European lead investors' list. C: use a 'European seed sectors gaining/losing' strip in place of the topic bars."
+  },
+  {
+   "id": "A5",
+   "direction": "A",
+   "severity": "minor",
+   "category": "consistency",
+   "issue": "Anthropic IPO is '40 items' in the band chart and '41 items' in the swimlane.",
+   "evidence": "Event e0000 has 40 stories. The storyline adds anthropic_q3_rev (1).",
+   "fix": "Use one figure, or say '41 items incl. Q3 revenue story' in the swimlane."
+  },
+  {
+   "id": "B4",
+   "direction": "B",
+   "severity": "minor",
+   "category": "wording / encoding",
+   "issue": "'Names only one side mentions' overstates, 'Same deal flow' contradicts the chart, and the grey 'other' block is mostly unlocated rounds.",
+   "evidence": "In the raw text, Amazon appears in 8 European-source issues and SpaceX in 5. The lists are entities that are the subject of extracted stories. Europe has 172 rounds vs 103 for the US, which is not 'same deal flow'. Grey = 56 Unknown + 23 China/Other.",
+   "fix": "Retitle to 'Companies only one side writes stories about'. Change the subtitle to 'More European deals, smaller cheques'. Split grey into 'elsewhere' and 'unlocated', or drop unlocated from the denominator."
+  },
+  {
+   "id": "C5",
+   "direction": "C",
+   "severity": "minor",
+   "category": "labelling",
+   "issue": "The 'Names' dumbbell includes UK (a country) and small-count names.",
+   "evidence": "UK 88 -> 58 is a region from the gazetteer. Creandum 13 -> 1 and General Catalyst 14 -> 2 are mostly deal-list investor mentions, inflated by duplicate rounds (B1).",
+   "fix": "Exclude regions. Require at least 20 mentions in the combined period. Use shares."
+  },
+  {
+   "id": "ALL2",
+   "direction": "all",
+   "severity": "minor",
+   "category": "data hygiene",
+   "issue": "Some event and round fields contain valuations or parser artefacts. They are not shown directly, but they feed the sums.",
+   "evidence": "e0000 Anthropic IPO amount_usd = $1.3T (valuation). e0009 Nvidia reinstatement amount_usd = $4.48M (artefact). Round 'company' values include 'Deeptech', 'British', 'Salt' (Salt Lake City), 'Copenhagen', 'In'. Corridian ('New England-based') is tagged Europe. VVardis (Zug) 'in talks' is fine.",
+   "fix": "Null the amounts on non-funding events. Re-extract company names from '<X> raises' patterns. Check geography on all rounds of $100M or more by hand."
+  },
+  {
+   "id": "ALL3",
+   "direction": "all",
+   "severity": "minor",
+   "category": "technical / legibility",
+   "issue": "The layout is fixed at 1440px, there are minor contrast shortfalls, and one label is clipped.",
+   "evidence": "Playwright: no console errors and no external requests on all three pages. At 1280px viewport scrollWidth stays 1440 (horizontal scroll). B butterfly '18.1' label clipped at the SVG's left edge. Small mono text in C (#727C88 on #141921) has contrast 4.16:1, and ink3 in B is 4.15:1 (below 4.5). A's noise dots are 2.39:1 (acceptable for non-text). Font stacks rely on Mac system fonts (Helvetica Neue, Iowan, SF), so the Linux screenshots differ slightly from what Guy will see.",
+   "fix": "Add a max-width/viewBox scale so the pages fit 1280px. Pad the butterfly left margin. Lift ink3 to about #8A939E (C) and #6B6357 (B)."
+  },
+  {
+   "id": "ALL4",
+   "direction": "all",
+   "severity": "minor",
+   "category": "distinctness",
+   "issue": "Some content overlaps between directions.",
+   "evidence": "Jensen Huang 13 -> 60 and the Anthropic IPO appear in both A and C. Isomorphic/Fractile/Payhawk appear in A and B. C's source fingerprint and B's European-vs-US topic butterfly both answer 'what does each source cover'. Question, form and tone are otherwise clearly distinct (consensus, geography, attention).",
+   "fix": "Keep the Huang/Anthropic storylines in A only. Make C's names panel about the constant-panel eight-month view. Keep B about money and geography only."
+  }
+ ],
+ "verified_correct": [
+  "Anthropic IPO storyline: 41 items, 5 families, 27-day spread, reported on 18 of 29 days; IPO price range and $1.4T target traced to TLDR Fintech 12 Nov / Techmeme 11 Nov",
+  "Nvidia crisis: 32 items, 5 families; resignation (TechCrunch Mobility 13 Nov), reinstatement petition/return (Techmeme, TLDR 16-24 Nov) traced",
+  "Jensen Huang 13 -> 60, Nvidia 44 -> 84, Payhawk 0 -> 10, Isomorphic 0 -> 9, UK 88 -> 58 reproduce from stories.json",
+  "Isomorphic Labs $5B Series C led by Sequoia and Greenoaks (Techmeme, Sifted 18 Nov). It is a raise, not a valuation. 5 families",
+  "Payhawk $280M Series C (Term Sheet 18 Nov, Sifted 19 Nov), 5 families",
+  "Fractile £540M Series C: Sifted exclusive 30 Oct from filings; 4 families; 17-day span (but see A3)",
+  "Model ML $250M, Zipline $1.5B at $21.5B, DoorDash-Instacart $17B, Binance ~$6.36B hack, Plural EUR1bn fund: all traced to raw text",
+  "events_by_reach 5/5/9/70/2121 and 19 events at 3+ families; 13 of 19 deal/IPO/M&A/VC by type/topic",
+  "48.6% / 23.9% / $10.0M / $33.0M / 61.4% / 38.4% reproduce from funding_rounds.json as built (but see B1, B3)",
+  "89.7% / 5.9% reproduce as built (but see B2)",
+  "Subject-line series: Nvidia 0.2 -> 15.0, Agents Sep 13.1 -> Nov 6.5, OpenAI 12.1 -> 7.9, Anthropic 13.3 -> 16.8 reproduce from threads.json with the pipeline regex (but see C1, C3)",
+  "Source lifts Import AI science 6.99x, TC Mobility robotics 6.65x, Not Boring health 6.03x, AlphaSignal models 5.54x, TLDR dev tools 5.26x, Sifted VC 2.73x reproduce (but see C4 on n)",
+  "Topic changes Chips +2.0, VC -1.46, M&A -1.46, models -1.38 reproduce",
+  "All three pages: self-contained, no external requests, no console errors at 1440px"
+ ],
+ "recheck": {
+  "date": "2026-11-26",
+  "numbers_verified_in_code": [
+   "B (rerun of funding_clean.py): 289 closed rounds; 132 EU (45.7%); $11.65B of $37.73B (30.9%); US 57.4%; medians $9.75M vs $30.0M; seed $8.0M (n=36) vs $11.65M (n=30); Series A $20M (21) vs $25.75M (18); rounds of $1B or more: EU 1, US 4 (OpenAI, Zipline, Fal, Mirendil); under $20M 64.1% vs 41.1%",
+   "B: 84.7% (478 of 711 located) reproduces. 8.4% of 1,315 is consistent (my independent rerun gave 8.3% of 1,338; same rule, slightly different base). Agile Robots reassigned to Munich/EU is correct (Techmeme 13 Nov: 'Munich-based Agile Robots ... $500M led by SoftBank')",
+   "C (constant panel of 21 senders, promo excluded): Nvidia Nov 13.6%, ex-saga 2.1% (4 of 191), Apr-Oct avg 2.84%; Anthropic Aug-Nov 8.9 / 14.0 / 16.2 / 18.8; Agents May 15.3, Nov 5.8 (eight-month low); 22 of 26 Nov Nvidia subjects are saga",
+   "A: 8 of 19 European (AI-bubble theme untagged and dashed); Fractile: Sifted 30 Oct, EU-Startups/Term Sheet/Techmeme 12 Nov = 13 days; Anthropic now consistently 40 stories, 17 of 29 days",
+   "No console errors, no external requests, all three pages 1440px wide"
+  ],
+  "resolved": [
+   "B1",
+   "A1",
+   "A2",
+   "A3",
+   "A4",
+   "B2",
+   "B3",
+   "C2",
+   "C3",
+   "C4",
+   "A5",
+   "B4",
+   "C5",
+   "ALL1 (partly: lead time added in A, stage medians in B; investor list and CEE still only in next steps)"
+  ],
+  "resolved_with_caveat": {
+   "C1": "The Nvidia spike is now handled correctly, but the replacement claim has the same flaw (see R2)."
+  },
+  "issues": [
+   {
+    "id": "R1",
+    "direction": "A",
+    "severity": "major",
+    "category": "new error",
+    "issue": "The first-reporter counts 'Techmeme 6, Term Sheet 5, Sifted 2' and the per-event 'first X' labels break same-day ties arbitrarily. prep.py sorts by date only.",
+    "evidence": "8 of the 19 events are same-day ties. Using issue send times from the raw DATE headers, Techmeme (about 01:00Z) and Sifted (about 05:15Z) arrive before Term Sheet (13:05Z). Recomputed first in inbox: Techmeme 11, Sifted 3, and Term Sheet, TLDR, Maddyness, EU-Startups and Newcomer 1 each. Labels that are wrong: Isomorphic and Model ML (Techmeme, not Term Sheet); Daisytuner and Genesis AI (Sifted, not Term Sheet); Zipline (Techmeme, not Not Boring); DoorDash-Instacart (Techmeme, not TC Mobility); Plural (Techmeme, 17 Nov 01:15Z). The rationale's 'Term Sheet was first on 5 of the 19' is also wrong.",
+    "fix": "Sort stories by the issue's send timestamp, not by date. Restate as 'First in the inbox: Techmeme 11, Sifted 3, others 1 each', and note that Techmeme's morning email recaps the previous US day. Correct the per-event labels and rationale.json."
+   },
+   {
+    "id": "R2",
+    "direction": "C",
+    "severity": "major",
+    "category": "new error / statistical honesty",
+    "issue": "The new 'slower shift' (Anthropic up every month since August, 8.9% to 18.8%) repeats the Nvidia mistake: November's step is the IPO, a single story.",
+    "evidence": "On the constant panel, 13 of the 36 November Anthropic subject lines are about the IPO (ipo/nasdaq/S-1/roadshow/valuation/debut/shares). Without them, November is 12.0%, below October's 14.0% (or 14.0 to 16.2 if October's 5 IPO lines are kept) and inside the April-July range of 11.4-14.2%. August's 8.9% is the low point of the series, so starting there flatters the rise.",
+    "fix": "Apply the same treatment as Nvidia: split the IPO out ('Anthropic 18.8%, of which IPO 6.8 pts; ex-IPO about 12%, in line with its spring level'). Then make agents at an eight-month low (5.8%, from 15.3% in May) the durable shift in the headline. Do not start the Anthropic series in August."
+   },
+   {
+    "id": "R3",
+    "direction": "C",
+    "severity": "minor",
+    "category": "consistency",
+    "issue": "Chips +2.00 in the topic bars still includes the Nvidia-saga stories that the headline says to discount.",
+    "evidence": "Excluding the three saga events gives +1.58, which is inside the ±1.2 band's two-SE zone like the others.",
+    "fix": "Add a note ('+1.6 without the Huang saga') or plot the bar without it."
+   }
+  ],
+  "verdict": "B clear. A and C each have one remaining major (R1, R2), both quick fixes."
+ }
+}

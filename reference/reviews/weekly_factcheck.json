@@ -1,0 +1,159 @@
+{
+ "issues": [
+  {
+   "id": "R1",
+   "section": "1. Confirmed this week",
+   "severity": "blocker",
+   "issue": "'Nvidia reinstates Jensen Huang' is false for W47. In W47 the board ruled it out; the reinstatement was on Mon 23 Nov (W48). The event cluster merged the W47 comeback/petition stories with the W48 decision and dated the result 16 Nov.",
+   "evidence": "Term Sheet 18 Nov: 'Board chair Harvey Jones said on the earnings call that there were no plans to reinstate him'. TLDR Hardware 18 Nov: 'the board rules out Huang's return'. Newcomer 20 Nov: Jones 'ruled out reinstating'. Techmeme 24 Nov (dated Mon 23 Nov): 'Nvidia's board unanimously votes to reinstate'. Benedict Evans 24 Nov: 'Jensen Huang returned as CEO of Nvidia on Monday morning'. stat_tests.json S11 W47_ge2_list dates it 2026-11-16.",
+   "fix": "Replace with what happened in W47 ('Nvidia board rules out Huang return; Q3 revenue +103%'), or drop it. Stop event clusters from crossing week boundaries: cap clustering at ±3 days or split when the status changes (rumour, refused, done). Same bug puts 'CrowdStrike to buy Zscaler ($43.9B)', a W48 fact, on 21 Nov in S11."
+  },
+  {
+   "id": "R2",
+   "section": "1. Confirmed this week / 4. Exits",
+   "severity": "blocker",
+   "issue": "The week's largest liquidity event is missing: Anthropic priced its IPO above range on 18 Nov, listed on 19 Nov, and was followed by a tech sell-off on Friday. The 'first seen this week' rule drops it because the IPO storyline started earlier, and S10 does not take it up. A weekly market view without it fails the 'stand above the noise' test from the other side: it leaves out what every source covered.",
+   "evidence": "Techmeme 19 Nov subject: 'Anthropic prices its IPO well above the range'. Techmeme 20 Nov: 'Anthropic debuts'. Newcomer 19 Nov: 'upsized offering priced above its range and popped 30%'. Term Sheet 20 Nov and Sifted Up Round 20 Nov cover the debut. AI & Deeptech by Sifted 23 Nov: 'bruising tech sell-off on Friday'. Greenshoe of $12.2B (Techmeme 21 Nov). At least 5 families.",
+   "fix": "Change the rule to 'first reported, or reached a new status (priced, signed, closed, refused), this week'. Add an 'IPOs and listings' line to section 4 for events that change status."
+  },
+  {
+   "id": "R3",
+   "section": "1. Confirmed this week",
+   "severity": "major",
+   "issue": "The family counts behind the 3+ rule come from incomplete deduplication. Several W47 events that clear the bar are counted as 1–2 families, so the list leaves out the week's two biggest exits and its best European deep-tech rounds. As built, the rule measures how well the clusterer works.",
+   "evidence": "Raw text: Bending Spoons–Mailchimp appears in Techmeme 20 Nov, TLDR Fintech 23 Nov, Newcomer 20 Nov, Sunday CET 22 Nov and Benedict Evans 24 Nov, but S11/S8 count 2 families. Palo Alto–Applied Compute appears in Techmeme 19 Nov, Newcomer 20 Nov and TLDR IT 20 Nov (3 families), but S8 counts 1. Tiberius appears in Sifted 18 Nov, Techmeme 18 Nov and Term Sheet 20 Nov (3); S11 counts 2. Remanence appears in Term Sheet, Sifted, Maddyness, Techmeme and Sunday CET (5); S11 counts 2. Boltz appears in Term Sheet, Sifted, Techmeme, Newcomer and Not Boring; S11 counts 2. In w47_rounds.json, Mosaico has families ['Sifted'] only, although Term Sheet 17 Nov carries it.",
+   "fix": "Deduplicate on the company entity (LLM extraction plus a fuzzy name match within ±10 days) before counting families. Re-run S11. The corrected W47 list likely adds Mailchimp, Applied Compute, Tiberius, Remanence and Boltz. Publish only after the spot-check confirms the family count for each listed item."
+  },
+  {
+   "id": "R4",
+   "section": "1. Confirmed this week",
+   "severity": "major",
+   "issue": "'3+ families' partly measures press-release syndication across the European deal digests (Sifted, EU-Startups, Term Sheet), not how material the event is. Daisytuner's €6m seed ranks next to Isomorphic's $5B because all three digests reprint the same press release. That describes the inbox, not the market.",
+   "evidence": "Daisytuner's three families are Sifted 17 Nov, Term Sheet 17 Nov and EU-Startups 19 Nov, all paraphrasing one release (same leads, same co-investors). The rule credits deal-list paraphrases the same as independent reporting.",
+   "fix": "Count a family only when it adds an independent element (its own reporting, a valuation, a named source or analysis), or weight deal-list mentions at 0.5. Alternatively, drop section 1 as a standalone section and use the family count as a dot marker on items in sections 2–5 (see R9)."
+  },
+  {
+   "id": "R5",
+   "section": "3. Mega-rounds",
+   "severity": "major",
+   "issue": "Hone Health is not a $228M Series A. It is a $28M Series A plus $200M of growth financing from General Catalyst's Customer Value Fund. The error also inflates S4 (W47 count), S1 (dollars) and the Series A sample in S6.",
+   "evidence": "Term Sheet 18 Nov: 'The funding comprises $28 million in Series A equity led by MarcyPen... and $200 million in growth financing from General Catalyst's Customer Value Fund.'",
+   "fix": "Drop it from the $100M+ list. Make equity-only amounts a rule: split debt, CVF, grants and non-dilutive money at extraction. The same applies to Elysian (€12m of 'grants and equity'), which should be labelled as such."
+  },
+  {
+   "id": "R6",
+   "section": "2. Early-stage by area",
+   "severity": "major",
+   "issue": "The concentration flag is set at 60%, just above the observed 54% from Term Sheet, so it would not fire on the week it is meant for. Dropping Term Sheet cuts W47 early rounds from 56 to 36 (−36%), more than dropping Sifted does in W47. The '29 European' headline count rests mainly on Sifted and EU-Startups and on Slush timing.",
+   "evidence": "stat_tests.json S3: top_family_share 53.6% (Term Sheet); robustness_drop_one_family: Term Sheet W47 = 36, Sifted W47 = 48, Sifted W45 = 15 (from 30).",
+   "fix": "Flag when any single family's removal moves the count by more than 25%, and print the drop-one range next to the count (for example '56 (36–51 without any one source)'). Do not lead the headline with a raw count until there are 8 weeks of history."
+  },
+  {
+   "id": "R7",
+   "section": "2. Early-stage by area / headline",
+   "severity": "minor",
+   "issue": "The European deep-tech list is inconsistent and duplicates section 3. Tiberius ($85M at $1B+) is listed as early-stage although it is not Big Pi's market and also sits in section 3. Genesis AI (Paris and San Carlos; $500M Series A) and Boltz (London; $110M Series A) are European Series A rounds missing from the 'nine'. Remanence is labelled 'big-lab' founders, but H Company is a startup; Maddyness says the founder is H Company's ex-CTO. Tiberius HQ is London per Sifted but Newport Beach, CA per Term Sheet 20 Nov.",
+   "evidence": "Sifted 18 Nov: Genesis 'Paris-based' (Techmeme also says Paris). Term Sheet 20 Nov: 'Tiberius Aerospace, a Newport Beach, Calif.-based developer'. Maddyness 18 Nov: 'Initiée par l'ex-CTO de H Company'.",
+   "fix": "Show each item in one section only: rounds ≥$50M go to section 3, smaller ones to section 2. Tag the founder origin as 'ex-H Company (startup)' or use 'notable-team' as the tag. Record conflicting HQs as 'London / US'."
+  },
+  {
+   "id": "R8",
+   "section": "4. Exits",
+   "severity": "minor",
+   "issue": "Iceye–Avio (€2.05B) rests on a single Sunday commentary newsletter, and no other family in the corpus carries it. MongoDB–Firebolt is TLDR Data only, with no price. The 'pattern' line (two of six buy model-customisation or inference teams) is a stretch: Inception is a diffusion-LLM developer, and it is still only in talks.",
+   "evidence": "Raw grep: 'Iceye...Avio' is found only in 2026-11-22_dragos-novac. 'Firebolt' is found only in 2026-11-19_tldr-data.",
+   "fix": "Mark single-source items with one dot and say 'reported by X'. Drop the pattern line unless it holds across 4+ weeks."
+  },
+  {
+   "id": "R9",
+   "section": "Overall structure",
+   "severity": "major",
+   "issue": "Seven sections, at most 6 items each, a chart and two tables do not fit in 500–700 words, and they overlap. 6 of the 7 'Confirmed' items reappear in sections 2, 3 or 5 (Isomorphic, Payhawk, Model ML, Genesis, Plural, Daisytuner), and Genesis and Tiberius each appear 2–3 times. Section 6 (4-week rolling) barely changes from week to week, so it is the same line each Monday. Section 7 is editorial and the furthest from a seed or Series A deep-tech investor's decisions.",
+   "evidence": "proposal.md sections 1–7. A 4-week rolling median changes by about one quarter of its inputs each week. W47 section 7 items concern LLM API pricing and Waymo freeways.",
+   "fix": "Five blocks: (1) a headline plus 3 'confirmed' lines merged into the top of the relevant section with family dots; (2) European early-stage deep tech (chart plus named list); (3) marks and mega-rounds; (4) exits and IPOs; (5) funds. Show the price check monthly, or as one line only when the rolling median moves by more than 15%. Make section 7 an optional single line. Target about 450–600 words."
+  },
+  {
+   "id": "R10",
+   "section": "6. Price check",
+   "severity": "minor",
+   "issue": "The medians reproduce exactly (Seed $8.0M n=86, EU $6.3M n=46, US $10.0M n=29; A $27.5M n=59, EU $20.5M, US $25.8M). However, the Series A EU and US splits omit n (20 and 18), the window is 25 days rather than 4 weeks, and the samples include misclassified items: Hone's $228M counts as Series A and Seawolf's $100M seed-plus-A counts as seed.",
+   "evidence": "Recomputed from design/build/funding_clean.json (status closed, 2026-10-29 to 2026-11-22). Series A IQR EU 12.6–33.6, US 15.0–50.2.",
+   "fix": "Show n for every split. Exclude debt and combined rounds. Express European figures in € as well as $. Say 'reported rounds' in the label, not only in the caveat."
+  },
+  {
+   "id": "R11",
+   "section": "5. New funds",
+   "severity": "minor",
+   "issue": "Sofinnova Crossover II is a late-stage life-sciences crossover fund and Norwest 18 is a US venture-and-growth fund. Neither is an early-stage co-investor or competitor for Big Pi, yet both sit in the same list as Plural.",
+   "evidence": "Sifted Up Round 20 Nov: Sofinnova 'focuses on late-stage life sciences companies'. Term Sheet 16 Nov: Norwest 'venture and growth equity ... U.S., India, and Israel'.",
+   "fix": "Tag the stage on every fund. Show European early-stage funds first, with the rest in one line."
+  },
+  {
+   "id": "R12",
+   "section": "2. What was tested",
+   "severity": "minor",
+   "issue": "'Each family sent the same number of issues' holds for Sifted, TLDR, Term Sheet and AlphaSignal, but not for Newcomer (6/2/4) or Maddyness (5/4/5).",
+   "evidence": "Count of raw/msgs files by family and week.",
+   "fix": "Say 'the deal-carrying families (Sifted, TLDR, Term Sheet, Techmeme) were steady'."
+  }
+ ],
+ "visual_check": {
+  "verdict": "Fix 4 items, then clear. The page is otherwise accurate and its encodings are sound.",
+  "fixes": [
+   {
+    "id": "V1",
+    "severity": "major",
+    "where": "Block 5 GPT bars and w47_sample.md section 5",
+    "issue": "Wrong measure. 'One-third' is OpenAI's cost per task on its benchmarks, not price per unit of inference. The token price fell 20%. The caption 'Absolute prices not given in the sources' is false.",
+    "evidence": "Techmeme 18 Nov: 'GPT-6.2 ASTRA COSTS $8/1M INPUT AND $40/1M OUTPUT TOKENS, DOWN 20% FROM GPT-6 ASTRA; GPT-6.2 SOL KEEPS GPT-6.1 SOL'S ... PRICING'. AlphaSignal 18 Nov: 'less than 1/3 the price per task ... API tokens priced 20% lower'.",
+    "correction": "Two bar pairs: 'Token price: GPT-6 Astra $10/$50 → GPT-6.2 Astra $8/$40 per M (−20%)' and 'Cost per benchmark task: under one-third (OpenAI's claim)'. Caption: 'Source: OpenAI via Techmeme/AlphaSignal'. Text: 'GPT-6.2 Astra: tokens 20% cheaper, and under a third of GPT-6's cost per task on OpenAI's evals; Gemini 4 Neon $3/$15 per M input/output tokens.'"
+   },
+   {
+    "id": "V2",
+    "severity": "minor",
+    "where": "MountAIn card",
+    "issue": "Shows 4 dots. The 4th is a false match: The Batch's footer address 'Mountain View, CA' matched a case-insensitive 'MountAIn' search.",
+    "evidence": "In W47, 'MountAIn' (case-sensitive) appears only in Term Sheet 18 Nov, Sifted 19 Nov and EU-Startups 19 Nov. The Batch 20 Nov contains only 'Mountain View, CA 94041'. w47_family_counts.json lists 'DeepLearning.AI The Batch' for MountAIn.",
+    "correction": "MountAIn ●●● (3). In w47_fix.py, match company names case-sensitively or on word boundaries. Set prep.py md_dots MountAIn to 3."
+   },
+   {
+    "id": "V3",
+    "severity": "minor",
+    "where": "w47_family_counts.json, Mailchimp",
+    "issue": "Designer's point (a). The page (3) is correct and the JSON (2) is wrong. The JSON misses Newcomer 20 Nov, which names Mailchimp in 'Six Notable Deals'. That is the same line that gives Applied Compute its Newcomer credit, so the counting rule has to be the same for both.",
+    "evidence": "Within 16–22 Nov: Techmeme 20 Nov ('Intuit agrees to sell ... Mailchimp to Bending Spoons for $3.68B'), Newcomer 20 Nov ('Six Notable Deals Applied Compute, Mailchimp, ...'), Sunday CET 22 Nov. TLDR Fintech (23 Nov) and Benedict Evans (24 Nov) are W48 and correctly excluded.",
+    "correction": "Set Mailchimp to {Techmeme, Newcomer, Sunday CET} = 3 in w47_family_counts.json. The page stays ●●●."
+   },
+   {
+    "id": "V4",
+    "severity": "minor",
+    "where": "Footer sources line, and the w47_sample.md footer",
+    "issue": "'Others 1 each' is wrong for AlphaSignal, which sent 6 issues in W47. Maddyness IA sent 0, so 'None missing' needs a qualifier.",
+    "evidence": "Count of raw/msgs files dated 16–22 Nov: alphasignal 6, maddyness-ia 0.",
+    "correction": "'TLDR 12, Sifted 9, AlphaSignal 6, Techmeme 6, Term Sheet 5, Maddyness 5, Newcomer 4; others 1 each.'"
+   },
+   {
+    "id": "V5",
+    "severity": "minor",
+    "where": "w47_sample.md section 2 header",
+    "issue": "Designer's point (b). The md says 'under $50M', but 55/28 includes 7 rounds of $50M or more. The page's treatment is correct and clear: 4 outlined European squares labelled 'in block 3' with names, 3 outlined among the rest of the world, a caption, and a footer note. Only the md header is wrong.",
+    "evidence": "Europe: 10+3+3+2+2+2+1+1 = 24, plus 4 of $50M or more (Boltz, Commit, Genesis, Tiberius) = 28. Rest of world 27 (3 of them $50M or more). 28 + 27 = 55. The source mix of 20 Term Sheet-only + 10 Term Sheet and others + 25 others-only = 55, and 55 − 20 = 35.",
+    "correction": "md: '## 2. Early-stage rounds (pre-seed to Series A, all sizes; 7 of $50M or more also appear in section 3)'. Optionally add a line on the page: '48 under $50M, 24 in Europe'."
+   }
+  ],
+  "verified_correct": [
+   "IPO: priced at $83 (above the $70–78 range), $81.3B raised, largest IPO on record (Techmeme 19 Nov, Sifted Up Round 20 Nov). Opened at $111.50 (+34%), closed at $97.17 (+17%), market cap $1.3T (Techmeme 20 Nov, Reuters). Greenshoe $12.2B bringing the total to $93.5B (Techmeme 21 Nov, CNBC).",
+   "Sell-off: SoftBank ~−15%, TSMC −5%+, Samsung and SK Hynix −6%+ (Techmeme 21 Nov, FT). Bar lengths are proportional.",
+   "Arithmetic: 4.5/3.25 − 1 = +38.5%, shown as +38%. 3.68/12 − 1 = −69.3%, shown as −69%. The grey and black bars use the same linear scale, and their ratios check out by eye (about 0.72 and 0.31).",
+   "Funds: Plural €1bn (Techmeme and Sifted 17 Nov), Sofinnova €725m (Maddyness 17 Nov, Sifted 20 Nov), Norwest $4B (Term Sheet 16 Nov). Bars at EUR×1.08 are proportional.",
+   "Coverage dots checked against the raw text: Boltz 4 (Newcomer, Not Boring, Sifted, Techmeme), Tiberius 3, Dcubed 1, Elysian 3, Stryx 2, Applied Compute 3, Plural 5+, Sofinnova 2.",
+   "Mega-round count: 14 rounds of $100M or more is the earlier 15 minus Hone Health."
+  ],
+  "encodings": {
+   "log_scale_block3": "Acceptable because it is labelled 'Log scale' and every bar carries its value. However, bar length on a log axis understates ratios: the $5B bar looks about 2× the $500M bar, not 10×. Better: replace the bars with dots or ticks at the amount (as the diamonds already are), or put the label 'Log scale: each gridline is 10×' next to the axis. Low priority.",
+   "valuation_diamonds": "Correct. Positions checked on the log axis: Genesis $3.5B, Model ML $1.5B, Tiberius $1B, Sierra ~$30B, Cognition $75B. No diamond appears where no valuation was reported. Dotted leaders make clear the diamond is not the round size.",
+   "gpt_bars": "Misleading. See V1.",
+   "term_sheet_bar": "Correct: 20 + 10 + 25 = 55, proportional widths, and 'without it 35' matches. Clear."
+  }
+ }
+}
