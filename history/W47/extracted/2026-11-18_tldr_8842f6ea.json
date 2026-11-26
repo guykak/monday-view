@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "message_id": "<010001a1eefe9847-799b1940-490b-4880-8e12-dd19c1f13f02-000000@email.amazonses.com>",
+  "family": "TLDR",
+  "letter": "TLDR Hardware",
+  "issue_date": "2026-11-18",
+  "sent_at": "2026-11-18T14:10:24.000Z",
+  "subject": "Jensen wants to return 🔙, NVIDIA board says no 🚫, Tesla's Powercore ⚡",
+  "notes": null,
+  "stories": [
+    {
+      "headline": "Isomorphic Labs raises $5B Series C co-led by Greenoaks and Sequoia",
+      "quote": "ISOMORPHIC LABS RAISES $5B TO SCALE ITS ISODDE DRUG-DESIGN ENGINE AND FOUNDATIONAL BIOLOGY MODELS TOWARD CLINICAL TRIALS",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "round",
+      "subtype": null,
+      "status": "closed",
+      "mention_type": "story",
+      "company": "Isomorphic Labs",
+      "aliases": ["Isomorphic"],
+      "description": "Alphabet-backed AI drug-design company building the IsoDDE design engine",
+      "hq": [],
+      "stage": "series_c",
+      "stage_as_written": "Series C",
+      "is_combined_round": false,
+      "equity_amount": 5000000000,
+      "currency": "USD",
+      "amount_qualifier": "exact",
+      "mixed_total": null,
+      "other_finance": [],
+      "valuation": null,
+      "non_raise_figures": [],
+      "leads": ["Greenoaks", "Sequoia"],
+      "founder_leads": [],
+      "status_note": null,
+      "tech_area": "health",
+      "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [
+        {
+          "date": null,
+          "text": "Series C co-led by Greenoaks and Sequoia, six months after a $2.1 billion Series B",
+          "quote": "The Alphabet-backed company raised a Series C co-led by Greenoaks and Sequoia, six months after a $2.1 billion Series B"
+        },
+        {
+          "date": null,
+          "text": "Bloomberg earlier reported a roughly $50 billion valuation; not stated as this round's valuation",
+          "quote": "Bloomberg earlier reported a roughly $50 billion valuation"
+        },
+        {
+          "date": null,
+          "text": "Reports positive preclinical results in oncology and immunology; partners include Eli Lilly, Novartis and Johnson & Johnson",
+          "quote": "Isomorphic reports positive preclinical results in oncology and immunology, with partners including Eli Lilly, Novartis, and Johnson & Johnson."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Isomorphic Labs raised a $2.1B Series B six months before its Series C",
+      "quote": "The Alphabet-backed company raised a Series C co-led by Greenoaks and Sequoia, six months after a $2.1 billion Series B",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "background",
+      "event_type": "round",
+      "subtype": null,
+      "status": "closed",
+      "mention_type": "passing",
+      "company": "Isomorphic Labs",
+      "aliases": ["Isomorphic"],
+      "description": "Alphabet-backed AI drug-design company building the IsoDDE design engine",
+      "hq": [],
+      "stage": "series_b",
+      "stage_as_written": "Series B",
+      "is_combined_round": false,
+      "equity_amount": 2100000000,
+      "currency": "USD",
+      "amount_qualifier": "exact",
+      "mixed_total": null,
+      "other_finance": [],
+      "valuation": null,
+      "non_raise_figures": [],
+      "leads": [],
+      "founder_leads": [],
+      "status_note": null,
+      "tech_area": "health",
+      "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Genesis AI raises $500M at $3.5B to build its Eno wheeled robot",
+      "quote": "GENESIS AI RAISES $500M AT $3.5B TO BUILD ENO, A HEADLESS WHEELED ROBOT WITH IN-HOUSE ACTUATORS, GEARBOXES, AND HANDS",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "round",
+      "subtype": null,
+      "status": "closed",
+      "mention_type": "story",
+      "company": "Genesis AI",
+      "aliases": ["Genesis"],
+      "description": "Builds Eno, a headless wheeled robot with in-house actuators and hands",
+      "hq": [],
+      "stage": "unstated",
+      "stage_as_written": null,
+      "is_combined_round": false,
+      "equity_amount": 500000000,
+      "currency": "USD",
+      "amount_qualifier": "exact",
+      "mixed_total": null,
+      "other_finance": [],
+      "valuation": {"amount": 3500000000, "currency": "USD", "qualifier": "exact"},
+      "valuation_basis": "unstated",
+      "non_raise_figures": [],
+      "leads": [],
+      "founder_leads": [],
+      "status_note": null,
+      "tech_area": "robotics_manufacturing",
+      "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Marvell's $3.5B Celestial AI acquisition cited as source of its photonic memory module",
+      "quote": "Marvell's module, from its $3.5B Celestial AI acquisition, stacks 72 GB of HBM3e and eight DDR5 channels on a silicon photonic interposer with 900 GB/s bidirectional bandwidth.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "background",
+      "event_type": "acquisition",
+      "subtype": null,
+      "status": "announced",
+      "mention_type": "passing",
+      "company": "Celestial AI",
+      "aliases": [],
+      "description": "Silicon photonic interconnect technology used in Marvell's memory module",
+      "hq": [],
+      "stake": null,
+      "acquirer": "Marvell",
+      "acquirer_type": "company",
+      "price": {"amount": 3500000000, "currency": "USD", "qualifier": "exact"},
+      "consideration": "unstated",
+      "confirmed_by_company": false,
+      "is_pe_buy_and_build": false,
+      "status_note": null,
+      "tech_area": "chips_photonics",
+      "is_press_release_reprint": false,
+      "facts": [],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Jensen Huang says he would return as Nvidia CEO if the board wants; board source says no plans to reinstate him",
+      "quote": "In his first statement since resigning, Jensen Huang said he made serious mistakes, will cooperate with the board's independent investigation, and would return if the board decides it serves shareholders and the company.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "leadership",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Nvidia",
+      "aliases": ["NVIDIA"],
+      "facts": [
+        {
+          "date": "2026-12-01",
+          "text": "Nvidia formed an executive committee for export control compliance; Huang to testify before Congress on December 1",
+          "quote": "Nvidia has formed an executive committee to oversee export control compliance, and Huang will testify before Congress on December 1."
+        },
+        {
+          "date": null,
+          "text": "A board source told the Washington Post there are no plans to reinstate him",
+          "quote": "A source on Nvidia's board told the Washington Post that there are no plans to reinstate him, and one senator called the idea among the worst he'd heard."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Nvidia reports Q3 revenue of $115.8 billion and guides Q4 to $130 billion with no China data center revenue",
+      "quote": "Nvidia's Q3 revenue hit $115.8 billion, with data center up 110% to $107.6 billion and Vera Rubin NVL72 racks shipping to CoreWeave, Google Cloud, Azure, Oracle, and Nebius.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "earnings",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Nvidia",
+      "aliases": ["NVIDIA"],
+      "facts": [
+        {
+          "date": null,
+          "text": "Q4 guidance $130 billion plus or minus 3%, assuming no China data center compute revenue; gross margin 71% to 72%",
+          "quote": "Q4 guidance of $130 billion, plus or minus 3%, assumes no China data center compute revenue, and gross margin dips to 71% to 72%."
+        },
+        {
+          "date": null,
+          "text": "Board chair said the board does not intend to reinstate Huang; a search firm leads the CEO search",
+          "quote": "On the call, board chair Harvey Jones said the board does not intend to reinstate Jensen Huang, and a search firm is leading the CEO hunt."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Tesla's Powercore combines transformer, inverter and breaker in one 7.4 MW solid-state unit",
+      "quote": "It's rated 7.4 MW (9 MVA) continuous at 34.5 kV with grid-forming support up to 10 MVA peak, made in the US, operating in 2027.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Tesla",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "About 50% more than the 5 MW Heron Link from Drew Baglino's startup, which claims 98.6% efficiency",
+          "quote": "That's about 50% more than the 5 MW Heron Link from ex-Tesla exec Drew Baglino's startup, which claims 98.6% efficiency, a Morgan Hill factory, and customers like Vantage and Intersect."
+        },
+        {
+          "date": null,
+          "text": "Tesla has not shared efficiency or pricing",
+          "quote": "Tesla hasn't shared efficiency or pricing."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Waymo halts freeway rides in all markets after California DMV restriction over construction-zone incursions",
+      "quote": "Waymo has halted freeway service in every market while it evaluates performance, and surface-street rides, over half a million trips a week, continue.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "regulation",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Waymo",
+      "aliases": [],
+      "facts": [
+        {
+          "date": "2026-11-11",
+          "text": "California DMV restricted Waymo's freeway operations on November 11 after three robotaxis entered a construction closure on US-101",
+          "quote": "California's DMV restricted Waymo's freeway operations on November 11 after three robotaxis entered an active construction closure on US-101 near Burlingame and a separate incident involved CHP vehicles on Highway 280."
+        },
+        {
+          "date": "2026-05-18",
+          "text": "Similar incidents on May 18 led to a prior restriction and fixes",
+          "quote": "The DMV calls it an imminent hazard, since similar incidents on May 18 led to a prior restriction and fixes."
+        },
+        {
+          "date": null,
+          "text": "Restriction stays until the DMV sees effective corrective action",
+          "quote": "The restriction will stay until the DMV sees effective corrective action."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Marvell and Penguin's photonic memory appliance pools DDR5 and HBM across 16 servers over optical links",
+      "quote": "Penguin's box holds 16 modules behind a 57.6 Tbps optical shuffle, serving up to 16 servers over NICs or CPO and NPO optics, bypassing CXL for the optical modes.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Marvell",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Systems due in the second half of next year",
+          "quote": "An HBM cache-through mode gives HBM speed with DDR5 capacity, aimed at KV cache offload, with systems due in the second half of next year."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "ULA says Vulcan's first-stage booster lost performance and Centaur could not recover",
+      "quote": "ULA says the solid boosters were nominal and the problem began in the first stage, while Centaur's RL-10C engines did their job but couldn't make up the loss.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "ULA",
+      "aliases": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Apple adds front-camera face unlock for the iPhone Duo foldable in iOS 27.3 beta 2",
+      "quote": "The feature uses the outer display's ordinary camera instead of Face ID hardware, so it only unlocks the closed phone and still needs Touch ID after about 45 minutes or for Apple Pay.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Apple",
+      "aliases": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "A 125-qubit chip teleports an error-corrected qubit with weaker entanglement than expected",
+      "quote": "By balancing the two kinds of errors in the code, researchers made their 125-qubit chip tolerate a much weaker link, raising the threshold from 0.122π to 0.175π.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": null,
+      "aliases": [],
+      "facts": [],
+      "confidence": "high"
+    }
+  ]
+}
