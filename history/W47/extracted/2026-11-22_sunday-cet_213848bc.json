@@ -1,0 +1,566 @@
+{
+  "schema_version": 1,
+  "message_id": "<20261122035556.3.d06a03d73e3cf9fb@mg2.substack.com>",
+  "family": "Sunday CET",
+  "letter": "Sunday CET",
+  "issue_date": "2026-11-22",
+  "sent_at": "2026-11-22T03:55:56.000Z",
+  "subject": "AI, fusion, London",
+  "notes": "HQ countries for most entries come from the flag emoji the issue puts before the company name; no cities are stated except London for Europa Fusion. Payhawk hq left empty: the issue only calls it 'the Bulgarians' (flag BG), which may be founder origin. Investors shown in brackets are not stated as leads, so leads are empty. One unnamed founder raising $12m from angels and a VC has no entry (no company name). The Startup radar rounds are described as raised 'In November'.",
+  "stories": [
+    {
+      "headline": "Plural closes a €1b fund, €667m of it for early stage",
+      "quote": "This week Plural made official their closing of a €1b fund, €667m of which dedicated to early stage.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "fund", "subtype": null, "status": "closed", "mention_type": "story",
+      "company": "Plural", "aliases": [], "description": null, "hq": [],
+      "fund_name": null,
+      "fund_size": {"amount": 1000000000, "currency": "EUR", "qualifier": "exact"},
+      "fund_strategy": "multi_stage", "fund_geography": "Europe", "fund_focus": "defence and deeptech",
+      "is_press_release_reprint": false,
+      "facts": [
+        {"date": null, "text": "€667m of the €1b is dedicated to early stage", "quote": "This week Plural made official their closing of a €1b fund, €667m of which dedicated to early stage."},
+        {"date": null, "text": "A €333m follow-on fund is part of the raise", "quote": "the €333m follow-on fund looks like Plural’s way of holding its stakes as American money leads the later rounds"},
+        {"date": null, "text": "Nordic9 tracked about 200 European VC funds announced or closed this year, totalling €31.6b; median fund €74m", "quote": "we’ve tracked about 200 VC European VC funds announced or closed this year, totalling €31.6b."}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Forbion named among European firms with a €1b fund this year",
+      "quote": "Plural’s 1b is part of a select club - this year it’s Forbion, Index, Highland Europe, Plural and Jeito.",
+      "story_date": null, "date_basis": "undated", "timing": "recap",
+      "event_type": "fund", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Forbion", "aliases": ["Forbion Growth"], "description": null, "hq": [],
+      "fund_name": null, "fund_size": null, "fund_strategy": null, "fund_geography": "Europe", "fund_focus": null,
+      "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Index named among European firms with a €1b fund this year",
+      "quote": "Plural’s 1b is part of a select club - this year it’s Forbion, Index, Highland Europe, Plural and Jeito.",
+      "story_date": null, "date_basis": "undated", "timing": "recap",
+      "event_type": "fund", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Index", "aliases": [], "description": null, "hq": [],
+      "fund_name": null, "fund_size": null, "fund_strategy": null, "fund_geography": "Europe", "fund_focus": null,
+      "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Highland Europe named among European firms with a €1b fund this year",
+      "quote": "Plural’s 1b is part of a select club - this year it’s Forbion, Index, Highland Europe, Plural and Jeito.",
+      "story_date": null, "date_basis": "undated", "timing": "recap",
+      "event_type": "fund", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Highland Europe", "aliases": ["Highland"], "description": null, "hq": [],
+      "fund_name": null, "fund_size": null, "fund_strategy": null, "fund_geography": "Europe", "fund_focus": null,
+      "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Jeito named among European firms with a €1b fund this year",
+      "quote": "Plural’s 1b is part of a select club - this year it’s Forbion, Index, Highland Europe, Plural and Jeito.",
+      "story_date": null, "date_basis": "undated", "timing": "recap",
+      "event_type": "fund", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Jeito", "aliases": [], "description": null, "hq": [],
+      "fund_name": null, "fund_size": null, "fund_strategy": null, "fund_geography": "Europe", "fund_focus": null,
+      "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "EQT-run Scaleup Europe Fund has a €5b target",
+      "quote": "The EQT-run Scaleup Europe Fund also qualifies, on a target of €5b.",
+      "story_date": null, "date_basis": "undated", "timing": "recap",
+      "event_type": "fund", "subtype": null, "status": "planned", "mention_type": "passing",
+      "company": "EQT", "aliases": ["Scaleup Europe Fund"], "description": null, "hq": [],
+      "fund_name": "Scaleup Europe Fund",
+      "fund_size": {"amount": 5000000000, "currency": "EUR", "qualifier": "up_to"},
+      "fund_strategy": "growth", "fund_geography": "Europe", "fund_focus": null,
+      "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Kembara is targeting a €1b fund",
+      "quote": "Kembara and Seaya are on the way, each targeting €1b.",
+      "story_date": null, "date_basis": "undated", "timing": "recap",
+      "event_type": "fund", "subtype": null, "status": "planned", "mention_type": "passing",
+      "company": "Kembara", "aliases": [], "description": null, "hq": [],
+      "fund_name": null,
+      "fund_size": {"amount": 1000000000, "currency": "EUR", "qualifier": "up_to"},
+      "fund_strategy": "growth", "fund_geography": "Europe", "fund_focus": "deeptech and defence",
+      "facts": [
+        {"date": null, "text": "Kembara invests at Series B/C with €15-40m initial cheques", "quote": "Kembara (Series B/C, €15-40m initial cheques)"}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Seaya is targeting a €1b fund",
+      "quote": "Kembara and Seaya are on the way, each targeting €1b.",
+      "story_date": null, "date_basis": "undated", "timing": "recap",
+      "event_type": "fund", "subtype": null, "status": "planned", "mention_type": "passing",
+      "company": "Seaya", "aliases": [], "description": null, "hq": [],
+      "fund_name": null,
+      "fund_size": {"amount": 1000000000, "currency": "EUR", "qualifier": "up_to"},
+      "fund_strategy": null, "fund_geography": "Europe", "fund_focus": null,
+      "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Tolmo, a 2026 YC company, raised $22m (Accel)",
+      "quote": "The largest rounds from 2026: 🇫🇷 Tolmo - $22m (Accel), 🇩🇰 Complir - $11m (General Catalyst) and 🇸🇪 Stilta - $10.5m (a16z).",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Tolmo", "aliases": [], "description": null, "hq": [{"city": null, "country": "FR"}],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 22000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "tech_area": "other", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Complir, a 2026 YC company, raised $11m (General Catalyst)",
+      "quote": "The largest rounds from 2026: 🇫🇷 Tolmo - $22m (Accel), 🇩🇰 Complir - $11m (General Catalyst) and 🇸🇪 Stilta - $10.5m (a16z).",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Complir", "aliases": [], "description": null, "hq": [{"city": null, "country": "DK"}],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 11000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "tech_area": "other", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Stilta, a 2026 YC company, raised $10.5m (a16z)",
+      "quote": "The largest rounds from 2026: 🇫🇷 Tolmo - $22m (Accel), 🇩🇰 Complir - $11m (General Catalyst) and 🇸🇪 Stilta - $10.5m (a16z).",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Stilta", "aliases": [], "description": null, "hq": [{"city": null, "country": "SE"}],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 10500000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "tech_area": "other", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Solidroad, a 2025 YC company, raised a $25m Series A",
+      "quote": "The largest ones from 2025: 🇮🇪 Solidroad - $25m Series A, after a $6.5m seed (Hedosophia)",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Solidroad", "aliases": [], "description": null, "hq": [{"city": null, "country": "IE"}],
+      "stage": "series_a", "stage_as_written": "Series A", "is_combined_round": false,
+      "equity_amount": 25000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "tech_area": "other", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Solidroad earlier raised a $6.5m seed (Hedosophia named in brackets)",
+      "quote": "The largest ones from 2025: 🇮🇪 Solidroad - $25m Series A, after a $6.5m seed (Hedosophia)",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Solidroad", "aliases": [], "description": null, "hq": [{"city": null, "country": "IE"}],
+      "stage": "seed", "stage_as_written": "seed", "is_combined_round": false,
+      "equity_amount": 6500000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "tech_area": "other", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Spott, a 2025 YC company, raised a $21m Series A (Balderton)",
+      "quote": "🇧🇪 Spott - $21m Series A (Balderton)",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Spott", "aliases": [], "description": null, "hq": [{"city": null, "country": "BE"}],
+      "stage": "series_a", "stage_as_written": "Series A", "is_combined_round": false,
+      "equity_amount": 21000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "tech_area": "other", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Lucis, a 2025 YC company, raised a $20m Series A (Singular)",
+      "quote": "🇫🇷 Lucis - $20m series A (Singular, after GC seed)",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Lucis", "aliases": [], "description": null, "hq": [{"city": null, "country": "FR"}],
+      "stage": "series_a", "stage_as_written": "series A", "is_combined_round": false,
+      "equity_amount": 20000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "tech_area": "other", "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [
+        {"date": null, "text": "The Series A followed a seed from GC (amount not stated)", "quote": "🇫🇷 Lucis - $20m series A (Singular, after GC seed)"}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Browser Use, a 2025 YC company, raised a $17m seed (Felicis)",
+      "quote": "🇨🇭 Browser Use - $17m seed (Felicis)",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Browser Use", "aliases": [], "description": null, "hq": [{"city": null, "country": "CH"}],
+      "stage": "seed", "stage_as_written": "seed", "is_combined_round": false,
+      "equity_amount": 17000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "tech_area": "other", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Anthropic's IPO called the news of the week; with SpaceX it raised roughly $156b+ in 2026",
+      "quote": "Anthropic’s IPO was without a doubt the news of this week - thought it’d be interesting to have a quick look at the European current situation.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "ipo", "subtype": null, "status": "listed", "mention_type": "passing",
+      "company": "Anthropic", "aliases": [], "description": null, "hq": [],
+      "facts": [
+        {"date": null, "text": "Anthropic and SpaceX together raised roughly $156b+ in 2026 IPOs", "quote": "The 2026 US IPO market was dominated by Anthropic and SpaceX, which together raised roughly $156b+ in 2026 - two historically massive listings that rewrote the global all-time rankings."},
+        {"date": null, "text": "$156b is more than 15x the European IPO market so far this year", "quote": "156b is more than 15x the entire European IPO market so far this year."}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "SpaceX IPO cited as one of the two mega-listings of 2026",
+      "quote": "The 2026 US IPO market was dominated by Anthropic and SpaceX, which together raised roughly $156b+ in 2026 - two historically massive listings that rewrote the global all-time rankings.",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "ipo", "subtype": null, "status": "listed", "mention_type": "passing",
+      "company": "SpaceX", "aliases": [], "description": null, "hq": [],
+      "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Bending Spoons listed on Nasdaq this year at an $18.4b valuation",
+      "quote": "🇮🇹 Bending Spoons, software roll-up - $18.4b valuation (Nasdaq)",
+      "story_date": null, "date_basis": "undated", "timing": "recap",
+      "event_type": "ipo", "subtype": null, "status": "listed", "mention_type": "deal_list",
+      "company": "Bending Spoons", "aliases": [], "description": "software roll-up", "hq": [{"city": null, "country": "IT"}],
+      "facts": [
+        {"date": null, "text": "$18.4b valuation, listed on Nasdaq", "quote": "🇮🇹 Bending Spoons, software roll-up - $18.4b valuation (Nasdaq)"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Innio listed on Nasdaq this year at $20.3b",
+      "quote": "🇩🇪 Innio, gas engines and distributed power systems - $20.3b (Nasdaq)",
+      "story_date": null, "date_basis": "undated", "timing": "recap",
+      "event_type": "ipo", "subtype": null, "status": "listed", "mention_type": "deal_list",
+      "company": "Innio", "aliases": [], "description": "gas engines and distributed power systems", "hq": [{"city": null, "country": "DE"}],
+      "facts": [
+        {"date": null, "text": "$20.3b, listed on Nasdaq (figure given in a list of valuations)", "quote": "🇩🇪 Innio, gas engines and distributed power systems - $20.3b (Nasdaq)"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Doncasters listed on NYSE this year at $4.8b",
+      "quote": "🇬🇧 Doncasters, aerospace precision castings and superalloys - $4.8b (NYSE)",
+      "story_date": null, "date_basis": "undated", "timing": "recap",
+      "event_type": "ipo", "subtype": null, "status": "listed", "mention_type": "deal_list",
+      "company": "Doncasters", "aliases": [], "description": "aerospace precision castings and superalloys", "hq": [{"city": null, "country": "GB"}],
+      "facts": [
+        {"date": null, "text": "$4.8b, listed on NYSE", "quote": "🇬🇧 Doncasters, aerospace precision castings and superalloys - $4.8b (NYSE)"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Windward Bio listed on Nasdaq earlier this month at $987m",
+      "quote": "🇨🇭 Windward Bio, antibody medicines - $987m (Nasdaq).",
+      "story_date": null, "date_basis": "undated", "timing": "recap",
+      "event_type": "ipo", "subtype": null, "status": "listed", "mention_type": "deal_list",
+      "company": "Windward Bio", "aliases": [], "description": "antibody medicines", "hq": [{"city": null, "country": "CH"}],
+      "facts": [
+        {"date": null, "text": "$987m, listed on Nasdaq", "quote": "🇨🇭 Windward Bio, antibody medicines - $987m (Nasdaq)."},
+        {"date": null, "text": "Done earlier this month (November 2026)", "quote": "The last two were done earlier this month."}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "vVARDIS listed on NYSE earlier this month at $695m",
+      "quote": "🇨🇭 vVARDIS, dental technology - $695m (NYSE)",
+      "story_date": null, "date_basis": "undated", "timing": "recap",
+      "event_type": "ipo", "subtype": null, "status": "listed", "mention_type": "deal_list",
+      "company": "vVARDIS", "aliases": [], "description": "dental technology", "hq": [{"city": null, "country": "CH"}],
+      "facts": [
+        {"date": null, "text": "$695m, listed on NYSE", "quote": "🇨🇭 vVARDIS, dental technology - $695m (NYSE)"},
+        {"date": null, "text": "Done earlier this month (November 2026)", "quote": "The last two were done earlier this month."}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "CSG listed in Amsterdam and Prague this year at a €33b market value",
+      "quote": "🇨🇿 CSG, defence/industrial group - €33b market value (Euronext Amsterdam + Prague)",
+      "story_date": null, "date_basis": "undated", "timing": "recap",
+      "event_type": "ipo", "subtype": null, "status": "listed", "mention_type": "deal_list",
+      "company": "CSG", "aliases": [], "description": "defence/industrial group", "hq": [{"city": null, "country": "CZ"}],
+      "facts": [
+        {"date": null, "text": "€33b market value, Euronext Amsterdam and Prague", "quote": "🇨🇿 CSG, defence/industrial group - €33b market value (Euronext Amsterdam + Prague)"},
+        {"date": null, "text": "Largest IPO in Europe since 2022", "quote": "CSG below was the largest in Europe since 2022."}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Volare Shipping listed on Euronext Growth Oslo this year, €437m",
+      "quote": "🇳🇴 Volare Shipping, shipping - €437m (Euronext Growth Oslo)",
+      "story_date": null, "date_basis": "undated", "timing": "recap",
+      "event_type": "ipo", "subtype": null, "status": "listed", "mention_type": "deal_list",
+      "company": "Volare Shipping", "aliases": [], "description": "shipping", "hq": [{"city": null, "country": "NO"}],
+      "facts": [
+        {"date": null, "text": "€437m (the issue does not say whether proceeds or value)", "quote": "🇳🇴 Volare Shipping, shipping - €437m (Euronext Growth Oslo)"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Vincorion listed on Deutsche Börse this year, proceeds €405m",
+      "quote": "🇩🇪 Vincorion, industrials/defence - proceeds €405m (Deutsche Börse)",
+      "story_date": null, "date_basis": "undated", "timing": "recap",
+      "event_type": "ipo", "subtype": null, "status": "listed", "mention_type": "deal_list",
+      "company": "Vincorion", "aliases": [], "description": "industrials/defence", "hq": [{"city": null, "country": "DE"}],
+      "facts": [
+        {"date": null, "text": "Proceeds €405m, Deutsche Börse", "quote": "🇩🇪 Vincorion, industrials/defence - proceeds €405m (Deutsche Börse)"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Capital Tankers listed on Oslo Børs this year, proceeds €370m",
+      "quote": "🇳🇴 Capital Tankers, shipping/energy - proceeds €370m (Oslo Børs)",
+      "story_date": null, "date_basis": "undated", "timing": "recap",
+      "event_type": "ipo", "subtype": null, "status": "listed", "mention_type": "deal_list",
+      "company": "Capital Tankers", "aliases": [], "description": "shipping/energy", "hq": [{"city": null, "country": "NO"}],
+      "facts": [
+        {"date": null, "text": "Proceeds €370m, Oslo Børs", "quote": "🇳🇴 Capital Tankers, shipping/energy - proceeds €370m (Oslo Børs)"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "BioMar listed on Nasdaq Nordic Copenhagen this year, proceeds €364m",
+      "quote": "🇩🇰 BioMar, aquaculture feed - proceeds €364m (Nasdaq Nordic Copenhagen)",
+      "story_date": null, "date_basis": "undated", "timing": "recap",
+      "event_type": "ipo", "subtype": null, "status": "listed", "mention_type": "deal_list",
+      "company": "BioMar", "aliases": [], "description": "aquaculture feed", "hq": [{"city": null, "country": "DK"}],
+      "facts": [
+        {"date": null, "text": "Proceeds €364m, Nasdaq Nordic Copenhagen", "quote": "🇩🇰 BioMar, aquaculture feed - proceeds €364m (Nasdaq Nordic Copenhagen)"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Cerebras cited among other $1b+ US IPOs of 2026",
+      "quote": "The US also had several other $1b+ IPOs - Cerebras, Madison Air, Fervo Energy, Quantinuum - but they were still far smaller than the two mega-deals.",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "ipo", "subtype": null, "status": "listed", "mention_type": "passing",
+      "company": "Cerebras", "aliases": [], "description": null, "hq": [],
+      "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Madison Air cited among other $1b+ US IPOs of 2026",
+      "quote": "The US also had several other $1b+ IPOs - Cerebras, Madison Air, Fervo Energy, Quantinuum - but they were still far smaller than the two mega-deals.",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "ipo", "subtype": null, "status": "listed", "mention_type": "passing",
+      "company": "Madison Air", "aliases": [], "description": null, "hq": [],
+      "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Fervo Energy cited among other $1b+ US IPOs of 2026",
+      "quote": "The US also had several other $1b+ IPOs - Cerebras, Madison Air, Fervo Energy, Quantinuum - but they were still far smaller than the two mega-deals.",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "ipo", "subtype": null, "status": "listed", "mention_type": "passing",
+      "company": "Fervo Energy", "aliases": [], "description": null, "hq": [],
+      "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Quantinuum cited among other $1b+ US IPOs of 2026",
+      "quote": "The US also had several other $1b+ IPOs - Cerebras, Madison Air, Fervo Energy, Quantinuum - but they were still far smaller than the two mega-deals.",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "ipo", "subtype": null, "status": "listed", "mention_type": "passing",
+      "company": "Quantinuum", "aliases": [], "description": null, "hq": [],
+      "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Europa Fusion, a London fusion startup using AI simulation for reactor design, comes to light; Daniel Ek/Prima Materia reportedly a backer",
+      "quote": "This week Mark Bergen had a scoop aggregated by Techcrunch about Europa Fusion, a London-based fusion startup - below quick intel notes with what I gathered outside of it:",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "other", "status": "reported", "mention_type": "story",
+      "company": "Europa Fusion", "aliases": [], "description": "AI-native, simulation-first pulsed-power fusion architecture for commercial reactors",
+      "hq": [{"city": "London", "country": "GB"}],
+      "founder_background": "Nantas Nardelli, a DeepMind alum who previously led machine learning for Pacific Fusion",
+      "facts": [
+        {"date": null, "text": "Founder is Nantas Nardelli, DeepMind alum, previously led machine learning at Pacific Fusion", "quote": "done by Nantas Nardelli , a DeepMind alum who had previously led machine learning for Pacific Fusion, a GC-backed American fusion company that raised $1b+."},
+        {"date": null, "text": "Registered in the UK in February 2026; Daniel Ek/Prima Materia reportedly a backer; no round amount stated", "quote": "filed at the British registries in February 2026, with an office at Fora in Fitzrovia, where all the VCs work/hang out. Daniel Ek/Prima Materia reportedly already a backer of the company."}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Pacific Fusion, a GC-backed US fusion company, raised $1b+ (cited as background)",
+      "quote": "done by Nantas Nardelli , a DeepMind alum who had previously led machine learning for Pacific Fusion, a GC-backed American fusion company that raised $1b+.",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Pacific Fusion", "aliases": [], "description": "American fusion company", "hq": [{"city": null, "country": "US"}],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 1000000000, "currency": "USD", "amount_qualifier": "more_than",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "tech_area": "energy_climate_hardware", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "low"
+    },
+    {
+      "headline": "Remanence raised a $30m seed (EQT Ventures + FirstMark)",
+      "quote": "🇫🇷 Remanence - on radar since September 2026 - raised $30m seed (EQT Ventures + FirstMark)",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Remanence", "aliases": [], "description": null, "hq": [{"city": null, "country": "FR"}],
+      "stage": "seed", "stage_as_written": "seed", "is_combined_round": false,
+      "equity_amount": 30000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "tech_area": "other", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Sumary raised a $25m seed (Singular)",
+      "quote": "🇩🇰 Sumary - on radar since April 2025 - raised $25m seed (Singular)",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Sumary", "aliases": [], "description": null, "hq": [{"city": null, "country": "DK"}],
+      "stage": "seed", "stage_as_written": "seed", "is_combined_round": false,
+      "equity_amount": 25000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "tech_area": "other", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Fermat raised an $8m seed (Kibo+Lunar)",
+      "quote": "🇪🇸 Fermat - on radar since June 2025 - raised $8m seed (Kibo+Lunar)",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Fermat", "aliases": [], "description": null, "hq": [{"city": null, "country": "ES"}],
+      "stage": "seed", "stage_as_written": "seed", "is_combined_round": false,
+      "equity_amount": 8000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "tech_area": "other", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Treat Health raised a $3.4m seed (byFounders)",
+      "quote": "🇫🇮 Treat Health - on radar since October 2026 - raised $3.4m seed (byFounders)",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Treat Health", "aliases": [], "description": null, "hq": [{"city": null, "country": "FI"}],
+      "stage": "seed", "stage_as_written": "seed", "is_combined_round": false,
+      "equity_amount": 3400000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "tech_area": "other", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Perry AI raised a $2.2m seed (Haatch)",
+      "quote": "🇬🇧 Perry AI - on radar since May 2026 - raised $2.2m seed (Haatch)",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Perry AI", "aliases": [], "description": null, "hq": [{"city": null, "country": "GB"}],
+      "stage": "seed", "stage_as_written": "seed", "is_combined_round": false,
+      "equity_amount": 2200000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "tech_area": "other", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Iceye launches a €2.05b cash bid for Milan-listed rocket maker Avio",
+      "quote": "🇫🇮 Iceye has launched a €2.05b cash bid for Milan-listed rocket maker Avio - a Finnish satellite company wants to buy an Italian rocket manufacturer.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "acquisition", "subtype": null, "status": "bid", "mention_type": "story",
+      "company": "Avio", "aliases": [], "description": "Milan-listed Italian rocket maker", "hq": [{"city": null, "country": "IT"}],
+      "acquirer": "Iceye", "acquirer_type": "company",
+      "price": {"amount": 2050000000, "currency": "EUR", "qualifier": "exact"},
+      "consideration": "cash", "confirmed_by_company": false, "is_pe_buy_and_build": false,
+      "tech_area": "space", "is_press_release_reprint": false,
+      "facts": [
+        {"date": null, "text": "Leonardo holds 18% of Avio; Leonardo is 30% owned by the Italian government", "quote": "will the Italian government let it through or insist that Leonardo retains a meaningful stake, now at 18%?"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "UniCredit's €45b takeover of Commerzbank advances after agreement with the German government",
+      "quote": "🇮🇹 UniCredit’s €45b takeover of Commerzbank is moving on - the Italians and the German government reached an agreement, ending Berlin’s opposition to the takeover.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "acquisition", "subtype": null, "status": "bid", "mention_type": "story",
+      "company": "Commerzbank", "aliases": [], "description": "German bank", "hq": [{"city": "Frankfurt", "country": "DE"}],
+      "acquirer": "UniCredit", "acquirer_type": "company",
+      "price": {"amount": 45000000000, "currency": "EUR", "qualifier": "exact"},
+      "consideration": "unstated", "confirmed_by_company": false, "is_pe_buy_and_build": false,
+      "tech_area": "other", "is_press_release_reprint": false,
+      "facts": [
+        {"date": null, "text": "Germany accepted commitments to keep Commerzbank's headquarters and listing in Frankfurt and protect employee rights", "quote": "Germany accepted commitments to retain Commerzbank’s headquarters and listing in Frankfurt and protect employee rights."}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Deutsche Telekom becomes an investor in Mistral; no amount stated",
+      "quote": "🇩🇪 Deutsche Telekom is the most recent sovereign investor in Mistral while Arthur Mensch keeps insisting that Mistral is not a personal project of Macron.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "announced", "mention_type": "story",
+      "company": "Mistral", "aliases": [], "description": null, "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": null, "currency": null, "amount_qualifier": null,
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "tech_area": "ai_infrastructure", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Bending Spoons bought Mailchimp for 3x revenues; Intuit keeps a 10% stake",
+      "quote": "🇮🇹 Bending Spoons bought Mailchimp for 3x revenues and less than one-third of the roughly $12b Intuit paid for in 2021. Two things worth noting here:",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "acquisition", "subtype": null, "status": "completed", "mention_type": "story",
+      "company": "Mailchimp", "aliases": [], "description": null, "hq": [],
+      "acquirer": "Bending Spoons", "acquirer_type": "company",
+      "price": null, "consideration": "unstated", "confirmed_by_company": false, "is_pe_buy_and_build": false,
+      "tech_area": "other_software_consumer", "is_press_release_reprint": false,
+      "facts": [
+        {"date": null, "text": "Price was 3x revenues and less than one-third of the roughly $12b Intuit paid in 2021; no absolute price stated", "quote": "🇮🇹 Bending Spoons bought Mailchimp for 3x revenues and less than one-third of the roughly $12b Intuit paid for in 2021."},
+        {"date": null, "text": "Intuit keeps a 10% stake", "quote": "Intuit keeps a 10% stake as it reinvests in the company."},
+        {"date": null, "text": "HubSpot co-founder Brian Halligan returned as CEO", "quote": "HubSpot (Mailchimp’s competitor) co-founder Brian Halligan returned as CEO, because of AI reasons."}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Intuit paid roughly $12b for Mailchimp in 2021 (cited as background)",
+      "quote": "🇮🇹 Bending Spoons bought Mailchimp for 3x revenues and less than one-third of the roughly $12b Intuit paid for in 2021.",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "acquisition", "subtype": null, "status": "completed", "mention_type": "passing",
+      "company": "Mailchimp", "aliases": [], "description": null, "hq": [],
+      "acquirer": "Intuit", "acquirer_type": "company",
+      "price": {"amount": 12000000000, "currency": "USD", "qualifier": "about"},
+      "consideration": "unstated", "confirmed_by_company": false, "is_pe_buy_and_build": false,
+      "tech_area": "other_software_consumer", "is_press_release_reprint": false,
+      "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Payhawk closed a $280m Series C",
+      "quote": "🇧🇬 Payhawk closed $280m Series C - notable as the Bulgarians correctly switched their narrative from enterprise SAAS to selling AI agents out of a native-AI platform.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "story",
+      "company": "Payhawk", "aliases": [], "description": "enterprise SaaS now selling AI agents from a native-AI platform", "hq": [],
+      "stage": "series_c", "stage_as_written": "Series C", "is_combined_round": false,
+      "equity_amount": 280000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "tech_area": "ai_applications", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "EU Inc authors call on von der Leyen to withdraw the EU's version and re-table the original proposal",
+      "quote": "🇪🇺 The EU butchered the EU Inc so badly that its authors publicly called on Ursula von der Leyen to withdraw and re-table the original proposal.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "regulation", "status": "reported", "mention_type": "story",
+      "company": "EU Inc", "aliases": [], "description": null, "hq": [],
+      "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Nvidia stock posts a seventh straight weekly decline, its longest losing streak since 2008",
+      "quote": "💲 Nvidia’s stock is now at a seventh straight weekly decline and its longest losing streak since 2008 .",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "market_move", "status": "reported", "mention_type": "story",
+      "company": "Nvidia", "aliases": [], "description": null, "hq": [],
+      "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Leopold Aschenbrenner plans to revive Situational Awareness four months after the hedge fund was nearly toppled",
+      "quote": "😲 Leopold Aschenbrenner is plotting an audacious attempt to revive Situational Awareness just four months after the hedge fund was nearly toppled by bad bets on AI stocks.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "market_move", "status": "reported", "mention_type": "story",
+      "company": "Situational Awareness", "aliases": [], "description": "hedge fund", "hq": [],
+      "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Grand Theft Auto generated $3.79b in day-one retail sales",
+      "quote": "🏎️ Grand Theft Auto generated $3.79b in day-one retail sales through the end of its launch day.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "product", "status": "reported", "mention_type": "story",
+      "company": "Grand Theft Auto", "aliases": [], "description": null, "hq": [],
+      "facts": [], "confidence": "high"
+    }
+  ]
+}

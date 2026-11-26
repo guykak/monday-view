@@ -1,0 +1,13 @@
+{
+ "mode": "dry-run",
+ "week": "W47",
+ "recipient": "",
+ "subject": "[TEST] Monday view W47",
+ "send": false,
+ "labels": [],
+ "html_bytes": 29836,
+ "html_sha256": "609bf778acfcf9b6f3f457b91c399d9d1baf967639a1d0e8a927e252e8793d36",
+ "text_bytes": 4402,
+ "cc": [],
+ "bcc": []
+}
