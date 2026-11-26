@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "message_id": "<1794999626357.e87c03ed-ba85-4079-9e0b-6ed9f970b540@20037605m.sifted.eu>",
+  "family": "Sifted",
+  "letter": "Startup Life by Sifted",
+  "issue_date": "2026-11-18",
+  "sent_at": "2026-11-18T11:00:44.000Z",
+  "subject": "Licence to fail",
+  "notes": "Careers/people issue. Two deal-related items appear only as one-line teasers to linked stories; no amounts, dates or investors in the visible text. People moves and the State of European Tech report teaser were not extracted.",
+  "stories": [
+    {
+      "headline": "Anthropic is going public on the Nasdaq, per a one-line teaser",
+      "quote": "It’s Christmas Day for people who like seeing giant tech companies debut on the Nasdaq: Anthropic is IPO-ing, Ho, Ho, Ho. Here’s the view from IPO-less Europe.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "ipo",
+      "subtype": null,
+      "status": "planned",
+      "mention_type": "passing",
+      "company": "Anthropic",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": "is IPO-ing",
+      "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [
+        {
+          "date": null,
+          "text": "The teaser links the IPO to a Nasdaq debut; it gives no filing, pricing or listing date.",
+          "quote": "It’s Christmas Day for people who like seeing giant tech companies debut on the Nasdaq: Anthropic is IPO-ing, Ho, Ho, Ho."
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Munich humanoid robot maker Vesoma is making a big fundraising effort; no amount given",
+      "quote": "Humanlike robots are a bit daft, some say, but they keep on coming. Here’s the scoop on a big fundraising effort by Munich’s Vesoma .",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "round",
+      "subtype": null,
+      "status": "in_talks",
+      "mention_type": "passing",
+      "company": "Vesoma",
+      "aliases": [],
+      "description": "Humanlike robots",
+      "hq": [{"city": "Munich", "country": "DE"}],
+      "stage": "unstated",
+      "stage_as_written": null,
+      "is_combined_round": false,
+      "equity_amount": null,
+      "currency": null,
+      "amount_qualifier": null,
+      "mixed_total": null,
+      "other_finance": [],
+      "valuation": null,
+      "non_raise_figures": [],
+      "leads": [],
+      "founder_leads": [],
+      "status_note": "fundraising effort",
+      "tech_area": "robotics_manufacturing",
+      "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [],
+      "confidence": "medium"
+    }
+  ]
+}
