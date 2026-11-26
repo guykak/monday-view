@@ -127,7 +127,9 @@ def _round_row(e, fx_log, editorial):
     return {"id": e["id"], "company": e["company"], "hq": hq_label(e), "hq_list": e["hq"],
             "amount": amt, "mixed": mixed, "stage": stage_label(e), "leads": e["leads"][:2],
             "description": (editorial.get("descriptions") or {}).get(e["company"]) or e.get("description"),
-            "valuation": fmt(**{k: e["valuation"][k] for k in ("amount", "currency", "qualifier")}) if e.get("valuation") else None,
+            # a pre-money valuation is said to be one (fact-check, W47: Stark Future)
+            "valuation": (fmt(**{k: e["valuation"][k] for k in ("amount", "currency", "qualifier")})
+                          + (" pre-money" if e.get("valuation_basis") == "pre_money" else "")) if e.get("valuation") else None,
             "valuation_basis": e.get("valuation_basis"),
             "families": e["families"], "n_families": e["n_families"], "dots": dots(e["n_families"]),
             "tech_area": e["tech_area"], "usd": round_usd(e, fx_log), "founder_background": e.get("founder_background"),

@@ -51,7 +51,7 @@ Notable team: **Remanence** (Paris), $30M seed, EQT Ventures. Cofounded by a tri
 | Genesis AI (Paris / San Carlos) | $500M Series A | $3.5B | ●●●●● |
 | Payhawk (London) | $280M Series C | $2B | ●●●●● |
 | Model ML (London) | $250M Series B | $1.5B | ●●●● |
-| Stark Future (Barcelona) | €150m | €1.2bn | ●●● |
+| Stark Future (Barcelona) | €150m | €1.2bn pre-money | ●●● |
 | Boltz (London) | $110M Series A | – | ●●●● |
 | Tiberius Aerospace (London / Newport Beach) | $85M Series A | $1B+ | ●●● |
 | Commit Biologics (Copenhagen) | €54m seed | – | ● |
@@ -63,11 +63,9 @@ Also $50M or more in Europe: Resilience, Mistral AI (top-up). 16 rounds of $100M
 - **Palo Alto Networks → Applied Compute**: $4.5B in stock. Applied Compute was valued at $3.25B earlier in November. ●●●
 - **Bending Spoons → Mailchimp**: $3.68B in cash and stock. Intuit paid ~$12B in 2021. ●●●
 - Single source, unconfirmed:
-  - DoorDash → Instacart, ~$17B (Techmeme)
   - AMD → World Labs, ~$8.2B in stock (DeepLearning.AI)
   - Iceye → Avio, €2.05bn cash, bid (Sunday CET)
-  - Nvidia → Inception, $500M+, talks (Techmeme)
-  - Also, one source each: Criteo, Zscaler, CoinGecko (Techmeme); Firebolt, TechWolf (TLDR)
+  - Also, one source each: Inception, Criteo, Zscaler, CoinGecko (Techmeme); Firebolt, TechWolf (TLDR)
 - **Funds:** Plural closes €1bn for European early stage, 30+ companies. ●●●● Also closed: Sofinnova Crossover II €725m (late-stage life sciences) ●●; Norwest 18th fund $4B (US venture and growth) ●.
 
 ## 5. Market move
@@ -76,4 +74,4 @@ OpenAI's GPT-6.2 Astra: API tokens 20% cheaper than GPT-6 Astra, at $8 / $40 per
 
 ---
 
-*Sources this week (issues): TLDR 12, Sifted 9, AlphaSignal 6, Techmeme 6, Maddyness 5, Term Sheet 5, Newcomer 4; others 1 each. Maddyness IA sent none. Next monthly price check: 7 Dec.*
+*Sources this week (issues): TLDR 12, Sifted 9, AlphaSignal 6, Techmeme 6, Maddyness 5, Term Sheet 5, Newcomer 4; others 1 each. Maddyness IA sent none. 1 item withheld after the fact-check. Next monthly price check: 7 Dec.*

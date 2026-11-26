@@ -5,9 +5,9 @@
  "subject": "[TEST] Monday view W47",
  "send": false,
  "labels": [],
- "html_bytes": 29836,
- "html_sha256": "609bf778acfcf9b6f3f457b91c399d9d1baf967639a1d0e8a927e252e8793d36",
- "text_bytes": 4402,
+ "html_bytes": 29727,
+ "html_sha256": "f995644e17d2a09dc20512aef28838f764f37ed6beb70b04539e68e2d7c04fe8",
+ "text_bytes": 4365,
  "cc": [],
  "bcc": []
 }

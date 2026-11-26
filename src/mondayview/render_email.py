@@ -107,6 +107,7 @@ def render_md(b, compact=0):
     4: also no lead investors for rounds under 3 dots.
     5: also no descriptions in the deep-tech list (amount, stage, HQ, lead and dots stay).
     6: also two single-source deals in full, the rest by name.
+    7: also every single-source deal by name only, and no lead investors in the deep-tech list.
     Counts, required lines and every named deep-tech round stay at every level."""
     L = []
     L.append(f"# Monday view — week of {b['week']['label']}")
@@ -157,7 +158,7 @@ def render_md(b, compact=0):
         L.append("**European deep tech:**")
         for r in b2["named"]:
             bare = (compact >= 2 and r["n_families"] == 1) or (compact >= 3 and r["n_families"] < 3) or compact >= 5
-            leads = 0 if compact >= 4 and r["n_families"] < 3 else 1 if compact >= 3 else 2
+            leads = 0 if compact >= 7 or (compact >= 4 and r["n_families"] < 3) else 1 if compact >= 3 else 2
             L.append("- " + round_line({**r, "description": None} if bare else r, leads))
         L.append("")
     if b2["notable_team"]:
@@ -202,7 +203,7 @@ def render_md(b, compact=0):
         L.append(f"- IPO: {i['company']} {i['status']}. {i['dots']}")
     if b4["single_source"] or b4["single_source_more"]:
         L.append("- Single source, unconfirmed:")
-        full = b4["single_source"][:2] if compact >= 6 else b4["single_source"][:4] if compact >= 3 else b4["single_source"]
+        full = [] if compact >= 7 else b4["single_source"][:2] if compact >= 6 else b4["single_source"][:4] if compact >= 3 else b4["single_source"]
         rest = b4["single_source"][len(full):] + b4["single_source_more"]
         for a in full:
             L.append("  - " + acq_line(a, with_source=True))
@@ -210,7 +211,7 @@ def render_md(b, compact=0):
             by_src = {}
             for a in rest:
                 by_src.setdefault(_join(a["families"], ", "), []).append(a["target"])
-            L.append("  - Also, one source each: " + "; ".join(f"{', '.join(v)} ({k})" for k, v in by_src.items()))
+            L.append(("  - Also, one source each: " if full else "  - One source each: ") + "; ".join(f"{', '.join(v)} ({k})" for k, v in by_src.items()))
         elif rest:
             L.append("  - Also: " + "; ".join(acq_line(a, with_source=True) for a in rest))
     fe, fo = b4["funds_european_early"], b4["funds_other"]
@@ -248,7 +249,7 @@ def footer_text(b):
     if silent:
         s += f" {_join(silent)} sent none."
     if f.get("withheld"):
-        s += f" {f['withheld']} items withheld after the fact-check."
+        s += f" {f['withheld']} item{'s' if f['withheld'] != 1 else ''} withheld after the fact-check."
     s += f" Next monthly price check: {f['next_price_check']}."
     return s
 
@@ -367,7 +368,7 @@ def render_html(b, compact=None):
     for r in b2["named"] + [dict(x, _notable=True) for x in notable]:
         top = INK if r.get("_notable") else BLUE
         bare = (compact >= 2 and r["n_families"] == 1) or (compact >= 3 and r["n_families"] < 3) or compact >= 5
-        n_leads = 0 if compact >= 4 and r["n_families"] < 3 else 1 if compact >= 3 else 2
+        n_leads = 0 if (compact >= 7 and not r.get("_notable")) or (compact >= 4 and r["n_families"] < 3) else 1 if compact >= 3 else 2
         desc = _sentence(r["founder_background"]) if r.get("_notable") else "" if bare else _sentence(r.get("description"))
         stage = ("in " + r["amount"].split(" in ", 1)[1]) if r["mixed"] else (r["stage"] or "")
         amt = r["amount"].split(" in ", 1)[0] if r["amount"] else ""
@@ -415,7 +416,7 @@ def render_html(b, compact=None):
                  + f'</td><td width="62" valign="top" align="right" style="font-size:12px;">{dots_html(a["n_families"])}</td></tr></table></td></tr>')
     for i in b4["ipos"]:
         R.append(_p(f'IPO: <b>{e(i["company"])}</b> {e(i["status"])}.', 14))
-    ss = b4["single_source"][:2] if compact >= 6 else b4["single_source"][:4] if compact >= 3 else b4["single_source"]
+    ss = [] if compact >= 7 else b4["single_source"][:2] if compact >= 6 else b4["single_source"][:4] if compact >= 3 else b4["single_source"]
     rest = b4["single_source"][len(ss):] + b4["single_source_more"]
     if ss or rest:
         items = "".join(f'<div style="padding:0 0 3px 0;">· {e(acq_line(a, with_source=True))}</div>' for a in ss)
@@ -454,11 +455,11 @@ def fit_md(blocks, words_max=None):
     """The fullest version that fits the word limit. Returns (markdown, compact level)."""
     from . import config
     words_max = words_max or config.settings()["thresholds"]["words_max"]
-    for level in range(7):
+    for level in range(8):
         md = render_md(blocks, level)
         if len(md.split()) <= words_max:
             return md, level
-    return md, 6
+    return md, 7
 
 
 def write_all(blocks, out_dir):

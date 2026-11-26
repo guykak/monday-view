@@ -451,3 +451,31 @@ def test_p34_usual_issue_count_has_a_base():
     assert collect.usual_issues() == 55
     assert collect.usual_issues([40, 60, 50]) == 50
     assert collect.volume_check(54)[0] == "ok" and collect.volume_check(27)[0] == "hold" and collect.volume_check(91)[0] == "hold"
+
+
+# ---------------------------------------------------------------- found by the W47 fact-check (tests first)
+
+def test_fc1_pre_money_valuation_is_labelled():
+    """Fact-check c034: Stark Future's €1.2bn is a pre-money valuation and must say so."""
+    iss = [issue("EU-Startups", "2026-11-19", [story("Stark Future", equity_amount=150_000_000, currency="EUR", stage="unstated",
+                                                      hq=[{"city": "Barcelona", "country": "ES"}], valuation_basis="pre_money",
+                                                      valuation={"amount": 1_200_000_000, "currency": "EUR"})]),
+           issue("Sifted", "2026-11-18", [story("Postco", equity_amount=90_000_000, stage="series_b", valuation={"amount": 1e9, "currency": "USD"})])]
+    _, b = build_blocks(iss)
+    rows = {r["company"]: r for r in b["block3"]["rows"]}
+    assert rows["Stark Future"]["valuation"] == "€1.2bn pre-money" and rows["Postco"]["valuation"] == "$1B"
+    assert "€1.2bn pre-money" in render_email.render_md(b)
+
+
+def test_fc2_failed_fact_check_items_are_dropped_unless_the_recheck_passes():
+    """Fact-check c049: DoorDash-Instacart was a DOJ review of an older deal. A failed item is left out and
+    counted in the footer; one that passes the single re-check stays (spec §3 step 6)."""
+    from mondayview import build
+    report = {"checks": [{"id": "c049", "block": 4, "verdict": "fail", "event_ref": "acquisition:instacart"},
+                         {"id": "c034", "block": 3, "verdict": "fail", "event_ref": "round:stark future"},
+                         {"id": "c001", "block": 1, "verdict": "fail", "event_ref": "ipo:anthropic"},
+                         {"id": "c002", "block": 3, "verdict": "pass", "event_ref": "round:payhawk"}]}
+    recheck = {"checks": [{"id": "c034", "verdict": "pass", "event_ref": "round:stark future"}]}
+    assert build.drops_from(report) == {"acquisition:instacart", "round:stark future"}
+    assert build.drops_from(report, recheck) == {"acquisition:instacart"}        # block 1 failures hold the run instead
+    assert build.event_ref({"event_type": "acquisition", "company": "Instacart"}) == "acquisition:instacart"

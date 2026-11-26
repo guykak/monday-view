@@ -35,7 +35,7 @@ Write `report_path` as JSON:
 ```json
 {
   "checks": [
-    {"id": "c001", "block": 1, "kind": "dots", "item": "...", "event_id": "...",
+    {"id": "c001", "block": 1, "kind": "dots", "item": "...", "event_id": "...", "event_ref": "<copied from the plan>",
      "verdict": "pass | fail | not_checked",
      "evidence": "a verbatim quote of at most 300 characters from the source that settles it",
      "problem": "what is wrong, in one sentence; null when it passes",

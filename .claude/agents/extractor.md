@@ -37,6 +37,8 @@ A mention counts even when brief: a company named in a deal list, or an essay th
 
 For every event type the entry has the same common fields (`headline, quote, story_date, date_basis, timing, event_type, status, mention_type, company, confidence`); add only the fields that apply to its type, and use no field names other than those listed below.
 
+News that follows up a deal made earlier (a regulator reviewing it, a closing date, a breakup fee, integration plans) is not a new deal: give the deal itself a `background` entry, and the follow-up an `other` entry (`subtype`: `regulation` or `other`).
+
 A general remark with no specific event ("X invested in 126 startups this year") gets no entry. Hires and promotions get no entry.
 
 If the issue has none of these, write `"stories": []`.

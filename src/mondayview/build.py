@@ -19,14 +19,33 @@ def load_issue_list(path, only_set="counting"):
     return [i for i in items if i.get("set", "counting") == only_set]
 
 
+def event_ref(e):
+    """A stable name for an event across extraction runs: type and company."""
+    return f"{e['event_type']}:{(e.get('company') or '').lower()}"
+
+
+def drops_from(report, recheck=None):
+    """Spec §3 step 6: an item the fact-check failed is dropped, unless the single re-check passed it.
+    Returns the event refs to leave out. Block 1 failures are not dropped here: they hold the run."""
+    passed_again = {c.get("event_ref") or c.get("event_id") for c in (recheck or {}).get("checks", []) if c.get("verdict") == "pass"}
+    out = set()
+    for c in (report or {}).get("checks", []):
+        if c.get("verdict") == "fail" and str(c.get("block")) != "1":
+            ref = c.get("event_ref") or c.get("event_id")
+            if ref and ref not in passed_again:
+                out.add(ref)
+    return out
+
+
 def run(week_id, extracted, issue_list, out=None, editorial=None, prior=None, drop_ids=(), run_date=None, weeks_of_history=0):
     y, w = week_id.split("-W")
     monday, sunday = week.week_bounds(int(y), int(w))
     issues, failed, flags = validate.load_dir(extracted, issue_list)
-    events = [e for e in merge.merge(issues) if e["id"] not in set(drop_ids)]
+    all_events = merge.merge(issues)
+    events = [e for e in all_events if e["id"] not in set(drop_ids) and event_ref(e) not in set(drop_ids)]
     blocks = blocks_mod.build(events, issue_list, monday, sunday, prior=prior, editorial=editorial or {},
                               run_date=run_date, weeks_of_history=weeks_of_history)
-    blocks["footer"]["withheld"] = len(set(drop_ids))
+    blocks["footer"]["withheld"] = len(all_events) - len(events)
     blocks["extraction"] = {"issues": len(issue_list), "loaded": len(issues), "failed": failed, "flags": flags}
     result = {"events": events, "blocks": blocks, "issues": issues, "failed": failed}
     if out:
@@ -45,7 +64,8 @@ def main(argv=None):
     ap.add_argument("--out", required=True)
     ap.add_argument("--editorial")
     ap.add_argument("--prior")
-    ap.add_argument("--drop")
+    ap.add_argument("--drop", help="factcheck.json: failed items are left out")
+    ap.add_argument("--recheck", help="factcheck_recheck.json: items the one re-check passed are kept")
     ap.add_argument("--run-date")
     ap.add_argument("--mode")
     ap.add_argument("--stamp", help="UTC timestamp for a test label, e.g. 20261126T101500Z")
@@ -56,7 +76,8 @@ def main(argv=None):
     prior = json.loads(Path(a.prior).read_text()).get("status_history") if a.prior and Path(a.prior).exists() else None
     drop = []
     if a.drop and Path(a.drop).exists():
-        drop = [f["event_id"] for f in json.loads(Path(a.drop).read_text()).get("findings", []) if f.get("verdict") == "fail" and f.get("action") == "drop"]
+        recheck = json.loads(Path(a.recheck).read_text()) if a.recheck and Path(a.recheck).exists() else None
+        drop = sorted(drops_from(json.loads(Path(a.drop).read_text()), recheck))
     res = run(a.week, a.extracted, load_issue_list(a.issues), a.out, editorial, prior, drop,
               date.fromisoformat(a.run_date) if a.run_date else None)
     from . import config, factcheck_plan, guards, render_email

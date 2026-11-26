@@ -534,5 +534,54 @@
  },
  "whole": {
   "no_dollar_totals": true
+ },
+ "corrections": {
+  "_note": "Gate lines that the source emails contradict. The gate value stays above; tests accept only the value given here. Confirmed from the source emails by the independent fact-check of 26 Nov 2026 (history/W47/factcheck.json). Awaiting Guy's sign-off; docs/w47_gate.md is unchanged.",
+  "dots.Anthropic": {
+   "value": [
+    "Benedict Evans",
+    "DeepLearning.AI",
+    "Newcomer",
+    "Not Boring",
+    "Sifted",
+    "Sunday CET",
+    "TLDR",
+    "Techmeme",
+    "Term Sheet"
+   ],
+   "why": "None of the six AlphaSignal issues of 16-22 Nov mentions the Anthropic IPO (fact-check g01); the 18 Nov issue's only Anthropic item is Claude Code's Code Mode. Nine families, not ten. Dots are unchanged (five)."
+  },
+  "block1.n_families": {
+   "value": 9,
+   "why": "As above: AlphaSignal does not carry it."
+  },
+  "block2.count_world": {
+   "value": 63,
+   "tol": 2,
+   "why": "The prototype behind the gate missed stated pre-seed to Series A rounds, e.g. LATO (seed), Numina (pre-seed), Seva Money (seed), Traitomic (Series A), Athlete To Athlete (Series A), and small rounds with no stated stage (Alecto, Ancep, Anyos). Each was re-opened and confirmed (fact-check g02-g10). Both extraction runs give 63."
+  },
+  "block2.count_europe": {
+   "value": 36,
+   "tol": 2,
+   "why": "Same cause: eight of the missed rounds are European. Both extraction runs give 36."
+  },
+  "block2.mix.carried": {
+   "value": 33,
+   "tol": 2,
+   "why": "Follows from the corrected count: Term Sheet carried 33 of the 63."
+  },
+  "block2.mix.without": {
+   "value": 41,
+   "tol": 2,
+   "why": "Follows from the corrected count: 41 rounds are carried by a family other than Term Sheet."
+  },
+  "block3.row.Payhawk": {
+   "value": [
+    "$280M",
+    "Series C",
+    "$2B"
+   ],
+   "why": "Two sources state the valuation of this round: Techmeme 19 Nov ('at a $2B valuation') and EU-Startups 19 Nov ('reaching a €1.82 billion valuation'). The approved sample left the cell empty."
+  }
  }
 }

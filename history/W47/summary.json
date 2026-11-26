@@ -22,10 +22,10 @@
  },
  "extraction_failed": [],
  "repairs": {},
- "events": 330,
- "words": 748,
- "compact_level": 5,
- "html_bytes": 29836,
+ "events": 329,
+ "words": 743,
+ "compact_level": 6,
+ "html_bytes": 29727,
  "checks": {
   "words_in_range": true,
   "html_under_limit": true,
@@ -92,9 +92,6 @@
   ],
   "acquisition:inception": [
    "in_talks"
-  ],
-  "acquisition:instacart": [
-   "signed"
   ],
   "acquisition:intermex": [
    "abandoned"
@@ -976,6 +973,31 @@
    "retries": 0,
    "tokens_reported": "about 85k-107k per extractor sub-agent as reported by the harness (each includes its fixed start-up context); roughly 4.9M in all",
    "note": "up to 13 extractors ran at once for a short time during this run (limit is 10); corrected for run B"
-  }
+  },
+  "extract_run_B": {
+   "started_utc": "2026-11-26T16:50:59Z",
+   "ended_utc": "2026-11-26T16:58:37Z",
+   "sub_agents": 54,
+   "get_message_calls": 54,
+   "failed": 0,
+   "retries": 0,
+   "max_parallel": 10,
+   "tokens_reported": "about 84k-108k per extractor sub-agent; roughly 4.9M in all",
+   "note": "ran partly alongside the end of run A and the fact-check"
+  },
+  "factcheck": {
+   "sub_agents": 2,
+   "checks": 74,
+   "messages_reopened": 45,
+   "passed": 72,
+   "failed": 2,
+   "recheck": {
+    "checks": 1,
+    "messages_reopened": 3,
+    "passed": 1
+   },
+   "tokens_reported": "about 389k for the main check (140 tool calls, about 7 minutes) and 97k for the re-check"
+  },
+  "note_on_extract_times": "Run A was fed by hand in rolling groups while other work went on, so its wall time overstates what an unattended run needs; individual extractors took 20-155 seconds."
  }
 }

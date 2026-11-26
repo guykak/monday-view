@@ -1,0 +1,35 @@
+{
+ "week": 47,
+ "inbox": "chief.geek@agentmail.to",
+ "note": "The one re-check after fixes (spec §3 step 6).",
+ "checks": [
+  {
+   "id": "r034",
+   "block": 3,
+   "kind": "number",
+   "item": "Stark Future",
+   "claim": "Stark Future: closed equity round of €150m, stage not stated, valuation €1.2bn pre-money; HQ Barcelona (every stated HQ, at least one in Europe)",
+   "event_id": "round:stark-future:2026-11-17",
+   "event_ref": "round:stark future",
+   "sources": [
+    {
+     "message_id": "<1794892921576.d9e3500d-4e52-4787-afc8-3f86b0f03c18@20037605m.sifted.eu>",
+     "family": "Sifted",
+     "file": "2026-11-17_sifted_63cf7a76.json"
+    },
+    {
+     "message_id": "<202619111528.husok9p47zaefj@shared-p100-i10.d.sp1-brevo.net>",
+     "family": "EU-Startups",
+     "file": "2026-11-19_eu-startups_41445d41.json"
+    },
+    {
+     "message_id": "<GmgINEJURb2D9KwxzKC5Ig@geopod-ismtpd-23>",
+     "family": "TechCrunch Mobility",
+     "file": "2026-11-20_techcrunch-mobility_c01aa2cf.json"
+    }
+   ]
+  }
+ ],
+ "sample_tags": [],
+ "reopens": 3
+}

@@ -1,0 +1,20 @@
+{
+  "checks": [
+    {
+      "id": "r034",
+      "block": 3,
+      "kind": "number",
+      "item": "Stark Future",
+      "event_id": "round:stark-future:2026-11-17",
+      "event_ref": "round:stark future",
+      "verdict": "pass",
+      "evidence": "Sifted: \"Barcelona, Spain-based Stark Future [...] raised €150m in funding.\" | EU-Startups: \"raised more than €150 million at a €1.2 billion pre-money valuation\" | TechCrunch Mobility: \"raised [at least €150 million] in equity, Reuters reported.\"",
+      "problem": null,
+      "action": "none",
+      "fix": null
+    }
+  ],
+  "tags": [],
+  "messages_opened": 3,
+  "summary": "The one re-check passes: €150m raised (Sifted), in equity (TechCrunch Mobility, citing Reuters), €1.2bn pre-money valuation and Barcelona HQ (EU-Startups; Sifted also gives Barcelona, Spain), and no source states a stage. Note that only Sifted gives a flat €150m; EU-Startups says \"more than €150 million\" and TechCrunch Mobility \"at least €150 million\", so the figure is a floor in two of the three sources."
+}

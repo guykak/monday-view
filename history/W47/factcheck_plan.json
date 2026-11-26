@@ -9,6 +9,7 @@
    "item": "Anthropic",
    "claim": "Anthropic is carried by exactly these families: Benedict Evans, DeepLearning.AI, Newcomer, Not Boring, Sifted, Sunday CET, TLDR, Techmeme, Term Sheet (9). Each listed issue reports or refers to this same event.",
    "event_id": "ipo:anthropic:2026-11-18",
+   "event_ref": "ipo:anthropic",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261116010617.8f71e1c8fb.c80ff079@mail60.atl281.mcsv.net>",
@@ -124,6 +125,7 @@
    "item": "Anthropic",
    "claim": "2026-11-18: priced at $83 a share, above the range. About $81.3bn raised, the largest IPO on record.",
    "event_id": "ipo:anthropic:2026-11-18",
+   "event_ref": "ipo:anthropic",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261119010934.29184fa243.3260fc58@mail60.atl281.mcsv.net>",
@@ -139,6 +141,7 @@
    "item": "Anthropic",
    "claim": "2026-11-19: opened at $111.50 (+34%), closed at $97.17 (+17%). Market cap about $1.3T.",
    "event_id": "ipo:anthropic:2026-11-18",
+   "event_ref": "ipo:anthropic",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261120011045.a841c68148.87166aad@mail189.atl101.mcdlv.net>",
@@ -159,6 +162,7 @@
    "item": "Anthropic",
    "claim": "2026-11-20: AI sell-off. Asian tech fell: SoftBank about −15%, TSMC −5%+, Samsung and SK Hynix −6%+. The greenshoe took total proceeds to $93.5bn.",
    "event_id": "ipo:anthropic:2026-11-18",
+   "event_ref": "ipo:anthropic",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261121005918.5938edbc5c.7d2d2a45@mail60.atl281.mcsv.net>",
@@ -179,6 +183,7 @@
    "item": "Daisytuner",
    "claim": "Daisytuner is carried by exactly these families: EU-Startups, Sifted, Term Sheet (3). Each listed issue reports or refers to this same event.",
    "event_id": "round:daisytuner:2026-11-17",
+   "event_ref": "round:daisytuner",
    "sources": [
     {
      "message_id": "<1794892921576.d9e3500d-4e52-4787-afc8-3f86b0f03c18@20037605m.sifted.eu>",
@@ -204,6 +209,7 @@
    "item": "Daisytuner",
    "claim": "Daisytuner (Darmstadt): €6m seed; leads: Elaia, LEA Ventures",
    "event_id": "round:daisytuner:2026-11-17",
+   "event_ref": "round:daisytuner",
    "sources": [
     {
      "message_id": "<1794892921576.d9e3500d-4e52-4787-afc8-3f86b0f03c18@20037605m.sifted.eu>",
@@ -214,6 +220,11 @@
      "message_id": "<b29a87b8-ec5f-4ada-9943-9edbb131a774@iad4s13mta0241.xt.local>",
      "family": "Term Sheet",
      "file": "2026-11-17_term-sheet_ad2934ee.json"
+    },
+    {
+     "message_id": "<202619111528.husok9p47zaefj@shared-p100-i10.d.sp1-brevo.net>",
+     "family": "EU-Startups",
+     "file": "2026-11-19_eu-startups_41445d41.json"
     }
    ]
   },
@@ -224,6 +235,7 @@
    "item": "MountAIn",
    "claim": "MountAIn is carried by exactly these families: EU-Startups, Sifted, Term Sheet (3). Each listed issue reports or refers to this same event.",
    "event_id": "round:mountain:2026-11-18",
+   "event_ref": "round:mountain",
    "sources": [
     {
      "message_id": "<027109fc-5730-4d6a-85a3-3942a3fba23d@iad4s13mta0239.xt.local>",
@@ -249,6 +261,7 @@
    "item": "MountAIn",
    "claim": "MountAIn (Grenoble / Meylan): €7.3m seed; leads: 360 Capital, Supernova Invest",
    "event_id": "round:mountain:2026-11-18",
+   "event_ref": "round:mountain",
    "sources": [
     {
      "message_id": "<027109fc-5730-4d6a-85a3-3942a3fba23d@iad4s13mta0239.xt.local>",
@@ -259,6 +272,11 @@
      "message_id": "<1795065342008.7a11ad30-ee5b-4d3e-8529-11879666f3b2@20037605m.sifted.eu>",
      "family": "Sifted",
      "file": "2026-11-19_sifted_76be111b.json"
+    },
+    {
+     "message_id": "<202619111528.husok9p47zaefj@shared-p100-i10.d.sp1-brevo.net>",
+     "family": "EU-Startups",
+     "file": "2026-11-19_eu-startups_41445d41.json"
     }
    ]
   },
@@ -269,6 +287,7 @@
    "item": "Mosaico",
    "claim": "Mosaico is carried by exactly these families: Sifted, Term Sheet (2). Each listed issue reports or refers to this same event.",
    "event_id": "round:mosaico:2026-11-16",
+   "event_ref": "round:mosaico",
    "sources": [
     {
      "message_id": "<1794805965055.c929e759-5da9-4dac-96b9-b5259ac971ae@20037605m.sifted.eu>",
@@ -294,6 +313,7 @@
    "item": "Mosaico",
    "claim": "Mosaico (Reggio Emilia): €7.5m seed; leads: United Ventures",
    "event_id": "round:mosaico:2026-11-16",
+   "event_ref": "round:mosaico",
    "sources": [
     {
      "message_id": "<1794805965055.c929e759-5da9-4dac-96b9-b5259ac971ae@20037605m.sifted.eu>",
@@ -304,6 +324,11 @@
      "message_id": "<1794826714782.fd6c9b98-27f1-47ea-9cbf-99fcafaa4b5c@20037605m.sifted.eu>",
      "family": "Sifted",
      "file": "2026-11-16_sifted_a96e3f24.json"
+    },
+    {
+     "message_id": "<b29a87b8-ec5f-4ada-9943-9edbb131a774@iad4s13mta0241.xt.local>",
+     "family": "Term Sheet",
+     "file": "2026-11-17_term-sheet_ad2934ee.json"
     }
    ]
   },
@@ -314,6 +339,7 @@
    "item": "Vetaion",
    "claim": "Vetaion is carried by exactly these families: EU-Startups, Sifted (2). Each listed issue reports or refers to this same event.",
    "event_id": "round:vetaion:2026-11-18",
+   "event_ref": "round:vetaion",
    "sources": [
     {
      "message_id": "<202619111528.husok9p47zaefj@shared-p100-i10.d.sp1-brevo.net>",
@@ -334,6 +360,7 @@
    "item": "Vetaion",
    "claim": "Vetaion (Munich): €5.7m pre-seed; leads: Visionaries Tomorrow, UVC Partners",
    "event_id": "round:vetaion:2026-11-18",
+   "event_ref": "round:vetaion",
    "sources": [
     {
      "message_id": "<202619111528.husok9p47zaefj@shared-p100-i10.d.sp1-brevo.net>",
@@ -354,6 +381,7 @@
    "item": "Elysian Aircraft",
    "claim": "Elysian Aircraft is carried by exactly these families: EU-Startups, Sifted, TechCrunch Mobility (3). Each listed issue reports or refers to this same event.",
    "event_id": "round:elysian-aircraft:2026-11-18",
+   "event_ref": "round:elysian aircraft",
    "sources": [
     {
      "message_id": "<202619111528.husok9p47zaefj@shared-p100-i10.d.sp1-brevo.net>",
@@ -379,6 +407,7 @@
    "item": "Elysian Aircraft",
    "claim": "Elysian Aircraft (Hoofddorp): €12m+ in grants and equity ; leads: none stated",
    "event_id": "round:elysian-aircraft:2026-11-18",
+   "event_ref": "round:elysian aircraft",
    "sources": [
     {
      "message_id": "<202619111528.husok9p47zaefj@shared-p100-i10.d.sp1-brevo.net>",
@@ -389,6 +418,11 @@
      "message_id": "<1795151914725.3dc9b96a-403b-46a7-928b-fce1cb04b464@20037605m.sifted.eu>",
      "family": "Sifted",
      "file": "2026-11-20_sifted_93bc3f34.json"
+    },
+    {
+     "message_id": "<GmgINEJURb2D9KwxzKC5Ig@geopod-ismtpd-23>",
+     "family": "TechCrunch Mobility",
+     "file": "2026-11-20_techcrunch-mobility_c01aa2cf.json"
     }
    ]
   },
@@ -399,6 +433,7 @@
    "item": "Stryx AI",
    "claim": "Stryx AI is carried by exactly these families: Maddyness, Sifted (2). Each listed issue reports or refers to this same event.",
    "event_id": "round:stryx-ai:2026-11-20",
+   "event_ref": "round:stryx ai",
    "sources": [
     {
      "message_id": "<1795151914725.3dc9b96a-403b-46a7-928b-fce1cb04b464@20037605m.sifted.eu>",
@@ -419,6 +454,7 @@
    "item": "Stryx AI",
    "claim": "Stryx AI (Paris): €7.7m seed; leads: Armand Thiberge, Impala",
    "event_id": "round:stryx-ai:2026-11-20",
+   "event_ref": "round:stryx ai",
    "sources": [
     {
      "message_id": "<1795151914725.3dc9b96a-403b-46a7-928b-fce1cb04b464@20037605m.sifted.eu>",
@@ -439,6 +475,7 @@
    "item": "Dcubed",
    "claim": "Dcubed is carried by exactly these families: Sifted (1). Each listed issue reports or refers to this same event.",
    "event_id": "round:dcubed:2026-11-19",
+   "event_ref": "round:dcubed",
    "sources": [
     {
      "message_id": "<1795065342008.7a11ad30-ee5b-4d3e-8529-11879666f3b2@20037605m.sifted.eu>",
@@ -454,6 +491,7 @@
    "item": "Dcubed",
    "claim": "Dcubed (Munich): €27.2m Series A; leads: Warsaw Equity Group",
    "event_id": "round:dcubed:2026-11-19",
+   "event_ref": "round:dcubed",
    "sources": [
     {
      "message_id": "<1795065342008.7a11ad30-ee5b-4d3e-8529-11879666f3b2@20037605m.sifted.eu>",
@@ -469,6 +507,7 @@
    "item": "Anyos",
    "claim": "Anyos is carried by exactly these families: Maddyness (1). Each listed issue reports or refers to this same event.",
    "event_id": "round:anyos:2026-11-18",
+   "event_ref": "round:anyos",
    "sources": [
     {
      "message_id": "<1f9e9e85c9528007cd57c0250.68f8285b8b.20261118063056.6059e4d7ea.c185946a@mail236.atl271.mcdlv.net>",
@@ -484,6 +523,7 @@
    "item": "Anyos",
    "claim": "Anyos (FR): €5.5m ; leads: none stated",
    "event_id": "round:anyos:2026-11-18",
+   "event_ref": "round:anyos",
    "sources": [
     {
      "message_id": "<1f9e9e85c9528007cd57c0250.68f8285b8b.20261118063056.6059e4d7ea.c185946a@mail236.atl271.mcdlv.net>",
@@ -499,6 +539,7 @@
    "item": "Remanence",
    "claim": "Remanence is carried by exactly these families: Maddyness, Sifted, Sunday CET, Techmeme, Term Sheet (5). Each listed issue reports or refers to this same event.",
    "event_id": "round:remanence:2026-11-17",
+   "event_ref": "round:remanence",
    "sources": [
     {
      "message_id": "<b29a87b8-ec5f-4ada-9943-9edbb131a774@iad4s13mta0241.xt.local>",
@@ -539,6 +580,7 @@
    "item": "Remanence",
    "claim": "Remanence (Paris): $30M seed; leads: EQT Ventures, FirstMark; team: cofounded by a trio of H Company alumni",
    "event_id": "round:remanence:2026-11-17",
+   "event_ref": "round:remanence",
    "sources": [
     {
      "message_id": "<b29a87b8-ec5f-4ada-9943-9edbb131a774@iad4s13mta0241.xt.local>",
@@ -549,6 +591,26 @@
      "message_id": "<1794978908104.c1ac3b97-b392-48e3-b834-4a7786aa1307@20037605m.sifted.eu>",
      "family": "Sifted",
      "file": "2026-11-18_sifted_73ed2408.json"
+    },
+    {
+     "message_id": "<1f9e9e85c9528007cd57c0250.68f8285b8b.20261118063056.6059e4d7ea.c185946a@mail236.atl271.mcdlv.net>",
+     "family": "Maddyness",
+     "file": "2026-11-18_maddyness_48bc40f1.json"
+    },
+    {
+     "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261119010934.29184fa243.3260fc58@mail60.atl281.mcsv.net>",
+     "family": "Techmeme",
+     "file": "2026-11-19_techmeme_f6383ebd.json"
+    },
+    {
+     "message_id": "<1f9e9e85c9528007cd57c0250.68f8285b8b.20261119063040.2c058612c8.e28fc790@mail5.sea172.mcdlv.net>",
+     "family": "Maddyness",
+     "file": "2026-11-19_maddyness_e871d771.json"
+    },
+    {
+     "message_id": "<20261122035556.3.d06a03d73e3cf9fb@mg2.substack.com>",
+     "family": "Sunday CET",
+     "file": "2026-11-22_sunday-cet_213848bc.json"
     }
    ]
   },
@@ -559,6 +621,7 @@
    "item": "Treat",
    "claim": "Treat is carried by exactly these families: EU-Startups, Sunday CET, Term Sheet (3). Each listed issue reports or refers to this same event.",
    "event_id": "round:treat:2026-11-18",
+   "event_ref": "round:treat",
    "sources": [
     {
      "message_id": "<027109fc-5730-4d6a-85a3-3942a3fba23d@iad4s13mta0239.xt.local>",
@@ -584,6 +647,7 @@
    "item": "Treat",
    "claim": "Treat (Helsinki): €3m pre-seed; leads: byFounders, Illusian; team: co-founded by Swappie's former CEO",
    "event_id": "round:treat:2026-11-18",
+   "event_ref": "round:treat",
    "sources": [
     {
      "message_id": "<027109fc-5730-4d6a-85a3-3942a3fba23d@iad4s13mta0239.xt.local>",
@@ -594,6 +658,11 @@
      "message_id": "<202619111528.husok9p47zaefj@shared-p100-i10.d.sp1-brevo.net>",
      "family": "EU-Startups",
      "file": "2026-11-19_eu-startups_41445d41.json"
+    },
+    {
+     "message_id": "<20261122035556.3.d06a03d73e3cf9fb@mg2.substack.com>",
+     "family": "Sunday CET",
+     "file": "2026-11-22_sunday-cet_213848bc.json"
     }
    ]
   },
@@ -604,6 +673,7 @@
    "item": "Isomorphic Labs",
    "claim": "Isomorphic Labs is carried by exactly these families: EU-Startups, Newcomer, Not Boring, Sifted, TLDR, Techmeme, Term Sheet (7). Each listed issue reports or refers to this same event.",
    "event_id": "round:isomorphic-labs:2026-11-17",
+   "event_ref": "round:isomorphic labs",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261118010358.6b5f4136ce.c9583b46@mail21.atl301.rsgsv.net>",
@@ -654,6 +724,7 @@
    "item": "Isomorphic Labs",
    "claim": "Isomorphic Labs: closed equity round of $5B, stage Series C, valuation not stated; HQ London (every stated HQ, at least one in Europe)",
    "event_id": "round:isomorphic-labs:2026-11-17",
+   "event_ref": "round:isomorphic labs",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261118010358.6b5f4136ce.c9583b46@mail21.atl301.rsgsv.net>",
@@ -669,6 +740,31 @@
      "message_id": "<027109fc-5730-4d6a-85a3-3942a3fba23d@iad4s13mta0239.xt.local>",
      "family": "Term Sheet",
      "file": "2026-11-18_term-sheet_c355410b.json"
+    },
+    {
+     "message_id": "<010001a1eefe9847-799b1940-490b-4880-8e12-dd19c1f13f02-000000@email.amazonses.com>",
+     "family": "TLDR",
+     "file": "2026-11-18_tldr_8842f6ea.json"
+    },
+    {
+     "message_id": "<202619111528.husok9p47zaefj@shared-p100-i10.d.sp1-brevo.net>",
+     "family": "EU-Startups",
+     "file": "2026-11-19_eu-startups_41445d41.json"
+    },
+    {
+     "message_id": "<1795172539686.7f711f3e-5878-4738-a897-8a5c712c3955@20037605m.sifted.eu>",
+     "family": "Sifted",
+     "file": "2026-11-20_sifted_4a3b0684.json"
+    },
+    {
+     "message_id": "<20261120135246.3.2a4a6de121df8ca2@mg2.substack.com>",
+     "family": "Not Boring",
+     "file": "2026-11-20_not-boring_3653b81d.json"
+    },
+    {
+     "message_id": "<20261120154404.3.3cf945eabb4e19ca@mg-d1.substack.com>",
+     "family": "Newcomer",
+     "file": "2026-11-20_newcomer_2d445834.json"
     }
    ]
   },
@@ -679,6 +775,7 @@
    "item": "Genesis AI",
    "claim": "Genesis AI is carried by exactly these families: Maddyness, Newcomer, Not Boring, Sifted, TLDR, Techmeme, Term Sheet (7). Each listed issue reports or refers to this same event.",
    "event_id": "round:genesis-ai:2026-11-17",
+   "event_ref": "round:genesis ai",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261118010358.6b5f4136ce.c9583b46@mail21.atl301.rsgsv.net>",
@@ -724,6 +821,7 @@
    "item": "Genesis AI",
    "claim": "Genesis AI: closed equity round of $500M, stage Series A, valuation $3.5B; HQ Paris / San Carlos (every stated HQ, at least one in Europe)",
    "event_id": "round:genesis-ai:2026-11-17",
+   "event_ref": "round:genesis ai",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261118010358.6b5f4136ce.c9583b46@mail21.atl301.rsgsv.net>",
@@ -739,6 +837,26 @@
      "message_id": "<1f9e9e85c9528007cd57c0250.68f8285b8b.20261118063056.6059e4d7ea.c185946a@mail236.atl271.mcdlv.net>",
      "family": "Maddyness",
      "file": "2026-11-18_maddyness_48bc40f1.json"
+    },
+    {
+     "message_id": "<027109fc-5730-4d6a-85a3-3942a3fba23d@iad4s13mta0239.xt.local>",
+     "family": "Term Sheet",
+     "file": "2026-11-18_term-sheet_c355410b.json"
+    },
+    {
+     "message_id": "<010001a1eefe9847-799b1940-490b-4880-8e12-dd19c1f13f02-000000@email.amazonses.com>",
+     "family": "TLDR",
+     "file": "2026-11-18_tldr_8842f6ea.json"
+    },
+    {
+     "message_id": "<20261120135246.3.2a4a6de121df8ca2@mg2.substack.com>",
+     "family": "Not Boring",
+     "file": "2026-11-20_not-boring_3653b81d.json"
+    },
+    {
+     "message_id": "<20261120154404.3.3cf945eabb4e19ca@mg-d1.substack.com>",
+     "family": "Newcomer",
+     "file": "2026-11-20_newcomer_2d445834.json"
     }
    ]
   },
@@ -749,6 +867,7 @@
    "item": "Payhawk",
    "claim": "Payhawk is carried by exactly these families: EU-Startups, Newcomer, Sifted, Sunday CET, Techmeme, Term Sheet (6). Each listed issue reports or refers to this same event.",
    "event_id": "round:payhawk:2026-11-18",
+   "event_ref": "round:payhawk",
    "sources": [
     {
      "message_id": "<027109fc-5730-4d6a-85a3-3942a3fba23d@iad4s13mta0239.xt.local>",
@@ -789,6 +908,7 @@
    "item": "Payhawk",
    "claim": "Payhawk: closed equity round of $280M, stage Series C, valuation $2B; HQ London (every stated HQ, at least one in Europe)",
    "event_id": "round:payhawk:2026-11-18",
+   "event_ref": "round:payhawk",
    "sources": [
     {
      "message_id": "<027109fc-5730-4d6a-85a3-3942a3fba23d@iad4s13mta0239.xt.local>",
@@ -804,6 +924,21 @@
      "message_id": "<1795065342008.7a11ad30-ee5b-4d3e-8529-11879666f3b2@20037605m.sifted.eu>",
      "family": "Sifted",
      "file": "2026-11-19_sifted_76be111b.json"
+    },
+    {
+     "message_id": "<202619111528.husok9p47zaefj@shared-p100-i10.d.sp1-brevo.net>",
+     "family": "EU-Startups",
+     "file": "2026-11-19_eu-startups_41445d41.json"
+    },
+    {
+     "message_id": "<20261120154404.3.3cf945eabb4e19ca@mg-d1.substack.com>",
+     "family": "Newcomer",
+     "file": "2026-11-20_newcomer_2d445834.json"
+    },
+    {
+     "message_id": "<20261122035556.3.d06a03d73e3cf9fb@mg2.substack.com>",
+     "family": "Sunday CET",
+     "file": "2026-11-22_sunday-cet_213848bc.json"
     }
    ]
   },
@@ -814,6 +949,7 @@
    "item": "Model ML",
    "claim": "Model ML is carried by exactly these families: EU-Startups, Sifted, Techmeme, Term Sheet (4). Each listed issue reports or refers to this same event.",
    "event_id": "round:model-ml:2026-11-17",
+   "event_ref": "round:model ml",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261118010358.6b5f4136ce.c9583b46@mail21.atl301.rsgsv.net>",
@@ -844,6 +980,7 @@
    "item": "Model ML",
    "claim": "Model ML: closed equity round of $250M, stage Series B, valuation $1.5B; HQ London (every stated HQ, at least one in Europe)",
    "event_id": "round:model-ml:2026-11-17",
+   "event_ref": "round:model ml",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261118010358.6b5f4136ce.c9583b46@mail21.atl301.rsgsv.net>",
@@ -859,6 +996,11 @@
      "message_id": "<027109fc-5730-4d6a-85a3-3942a3fba23d@iad4s13mta0239.xt.local>",
      "family": "Term Sheet",
      "file": "2026-11-18_term-sheet_c355410b.json"
+    },
+    {
+     "message_id": "<202619111528.husok9p47zaefj@shared-p100-i10.d.sp1-brevo.net>",
+     "family": "EU-Startups",
+     "file": "2026-11-19_eu-startups_41445d41.json"
     }
    ]
   },
@@ -869,6 +1011,7 @@
    "item": "Stark Future",
    "claim": "Stark Future is carried by exactly these families: EU-Startups, Sifted, TechCrunch Mobility (3). Each listed issue reports or refers to this same event.",
    "event_id": "round:stark-future:2026-11-17",
+   "event_ref": "round:stark future",
    "sources": [
     {
      "message_id": "<1794892921576.d9e3500d-4e52-4787-afc8-3f86b0f03c18@20037605m.sifted.eu>",
@@ -892,8 +1035,9 @@
    "block": 3,
    "kind": "number",
    "item": "Stark Future",
-   "claim": "Stark Future: closed equity round of €150m, stage not stated, valuation €1.2bn; HQ Barcelona (every stated HQ, at least one in Europe)",
+   "claim": "Stark Future: closed equity round of €150m, stage not stated, valuation €1.2bn pre-money; HQ Barcelona (every stated HQ, at least one in Europe)",
    "event_id": "round:stark-future:2026-11-17",
+   "event_ref": "round:stark future",
    "sources": [
     {
      "message_id": "<1794892921576.d9e3500d-4e52-4787-afc8-3f86b0f03c18@20037605m.sifted.eu>",
@@ -919,6 +1063,7 @@
    "item": "Boltz",
    "claim": "Boltz is carried by exactly these families: Newcomer, Not Boring, Sifted, Techmeme (4). Each listed issue reports or refers to this same event.",
    "event_id": "round:boltz:2026-11-19",
+   "event_ref": "round:boltz",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261120011045.a841c68148.87166aad@mail189.atl101.mcdlv.net>",
@@ -949,6 +1094,7 @@
    "item": "Boltz",
    "claim": "Boltz: closed equity round of $110M, stage Series A, valuation not stated; HQ London (every stated HQ, at least one in Europe)",
    "event_id": "round:boltz:2026-11-19",
+   "event_ref": "round:boltz",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261120011045.a841c68148.87166aad@mail189.atl101.mcdlv.net>",
@@ -964,6 +1110,11 @@
      "message_id": "<20261120135246.3.2a4a6de121df8ca2@mg2.substack.com>",
      "family": "Not Boring",
      "file": "2026-11-20_not-boring_3653b81d.json"
+    },
+    {
+     "message_id": "<20261120154404.3.3cf945eabb4e19ca@mg-d1.substack.com>",
+     "family": "Newcomer",
+     "file": "2026-11-20_newcomer_2d445834.json"
     }
    ]
   },
@@ -974,6 +1125,7 @@
    "item": "Tiberius Aerospace",
    "claim": "Tiberius Aerospace is carried by exactly these families: Sifted, Techmeme, Term Sheet (3). Each listed issue reports or refers to this same event.",
    "event_id": "round:tiberius-aerospace:2026-11-17",
+   "event_ref": "round:tiberius aerospace",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261118010358.6b5f4136ce.c9583b46@mail21.atl301.rsgsv.net>",
@@ -999,6 +1151,7 @@
    "item": "Tiberius Aerospace",
    "claim": "Tiberius Aerospace: closed equity round of $85M, stage Series A, valuation $1B+; HQ London / Newport Beach (every stated HQ, at least one in Europe)",
    "event_id": "round:tiberius-aerospace:2026-11-17",
+   "event_ref": "round:tiberius aerospace",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261118010358.6b5f4136ce.c9583b46@mail21.atl301.rsgsv.net>",
@@ -1024,6 +1177,7 @@
    "item": "Commit Biologics",
    "claim": "Commit Biologics is carried by exactly these families: EU-Startups (1). Each listed issue reports or refers to this same event.",
    "event_id": "round:commit-biologics:2026-11-18",
+   "event_ref": "round:commit biologics",
    "sources": [
     {
      "message_id": "<202619111528.husok9p47zaefj@shared-p100-i10.d.sp1-brevo.net>",
@@ -1039,6 +1193,7 @@
    "item": "Commit Biologics",
    "claim": "Commit Biologics: closed equity round of €54m, stage seed, valuation not stated; HQ Copenhagen (every stated HQ, at least one in Europe)",
    "event_id": "round:commit-biologics:2026-11-18",
+   "event_ref": "round:commit biologics",
    "sources": [
     {
      "message_id": "<202619111528.husok9p47zaefj@shared-p100-i10.d.sp1-brevo.net>",
@@ -1054,6 +1209,7 @@
    "item": "Databricks",
    "claim": "Databricks: in talks, not closed; amount not stated at ~$225B",
    "event_id": "round:databricks:2026-11-20:talks",
+   "event_ref": "round:databricks",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261121005918.5938edbc5c.7d2d2a45@mail60.atl281.mcsv.net>",
@@ -1069,6 +1225,7 @@
    "item": "Cognition",
    "claim": "Cognition: in talks, not closed; $2B+ at $75B",
    "event_id": "round:cognition:2026-11-20:talks",
+   "event_ref": "round:cognition",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261121005918.5938edbc5c.7d2d2a45@mail60.atl281.mcsv.net>",
@@ -1084,6 +1241,7 @@
    "item": "Ramp",
    "claim": "Ramp: in talks, not closed; $1B+ at $70B+",
    "event_id": "round:ramp:2026-11-17:talks",
+   "event_ref": "round:ramp",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261118010358.6b5f4136ce.c9583b46@mail21.atl301.rsgsv.net>",
@@ -1099,6 +1257,7 @@
    "item": "Sierra",
    "claim": "Sierra: in talks, not closed; ~$1.5B at ~$30B",
    "event_id": "round:sierra:2026-11-18:talks",
+   "event_ref": "round:sierra",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261119010934.29184fa243.3260fc58@mail60.atl281.mcsv.net>",
@@ -1114,6 +1273,7 @@
    "item": "Applied Compute",
    "claim": "Applied Compute is carried by exactly these families: Newcomer, TLDR, Techmeme (3). Each listed issue reports or refers to this same event.",
    "event_id": "acquisition:applied-compute:2026-11-18",
+   "event_ref": "acquisition:applied compute",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261119010934.29184fa243.3260fc58@mail60.atl281.mcsv.net>",
@@ -1139,6 +1299,7 @@
    "item": "Applied Compute",
    "claim": "Palo Alto Networks acquires Applied Compute: $4.5B in stock; status signed. Note: Applied Compute was valued at $3.25B earlier in November",
    "event_id": "acquisition:applied-compute:2026-11-18",
+   "event_ref": "acquisition:applied compute",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261119010934.29184fa243.3260fc58@mail60.atl281.mcsv.net>",
@@ -1164,6 +1325,7 @@
    "item": "Mailchimp",
    "claim": "Mailchimp is carried by exactly these families: Newcomer, Sunday CET, Techmeme (3). Each listed issue reports or refers to this same event.",
    "event_id": "acquisition:mailchimp:2026-11-19",
+   "event_ref": "acquisition:mailchimp",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261120011045.a841c68148.87166aad@mail189.atl101.mcdlv.net>",
@@ -1189,6 +1351,7 @@
    "item": "Mailchimp",
    "claim": "Bending Spoons acquires Mailchimp: $3.68B; status signed. Note: Intuit paid ~$12B in 2021",
    "event_id": "acquisition:mailchimp:2026-11-19",
+   "event_ref": "acquisition:mailchimp",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261120011045.a841c68148.87166aad@mail189.atl101.mcdlv.net>",
@@ -1211,24 +1374,10 @@
    "id": "c049",
    "block": 4,
    "kind": "number",
-   "item": "Instacart",
-   "claim": "DoorDash / Instacart: ~$17B; status signed; reported only by Techmeme",
-   "event_id": "acquisition:instacart:2026-11-16",
-   "sources": [
-    {
-     "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261117011444.0afc766134.90e91a22@mail60.atl281.mcsv.net>",
-     "family": "Techmeme",
-     "file": "2026-11-17_techmeme_22d9a77e.json"
-    }
-   ]
-  },
-  {
-   "id": "c050",
-   "block": 4,
-   "kind": "number",
    "item": "World Labs",
    "claim": "AMD / World Labs: ~$8.2B; status completed; reported only by DeepLearning.AI",
    "event_id": "acquisition:world-labs:2026-11-16",
+   "event_ref": "acquisition:world labs",
    "sources": [
     {
      "message_id": "<1795144285941.b166fa7e-d43f-499a-95dc-b567bb4b7f2f@bf54x.hubspotemail.net>",
@@ -1238,12 +1387,13 @@
    ]
   },
   {
-   "id": "c051",
+   "id": "c050",
    "block": 4,
    "kind": "number",
    "item": "Avio",
    "claim": "Iceye / Avio: €2.05bn; status bid; reported only by Sunday CET",
    "event_id": "acquisition:avio:2026-11-21",
+   "event_ref": "acquisition:avio",
    "sources": [
     {
      "message_id": "<20261122035556.3.d06a03d73e3cf9fb@mg2.substack.com>",
@@ -1253,12 +1403,13 @@
    ]
   },
   {
-   "id": "c052",
+   "id": "c051",
    "block": 4,
    "kind": "number",
    "item": "Inception",
    "claim": "Nvidia / Inception: $500M+; status in_talks; reported only by Techmeme",
    "event_id": "acquisition:inception:2026-11-19",
+   "event_ref": "acquisition:inception",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261120011045.a841c68148.87166aad@mail189.atl101.mcdlv.net>",
@@ -1268,12 +1419,13 @@
    ]
   },
   {
-   "id": "c053",
+   "id": "c052",
    "block": 4,
    "kind": "number",
    "item": "Criteo",
    "claim": "AppLovin / Criteo: no price; status in_talks; reported only by Techmeme",
    "event_id": "acquisition:criteo:2026-11-17",
+   "event_ref": "acquisition:criteo",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261118010358.6b5f4136ce.c9583b46@mail21.atl301.rsgsv.net>",
@@ -1283,12 +1435,13 @@
    ]
   },
   {
-   "id": "c054",
+   "id": "c053",
    "block": 4,
    "kind": "number",
    "item": "Zscaler",
    "claim": "CrowdStrike / Zscaler: no price; status in_talks; reported only by Techmeme",
    "event_id": "acquisition:zscaler:2026-11-20",
+   "event_ref": "acquisition:zscaler",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261121005918.5938edbc5c.7d2d2a45@mail60.atl281.mcsv.net>",
@@ -1298,12 +1451,13 @@
    ]
   },
   {
-   "id": "c055",
+   "id": "c054",
    "block": 4,
    "kind": "number",
    "item": "CoinGecko",
    "claim": "Solana Foundation / CoinGecko: no price; status announced; reported only by Techmeme",
    "event_id": "acquisition:coingecko:2026-11-18",
+   "event_ref": "acquisition:coingecko",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261119010934.29184fa243.3260fc58@mail60.atl281.mcsv.net>",
@@ -1313,12 +1467,13 @@
    ]
   },
   {
-   "id": "c056",
+   "id": "c055",
    "block": 4,
    "kind": "number",
    "item": "Firebolt",
    "claim": "MongoDB / Firebolt: no price; status completed; reported only by TLDR",
    "event_id": "acquisition:firebolt:2026-11-19",
+   "event_ref": "acquisition:firebolt",
    "sources": [
     {
      "message_id": "<010001a1f3813c53-89829642-a719-4c01-83a6-dbbb9a99e3a0-000000@email.amazonses.com>",
@@ -1328,12 +1483,13 @@
    ]
   },
   {
-   "id": "c057",
+   "id": "c056",
    "block": 4,
    "kind": "number",
    "item": "TechWolf",
    "claim": "SAP / TechWolf: no price; status completed; reported only by TLDR",
    "event_id": "acquisition:techwolf:2026-11-18",
+   "event_ref": "acquisition:techwolf",
    "sources": [
     {
      "message_id": "<010001a1eecbdf7a-dc43c05a-0691-4c1a-9384-994fd599a19a-000000@email.amazonses.com>",
@@ -1343,12 +1499,13 @@
    ]
   },
   {
-   "id": "c058",
+   "id": "c057",
    "block": 4,
    "kind": "dots",
    "item": "Plural",
    "claim": "Plural is carried by exactly these families: EU-Startups, Sifted, Sunday CET, Techmeme (4). Each listed issue reports or refers to this same event.",
    "event_id": "fund:plural:2026-11-16",
+   "event_ref": "fund:plural",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261117011444.0afc766134.90e91a22@mail60.atl281.mcsv.net>",
@@ -1378,12 +1535,13 @@
    ]
   },
   {
-   "id": "c059",
+   "id": "c058",
    "block": 4,
    "kind": "number",
    "item": "Plural",
    "claim": "Plural closed a fund of €1bn; strategy early_stage; geography Europe; focus non-obvious companies; 30+ companies",
    "event_id": "fund:plural:2026-11-16",
+   "event_ref": "fund:plural",
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261117011444.0afc766134.90e91a22@mail60.atl281.mcsv.net>",
@@ -1403,12 +1561,34 @@
    ]
   },
   {
-   "id": "c060",
+   "id": "c059",
    "block": 4,
    "kind": "dots",
    "item": "Sofinnova Partners",
    "claim": "Sofinnova Partners is carried by exactly these families: Maddyness, Sifted (2). Each listed issue reports or refers to this same event.",
    "event_id": "fund:sofinnova-partners:2026-11-17",
+   "event_ref": "fund:sofinnova partners",
+   "sources": [
+    {
+     "message_id": "<1f9e9e85c9528007cd57c0250.68f8285b8b.20261117063050.d2b377100a.ff2a9748@mail74.atl71.mcdlv.net>",
+     "family": "Maddyness",
+     "file": "2026-11-17_maddyness_60e84ce5.json"
+    },
+    {
+     "message_id": "<1795172539686.7f711f3e-5878-4738-a897-8a5c712c3955@20037605m.sifted.eu>",
+     "family": "Sifted",
+     "file": "2026-11-20_sifted_4a3b0684.json"
+    }
+   ]
+  },
+  {
+   "id": "c060",
+   "block": 4,
+   "kind": "number",
+   "item": "Sofinnova Partners",
+   "claim": "Sofinnova Partners closed a fund of €725m; strategy late_stage; geography Europe; focus life sciences (biopharma and medtech)",
+   "event_id": "fund:sofinnova-partners:2026-11-17",
+   "event_ref": "fund:sofinnova partners",
    "sources": [
     {
      "message_id": "<1f9e9e85c9528007cd57c0250.68f8285b8b.20261117063050.d2b377100a.ff2a9748@mail74.atl71.mcdlv.net>",
@@ -1425,30 +1605,27 @@
   {
    "id": "c061",
    "block": 4,
-   "kind": "number",
-   "item": "Sofinnova Partners",
-   "claim": "Sofinnova Partners closed a fund of €725m; strategy late_stage; geography Europe; focus life sciences (biopharma and medtech)",
-   "event_id": "fund:sofinnova-partners:2026-11-17",
+   "kind": "dots",
+   "item": "Norwest",
+   "claim": "Norwest is carried by exactly these families: Term Sheet (1). Each listed issue reports or refers to this same event.",
+   "event_id": "fund:norwest:2026-11-16",
+   "event_ref": "fund:norwest",
    "sources": [
     {
-     "message_id": "<1f9e9e85c9528007cd57c0250.68f8285b8b.20261117063050.d2b377100a.ff2a9748@mail74.atl71.mcdlv.net>",
-     "family": "Maddyness",
-     "file": "2026-11-17_maddyness_60e84ce5.json"
-    },
-    {
-     "message_id": "<1795172539686.7f711f3e-5878-4738-a897-8a5c712c3955@20037605m.sifted.eu>",
-     "family": "Sifted",
-     "file": "2026-11-20_sifted_4a3b0684.json"
+     "message_id": "<ad8d30df-a3de-437d-8796-ba742bf1370b@iad4s13mta0239.xt.local>",
+     "family": "Term Sheet",
+     "file": "2026-11-16_term-sheet_bda2304b.json"
     }
    ]
   },
   {
    "id": "c062",
    "block": 4,
-   "kind": "dots",
+   "kind": "number",
    "item": "Norwest",
-   "claim": "Norwest is carried by exactly these families: Term Sheet (1). Each listed issue reports or refers to this same event.",
+   "claim": "Norwest closed a fund of $4B; strategy multi_stage; geography U.S., India, and Israel; focus technology, health care, and consumer",
    "event_id": "fund:norwest:2026-11-16",
+   "event_ref": "fund:norwest",
    "sources": [
     {
      "message_id": "<ad8d30df-a3de-437d-8796-ba742bf1370b@iad4s13mta0239.xt.local>",
@@ -1459,26 +1636,12 @@
   },
   {
    "id": "c063",
-   "block": 4,
-   "kind": "number",
-   "item": "Norwest",
-   "claim": "Norwest closed a fund of $4B; strategy multi_stage; geography U.S., India, and Israel; focus technology, health care, and consumer",
-   "event_id": "fund:norwest:2026-11-16",
-   "sources": [
-    {
-     "message_id": "<ad8d30df-a3de-437d-8796-ba742bf1370b@iad4s13mta0239.xt.local>",
-     "family": "Term Sheet",
-     "file": "2026-11-16_term-sheet_bda2304b.json"
-    }
-   ]
-  },
-  {
-   "id": "c064",
    "block": 5,
    "kind": "number",
    "item": "market move",
    "claim": "OpenAI's GPT-6.2 Astra: API tokens 20% cheaper than GPT-6 Astra, at $8 / $40 per million input/output tokens (Techmeme, AlphaSignal, 18 Nov). OpenAI also claims under one-third of GPT-6 Astra's cost per task on its own evals. Google's Gemini 4 Neon: $3 / $15 per million input/output tokens. Inference got cheaper again, which helps application startups and squeezes resellers.",
    "event_id": null,
+   "event_ref": null,
    "sources": [
     {
      "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261118010358.6b5f4136ce.c9583b46@mail21.atl301.rsgsv.net>",
@@ -1501,184 +1664,9 @@
      "file": "2026-11-19_techmeme_f6383ebd.json"
     }
    ]
-  },
-  {
-   "id": "g01",
-   "block": 1,
-   "kind": "dots",
-   "item": "Anthropic IPO: AlphaSignal",
-   "claim": "None of these AlphaSignal issues (16-22 Nov) reports or refers to Anthropic's IPO or listing. (An earlier count listed AlphaSignal 18 Nov as carrying it. If any issue does refer to the IPO, FAIL this check and quote the line.)",
-   "event_id": null,
-   "sources": [
-    {
-     "message_id": "<010f01a1e47fe92b-3892702b-6974-4691-8ec4-691b4113a3a1-000000@us-east-2.amazonses.com>",
-     "family": "AlphaSignal",
-     "file": "2026-11-16_alphasignal_6f8c6b42.json"
-    },
-    {
-     "message_id": "<010f01a1e9d3e37b-8857b982-ddad-4bdd-8586-475cccc76391-000000@us-east-2.amazonses.com>",
-     "family": "AlphaSignal",
-     "file": "2026-11-17_alphasignal_615fd938.json"
-    },
-    {
-     "message_id": "<010f01a1eef8058b-7c5d504f-4904-41c1-a3c3-cd98a903b193-000000@us-east-2.amazonses.com>",
-     "family": "AlphaSignal",
-     "file": "2026-11-18_alphasignal_386cd056.json"
-    },
-    {
-     "message_id": "<010f01a1f42bfc92-dc0a07a5-5789-40a8-8a8f-f44f19da788d-000000@us-east-2.amazonses.com>",
-     "family": "AlphaSignal",
-     "file": "2026-11-19_alphasignal_08623a80.json"
-    },
-    {
-     "message_id": "<010f01a1f9103a43-41ffaec3-a20b-4c99-ac4a-d6fb796b2828-000000@us-east-2.amazonses.com>",
-     "family": "AlphaSignal",
-     "file": "2026-11-20_alphasignal_d1c83bac.json"
-    },
-    {
-     "message_id": "<010f01a203dd80a7-a94e487a-1c8b-4e22-9ecd-fdc38f0e5c56-000000@us-east-2.amazonses.com>",
-     "family": "AlphaSignal",
-     "file": "2026-11-22_alphasignal_0fc31ef7.json"
-    }
-   ]
-  },
-  {
-   "id": "g02",
-   "block": 2,
-   "kind": "number",
-   "item": "Alecto",
-   "claim": "Alecto is a funding round reported as news in this issue (not an older round cited as background): amount 18000000 EUR, stage as written: not stated, HQ:  GB. It is counted as an early-stage round of the week.",
-   "event_id": "round:alecto:2026-11-18",
-   "sources": [
-    {
-     "message_id": "<202619111528.husok9p47zaefj@shared-p100-i10.d.sp1-brevo.net>",
-     "family": "EU-Startups",
-     "file": "2026-11-19_eu-startups_41445d41.json"
-    }
-   ]
-  },
-  {
-   "id": "g03",
-   "block": 2,
-   "kind": "number",
-   "item": "Ancep",
-   "claim": "Ancep is a funding round reported as news in this issue (not an older round cited as background): amount 8500000 USD, stage as written: funding round, HQ: London GB. It is counted as an early-stage round of the week.",
-   "event_id": "round:ancep:2026-11-16",
-   "sources": [
-    {
-     "message_id": "<1794913267747.13181525-f7f9-45b2-b285-9a393b3c49d3@20037605m.sifted.eu>",
-     "family": "Sifted",
-     "file": "2026-11-17_sifted_c2186ef2.json"
-    }
-   ]
-  },
-  {
-   "id": "g04",
-   "block": 2,
-   "kind": "number",
-   "item": "Anyos",
-   "claim": "Anyos is a funding round reported as news in this issue (not an older round cited as background): amount 5500000 EUR, stage as written: levée, HQ:  FR. It is counted as an early-stage round of the week.",
-   "event_id": "round:anyos:2026-11-18",
-   "sources": [
-    {
-     "message_id": "<1f9e9e85c9528007cd57c0250.68f8285b8b.20261118063056.6059e4d7ea.c185946a@mail236.atl271.mcdlv.net>",
-     "family": "Maddyness",
-     "file": "2026-11-18_maddyness_48bc40f1.json"
-    }
-   ]
-  },
-  {
-   "id": "g05",
-   "block": 2,
-   "kind": "number",
-   "item": "Athlete To Athlete",
-   "claim": "Athlete To Athlete is a funding round reported as news in this issue (not an older round cited as background): amount 8000000 USD, stage as written: Series A, HQ: Santa Monica US. It is counted as an early-stage round of the week.",
-   "event_id": "round:athlete-to-athlete:2026-11-16",
-   "sources": [
-    {
-     "message_id": "<ad8d30df-a3de-437d-8796-ba742bf1370b@iad4s13mta0239.xt.local>",
-     "family": "Term Sheet",
-     "file": "2026-11-16_term-sheet_bda2304b.json"
-    }
-   ]
-  },
-  {
-   "id": "g06",
-   "block": 2,
-   "kind": "number",
-   "item": "LATO",
-   "claim": "LATO is a funding round reported as news in this issue (not an older round cited as background): amount 4280000 EUR, stage as written: Seed, HQ: London GB. It is counted as an early-stage round of the week.",
-   "event_id": "round:lato:2026-11-18",
-   "sources": [
-    {
-     "message_id": "<202619111528.husok9p47zaefj@shared-p100-i10.d.sp1-brevo.net>",
-     "family": "EU-Startups",
-     "file": "2026-11-19_eu-startups_41445d41.json"
-    }
-   ]
-  },
-  {
-   "id": "g07",
-   "block": 2,
-   "kind": "number",
-   "item": "Numina",
-   "claim": "Numina is a funding round reported as news in this issue (not an older round cited as background): amount 1100000 EUR, stage as written: pre-seed round, HQ: Copenhagen DK. It is counted as an early-stage round of the week.",
-   "event_id": "round:numina:2026-11-16",
-   "sources": [
-    {
-     "message_id": "<1794913267747.13181525-f7f9-45b2-b285-9a393b3c49d3@20037605m.sifted.eu>",
-     "family": "Sifted",
-     "file": "2026-11-17_sifted_c2186ef2.json"
-    }
-   ]
-  },
-  {
-   "id": "g08",
-   "block": 2,
-   "kind": "number",
-   "item": "Pretxt",
-   "claim": "Pretxt is a funding round reported as news in this issue (not an older round cited as background): amount 5000000 USD, stage as written: seed, HQ: Aspen US, Dublin IE. It is counted as an early-stage round of the week.",
-   "event_id": "round:pretxt:2026-11-18",
-   "sources": [
-    {
-     "message_id": "<027109fc-5730-4d6a-85a3-3942a3fba23d@iad4s13mta0239.xt.local>",
-     "family": "Term Sheet",
-     "file": "2026-11-18_term-sheet_c355410b.json"
-    }
-   ]
-  },
-  {
-   "id": "g09",
-   "block": 2,
-   "kind": "number",
-   "item": "Seva Money",
-   "claim": "Seva Money is a funding round reported as news in this issue (not an older round cited as background): amount 5000000 USD, stage as written: seed round, HQ: London GB. It is counted as an early-stage round of the week.",
-   "event_id": "round:seva-money:2026-11-16",
-   "sources": [
-    {
-     "message_id": "<1794913267747.13181525-f7f9-45b2-b285-9a393b3c49d3@20037605m.sifted.eu>",
-     "family": "Sifted",
-     "file": "2026-11-17_sifted_c2186ef2.json"
-    }
-   ]
-  },
-  {
-   "id": "g10",
-   "block": 2,
-   "kind": "number",
-   "item": "Traitomic",
-   "claim": "Traitomic is a funding round reported as news in this issue (not an older round cited as background): amount 20000000 EUR, stage as written: Series A, HQ: Copenhagen DK. It is counted as an early-stage round of the week.",
-   "event_id": "round:traitomic:2026-11-18",
-   "sources": [
-    {
-     "message_id": "<1794978908104.c1ac3b97-b392-48e3-b834-4a7786aa1307@20037605m.sifted.eu>",
-     "family": "Sifted",
-     "file": "2026-11-18_sifted_73ed2408.json"
-    }
-   ]
   }
  ],
- "reopens": 45,
+ "reopens": 39,
  "sample_tags": [
   {
    "company": "Daisytuner",

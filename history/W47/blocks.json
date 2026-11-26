@@ -805,7 +805,7 @@
      "Highland Europe"
     ],
     "description": "Designs, builds and sells high-performance electric motorcycles",
-    "valuation": "€1.2bn",
+    "valuation": "€1.2bn pre-money",
     "valuation_basis": "pre_money",
     "families": [
      "EU-Startups",
@@ -1033,23 +1033,6 @@
   ],
   "single_source": [
    {
-    "id": "acquisition:instacart:2026-11-16",
-    "acquirer": "DoorDash",
-    "target": "Instacart",
-    "price": "~$17B",
-    "price_usd": 17000000000.0,
-    "consideration": null,
-    "status": "signed",
-    "families": [
-     "Techmeme"
-    ],
-    "n_families": 1,
-    "dots": "●",
-    "description": null,
-    "note": null,
-    "confirmed_by_company": false
-   },
-   {
     "id": "acquisition:world-labs:2026-11-16",
     "acquirer": "AMD",
     "target": "World Labs",
@@ -1133,9 +1116,7 @@
     "description": "Cybersecurity company",
     "note": null,
     "confirmed_by_company": false
-   }
-  ],
-  "single_source_more": [
+   },
    {
     "id": "acquisition:coingecko:2026-11-18",
     "acquirer": "Solana Foundation",
@@ -1152,7 +1133,9 @@
     "description": "Crypto price-tracking platform with 18M registered users",
     "note": null,
     "confirmed_by_company": false
-   },
+   }
+  ],
+  "single_source_more": [
    {
     "id": "acquisition:firebolt:2026-11-19",
     "acquirer": "MongoDB",
@@ -1323,7 +1306,7 @@
   ],
   "silent_deal_carrying": [],
   "next_price_check": "7 Dec",
-  "withheld": 0
+  "withheld": 1
  },
  "fx_log": [
   {
@@ -1339,5 +1322,5 @@
   "failed": {},
   "flags": {}
  },
- "compact_level": 5
+ "compact_level": 6
 }

@@ -61,7 +61,12 @@ def _w47(extracted_dir, editorial_path):
     from mondayview import build, render_email
     il = build.load_issue_list(ROOT / "tests/fixtures/w47_issues.json")
     ed = json.loads(Path(editorial_path).read_text(encoding="utf-8")) if Path(editorial_path).exists() else {}
-    res = build.run("2026-W47", extracted_dir, il, editorial=ed)
+    hist = ROOT / "history/W47"
+    drops = ()
+    if (hist / "factcheck.json").exists():          # the fixture is the post-fact-check build, as Guy sees it
+        rc = json.loads((hist / "factcheck_recheck.json").read_text()) if (hist / "factcheck_recheck.json").exists() else None
+        drops = build.drops_from(json.loads((hist / "factcheck.json").read_text()), rc)
+    res = build.run("2026-W47", extracted_dir, il, editorial=ed, drop_ids=drops)
     res["md"], res["compact"] = render_email.fit_md(res["blocks"])
     res["html"] = render_email.render_html(res["blocks"], res["compact"])
     res["text"] = render_email.render_text(res["blocks"])

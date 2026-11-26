@@ -32,7 +32,9 @@ def make(blocks, events, editorial=None):
 
     def add(block, kind, item, claim, sources, event_id=None):
         checks.append({"id": f"c{len(checks) + 1:03d}", "block": block, "kind": kind, "item": item, "claim": claim,
-                       "event_id": event_id, "sources": sources})
+                       "event_id": event_id,
+                       "event_ref": (f"{by_id[event_id]['event_type']}:{(by_id[event_id].get('company') or '').lower()}" if event_id in by_id else None),
+                       "sources": sources})
 
     def dots(block, item, ev):
         add(block, "dots", item, f"{item} is carried by exactly these families: {', '.join(ev['families'])} ({ev['n_families']}). "
@@ -48,12 +50,12 @@ def make(blocks, events, editorial=None):
         ev = by_id[r["id"]]
         dots(2, r["company"], ev)
         add(2, "number", r["company"], f"{r['company']} ({r['hq']}): {r['amount']} {r['stage'] or ''}; leads: {', '.join(r['leads']) or 'none stated'}"
-            + (f"; team: {r['founder_background']}" if r in blocks["block2"]["notable_team"] else ""), _sources(ev, 2), ev["id"])
+            + (f"; team: {r['founder_background']}" if r in blocks["block2"]["notable_team"] else ""), _sources(ev), ev["id"])
     for r in blocks["block3"]["rows"]:
         ev = by_id[r["id"]]
         dots(3, r["company"], ev)
         add(3, "number", r["company"], f"{r['company']}: closed equity round of {r['amount']}, stage {r['stage'] or 'not stated'}, "
-            f"valuation {r['valuation'] or 'not stated'}; HQ {r['hq']} (every stated HQ, at least one in Europe)", _sources(ev, 3), ev["id"])
+            f"valuation {r['valuation'] or 'not stated'}; HQ {r['hq']} (every stated HQ, at least one in Europe)", _sources(ev), ev["id"])
     for t in blocks["block3"]["in_talks"]:
         ev = by_id[t["id"]]
         add(3, "number", t["company"], f"{t['company']}: in talks, not closed; {t['amount'] or 'amount not stated'} at {t['valuation'] or 'no valuation stated'}", _sources(ev, 2), ev["id"])
