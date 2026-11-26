@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "message_id": "<010001a1f94c941d-96b477b5-5159-4a12-a412-c309c4af1b1c-000000@email.amazonses.com>",
+  "family": "TLDR",
+  "letter": "TLDR Hardware",
+  "issue_date": "2026-11-20",
+  "sent_at": "2026-11-20T14:11:47.000Z",
+  "subject": "ChatGPT writes RTL 🧠, Google books rocket launch 🚀, California subpoenas Nvidia ⚖️",
+  "notes": "No funding rounds, acquisitions, IPOs, funds or AI model price changes in this issue; only top news stories extracted. AMD/Unsloth sponsor block ignored.",
+  "stories": [
+    {
+      "headline": "OpenAI models rewrote RTL for AMD GPU blocks and shrank blocks on OpenAI's Jalapeño chip by 10% to 13%",
+      "quote": "On Jalapeño, the matrix and SIMD blocks shrank 10% to 13%, confirmed in silicon, partly by rewriting adders and multipliers, including a multiplier cut from two cycles to one. OpenAI is also training GPT-Synopsys with Synopsys to drive EDA tools directly.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "OpenAI",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Headline states up to 14% PPA gains on AMD's flagship GPU IP.",
+          "quote": "OPENAI'S MODELS REWRITE RTL FOR UP TO 14% PPA GAINS ON AMD'S FLAGSHIP GPU IP AND 10 TO 13% SMALLER BLOCKS ON ITS JALAPEÑO CHIP"
+        },
+        {
+          "date": null,
+          "text": "Some changes are in a design sent for manufacturing; single-digit gains verified on AMD's next flagship CPU.",
+          "quote": "The models rewrote SystemVerilog for AMD's already-optimized GPU blocks, with some changes in a design sent for manufacturing and single-digit gains verified on its next flagship CPU."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Google books a dedicated New Glenn launch in Q1 2029 for Project Suncatcher, its orbital TPU compute constellation",
+      "quote": "The mission is Google's first dedicated heavy-lift launch for the project, using New Glenn's large payload volume. The booking is for 2029 even though New Glenn's hotfire anomaly investigation is still ongoing.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Google",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Launch booked for Q1 2029.",
+          "quote": "GOOGLE BOOKS A DEDICATED NEW GLENN LAUNCH IN Q1 2029 FOR PROJECT SUNCATCHER, ITS ORBITAL TPU COMPUTE CONSTELLATION"
+        },
+        {
+          "date": null,
+          "text": "Each satellite carries roughly a data center rack's worth of computing, solar powered in sun-synchronous orbit.",
+          "quote": "Each Suncatcher satellite carries roughly a data center rack's worth of computing and runs on solar power in sun-synchronous orbit, forming an interconnected network of TPUs for machine learning compute."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Relativity finishes Terran R second-stage testing and interstage structural qualification; still targets late 2026 debut",
+      "quote": "Relativity still targets a late 2026 debut, though observers expect 2027.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Relativity",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Second stage hot-fired at NASA Stennis; interstage passed structural testing in Long Beach.",
+          "quote": "The second stage hot-fired at NASA Stennis's A2 stand, and the interstage passed structural testing on Long Beach's “Tender Loving Crusher” rig."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Meta reportedly prices its Muse Charm device at $300 with a free year of Verizon 5G and delays its smartwatch to 2027",
+      "quote": "Meta plans a December launch and pushed its smartwatch to 2027 to make room, and it didn't deny the pricing report.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Meta",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Reported price of $300 with a free year of Verizon 5G.",
+          "quote": "META REPORTEDLY PRICES ITS POCKET-SIZED MUSE CHARM AT $300 WITH A FREE YEAR OF VERIZON 5G, DELAYING ITS SMARTWATCH TO 2027"
+        },
+        {
+          "date": null,
+          "text": "Bundled 5G data lasts up to 12 months.",
+          "quote": "The bundled 5G data, up to 12 months from Verizon, is meant to speed Muse's responses away from Wi-Fi."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "California's attorney general subpoenas Nvidia over whether advanced chips or confidential information reached China",
+      "quote": "AG Rob Bonta served an investigative subpoena asking whether Nvidia's chips or confidential data ended up in China, and whether Nvidia misled investors about that risk under California securities law.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "legal",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Nvidia",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "The probe follows Jensen Huang's resignation and centers on Megaspeed, a Singapore data center operator, and on how Nvidia reports overseas revenue.",
+          "quote": "The probe follows Jensen Huang's resignation and centers on Megaspeed, the Singapore data center operator suspected of diverting restricted chips, plus how Nvidia reports overseas revenue."
+        },
+        {
+          "date": null,
+          "text": "Nvidia's market value has dropped over $1 trillion in two weeks; Nvidia has not commented.",
+          "quote": "Nvidia's market value has dropped over $1 trillion in two weeks, and it hasn't commented yet."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Sophia Space's orbital OS self-deploys across Kepler relay satellites",
+      "quote": "An alpha of SOOS copied itself across three of four Jetson Orin processors on one Kepler satellite, then hopped the optical link to a second satellite and repeated, with managed Kubernetes spreading jobs between spacecraft.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Sophia Space",
+      "aliases": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "IEA says data center electricity use doubles by 2030, with emissions up 70%",
+      "quote": "The IEA projects data centers going from about 120 GW today to roughly 1,000 TWh a year by 2030.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "market_move",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "IEA",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Headline: electricity use doubles by 2030 while US gas and Chinese coal push emissions up 70%.",
+          "quote": "IEA SAYS DATACENTER ELECTRICITY USE DOUBLES BY 2030 WHILE US GAS AND CHINESE COAL PUSH EMISSIONS UP 70%"
+        }
+      ],
+      "confidence": "medium"
+    }
+  ]
+}
