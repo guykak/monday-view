@@ -315,7 +315,10 @@ def build_event(ms):
         # the softer wording is kept only if every story that words it agrees the event is not past it
         "status_note": _most_common([m.get("status_note") for m in ms if m["status"] == status
                                      and (m.get("status_note") or "").strip().lower() in config.settings()["thresholds"]["status_notes"]]),
-        "founder_leads": sorted({l for m in ms for l in (m.get("founder_leads") or [])}),
+        # a lead is a founder if a story marks it so, or if another story of the same round names that
+        # person in its founder background (Sifted lists the lead, Maddyness says who he is)
+        "founder_leads": sorted({l for m in ms for l in (m.get("founder_leads") or [])}
+                                | {l for l in leads if any(l.lower() in (m.get("founder_background") or "").lower() for m in ms)}),
         "price": _pick_money(ms, "price"),
         "consideration": _most_common([m.get("consideration") for m in ms]),
         "confirmed_by_company": any(m.get("confirmed_by_company") for m in ms),

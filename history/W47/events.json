@@ -25566,7 +25566,9 @@
   "acquirer_type": null,
   "stake": null,
   "status_note": null,
-  "founder_leads": [],
+  "founder_leads": [
+   "Armand Thiberge"
+  ],
   "price": null,
   "consideration": null,
   "confirmed_by_company": false,

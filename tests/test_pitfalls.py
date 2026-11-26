@@ -514,3 +514,13 @@ def test_fc4_only_listed_status_notes_are_shown():
     md = render_email.render_md(b)
     assert "AppLovin → Criteo, talks (Techmeme)" in md and "one of several" not in md
     assert "Nvidia → Inception, $500M+, advanced talks (Techmeme)" in md
+
+
+def test_fc5_a_lead_named_as_founder_by_another_source_is_marked():
+    """Fact-check c018: Sifted lists Armand Thiberge as a lead; Maddyness says he is the founder."""
+    iss = [issue("Sifted", "2026-11-20", [story("Stryx AI", equity_amount=7_700_000, currency="EUR", tech_area="defence_aerospace",
+                                                  leads=["Armand Thiberge", "Impala"])]),
+           issue("Maddyness", "2026-11-20", [story("Stryx AI", equity_amount=7_700_000, currency="EUR", tech_area="defence_aerospace",
+                                                     founder_background="Armand Thiberge, founder of Brevo")])]
+    _, b = build_blocks(iss)
+    assert "Armand Thiberge (founder) and Impala" in render_email.render_md(b)

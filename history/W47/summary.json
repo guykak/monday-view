@@ -23,9 +23,9 @@
  "extraction_failed": [],
  "repairs": {},
  "events": 332,
- "words": 830,
+ "words": 832,
  "compact_level": 2,
- "html_bytes": 31911,
+ "html_bytes": 31930,
  "checks": {
   "words_in_range": true,
   "html_under_limit": true,
@@ -978,6 +978,14 @@
    "max_parallel": 10,
    "tokens_reported": "about 84k-107k per extractor sub-agent as reported by the harness (each includes its fixed start-up context); roughly 4.9M in all",
    "note": "fed by hand in rolling groups of up to 10, so the wall time overstates an unattended run; single extractors took 20-120 seconds"
+  },
+  "factcheck": {
+   "sub_agents": 1,
+   "checks": 65,
+   "messages_reopened": 39,
+   "passed": 65,
+   "failed": 0,
+   "note": "after this check, block 5 was reworded from 'on its own evals' to 'on work and science evals', the wording the checker found in the source, and Stryx AI's lead is marked as its founder"
   }
  }
 }

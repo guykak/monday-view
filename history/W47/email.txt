@@ -37,7 +37,7 @@ European deep tech:
 - Mosaico (Reggio Emilia), €7.5m seed, United Ventures. Data for robotics AI. ●●
 - Vetaion (Munich), €5.7m pre-seed, Visionaries Tomorrow and UVC Partners. Robotic manufacturing of electrical control cabinets. ●●
 - Elysian Aircraft (Hoofddorp), €12m+ in grants and equity. Battery-electric aircraft. ●●●
-- Stryx AI (Paris), €7.7m seed, Armand Thiberge and Impala. Radar and interceptors against drones. ●●
+- Stryx AI (Paris), €7.7m seed, Armand Thiberge (founder) and Impala. Radar and interceptors against drones. ●●
 - Dcubed (Munich), €27.2m Series A, Warsaw Equity Group. ●
 - Anyos (FR), €5.5m, being finalised. ●
 
@@ -73,7 +73,7 @@ Also $50M or more in Europe: Resilience, Mistral AI (top-up). 16 rounds of $100M
 
 5. Market move
 
-OpenAI's GPT-6.2 Astra: API tokens 20% cheaper than GPT-6 Astra, at $8 / $40 per million input/output tokens (Techmeme, AlphaSignal, 18 Nov). OpenAI also claims under one-third of GPT-6 Astra's cost per task on its own evals. Google's Gemini 4 Neon: $3 / $15 per million input/output tokens. Inference got cheaper again, which helps application startups and squeezes resellers.
+OpenAI's GPT-6.2 Astra: API tokens 20% cheaper than GPT-6 Astra, at $8 / $40 per million input/output tokens (Techmeme, AlphaSignal, 18 Nov). OpenAI also claims under one-third of GPT-6 Astra's cost per task on work and science evals. Google's Gemini 4 Neon: $3 / $15 per million input/output tokens. Inference got cheaper again, which helps application startups and squeezes resellers.
 
 ---
 
