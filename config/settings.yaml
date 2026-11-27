@@ -2,7 +2,7 @@
 inbox: chief.geek@agentmail.to
 # Guy's checklist item 1: until he confirms the address, leave this empty and mode at dry-run.
 # guards.py refuses any send while recipient is empty.
-recipient: ""
+recipient: "guy@bigpi.vc"
 mode: dry-run            # dry-run | test | scheduled
 subject_prefix: "[TEST] "   # dropped at Phase 2 sign-off
 timezone: Europe/Athens

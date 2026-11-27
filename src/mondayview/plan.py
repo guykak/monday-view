@@ -26,6 +26,11 @@ def make_plan(now=None, override="", prev_summary=None):
             "run_started_utc": now.astimezone(timezone.utc).isoformat(timespec="seconds"),
             "history_dir": {"dry-run": f"history/dryrun/{label}", "test": f"history/test/{label}", "scheduled": f"history/{label}"}[mode],
             "sends": mode in ("test", "scheduled"), "labels_issues": mode == "scheduled", "advances_cutoff": mode == "scheduled"}
+    if mode != "scheduled":
+        # a named week is collected whole: its Monday 00:00 UTC to the next Monday 00:00 UTC
+        from datetime import datetime as _dt, timedelta as _td
+        start = _dt(monday.year, monday.month, monday.day, tzinfo=timezone.utc)
+        plan["window_utc"] = [start.isoformat(timespec="seconds"), (start + _td(days=7)).isoformat(timespec="seconds")]
     if mode == "scheduled":
         start, end = week.collection_window(now, (prev_summary or {}).get("cutoff_utc"), s["first_cutoff_time"])
         plan["window_utc"] = [start.isoformat(timespec="seconds"), end.isoformat(timespec="seconds")]
