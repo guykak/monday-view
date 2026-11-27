@@ -87,6 +87,8 @@ def find_threads(obj):
         for v in obj.values():
             out += find_threads(v) if not (isinstance(v, list) and v is obj.get("threads")) else []
     elif isinstance(obj, list):
+        if obj and all(isinstance(v, dict) and "threadId" in v for v in obj):
+            return list(obj)                          # a bare list of threads, as the runbook has the session write
         for v in obj:
             out += find_threads(v)
     elif isinstance(obj, str) and obj.lstrip().startswith("{"):

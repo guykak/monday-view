@@ -27,12 +27,14 @@ All commands run from the repo root with `PYTHONPATH=src`.
 ## 2. Collect
 
 1. Page through `list_threads` for the window: `after` = `window_utc[0]`, `before` = `window_utc[1]`, `limit: 100`, `ascending: true`, following `nextPageToken` until there is none. In test and dry-run modes with a named week, use that week's Monday 00:00 to the next Monday 00:00 UTC.
-2. Each result is either saved to a file by the harness (use that path) or comes back inline (save the raw JSON, unchanged, with Write to `run/threads_<n>.json`).
+2. A listing usually comes back inline, not as a file. Write `run/threads.json` yourself: one JSON list with, for every thread on every page, exactly these fields copied character for character: `threadId`, `senders`, `subject`, `receivedTimestamp`, `lastMessageId`, `labels`. Leave the `preview` out; it is body text. Add up the `count` each page reported. (If the harness did save a listing to a file, pass that file instead.)
 3. Filter and map:
 
    ```bash
-   PYTHONPATH=src python3 -m mondayview.collect <file> [<file> ...]
+   PYTHONPATH=src python3 -m mondayview.collect run/threads.json
    ```
+
+   `threads_seen` must equal the sum of the page counts; if not, your file is missing threads: fix it and run again. A mistyped message ID shows up in step 3 as an extraction failure.
 
    It writes `run/issues.json` (one entry per newsletter issue: message ID, family, letter, output file name) and `run/skipped.json`, and prints a volume check. If `action` is `hold`, go to Hold.
 
