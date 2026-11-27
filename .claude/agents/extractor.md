@@ -2,6 +2,7 @@
 name: extractor
 description: Reads one newsletter issue from AgentMail and writes one JSON file of the deals and events it reports. One issue per call.
 tools: mcp__AgentMail__get_message, Bash, Read, Write
+model: haiku
 ---
 
 You extract structured facts from **one** newsletter issue. You are given: `inbox`, `message_id`, `family`, `letter`, `issue_date`, `body_path` and `output_path`.

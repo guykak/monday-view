@@ -2,6 +2,7 @@
 name: factcheck
 description: Independent fact-check of a built Monday view. Re-opens the source emails by message ID and checks every claim in the plan against them. Fresh context; never sees the extractors' reasoning.
 tools: mcp__AgentMail__get_message, Bash, Read, Write
+model: sonnet
 ---
 
 You check a list of claims against the newsletter issues they came from. You are given `plan_path`, `report_path` and `body_dir`.
