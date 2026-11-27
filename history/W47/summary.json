@@ -1,0 +1,991 @@
+{
+ "week": "2026-W47",
+ "mode": "dry-run",
+ "built_for_run_date": "2026-11-23",
+ "cutoff_utc": null,
+ "issues": 54,
+ "issues_per_family": {
+  "TLDR": 12,
+  "Sifted": 9,
+  "AlphaSignal": 6,
+  "Techmeme": 6,
+  "Maddyness": 5,
+  "Term Sheet": 5,
+  "Newcomer": 4,
+  "Benedict Evans": 1,
+  "DeepLearning.AI": 1,
+  "EU-Startups": 1,
+  "Import AI": 1,
+  "Not Boring": 1,
+  "Sunday CET": 1,
+  "TechCrunch Mobility": 1
+ },
+ "extraction_failed": [],
+ "repairs": {},
+ "events": 332,
+ "words": 832,
+ "compact_level": 2,
+ "html_bytes": 31930,
+ "checks": {
+  "words_in_range": true,
+  "html_under_limit": true,
+  "editorial_problems": [],
+  "dollar_totals": [],
+  "trend_claims": []
+ },
+ "status_history": {
+  "acquisition:applied compute": [
+   "signed",
+   "announced"
+  ],
+  "acquisition:mailchimp": [
+   "signed",
+   "announced"
+  ],
+  "acquisition:amplix": [
+   "completed"
+  ],
+  "acquisition:avio": [
+   "bid"
+  ],
+  "acquisition:b and g": [
+   "completed"
+  ],
+  "acquisition:ceconomy": [
+   "completed"
+  ],
+  "acquisition:coingecko": [
+   "announced"
+  ],
+  "acquisition:criteo": [
+   "in_talks"
+  ],
+  "acquisition:drt aerospace": [
+   "completed"
+  ],
+  "acquisition:edgecore": [
+   "in_talks"
+  ],
+  "acquisition:energysolutions": [
+   "completed"
+  ],
+  "acquisition:fb securities": [
+   "completed"
+  ],
+  "acquisition:firebolt": [
+   "completed"
+  ],
+  "acquisition:flatiron": [
+   "signed"
+  ],
+  "acquisition:framework it": [
+   "completed"
+  ],
+  "acquisition:grubhub": [
+   "rumour"
+  ],
+  "acquisition:hctec": [
+   "completed"
+  ],
+  "acquisition:inception": [
+   "in_talks"
+  ],
+  "acquisition:intermex": [
+   "abandoned"
+  ],
+  "acquisition:majority": [
+   "announced"
+  ],
+  "acquisition:moviepass": [
+   "rumour"
+  ],
+  "acquisition:smartways": [
+   "signed"
+  ],
+  "acquisition:spiratec": [
+   "signed"
+  ],
+  "acquisition:techwolf": [
+   "completed"
+  ],
+  "acquisition:tribe": [
+   "signed"
+  ],
+  "acquisition:world": [
+   "completed"
+  ],
+  "acquisition:zscaler": [
+   "in_talks"
+  ],
+  "fund:plural": [
+   "closed"
+  ],
+  "fund:sofinnova": [
+   "final_close",
+   "closed"
+  ],
+  "fund:argonaut private equity": [
+   "closed"
+  ],
+  "fund:eqt": [
+   "planned"
+  ],
+  "fund:forbion": [
+   "closed"
+  ],
+  "fund:gemspring": [
+   "closed"
+  ],
+  "fund:highland europe": [
+   "closed"
+  ],
+  "fund:index": [
+   "closed"
+  ],
+  "fund:jeito": [
+   "closed"
+  ],
+  "fund:kembara": [
+   "planned"
+  ],
+  "fund:norwest": [
+   "closed"
+  ],
+  "fund:orange": [
+   "launched"
+  ],
+  "fund:seaya": [
+   "planned"
+  ],
+  "fund:tsmc": [
+   "planned"
+  ],
+  "ipo:anthropic": [
+   "planned",
+   "filed",
+   "priced",
+   "listed"
+  ],
+  "ipo:bending spoons": [
+   "listed"
+  ],
+  "ipo:biomar": [
+   "listed"
+  ],
+  "ipo:csg": [
+   "listed"
+  ],
+  "ipo:capital tankers": [
+   "listed"
+  ],
+  "ipo:core specialty insurance": [
+   "filed"
+  ],
+  "ipo:databricks": [
+   "planned"
+  ],
+  "ipo:dayone": [
+   "planned"
+  ],
+  "ipo:doncasters": [
+   "listed"
+  ],
+  "ipo:innio": [
+   "listed"
+  ],
+  "ipo:mahindra last mile mobility": [
+   "planned"
+  ],
+  "ipo:nscale": [
+   "planned"
+  ],
+  "ipo:perplexity": [
+   "planned"
+  ],
+  "ipo:vincorion": [
+   "listed"
+  ],
+  "ipo:volare shipping": [
+   "listed"
+  ],
+  "ipo:windward": [
+   "listed"
+  ],
+  "ipo:vvardis": [
+   "listed"
+  ],
+  "other:nvidia": [
+   "reported"
+  ],
+  "other:google": [
+   "reported"
+  ],
+  "other:tesla": [
+   "reported"
+  ],
+  "other:anthropic": [
+   "reported"
+  ],
+  "other:meta": [
+   "reported"
+  ],
+  "other:openai": [
+   "reported"
+  ],
+  "other:amd": [
+   "reported"
+  ],
+  "other:amazon": [
+   "reported"
+  ],
+  "other:apple": [
+   "reported"
+  ],
+  "other:atomico": [
+   "reported"
+  ],
+  "other:eu": [
+   "reported"
+  ],
+  "other:microsoft": [
+   "reported"
+  ],
+  "other:mistral": [
+   "reported"
+  ],
+  "other:ovhcloud": [
+   "reported"
+  ],
+  "other:oracle": [
+   "reported"
+  ],
+  "other:waymo": [
+   "reported"
+  ],
+  "other:a 125 qubit chip teleports an error corrected qubit with weaker entanglement than expected": [
+   "reported"
+  ],
+  "other:bbc reports pancreatic cancer pill trial in which some tumours became undetectable": [
+   "reported"
+  ],
+  "other:ceos of elevenlabs lovable and deepl urge eu to back homegrown": [
+   "reported"
+  ],
+  "other:ceos of european startups including elevenlabs and lovable call on eu to raise ai investment and cut red tape": [
+   "reported"
+  ],
+  "other:early stage ai native fintech back office rounds in europe rose from 62 to 87 up 40": [
+   "reported"
+  ],
+  "other:espoo closing in on helsinki finland startup funding hotspot per sifted data": [
+   "reported"
+  ],
+  "other:european chip funding almost quadruples investors back nvidia inference challengers": [
+   "reported"
+  ],
+  "other:european hardware startups have raised 26 9bn in equity so far this year 51 more than in all of 2025 per sifted data": [
+   "reported"
+  ],
+  "other:french startups raised 118 2m across 8 rounds this week per maddymoney": [
+   "reported"
+  ],
+  "other:frontierml benchmark measures how well ai agents turn money into model performance across 21 ml tasks": [
+   "reported"
+  ],
+  "other:grand theft auto vi is out": [
+   "reported"
+  ],
+  "other:market swoon on monday followed summit survey in which 79 saw an ai bubble": [
+   "reported"
+  ],
+  "other:researchers match starting weights of chinese ai models to gpu thread layouts indicating training on nvidia blackwell chips": [
+   "reported"
+  ],
+  "other:sources trump administration considering requiring us companies to disclose use of chinese ai models on their websites": [
+   "reported"
+  ],
+  "other:sources trump administration plans to name 24 ai national champions including nvidia amazon microsoft openai and anthropic": [
+   "reported"
+  ],
+  "other:sources wall street execs and nsa told congress this week outages came from a rush to patch ai found vulnerabilities": [
+   "reported"
+  ],
+  "other:starling founder anne boden is building a new digital bank for ai agent payments": [
+   "reported"
+  ],
+  "other:starling founder anne boden is building a digital bank for ai agents to move money": [
+   "reported"
+  ],
+  "other:trump says he would block us companies from building data centers overseas or tax them": [
+   "reported"
+  ],
+  "other:uk ai minister narayan draws backlash after snubbing uk sovereign frontier ai models": [
+   "reported"
+  ],
+  "other:us and pax silica allies agree to create a joint list of ai technologies and supply chains to protect from china": [
+   "reported"
+  ],
+  "other:us issues a rule limiting remote access by china and others to us ai chips and servers in five countries": [
+   "reported"
+  ],
+  "other:us series a funding reached 42 billion through october 2026 up 60 year over year while deal count stayed flat": [
+   "reported"
+  ],
+  "other:wall street firms that promised about 500 billion in data center loans in august have not yet lent any per wall street journal": [
+   "reported"
+  ],
+  "other:aws": [
+   "reported"
+  ],
+  "other:alibaba": [
+   "reported"
+  ],
+  "other:also": [
+   "reported"
+  ],
+  "other:applied materials": [
+   "reported"
+  ],
+  "other:arcom": [
+   "reported"
+  ],
+  "other:baidu": [
+   "reported"
+  ],
+  "other:barclays": [
+   "reported"
+  ],
+  "other:bessemer venture": [
+   "reported"
+  ],
+  "other:bitcoin": [
+   "reported"
+  ],
+  "other:cisa": [
+   "reported"
+  ],
+  "other:cloudflare": [
+   "reported"
+  ],
+  "other:cognition": [
+   "reported"
+  ],
+  "other:commerzbank": [
+   "reported"
+  ],
+  "other:deepseek": [
+   "reported"
+  ],
+  "other:dell": [
+   "reported"
+  ],
+  "other:documentdb": [
+   "reported"
+  ],
+  "other:earth": [
+   "reported"
+  ],
+  "other:europa fusion": [
+   "reported"
+  ],
+  "other:faa": [
+   "reported"
+  ],
+  "other:facestealer": [
+   "reported"
+  ],
+  "other:firaxis": [
+   "reported"
+  ],
+  "other:fireworks": [
+   "reported"
+  ],
+  "other:gartner": [
+   "reported"
+  ],
+  "other:general motors": [
+   "reported"
+  ],
+  "other:github": [
+   "reported"
+  ],
+  "other:grand theft auto": [
+   "reported"
+  ],
+  "other:hugging face": [
+   "reported"
+  ],
+  "other:iea": [
+   "reported"
+  ],
+  "other:infoblox": [
+   "reported"
+  ],
+  "other:instacart": [
+   "reported"
+  ],
+  "other:intel": [
+   "reported"
+  ],
+  "other:jane street": [
+   "reported"
+  ],
+  "other:kalshi": [
+   "reported"
+  ],
+  "other:klarna": [
+   "reported"
+  ],
+  "other:lmsys": [
+   "reported"
+  ],
+  "other:lenovo": [
+   "reported"
+  ],
+  "other:marvell": [
+   "reported"
+  ],
+  "other:mastercard": [
+   "reported"
+  ],
+  "other:nsa": [
+   "reported"
+  ],
+  "other:nous research": [
+   "reported"
+  ],
+  "other:opencode": [
+   "reported"
+  ],
+  "other:optimizely": [
+   "reported"
+  ],
+  "other:palo alto networks": [
+   "reported"
+  ],
+  "other:paypal": [
+   "reported"
+  ],
+  "other:petrichor": [
+   "reported"
+  ],
+  "other:pitchbook": [
+   "reported"
+  ],
+  "other:plaid": [
+   "reported"
+  ],
+  "other:postgresql": [
+   "reported"
+  ],
+  "other:pypi": [
+   "reported"
+  ],
+  "other:qonto": [
+   "reported"
+  ],
+  "other:reddit": [
+   "reported"
+  ],
+  "other:relativity": [
+   "reported"
+  ],
+  "other:revolut": [
+   "reported"
+  ],
+  "other:rockstar": [
+   "reported"
+  ],
+  "other:sellas life sciences": [
+   "reported"
+  ],
+  "other:sk hynix": [
+   "reported"
+  ],
+  "other:slab": [
+   "reported"
+  ],
+  "other:samsung sk hynix micron": [
+   "reported"
+  ],
+  "other:scale": [
+   "reported"
+  ],
+  "other:schneider electric": [
+   "reported"
+  ],
+  "other:sequoia": [
+   "reported"
+  ],
+  "other:sierra": [
+   "reported"
+  ],
+  "other:situational awareness": [
+   "reported"
+  ],
+  "other:snowflake": [
+   "reported"
+  ],
+  "other:sophia": [
+   "reported"
+  ],
+  "other:spacex": [
+   "reported"
+  ],
+  "other:starling bank": [
+   "reported"
+  ],
+  "other:tsmc": [
+   "reported"
+  ],
+  "other:take two": [
+   "reported"
+  ],
+  "other:tempo": [
+   "reported"
+  ],
+  "other:tencent": [
+   "reported"
+  ],
+  "other:family": [
+   "reported"
+  ],
+  "other:trump media": [
+   "reported"
+  ],
+  "other:tusk": [
+   "reported"
+  ],
+  "other:ula": [
+   "reported"
+  ],
+  "other:uber": [
+   "reported"
+  ],
+  "other:united": [
+   "reported"
+  ],
+  "other:workday": [
+   "reported"
+  ],
+  "other:world": [
+   "reported"
+  ],
+  "other:youtube": [
+   "reported"
+  ],
+  "other:zhejiang university": [
+   "reported"
+  ],
+  "other:zoox": [
+   "reported"
+  ],
+  "pricing:google": [
+   "reported"
+  ],
+  "pricing:openai": [
+   "reported"
+  ],
+  "pricing:qwen": [
+   "reported"
+  ],
+  "pricing:anthropic": [
+   "reported"
+  ],
+  "pricing:liquid": [
+   "reported"
+  ],
+  "pricing:microsoft": [
+   "reported"
+  ],
+  "pricing:sarvam": [
+   "reported"
+  ],
+  "pricing:world": [
+   "reported"
+  ],
+  "round:genesis": [
+   "closed"
+  ],
+  "round:isomorphic": [
+   "closed",
+   "announced"
+  ],
+  "round:payhawk": [
+   "closed"
+  ],
+  "round:remanence": [
+   "closed",
+   "announced"
+  ],
+  "round:boltz": [
+   "closed"
+  ],
+  "round:model ml": [
+   "closed"
+  ],
+  "round:daisytuner": [
+   "closed"
+  ],
+  "round:elysian": [
+   "closed"
+  ],
+  "round:fermat": [
+   "closed"
+  ],
+  "round:mountain": [
+   "closed"
+  ],
+  "round:stark future": [
+   "closed"
+  ],
+  "round:tiberius": [
+   "closed"
+  ],
+  "round:treat": [
+   "closed"
+  ],
+  "round:blue j": [
+   "closed"
+  ],
+  "round:corma": [
+   "closed"
+  ],
+  "round:disseqt": [
+   "closed"
+  ],
+  "round:dreamteam": [
+   "closed"
+  ],
+  "round:iconic": [
+   "closed"
+  ],
+  "round:intergrid": [
+   "closed",
+   "announced"
+  ],
+  "round:kindo": [
+   "closed"
+  ],
+  "round:knit": [
+   "closed"
+  ],
+  "round:linq": [
+   "closed"
+  ],
+  "round:luminal": [
+   "closed"
+  ],
+  "round:mistral": [
+   "closed",
+   "announced"
+  ],
+  "round:mosaico": [
+   "closed"
+  ],
+  "round:nebuly": [
+   "closed"
+  ],
+  "round:noeri": [
+   "closed"
+  ],
+  "round:numa": [
+   "closed"
+  ],
+  "round:perry": [
+   "closed"
+  ],
+  "round:science": [
+   "closed"
+  ],
+  "round:stryx": [
+   "closed"
+  ],
+  "round:sumary": [
+   "closed"
+  ],
+  "round:tendrils": [
+   "closed"
+  ],
+  "round:valeria": [
+   "closed"
+  ],
+  "round:vetaion": [
+   "closed"
+  ],
+  "round:well": [
+   "closed"
+  ],
+  "round:accountable": [
+   "closed"
+  ],
+  "round:aevius": [
+   "closed"
+  ],
+  "round:agile": [
+   "closed"
+  ],
+  "round:agriloops": [
+   "announced"
+  ],
+  "round:alecto": [
+   "closed"
+  ],
+  "round:ancep": [
+   "closed"
+  ],
+  "round:ansa biotechnologies": [
+   "closed"
+  ],
+  "round:anyos": [
+   "announced"
+  ],
+  "round:arva": [
+   "closed"
+  ],
+  "round:astranu": [
+   "closed"
+  ],
+  "round:athlete to athlete": [
+   "closed"
+  ],
+  "round:bevado": [
+   "closed"
+  ],
+  "round:bharat semi": [
+   "closed"
+  ],
+  "round:blackbird coffee": [
+   "closed"
+  ],
+  "round:boba bhai": [
+   "closed"
+  ],
+  "round:brightai": [
+   "closed"
+  ],
+  "round:charta": [
+   "closed"
+  ],
+  "round:codex": [
+   "closed"
+  ],
+  "round:cognition": [
+   "rumour"
+  ],
+  "round:commit biologics": [
+   "closed"
+  ],
+  "round:darcy geothermal": [
+   "closed"
+  ],
+  "round:databento": [
+   "closed"
+  ],
+  "round:databricks": [
+   "in_talks"
+  ],
+  "round:dcubed": [
+   "closed"
+  ],
+  "round:emulate": [
+   "announced"
+  ],
+  "round:everful": [
+   "closed"
+  ],
+  "round:fairly": [
+   "closed"
+  ],
+  "round:fractile": [
+   "announced"
+  ],
+  "round:hone": [
+   "closed"
+  ],
+  "round:humyn": [
+   "closed"
+  ],
+  "round:intelliprove": [
+   "closed"
+  ],
+  "round:kalshi": [
+   "in_talks"
+  ],
+  "round:kardi": [
+   "closed"
+  ],
+  "round:lato": [
+   "closed"
+  ],
+  "round:lancedb": [
+   "closed"
+  ],
+  "round:langchain": [
+   "closed"
+  ],
+  "round:marble imaging": [
+   "closed"
+  ],
+  "round:matchwornshirt": [
+   "closed"
+  ],
+  "round:megarobo": [
+   "closed"
+  ],
+  "round:metano": [
+   "closed"
+  ],
+  "round:mirendil": [
+   "closed"
+  ],
+  "round:modern industrials": [
+   "closed"
+  ],
+  "round:mount thor": [
+   "closed"
+  ],
+  "round:mulga": [
+   "closed"
+  ],
+  "round:nidus": [
+   "closed"
+  ],
+  "round:nodal networks": [
+   "closed"
+  ],
+  "round:notipark": [
+   "announced"
+  ],
+  "round:numina": [
+   "closed"
+  ],
+  "round:onodrim": [
+   "closed"
+  ],
+  "round:operand": [
+   "closed"
+  ],
+  "round:orakl oncology": [
+   "closed"
+  ],
+  "round:pragmatik": [
+   "closed"
+  ],
+  "round:pretxt": [
+   "closed"
+  ],
+  "round:previsia": [
+   "closed"
+  ],
+  "round:pulley": [
+   "announced"
+  ],
+  "round:rhise": [
+   "closed"
+  ],
+  "round:ramon": [
+   "closed"
+  ],
+  "round:ramp": [
+   "in_talks"
+  ],
+  "round:remedy": [
+   "closed"
+  ],
+  "round:resilience": [
+   "closed"
+  ],
+  "round:rivio": [
+   "closed"
+  ],
+  "round:se3": [
+   "closed"
+  ],
+  "round:seawolf": [
+   "closed"
+  ],
+  "round:sequel io": [
+   "closed"
+  ],
+  "round:seva money": [
+   "closed"
+  ],
+  "round:sierra": [
+   "in_talks"
+  ],
+  "round:sleep": [
+   "closed"
+  ],
+  "round:speeral": [
+   "closed"
+  ],
+  "round:sqwish": [
+   "closed"
+  ],
+  "round:stepsecurity": [
+   "closed"
+  ],
+  "round:tesorai": [
+   "closed"
+  ],
+  "round:traitomic": [
+   "closed"
+  ],
+  "round:typesafe": [
+   "closed"
+  ],
+  "round:uforce": [
+   "closed"
+  ],
+  "round:variational": [
+   "closed"
+  ],
+  "round:vero security": [
+   "closed"
+  ],
+  "round:vesoma": [
+   "in_talks"
+  ],
+  "round:vincue": [
+   "closed"
+  ],
+  "round:voyage": [
+   "closed"
+  ],
+  "round:whitematter": [
+   "closed"
+  ],
+  "round:wilgot": [
+   "closed"
+  ],
+  "round:zus health": [
+   "closed"
+  ],
+  "round:each": [
+   "closed"
+  ]
+ },
+ "usage": {
+  "run": "C (final instructions)",
+  "extract": {
+   "started_utc": "2026-11-26T20:12:37Z",
+   "ended_utc": "2026-11-26T20:20:46Z",
+   "sub_agents": 54,
+   "get_message_calls": 54,
+   "failed": 0,
+   "retries": 0,
+   "max_parallel": 10,
+   "tokens_reported": "about 84k-107k per extractor sub-agent as reported by the harness (each includes its fixed start-up context); roughly 4.9M in all",
+   "note": "fed by hand in rolling groups of up to 10, so the wall time overstates an unattended run; single extractors took 20-120 seconds"
+  },
+  "factcheck": {
+   "sub_agents": 1,
+   "checks": 65,
+   "messages_reopened": 39,
+   "passed": 65,
+   "failed": 0,
+   "note": "after this check, block 5 was reworded from 'on its own evals' to 'on work and science evals', the wording the checker found in the source, and Stryx AI's lead is marked as its founder"
+  }
+ }
+}

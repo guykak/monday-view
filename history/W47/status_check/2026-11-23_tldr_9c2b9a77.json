@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "message_id": "<010001a208be6e06-82fdc7d9-03d2-4e6b-a7d0-2d5f98f44487-000000@email.amazonses.com>",
+  "family": "TLDR",
+  "letter": "TLDR Hardware",
+  "issue_date": "2026-11-23",
+  "sent_at": "2026-11-23T14:10:27.000Z",
+  "subject": "Trump’s overseas data center tax 💸, Tesla rolls out FSD v15 🚗, Google's quantum processor ⚛️",
+  "notes": "Headlines in the plain-text body are in capitals; quotes keep that casing. The SpaceX $43B item is a debt package, recorded as 'other', not a round.",
+  "stories": [
+    {
+      "headline": "Ant Group leads $100M pre-Series A in Simplexity Robotics at a $1.6B valuation",
+      "quote": "ANT GROUP LEADS A $100M PRE-SERIES A IN CHINESE HUMANOID STARTUP SIMPLEXITY ROBOTICS AT A $1.6B VALUATION",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "round",
+      "subtype": null,
+      "status": "announced",
+      "mention_type": "story",
+      "company": "Simplexity Robotics",
+      "aliases": [],
+      "description": "Chinese humanoid robot startup",
+      "hq": [{"city": null, "country": "CN"}],
+      "stage": "unstated",
+      "stage_as_written": "pre-Series A",
+      "is_combined_round": false,
+      "equity_amount": 100000000,
+      "currency": "USD",
+      "amount_qualifier": "exact",
+      "mixed_total": null,
+      "other_finance": [],
+      "valuation": {"amount": 1600000000, "currency": "USD", "qualifier": "exact"},
+      "valuation_basis": "unstated",
+      "non_raise_figures": [],
+      "leads": ["Ant Group"],
+      "tech_area": "robotics_manufacturing",
+      "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [
+        {
+          "date": null,
+          "text": "Existing backers Alibaba and Tencent also took part.",
+          "quote": "The round also drew existing backers Alibaba and Tencent into the same cap table."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Trump says the US will tax American companies that build data centers abroad",
+      "quote": "At a White House press conference, Trump promised a \"tremendous tax\" on US firms building data centers overseas, specifically naming a proposed Google facility in Finland.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "regulation",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Google",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Chinese firms rent restricted GPUs from data centers in countries that can import them; a new Commerce licensing rule targets this.",
+          "quote": "Chinese firms rent restricted GPUs from data centers in countries that can legally import them, which is the route Commerce's new licensing rule targets."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "US intelligence reportedly tracked Megaspeed executive Alice Huang's contacts with China's spy agency for over a year",
+      "quote": "Megaspeed, the Singapore operator suspected of diverting restricted Nvidia chips, is now a focus of the investigations, which are continuing.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "legal",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Megaspeed",
+      "aliases": [],
+      "hq": [{"city": null, "country": "SG"}],
+      "facts": [
+        {
+          "date": null,
+          "text": "Alice Huang was in touch with a Ministry of State Security officer from Spring 2025 until this fall.",
+          "quote": "Alice Huang, a Megaspeed executive, was in touch with a Ministry of State Security officer from Spring 2025 until this fall, overlapping with her relationship with Jensen Huang."
+        },
+        {
+          "date": null,
+          "text": "Trump was briefed at least twice.",
+          "quote": "Trump was briefed at least twice."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Tesla rolls out FSD v15 with a vision encoder shared across FSD, Robotaxi and Optimus",
+      "quote": "TESLA ROLLS OUT FSD V15 WITH A VISION ENCODER SHARED ACROSS FSD, ROBOTAXI, AND OPTIMUS, CLAIMING 25X BETTER CRITICAL INTERVENTION RATE",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Tesla",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Tesla published only the 25x multiplier, not the underlying intervention rate.",
+          "quote": "Tesla published only the 25x multiplier, not the underlying intervention rate."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Boom Supersonic lights its in-house engine core for the first time",
+      "quote": "BOOM SUPERSONIC LIGHTS ITS IN-HOUSE ENGINE CORE FOR THE FIRST TIME, A SIX-STAGE COMPRESSOR AND SINGLE-STAGE TURBINE SHARED BY A DATA CENTER TURBINE AND OVERTURE'S ENGINE",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Boom Supersonic",
+      "aliases": ["Boom"],
+      "facts": [
+        {
+          "date": null,
+          "text": "The core reached 6,500 rpm on its second light-off attempt on a Colorado rig.",
+          "quote": "The core reached 6,500 rpm with nearly 2,000 sensors on its second light-off attempt"
+        },
+        {
+          "date": null,
+          "text": "The same core underpins the 42 MW Superpower gas turbine and the 40,000 lb Symphony turbofan.",
+          "quote": "The same core underpins the 42 MW Superpower gas turbine for AI data centers and the 40,000 lb Symphony turbofan for the Mach 1.7 Overture, with over 75% commonality."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Google's quantum processor wins a contextuality game 98.3% of the time against an 88.9% classical limit",
+      "quote": "GOOGLE'S QUANTUM PROCESSOR WINS A CONTEXTUALITY GAME 98.3% OF THE TIME AGAINST AN 88.9% CLASSICAL LIMIT, ACROSS TASKS UP TO 105 QUBITS",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Google",
+      "aliases": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "SpaceX lenders sought covenants barring Nvidia chips securing a $43B debt package from being launched into orbit",
+      "quote": "SPACEX LENDERS SOUGHT COVENANTS BARRING NVIDIA CHIPS SECURING A $43B DEBT PACKAGE FROM BEING LAUNCHED INTO ORBIT",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "market_move",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "SpaceX",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "It is unclear whether the restriction made it into the final documents, led by Apollo and Goldman Sachs.",
+          "quote": "Whether the restriction made it into the final documents, led by Apollo and Goldman Sachs, remains unclear."
+        },
+        {
+          "date": null,
+          "text": "SpaceX says the chips are for US data centers it owns and operates.",
+          "quote": "SpaceX says the chips are for US data centers it owns and operates, but Musk's orbital compute plans depend on launching silicon aboard Starship."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "SK Hynix becomes Kioxia's largest shareholder with a 14.1% indirect stake",
+      "quote": "SK HYNIX BECOMES KIOXIA'S LARGEST SHAREHOLDER WITH A 14.1% INDIRECT STAKE",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "market_move",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Kioxia",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "The stake comes from converting an investment vehicle's bonds into 129,000 Kioxia shares and buying 1,001 more from Bain Capital; Toshiba holds 10.45%.",
+          "quote": "The stake comes from converting an investment vehicle's bonds into 129,000 Kioxia shares and buying 1,001 more from Bain Capital, which puts SK Hynix ahead of Toshiba at 10.45%."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "TSMC reportedly pauses China shipments after new US rules on 16nm and 14nm logic chips",
+      "quote": "TSMC REPORTEDLY PAUSES CHINA SHIPMENTS AFTER NEW US RULES PRESUME 16NM AND 14NM LOGIC CHIPS ARE CONTROLLED",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "regulation",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "TSMC",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "TSMC told Chinese designers to halt 16nm-and-below orders without a US license.",
+          "quote": "TSMC told Chinese designers to halt 16nm-and-below orders without a US license, leaving them on 28nm and 40nm."
+        }
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

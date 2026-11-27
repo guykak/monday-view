@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "message_id": "<010001a20889154a-eb5eec64-2a16-466f-9d69-2df3c5e510e5-000000@email.amazonses.com>",
+  "family": "TLDR",
+  "letter": "TLDR IT",
+  "issue_date": "2026-11-23",
+  "sent_at": "2026-11-23T13:12:11.000Z",
+  "subject": "AI’s circuit board crunch 🖥️, Google simplifies GKE networking ☁️, missing AI failures 🤖",
+  "notes": "No rounds, acquisitions, IPOs, funds or AI model pricing in this issue. Sponsor block (Teleport) ignored.",
+  "stories": [
+    {
+      "headline": "Global Electronics Association warns AI server demand is straining circuit board supply; relief unlikely before mid-2028",
+      "quote": "The Global Electronics Association warns that AI server demand is straining circuit board supplies and crowding out automotive, medical, and industrial orders.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "market_move",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Global Electronics Association",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Meaningful supply relief unlikely before mid-2028",
+          "quote": "Increasingly complex boards consume more materials and manufacturing capacity, with meaningful supply relief unlikely before mid-2028."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Canonical targets Ubuntu 28.04 LTS for Core Desktop, tentatively default download in 30.04",
+      "quote": "Canonical is targeting Ubuntu 28.04 LTS for Core Desktop, with a tentative goal of making it the default download in 30.04.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Canonical",
+      "aliases": ["Ubuntu"],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Google announces general availability of ambient networking for GKE",
+      "quote": "Google has announced the general availability of ambient networking for Google Kubernetes Engine (GKE), introducing a sidecar-less service mesh architecture into production.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Google",
+      "aliases": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "AWS previews centralized Network Firewall filtering at VPC internet gateways",
+      "quote": "AWS Network Firewall can now apply centralized filtering rules directly at VPC internet gateways without requiring routing or architectural changes.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "AWS",
+      "aliases": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "GitHub releases release candidate for GitHub Enterprise Server 3.23",
+      "quote": "GitHub has released the release candidate for GitHub Enterprise Server 3.23, introducing new platform capabilities including improved filtering in GitHub Projects, AI-powered secret detection for air-gapped environments, and expanded malware detection across multiple package ecosystems.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "GitHub",
+      "aliases": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Microsoft acknowledges application failures after November Windows 11 hotpatch, gives Registry workaround",
+      "quote": "Microsoft has acknowledged application failures following November's Windows 11 hotpatch and provided a Registry workaround requiring a restart.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Microsoft",
+      "aliases": [],
+      "facts": [],
+      "confidence": "high"
+    }
+  ]
+}

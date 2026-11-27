@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "message_id": "<068cceb8-4dde-4109-8240-0e84bd01d44a@iad4s13mta0233.xt.local>",
+  "family": "Term Sheet",
+  "letter": "Term Sheet",
+  "issue_date": "2026-11-19",
+  "sent_at": "2026-11-19T13:04:06.000Z",
+  "subject": "A billion dollars. For starters",
+  "notes": "Lead essay on Series A funding; Mirendil and TypeSafe AI rounds are cited in the essay as earlier events (last week, October). TypeSafe AI's stage is implied Series A by context but not stated outright.",
+  "stories": [
+    {
+      "headline": "US Series A funding reached $42 billion through October 2026, up 60% year over year, while deal count stayed flat",
+      "quote": "U.S. startups have raised $42 billion in Series A funding this year through October, marking a 60% year-over-year increase.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "market_move", "status": "reported", "mention_type": "story",
+      "company": null, "aliases": [],
+      "facts": [
+        {"date": null, "text": "Annual number of Series A rounds of $1 million or more averaged 1,200 from 2023 through 2025; 2026 is within about 100 deals of that (Crunchbase data).", "quote": "From 2023 through 2025, the annual number of Series A rounds at $1 million or more averaged 1,200. 2026 has largely held that trend, give or take 100 deals."},
+        {"date": null, "text": "Series A funding has almost doubled so far in 2026 versus 2023.", "quote": "Series A funding has soared each year over the same period, almost doubling so far in 2026 versus 2023."},
+        {"date": null, "text": "Gartner reported in October that data center demand more than doubled the price of memory over 12 months.", "quote": "Data center demand has more than doubled the price of memory over the past 12 months, tech research firm Gartner"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Anthropic goes public today, per the essay",
+      "quote": "This is all, of course, a byproduct of the AI boom and will be put to the test today, as Anthropic goes public and private-market fervor meets reality.",
+      "story_date": "2026-11-19", "date_basis": "stated", "timing": "new",
+      "event_type": "ipo", "subtype": null, "status": "listed", "mention_type": "passing",
+      "company": "Anthropic", "aliases": [], "description": null, "hq": [],
+      "status_note": null,
+      "facts": [
+        {"date": "2026-11-19", "text": "The essay says Anthropic goes public today.", "quote": "will be put to the test today, as Anthropic goes public and private-market fervor meets reality."}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Mirendil raised a billion-dollar Series A last week",
+      "quote": "AI research lab Mirendil raised that much just last week, while AI infrastructure startup TypeSafe AI pulled in $870 million back in October.",
+      "story_date": null, "date_basis": "undated", "timing": "recap",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Mirendil", "aliases": [], "description": "AI research lab", "hq": [],
+      "stage": "series_a", "stage_as_written": "billion-dollar Series A round", "is_combined_round": false,
+      "equity_amount": 1000000000, "currency": "USD", "amount_qualifier": "about",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "founder_leads": [], "status_note": null, "tech_area": "ai_infrastructure", "is_press_release_reprint": false,
+      "founder_background": "Co-founders Behnam Neyshabur and Harsh Mehta previously worked at Google and Anthropic; broader founding team includes researchers and engineers from OpenAI, Google DeepMind and xAI",
+      "facts": [
+        {"date": null, "text": "The amount is given by reference to a billion-dollar Series A round.", "quote": "In Silicon Valley’s past, a billion-dollar Series A round would have seemed unheard of."}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "TypeSafe AI raised $870 million in October",
+      "quote": "AI research lab Mirendil raised that much just last week, while AI infrastructure startup TypeSafe AI pulled in $870 million back in October.",
+      "story_date": null, "date_basis": "undated", "timing": "recap",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "TypeSafe AI", "aliases": ["TypeSafe"], "description": "AI infrastructure startup", "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 870000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "founder_leads": [], "status_note": null, "tech_area": "ai_infrastructure", "is_press_release_reprint": false,
+      "founder_background": "Co-founders include ex-OpenAI researcher Diogo Almeida and former Meta research engineer Sasha Sheng",
+      "facts": [],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Linq raised $90 million in a round led by Andreessen Horowitz",
+      "quote": "Linq, a San Francisco-based provider of messaging, voice and computing infrastructure for AI agents, raised $90 million in a round. AndreessenHorowitz led the round and was joined by existing investors TQ Ventures, MuckerCapitalAbstract, and others.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Linq", "aliases": [], "description": "Messaging, voice and computing infrastructure for AI agents",
+      "hq": [{"city": "San Francisco", "country": "US"}],
+      "stage": "unstated", "stage_as_written": "a round", "is_combined_round": false,
+      "equity_amount": 90000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["Andreessen Horowitz"], "founder_leads": [], "status_note": null, "tech_area": "ai_infrastructure", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Ansa Biotechnologies raised $71.5 million in Series C funding led by Blue Water Life Science Advisors",
+      "quote": "Ansa Biotechnologies, an Emeryville, Calif.-based DNA synthesis company, raised $71.5 million in Series C funding. BlueWaterLifeScienceAdvisors led the round and was joined by IlluminaVentures, BEVC, LightscapePartners, AgentCapital, and existing investors.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Ansa Biotechnologies", "aliases": [], "description": "DNA synthesis company",
+      "hq": [{"city": "Emeryville", "country": "US"}],
+      "stage": "series_c", "stage_as_written": "Series C", "is_combined_round": false,
+      "equity_amount": 71500000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["Blue Water Life Science Advisors"], "founder_leads": [], "status_note": null, "tech_area": "health", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Pulley announced $64 million in new funding: a $41 million Series B and a $23 million Series A",
+      "quote": "Pulley , a San Francisco-based AI startup, announced $64 million in new funding, which includes a $41 million Series B and a $23 million Series A. Investors include Jump Capital, Catalyst Investors, CRV and Susa Ventures.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "announced", "mention_type": "deal_list",
+      "company": "Pulley", "aliases": [], "description": "AI startup",
+      "hq": [{"city": "San Francisco", "country": "US"}],
+      "stage": "series_b", "stage_as_written": "a $41 million Series B and a $23 million Series A", "is_combined_round": true,
+      "equity_amount": 64000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "founder_leads": [], "status_note": null, "tech_area": "ai_applications", "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [
+        {"date": null, "text": "The $64 million comprises a $41 million Series B and a $23 million Series A.", "quote": "announced $64 million in new funding, which includes a $41 million Series B and a $23 million Series A."}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Arva AI raised $20 million in Series A funding led by Arthur Ventures",
+      "quote": "Arva AI, a New York City- and London-based developer of AI models and agents for banking operations, raised $20 million in Series A funding. Arthur Ventures led the round and was joined by YCombinator and GradientVentures.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Arva AI", "aliases": [], "description": "Developer of AI models and agents for banking operations",
+      "hq": [{"city": "New York City", "country": "US"}, {"city": "London", "country": "GB"}],
+      "stage": "series_a", "stage_as_written": "Series A", "is_combined_round": false,
+      "equity_amount": 20000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["Arthur Ventures"], "founder_leads": [], "status_note": null, "tech_area": "ai_applications", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Voyage Labs raised $12 million in seed funding led by Kleiner Perkins",
+      "quote": "Voyage Labs, a Menlo Park, Calif.-based startup building a personal AI agent that plans and books trips and local outings, raised $12 million in seed funding. KleinerPerkins led the round and was joined by SignalFire, SVAngel, and angel investors.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Voyage Labs", "aliases": [], "description": "Personal AI agent that plans and books trips and local outings",
+      "hq": [{"city": "Menlo Park", "country": "US"}],
+      "stage": "seed", "stage_as_written": "seed", "is_combined_round": false,
+      "equity_amount": 12000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["Kleiner Perkins"], "founder_leads": [], "status_note": null, "tech_area": "ai_applications", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Vero Security raised $11 million in seed funding led by TLV Partners",
+      "quote": "Vero Security, a New York- and Tel Aviv-based company designed to help enterprises enforce security policies for AI tools and agents, raised $11 million in seed funding. TLV Partners led the round and was joined by GTMCapital, MapleCapital, and angel investors.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Vero Security", "aliases": [], "description": "Helps enterprises enforce security policies for AI tools and agents",
+      "hq": [{"city": "New York", "country": "US"}, {"city": "Tel Aviv", "country": "IL"}],
+      "stage": "seed", "stage_as_written": "seed", "is_combined_round": false,
+      "equity_amount": 11000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["TLV Partners"], "founder_leads": [], "status_note": null, "tech_area": "other_software_consumer", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "each::labs raised $7 million in seed funding from Revo Capital and others",
+      "quote": "each::labs, a San Francisco-based platform for generating images, video and audio, raised $7 million in seed funding from RevoCapital and others.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "each::labs", "aliases": [], "description": "Platform for generating images, video and audio",
+      "hq": [{"city": "San Francisco", "country": "US"}],
+      "stage": "seed", "stage_as_written": "seed", "is_combined_round": false,
+      "equity_amount": 7000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "founder_leads": [], "status_note": null, "tech_area": "ai_applications", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Omega Systems, backed by Revelstoke Capital Partners, acquired Framework IT; terms not disclosed",
+      "quote": "OmegaSystems, backed by RevelstokeCapitalPartners, acquired\n\nFramework IT, a Chicago-based provider of managed IT, cybersecurity, and AI services. Financial terms were not disclosed.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "acquisition", "subtype": null, "status": "completed", "mention_type": "deal_list",
+      "company": "Framework IT", "aliases": [], "description": "Provider of managed IT, cybersecurity, and AI services",
+      "hq": [{"city": "Chicago", "country": "US"}],
+      "stake": null, "acquirer": "Omega Systems", "acquirer_type": "company", "price": null,
+      "consideration": "unstated", "confirmed_by_company": false, "is_pe_buy_and_build": true,
+      "status_note": null, "tech_area": "other", "is_press_release_reprint": false,
+      "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "CSI Companies acquired HCTec from Claritas Capital and TruArc Partners; terms not disclosed",
+      "quote": "CSICompanies acquired\n\nHCTec, a Nashville-based provider of managed IT services and staffing for health systems, from Claritas Capital and TruArc Partners. Financial terms were not disclosed.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "acquisition", "subtype": null, "status": "completed", "mention_type": "deal_list",
+      "company": "HCTec", "aliases": [], "description": "Managed IT services and staffing for health systems",
+      "hq": [{"city": "Nashville", "country": "US"}],
+      "stake": null, "acquirer": "CSI Companies", "acquirer_type": "company", "price": null,
+      "consideration": "unstated", "confirmed_by_company": false, "is_pe_buy_and_build": false,
+      "status_note": null, "tech_area": "other", "is_press_release_reprint": false,
+      "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "UPS agreed to acquire Smartways from The Riverside Company",
+      "quote": "UPS agreed to acquire \n\nSmartways, a New South Wales, Australia and Auckland, New Zealand-based healthcare logistics provider designed to transport time-critical medical technologies and life sciences, from TheRiversideCompany.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "acquisition", "subtype": null, "status": "signed", "mention_type": "deal_list",
+      "company": "Smartways", "aliases": [], "description": "Healthcare logistics provider transporting time-critical medical technologies and life sciences",
+      "hq": [{"city": null, "country": "AU"}, {"city": "Auckland", "country": "NZ"}],
+      "stake": null, "acquirer": "UPS", "acquirer_type": "company", "price": null,
+      "consideration": "unstated", "confirmed_by_company": false, "is_pe_buy_and_build": false,
+      "status_note": null, "tech_area": "other", "is_press_release_reprint": false,
+      "facts": [], "confidence": "high"
+    }
+  ]
+}

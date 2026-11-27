@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "message_id": "<010001a1f3813c53-89829642-a719-4c01-83a6-dbbb9a99e3a0-000000@email.amazonses.com>",
+  "family": "TLDR",
+  "letter": "TLDR Data",
+  "issue_date": "2026-11-19",
+  "sent_at": "2026-11-19T11:11:35.000Z",
+  "subject": "MongoDB Buys Firebolt 🍃, Playing GTA 2 via Airflow 🎮, LinkedIn Rebuilds Data Lineage 🧵",
+  "notes": null,
+  "stories": [
+    {
+      "headline": "MongoDB acquires Firebolt and will run its analytics engine alongside the database",
+      "quote": "MongoDB has acquired Firebolt and will run its analytics engine alongside the database, kept in sync automatically so there is no pipeline to build.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "acquisition",
+      "subtype": null,
+      "status": "completed",
+      "mention_type": "story",
+      "company": "Firebolt",
+      "aliases": [],
+      "description": "Analytics engine for fast queries on fresh data",
+      "hq": [],
+      "stake": null,
+      "acquirer": "MongoDB",
+      "acquirer_type": "company",
+      "price": null,
+      "consideration": "unstated",
+      "confirmed_by_company": null,
+      "is_pe_buy_and_build": false,
+      "status_note": null,
+      "tech_area": "other_software_consumer",
+      "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [
+        {
+          "date": null,
+          "text": "MongoDB pitches the deal as removing the data-movement tax for agent-driven query loads.",
+          "quote": "MongoDB pitches it as removing the data-movement tax, since agents can drive thousands of concurrent queries and need sub-second answers on fresh data."
+        },
+        {
+          "date": null,
+          "text": "Firebolt's engine will join search, vector search and Voyage AI models in MongoDB's platform.",
+          "quote": "It will join search, vector search, and Voyage AI models in the platform."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Open-source DocumentDB 1.0 reaches general availability",
+      "quote": "DocumentDB 1.0 brings an MIT-licensed, MongoDB-compatible document store to PostgreSQL through an extension and protocol gateway, letting existing drivers and queries work with a familiar relational foundation.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "DocumentDB",
+      "aliases": [],
+      "description": "MIT-licensed, MongoDB-compatible document store on PostgreSQL",
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [
+        {
+          "date": null,
+          "text": "The GA release covers PostgreSQL 15-18 and adds a Kubernetes operator.",
+          "quote": "The GA release covers PostgreSQL 15-18, adds a Kubernetes operator, and focuses on stability across indexing, aggregation, and geospatial queries."
+        }
+      ],
+      "confidence": "high"
+    }
+  ]
+}

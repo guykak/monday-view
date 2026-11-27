@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "message_id": "<010001a1eecbdf7a-dc43c05a-0691-4c1a-9384-994fd599a19a-000000@email.amazonses.com>",
+  "family": "TLDR",
+  "letter": "TLDR IT",
+  "issue_date": "2026-11-18",
+  "sent_at": "2026-11-18T13:15:00.000Z",
+  "subject": "Windows reins in AI agents 🖥️, Optimizely spreads malware 🚨, Snowflake opens data sharing ❄️",
+  "notes": null,
+  "stories": [
+    {
+      "headline": "SAP completes acquisition of TechWolf; it joins the SAP SuccessFactors portfolio",
+      "quote": "TechWolf will become part of the SAP SuccessFactors portfolio to support talent and work intelligence strategies.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "acquisition",
+      "subtype": null,
+      "status": "completed",
+      "mention_type": "story",
+      "company": "TechWolf",
+      "aliases": [],
+      "description": "Talent and work intelligence; joining the SAP SuccessFactors portfolio",
+      "hq": [],
+      "stake": null,
+      "acquirer": "SAP",
+      "acquirer_type": "company",
+      "price": null,
+      "consideration": "unstated",
+      "confirmed_by_company": false,
+      "is_pe_buy_and_build": false,
+      "status_note": null,
+      "tech_area": "other_software_consumer",
+      "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [
+        {
+          "date": null,
+          "text": "The issue's item title says SAP has completed the acquisition of TechWolf.",
+          "quote": "SAP COMPLETES ACQUISITION OF TECHWOLF"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Microsoft announces new Windows controls for AI agents, including process containers and micro VMs",
+      "quote": "Microsoft announced new Windows controls for AI agents, including preview improvements to process containers and experimental hardware-isolated micro VMs.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Microsoft",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Learning modes are generally available; Intune is previewing automatic updates for employee-installed applications.",
+          "quote": "Generally available learning modes let IT observe agent behavior before enforcing restrictions, while Intune is previewing automatic updates for applications employees install themselves."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Attackers used Optimizely's experimentation software to spread malicious JavaScript to at least 178 organizations' websites",
+      "quote": "Attackers exploited Optimizely's experimentation software to distribute malicious JavaScript through websites belonging to at least 178 organizations.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Optimizely",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "The payloads targeted cryptocurrency wallets and payment details.",
+          "quote": "The payloads targeted cryptocurrency wallets and payment details."
+        },
+        {
+          "date": null,
+          "text": "Optimizely says it patched the vulnerability, removed the injected code and revoked tokens.",
+          "quote": "Optimizely says it patched the vulnerability, removed injected code, and revoked tokens."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Microsoft and Salesforce announce integrations connecting Salesforce with Copilot, Teams and Fabric",
+      "quote": "Microsoft and Salesforce announced integrations connecting Salesforce with Copilot, Teams, and Fabric.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Microsoft",
+      "aliases": ["Salesforce"],
+      "facts": [
+        {
+          "date": null,
+          "text": "A Copilot plugin is in public preview with more than 38 sales skills.",
+          "quote": "A Copilot plugin is available in public preview with more than 38 sales skills, letting employees retrieve customer information and take supported actions under their existing Salesforce permissions."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Microsoft adds impersonation and social-engineering protections to Teams meetings and calls",
+      "quote": "Microsoft is introducing new capabilities to combat social engineering and impersonation across Teams meetings and calls.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Microsoft",
+      "aliases": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Snowflake launches Open Data Sharing for Apache Iceberg tables, usable without a Snowflake account",
+      "quote": "Snowflake has launched Open Data Sharing, enabling data providers to share Apache Iceberg tables with external consumers using Iceberg REST Catalog-compatible clients without requiring a Snowflake account or scheduled data exports.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Snowflake",
+      "aliases": [],
+      "facts": [],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "message_id": "<010f01a1e47fe92b-3892702b-6974-4691-8ec4-691b4113a3a1-000000@us-east-2.amazonses.com>",
+  "family": "AlphaSignal",
+  "letter": "AlphaSignal",
+  "issue_date": "2026-11-16",
+  "sent_at": "2026-11-16T13:15:50.000Z",
+  "subject": "1980s energy model beats modern AI loops by 1,000x in speed",
+  "notes": "No funding rounds, acquisitions, IPOs or funds in this issue. Product news only; the Qwen4-Max cost cut is a headline with no price list in the visible text.",
+  "stories": [
+    {
+      "headline": "Qwen releases Qwen4-Max with 60% lower cost and a 1M-token context",
+      "quote": "Qwen releases Qwen4-Max with 60% lower cost and 1M-token context",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "pricing",
+      "subtype": null,
+      "status": "reported",
+      "mention_type": "deal_list",
+      "company": "Qwen",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Qwen4-Max is released with 60% lower cost and a 1M-token context; no per-token prices are given.",
+          "quote": "Qwen releases Qwen4-Max with 60% lower cost and 1M-token context"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Claude Code desktop app adds custom themes with animated backgrounds via mods",
+      "quote": "Claude Code desktop app now supports custom themes with animated backgrounds",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Anthropic",
+      "aliases": ["Claude Code"],
+      "description": null,
+      "hq": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Themes work in local sessions only.",
+          "quote": "Themes currently work in local sessions only."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Anthropic upgrades Claude Code Projects with coordinator updates and read-only thread sharing",
+      "quote": "Anthropic upgrades Claude Code Projects with smarter coordination and thread sharing",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Anthropic",
+      "aliases": ["Claude Code"],
+      "description": null,
+      "hq": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Projects is in public beta on Pro and Max plans.",
+          "quote": "Projects is in public beta on Pro and Max plans."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "DeepSeek makes web search, file parsing and other consumer-app tools available through its API",
+      "quote": "DeepSeek opens web search, file parsing, and voice to API developers",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "DeepSeek",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Tool usage is billed on top of normal token prices; public apps must have safety checks on.",
+          "quote": "Tool usage is billed on top of normal token prices. Public apps must have safety checks on."
+        },
+        {
+          "date": null,
+          "text": "The upgrade applies to the V4.1-Flash model.",
+          "quote": "The tools powering the DeepSeek consumer app are now available through the API."
+        }
+      ],
+      "confidence": "high"
+    }
+  ]
+}

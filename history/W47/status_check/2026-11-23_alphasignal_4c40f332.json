@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "message_id": "<010f01a208c81f2f-f93823f4-1878-4104-8bf6-9d5272d35293-000000@us-east-2.amazonses.com>",
+  "family": "AlphaSignal",
+  "letter": "AlphaSignal",
+  "issue_date": "2026-11-23",
+  "sent_at": "2026-11-23T14:21:02.000Z",
+  "subject": "🧪 OpenAI MedChemBench: GPT-6 Astra fails drug selection at 50%",
+  "notes": "No rounds, acquisitions, IPOs, funds or price changes in this issue. Sponsor blocks (Fireworks.ai, MongoDB, Tiger Data) and event promos ignored.",
+  "stories": [
+    {
+      "headline": "OpenAI releases MedChemBench, a benchmark of how well models find drug candidates",
+      "quote": "OpenAI releases benchmark measuring how well models find new drug candidates",
+      "story_date": "2026-11-19",
+      "date_basis": "stated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "OpenAI",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "facts": [
+        {
+          "date": "2026-11-19",
+          "text": "The issue says the benchmark and the safety paper came out on the same Thursday.",
+          "quote": "OpenAI had a big Thursday. A drug discovery benchmark and a safety paper dropped the same day. Two very different problems, one common thread:"
+        },
+        {
+          "date": null,
+          "text": "Benchmark draws on 117 papers and patents, 761 molecular structures, 99 problems.",
+          "quote": "It pulls from 117 papers and patents, with 761 molecular structures across 99 problems."
+        },
+        {
+          "date": null,
+          "text": "GPT-6 Astra scored 95.4% on structure tasks and about half on compound selection and numerical prediction.",
+          "quote": "scored 95.4% on structure tasks, but only about half on compound selection and numerical prediction."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "OpenAI publishes research on adversarial distillation bypassing safety guardrails, and its defences",
+      "quote": "OpenAI reveals how model distillation bypasses safety guardrails and how to stop it",
+      "story_date": "2026-11-19",
+      "date_basis": "stated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "OpenAI",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Attack success rate fell from 54% on GPT-6 Astra to 0.2% on GPT-6.2 Astra (figures split across lines in the issue).",
+          "quote": "on GPT-6.2 Astra."
+        },
+        {
+          "date": null,
+          "text": "Weekly enforcement actions cover thousands to tens of thousands of accounts running distillation campaigns.",
+          "quote": "Weekly enforcement actions have hit thousands to tens of thousands of accounts running distillation campaigns."
+        },
+        {
+          "date": null,
+          "text": "Older model families are blocked from reading GPT-6.2's protected reasoning.",
+          "quote": "Older model families with weaker safeguards are now blocked from reading GPT-6.2's protected reasoning."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Google Antigravity upgrades /btw to fork a parallel agent conversation mid-task",
+      "quote": "Google Antigravity upgrades its CLI tool to let you fork and explore agent threads mid-task",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Google Antigravity",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Thinking Machines releases a 26B open-source model that runs on 16GB RAM",
+      "quote": "Thinking Machines drops 26B open-source model that runs on 16GB RAM",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Thinking Machines",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "facts": [],
+      "confidence": "medium"
+    },
+    {
+      "headline": "NVIDIA publishes CPU-ARC, a method caching LLM reasoning as CPU code at up to 291x lower cost",
+      "quote": "NVIDIA method caches LLM reasoning as CPU code, cutting costs up to 291x",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "NVIDIA",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "The method is named CPU-ARC.",
+          "quote": "Meanwhile NVIDIA quietly published CPU-ARC, caching LLM reasoning as plain CPU code at up to 291x lower cost. Capability, safety, efficiency. One news cycle."
+        }
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

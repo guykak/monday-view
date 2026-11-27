@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "message_id": "<1ada26b2-be4e-4b6a-9c85-0d453ca687e9@iad4s13mta0239.xt.local>",
+  "family": "Term Sheet",
+  "letter": "Term Sheet",
+  "issue_date": "2026-11-23",
+  "sent_at": "2026-11-23T13:05:57.000Z",
+  "subject": "What just happened?",
+  "notes": "Lead essay is a recap of recent weeks; deals section has five venture rounds and one private equity acquisition. Score Group is an industrial engineering services company, not clearly tech or venture-backed; included for completeness.",
+  "stories": [
+    {
+      "headline": "Anthropic went public last week with a 17% first-day pop, followed by a wider tech sell-off",
+      "quote": "Anthropic last week went public in a day-one 17% stock pop that mutated pretty quickly into a widespread tech rout.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "recap",
+      "event_type": "ipo",
+      "subtype": null,
+      "status": "listed",
+      "mention_type": "story",
+      "company": "Anthropic",
+      "aliases": ["the Claude maker"],
+      "description": "Maker of the Claude AI models",
+      "hq": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Stock rose 17% on its first day of trading (last week).",
+          "quote": "Anthropic last week went public in a day-one 17% stock pop that mutated pretty quickly into a widespread tech rout."
+        },
+        {
+          "date": null,
+          "text": "Still valued at over $1 trillion after Friday's drop.",
+          "quote": "The Claude maker, still valued over $1 trillion even after its stock"
+        },
+        {
+          "date": "2026-11-20",
+          "text": "Stock dropped 8% on Friday.",
+          "quote": "dropped 8% on Friday"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Tech rout: Nasdaq ends the week down 2.66% year-to-date; Dow and S&P 500 close in correction territory",
+      "quote": "The Nasdaq finished the week down 2.66% year-to-date, and both the Dow and the S&P 500 closed in correction territory.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "recap",
+      "event_type": "other",
+      "subtype": "market_move",
+      "status": "reported",
+      "mention_type": "story",
+      "company": null,
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Nasdaq finished last week down 2.66% year-to-date; Dow and S&P 500 closed in correction territory.",
+          "quote": "The Nasdaq finished the week down 2.66% year-to-date, and both the Dow and the S&P 500 closed in correction territory."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Jensen Huang ousted as Nvidia CEO; successor not named, Arm's Rene Haas mentioned",
+      "quote": "After Jensen Huang’s shocking ouster, Nvidia reported earnings last week, revealing beats across the board.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "recap",
+      "event_type": "other",
+      "subtype": "leadership",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Nvidia",
+      "aliases": [],
+      "facts": [
+        {
+          "date": null,
+          "text": "Arm's Rene Haas is mentioned as a possible next Nvidia CEO; nothing decided.",
+          "quote": "Arm’s Rene Haas keeps coming up, but nothing’s over until it’s over."
+        },
+        {
+          "date": null,
+          "text": "A Microsoft outage that took down email happened on the same day Huang was ousted.",
+          "quote": "the Microsoft outage that took down email (on the same day Huang was ousted no less)"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Nvidia reported earnings last week with beats across the board",
+      "quote": "After Jensen Huang’s shocking ouster, Nvidia reported earnings last week, revealing beats across the board.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "recap",
+      "event_type": "other",
+      "subtype": "earnings",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Nvidia",
+      "aliases": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "$6.3 billion Binance hack reported on 29 Oct",
+      "quote": "It was only on Oct. 29 that news of the astonishing $6.3 billion Binance hack made headlines",
+      "story_date": "2026-10-29",
+      "date_basis": "stated",
+      "timing": "recap",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Binance",
+      "aliases": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Wave of outages: FAA ground stoppage on 13 Nov, Microsoft email outage, plus Chase, Bank of America, Apple and NSA internal systems",
+      "quote": "there’s been a frightening wave of outages, from the FAA ground stoppage on Nov. 13 to the Microsoft outage that took down email (on the same day Huang was ousted no less).",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "recap",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": null,
+      "aliases": [],
+      "facts": [
+        {
+          "date": "2026-11-13",
+          "text": "FAA ground stoppage.",
+          "quote": "from the FAA ground stoppage on Nov. 13"
+        },
+        {
+          "date": null,
+          "text": "Outages also at Chase, Bank of America, Apple and internal NSA systems.",
+          "quote": "There have also been outages at Chase, Bank of America, Apple, and even internal systems at the NSA."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Acutronic Group raised $100 million, led by InterAlpen Partners and Hale Capital Partners",
+      "quote": "Acutronic Group, a Zurich- and Austin-based manufacturer of small jet engines and specialized aerospace equipment, raised $100 million in funding. InterAlpenPartners and HaleCapital Partners led the round and were joined by ICORGroup, PictetAlternativeAdvisors, and others.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "round",
+      "subtype": null,
+      "status": "closed",
+      "mention_type": "deal_list",
+      "company": "Acutronic Group",
+      "aliases": [],
+      "description": "Manufacturer of small jet engines and specialized aerospace equipment",
+      "hq": [
+        {"city": "Zurich", "country": "CH"},
+        {"city": "Austin", "country": "US"}
+      ],
+      "stage": "unstated",
+      "stage_as_written": "funding",
+      "is_combined_round": false,
+      "equity_amount": 100000000,
+      "currency": "USD",
+      "amount_qualifier": "exact",
+      "mixed_total": null,
+      "other_finance": [],
+      "valuation": null,
+      "non_raise_figures": [],
+      "leads": ["InterAlpen Partners", "Hale Capital Partners"],
+      "tech_area": "defence_aerospace",
+      "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Promise Robotics raised C$40 million ($27.9 million) Series B, led by White Star Capital",
+      "quote": "Promise Robotics, a Toronto-based company that uses AI and robotics to manufacture prefabricated components for homebuilders, raised C$40 million ($27.9 million) in Series B funding. White StarCapital led the round",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "round",
+      "subtype": null,
+      "status": "closed",
+      "mention_type": "deal_list",
+      "company": "Promise Robotics",
+      "aliases": [],
+      "description": "Uses AI and robotics to manufacture prefabricated components for homebuilders",
+      "hq": [
+        {"city": "Toronto", "country": "CA"}
+      ],
+      "stage": "series_b",
+      "stage_as_written": "Series B",
+      "is_combined_round": false,
+      "equity_amount": 40000000,
+      "currency": "CAD",
+      "amount_qualifier": "exact",
+      "mixed_total": null,
+      "other_finance": [],
+      "valuation": null,
+      "non_raise_figures": [],
+      "leads": ["White Star Capital"],
+      "tech_area": "robotics_manufacturing",
+      "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Archer raised $10 million, led by Volition Capital",
+      "quote": "Archer, a New York- and London-based AI recruiting platform that matches candidates with employers and recommends roles to job seekers, raised $10 million in funding. VolitionCapital led the round and was joined by existing investor AVP.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "round",
+      "subtype": null,
+      "status": "closed",
+      "mention_type": "deal_list",
+      "company": "Archer",
+      "aliases": [],
+      "description": "AI recruiting platform matching candidates with employers",
+      "hq": [
+        {"city": "New York", "country": "US"},
+        {"city": "London", "country": "GB"}
+      ],
+      "stage": "unstated",
+      "stage_as_written": "funding",
+      "is_combined_round": false,
+      "equity_amount": 10000000,
+      "currency": "USD",
+      "amount_qualifier": "exact",
+      "mixed_total": null,
+      "other_finance": [],
+      "valuation": null,
+      "non_raise_figures": [],
+      "leads": ["Volition Capital"],
+      "tech_area": "ai_applications",
+      "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Helix raised $6 million pre-seed, led by Chicago Ventures",
+      "quote": "Helix, a Los Angeles-based startup that uses on-device voice checks to detect bots and verify users’ age and identity, raised $6 million in pre-seed funding. ChicagoVentures led the round",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "round",
+      "subtype": null,
+      "status": "closed",
+      "mention_type": "deal_list",
+      "company": "Helix",
+      "aliases": [],
+      "description": "On-device voice checks to detect bots and verify age and identity",
+      "hq": [
+        {"city": "Los Angeles", "country": "US"}
+      ],
+      "stage": "pre_seed",
+      "stage_as_written": "pre-seed",
+      "is_combined_round": false,
+      "equity_amount": 6000000,
+      "currency": "USD",
+      "amount_qualifier": "exact",
+      "mixed_total": null,
+      "other_finance": [],
+      "valuation": null,
+      "non_raise_figures": [],
+      "leads": ["Chicago Ventures"],
+      "tech_area": "other_software_consumer",
+      "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Hoplite raised $5.5 million from Y Combinator, Relational Capital, Upside Ventures and others",
+      "quote": "Hoplite, a San Francisco- and Dublin-based startup that lets developers run AI coding agents in the cloud, raised $5.5 million from Y Combinator, RelationalCapital, UpsideVentures, and others.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "round",
+      "subtype": null,
+      "status": "closed",
+      "mention_type": "deal_list",
+      "company": "Hoplite",
+      "aliases": [],
+      "description": "Lets developers run AI coding agents in the cloud",
+      "hq": [
+        {"city": "San Francisco", "country": "US"},
+        {"city": "Dublin", "country": "IE"}
+      ],
+      "stage": "unstated",
+      "stage_as_written": null,
+      "is_combined_round": false,
+      "equity_amount": 5500000,
+      "currency": "USD",
+      "amount_qualifier": "exact",
+      "mixed_total": null,
+      "other_finance": [],
+      "valuation": null,
+      "non_raise_figures": [],
+      "leads": [],
+      "tech_area": "ai_infrastructure",
+      "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Orbe Novo Capital and Stellex Capital Management agreed to acquire Score Group from D2Zero; terms not disclosed",
+      "quote": "ScoreGroup, a Peterhead, Scotland-based provider of valve management, emissions management and precision engineering services, from D2Zero, backed by SCFPartners. Financial terms were not disclosed.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "acquisition",
+      "subtype": null,
+      "status": "signed",
+      "mention_type": "deal_list",
+      "company": "Score Group",
+      "aliases": ["ScoreGroup"],
+      "description": "Valve management, emissions management and precision engineering services provider",
+      "hq": [
+        {"city": "Peterhead", "country": "GB"}
+      ],
+      "acquirer": "Orbe Novo Capital and Stellex Capital Management",
+      "price": null,
+      "consideration": "unstated",
+      "confirmed_by_company": false,
+      "is_pe_buy_and_build": false,
+      "tech_area": "other",
+      "is_press_release_reprint": false,
+      "facts": [
+        {
+          "date": null,
+          "text": "Seller is D2Zero, backed by SCF Partners; financial terms not disclosed.",
+          "quote": "from D2Zero, backed by SCFPartners. Financial terms were not disclosed."
+        }
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

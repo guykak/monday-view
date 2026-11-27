@@ -9,6 +9,7 @@ families:
     senders: [sifted@sifted.eu]   # 5 letters share this address: Sifted Daily, AI & Deeptech, Fintech, Up Round, Startup Life
     letters_by_sender_name: [Sifted Daily, AI & Deeptech by Sifted, Fintech by Sifted, Up Round by Sifted, Startup Life by Sifted]
     cadence: daily
+    weekly_letters: [AI & Deeptech by Sifted, Fintech by Sifted, Up Round by Sifted, Startup Life by Sifted]
   TLDR:
     deal_carrying: true
     senders: [dan@tldrnewsletter.com]   # letters: TLDR IT, Hardware, Data, Fintech (sender name)
@@ -30,6 +31,7 @@ families:
     deal_carrying: false
     senders: [maddynews@maddyness.com, ia@maddyness.com]   # Maddyness + Maddyness IA = one family; footer may name a silent letter
     letters_by_sender_name: [Maddyness, Maddyness IA]
+    report_silent_letters: [Maddyness IA]   # the footer says so when this letter sent none
     cadence: daily
   Newcomer:
     deal_carrying: false

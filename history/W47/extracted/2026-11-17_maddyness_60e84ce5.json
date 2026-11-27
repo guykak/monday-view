@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "message_id": "<1f9e9e85c9528007cd57c0250.68f8285b8b.20261117063050.d2b377100a.ff2a9748@mail74.atl71.mcdlv.net>",
+  "family": "Maddyness",
+  "letter": "Maddyness",
+  "issue_date": "2026-11-17",
+  "sent_at": "2026-11-17T06:31:15.000Z",
+  "subject": "17.11 - Instinct, Corgi Café, Waymo… : 3 choses qui illustrent la folie de l’IA à San Francisco",
+  "notes": null,
+  "stories": [
+    {
+      "headline": "Sofinnova Partners announces final close of Sofinnova Crossover II at €725m",
+      "quote": "Sofinnova Partners lève 725 millions d’euros pour son fonds Crossover II",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "fund",
+      "subtype": null,
+      "status": "final_close",
+      "mention_type": "story",
+      "company": "Sofinnova Partners",
+      "aliases": [],
+      "description": "Life sciences venture capital specialist",
+      "hq": [],
+      "fund_name": "Sofinnova Crossover II",
+      "fund_size": {"amount": 725000000, "currency": "EUR", "qualifier": "exact"},
+      "fund_strategy": "late_stage",
+      "fund_geography": "Europe",
+      "fund_focus": "biopharma and medtech (life sciences)",
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [
+        {
+          "date": null,
+          "text": "Final close announced; second crossover fund to back about fifteen late-stage biopharma and medtech companies, mainly in Europe.",
+          "quote": "Le spécialiste du capital-risque en sciences de la vie annonce le closing final de Sofinnova Crossover II. Ce deuxième fonds «crossover» accompagnera une quinzaine d’entreprises de biopharmacie et de medtech en phase avancée, principalement en Europe."
+        }
+      ],
+      "confidence": "high"
+    }
+  ]
+}

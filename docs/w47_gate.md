@@ -2,6 +2,8 @@
 
 The pass/fail test for Phase 0a. It turns `reference/approved/w47_sample.md` into exact assertions and resolves the sample's ambiguities.
 
+**Revised 26 Nov 2026 (Guy's decision).** Seven lines were corrected after the rebuild from the raw emails and an independent fact-check (`history/W47/factcheck.json`): the early-round counts and their source mix, Payhawk's valuation, and the Anthropic IPO family list. Each is marked "corrected" below with the reason. The word limit is now 500–850.
+
 Encode it as `tests/fixtures/w47_expected.json`. The gate passes only when **two separate extraction runs both pass every line**. An independent fact-check agent ticks the lines first; Guy then reads the output.
 
 **Required / allowed / forbidden.**
@@ -22,7 +24,7 @@ Source: `reference/data/w47_family_counts.json`, as corrected (V2, V3, H1). Wher
 
 | Item | Families | Dots |
 |---|---|---|
-| Anthropic IPO | Sifted, Techmeme, TLDR, Benedict Evans, Newcomer, AlphaSignal, Term Sheet, Not Boring, DeepLearning.AI, Sunday CET (10) | ●●●●● |
+| Anthropic IPO | Sifted, Techmeme, TLDR, Benedict Evans, Newcomer, Term Sheet, Not Boring, DeepLearning.AI, Sunday CET (9). Corrected: no AlphaSignal issue of 16–22 Nov mentions the IPO; the earlier count of 10 included it by mistake | ●●●●● |
 | Isomorphic Labs | Sifted, Techmeme, Term Sheet, TLDR, EU-Startups, Newcomer, Not Boring (7) | ●●●●● |
 | Genesis AI | Maddyness, Sifted, Techmeme, Term Sheet, TLDR, Newcomer, Not Boring (7) | ●●●●● |
 | Payhawk | Term Sheet, Sifted, Techmeme, EU-Startups, Newcomer, Sunday CET (6) | ●●●●● |
@@ -49,12 +51,12 @@ Dates in `w47_family_counts.json` are coverage dates (when a family mentioned th
 ## Headline, length, footer
 
 - One bold headline sentence, then the dot legend (as in the sample). Wording is free.
-- The markdown version is **500–750 words** by `wc -w`, everything included. The sample is 725.
+- The markdown version is **500–850 words** by `wc -w`, everything included. The sample is 725; the limit was raised from 750 so that the deep-tech list keeps its descriptions and lead investors in a busy week.
 - **Footer issue counts, exact:** TLDR 12, Sifted 9, AlphaSignal 6, Techmeme 6, Term Sheet 5, Maddyness 5, Newcomer 4. Seven others have 1 each: Benedict Evans, Sunday CET, EU-Startups, TechCrunch Mobility, DeepLearning.AI, Import AI, Not Boring. Total 54. The footer says Maddyness IA sent none.
 
 ## Block 1: the week's story
 
-- **Required:** the Anthropic IPO, ●●●●● (10 families), with these facts and dates:
+- **Required:** the Anthropic IPO, ●●●●● (9 families), with these facts and dates:
   - Wed 18 Nov: priced at $83, above the range; about $81.3bn raised; largest IPO on record.
   - Thu 19 Nov: opened at $111.50 (+34%), closed at $97.17 (+17%); market cap about $1.3T.
   - Fri 20 Nov: AI sell-off: SoftBank about −15%, TSMC −5%+, Samsung and SK Hynix −6%+.
@@ -65,10 +67,10 @@ Dates in `w47_family_counts.json` are coverage dates (when a family mentioned th
 ## Block 2: early-stage rounds
 
 **Counts** (tolerance ±2 unless marked exact):
-- Early rounds: 55. In Europe: 28.
-- Source mix: Term Sheet carried 30; the count without Term Sheet is 35.
+- Early rounds: 63. In Europe: 36. Corrected from 55 and 28: the prototype missed rounds with a stated stage (LATO, Numina, Seva Money, Traitomic, Athlete To Athlete) and small rounds with no stated stage (Alecto, Ancep, Anyos); all were confirmed from the emails.
+- Source mix: Term Sheet carried 33; the count without Term Sheet is 41. Corrected from 30 and 35, following the count.
 - European $50M+ early rounds: 4, **exact** (Genesis AI, Boltz, Tiberius, Commit Biologics). Rest-of-world $50M+ early rounds: 3 (±1), counted only.
-- The area table covers European rounds under $50M. **Its total must equal European count − European $50M+ early rounds** (W47: 24 = 28 − 4). The note under the table says so.
+- The area table covers European rounds under $50M. **Its total must equal European count − European $50M+ early rounds** (W47: 32 = 36 − 4). The note under the table says so.
 
 **Named European deep tech, required** (amount, stage, HQ; dots per the table above):
 - Daisytuner (Darmstadt), €6m seed
@@ -90,7 +92,7 @@ Dates in `w47_family_counts.json` are coverage dates (when a family mentioned th
 |---|---|---|
 | Isomorphic Labs (London) | $5B Series C | – |
 | Genesis AI (Paris / San Carlos) | $500M Series A | $3.5B |
-| Payhawk (London) | $280M Series C | – |
+| Payhawk (London) | $280M Series C | $2B (corrected: stated by Techmeme and EU-Startups, 19 Nov) |
 | Model ML (London) | $250M Series B | $1.5B |
 | Boltz (London) | $110M Series A | – |
 | Tiberius Aerospace (London / Newport Beach) | $85M Series A | $1B+ |
@@ -99,7 +101,7 @@ Dates in `w47_family_counts.json` are coverage dates (when a family mentioned th
 - **Required lines:**
   - "14 rounds of $100M or more" (±2), worldwide, equity only.
   - In talks: Sierra (~$1.5B at ~$30B) and Cognition ($2B+ at $75B).
-- **Allowed:** Stark Future (Barcelona), €150m+ at €1.2B pre-money, led by Highland Europe (●●●). It meets the rule; the sample left it out. Mistral's additional €100M (EU-Startups 19 Nov) is allowed only if the fact-check confirms it is equity.
+- **Allowed:** Stark Future (Barcelona), €150m+ at €1.2B pre-money, led by Highland Europe (●●●). The valuation must be shown as pre-money. It meets the rule; the sample left it out. Mistral's additional €100M (EU-Startups 19 Nov) is allowed only if the fact-check confirms it is equity.
 - **Forbidden:**
   - Hone Health as a $228M round (it is $28M Series A + $200M customer-value fund).
   - Ramon.Space, Megarobo, Corma and Hone as rows. None has a stated European HQ: check this, and if one has, it becomes allowed.

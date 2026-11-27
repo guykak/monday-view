@@ -1,0 +1,115 @@
+{
+ "_note": "The editor's words for W47. Every figure is tied to a quote held in the extraction; guards.check_editorial verifies it.",
+ "headline": "Anthropic listed at a $1.3T market cap, and Europe's early-stage money went to AI tooling for chips, robots and space.",
+ "context_note": "W47 was Slush week, so no comparison with previous weeks.",
+ "block1": {
+  "company": "Anthropic",
+  "event_type": "ipo",
+  "title": "Anthropic goes public",
+  "facts": [
+   {
+    "date": "2026-11-18",
+    "text": "priced at $83 a share, above the range. About $81.3bn raised, the largest IPO on record.",
+    "sources": [
+     {
+      "file": "2026-11-19_techmeme_f6383ebd.json",
+      "quote": "PRICES ITS UPSIZED IPO AT $83 PER SHARE, ABOVE THE $70-$78 MARKETED RANGE, RAISING $81.3B IN THE LARGEST OFFERING ON RECORD"
+     }
+    ]
+   },
+   {
+    "date": "2026-11-19",
+    "text": "opened at $111.50 (+34%), closed at $97.17 (+17%). Market cap about $1.3T.",
+    "sources": [
+     {
+      "file": "2026-11-20_techmeme_dbcb6391.json",
+      "quote": "CLOSES UP 17% AT $97.17 IN ITS NASDAQ DEBUT, GIVING IT A MARKET CAP OF $1.3T"
+     },
+     {
+      "file": "2026-11-20_techmeme_dbcb6391.json",
+      "quote": "OPENING AT $111.50, UP 34% FROM ITS IPO PRICE"
+     }
+    ]
+   },
+   {
+    "date": "2026-11-20",
+    "text": "AI sell-off. Asian tech fell: SoftBank about −15%, TSMC −5%+, Samsung and SK Hynix −6%+. The greenshoe took total proceeds to $93.5bn.",
+    "sources": [
+     {
+      "file": "2026-11-21_techmeme_d785d85d.json",
+      "quote": "SOFTBANK FALLS ~15%, TSMC FALLS 5%+, AND SAMSUNG AND SK HYNIX FALL 6%+"
+     },
+     {
+      "file": "2026-11-21_techmeme_d785d85d.json",
+      "quote": "BRINGING THE TOTAL RAISED IN ITS IPO TO $93.5B"
+     }
+    ]
+   }
+  ],
+  "for_us": "public investors have now priced a frontier lab. Late-stage AI marks get a public comparable, and early-stage pricing does not."
+ },
+ "block5": {
+  "text": "OpenAI's GPT-6.2 Astra: API tokens 20% cheaper than GPT-6 Astra, at $8 / $40 per million input/output tokens (Techmeme, AlphaSignal, 18 Nov). OpenAI also claims under one-third of GPT-6 Astra's cost per task on work and science evals. Google's Gemini 4 Neon: $3 / $15 per million input/output tokens. Inference got cheaper again, which helps application startups and squeezes resellers.",
+  "sources": [
+   {
+    "file": "2026-11-18_techmeme_1a2d987a.json",
+    "quote": "GPT-6.2 ASTRA COSTS $8/1M INPUT AND $40/1M OUTPUT TOKENS, DOWN 20% FROM GPT-6 ASTRA"
+   },
+   {
+    "file": "2026-11-18_techmeme_1a2d987a.json",
+    "quote": "AT UNDER A THIRD OF GPT-6 ASTRA'S COST"
+   },
+   {
+    "file": "2026-11-18_alphasignal_386cd056.json",
+    "quote": "less than 1/3 the price per task"
+   },
+   {
+    "file": "2026-11-19_techmeme_f6383ebd.json",
+    "quote": "GEMINI 4 NEON COSTS $3/1M INPUT TOKENS AND $15/1M OUTPUT TOKENS"
+   }
+  ]
+ },
+ "block4_notes": {
+  "Applied Compute": {
+   "text": "Applied Compute was valued at $3.25B earlier in November",
+   "sources": [
+    {
+     "file": "2026-11-19_techmeme_f6383ebd.json",
+     "quote": "IT WAS VALUED AT $3.25B THIS MONTH"
+    }
+   ]
+  },
+  "Mailchimp": {
+   "text": "Intuit paid ~$12B in 2021",
+   "sources": [
+    {
+     "file": "2026-11-20_techmeme_dbcb6391.json",
+     "quote": "INTUIT PAID $12B TO BUY MAILCHIMP IN 2021"
+    }
+   ]
+  }
+ },
+ "fund_notes": {
+  "Plural": {
+   "text": "30+ companies",
+   "sources": [
+    {
+     "file": "2026-11-17_techmeme_22d9a77e.json",
+     "quote": "PLANNING TO BACK 30+ STARTUPS"
+    }
+   ]
+  }
+ },
+ "descriptions": {
+  "Daisytuner": "Open-source compiler that runs AI code natively on Nvidia, AMD and newer accelerators",
+  "MountAIn": "Runs AI applications on low-cost, low-power chips",
+  "Vetaion": "Robotic manufacturing of electrical control cabinets",
+  "Mosaico": "Data for robotics AI",
+  "Stryx AI": "Radar and interceptors against drones",
+  "Elysian Aircraft": "Battery-electric aircraft",
+  "Dcubed": "Satellite deployment and power systems",
+  "Anyos": "Upgradable EV charging stations",
+  "Sofinnova Partners": "late-stage life sciences",
+  "Norwest": "US venture and growth"
+ }
+}

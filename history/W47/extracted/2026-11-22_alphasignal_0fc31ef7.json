@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "message_id": "<010f01a203dd80a7-a94e487a-1c8b-4e22-9ecd-fdc38f0e5c56-000000@us-east-2.amazonses.com>",
+  "family": "AlphaSignal",
+  "letter": "AlphaSignal",
+  "issue_date": "2026-11-22",
+  "sent_at": "2026-11-22T15:26:17.000Z",
+  "subject": "🔧 Meta fixes RAG’s huge clustering bottleneck with e-means",
+  "notes": "Sunday Deep Dive: a single technical essay on Meta FAIR's e-means clustering algorithm. No rounds, acquisitions, IPOs, funds or pricing. CoreWeave sponsor block ignored.",
+  "stories": [
+    {
+      "headline": "Meta FAIR and École nationale des ponts et chaussées release e-means, a replacement for k-means clustering, shipped in Faiss 1.16.0",
+      "quote": "researchers at Meta FAIR and École nationale des ponts et chaussées have released “\ne-means\n,” a drop-in replacement for k-means that works at the scale of modern RAG pipelines.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Meta",
+      "aliases": ["Meta FAIR"],
+      "description": "Research lab releasing e-means clustering algorithm for embeddings",
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [
+        {
+          "date": null,
+          "text": "Across 24 benchmarks e-means beats the Lloyd baseline in about one-tenth the passes; 10-45X faster on GPUs than Flash-KMeans and 8-15X faster on CPUs than Faiss.",
+          "quote": "Across 24 benchmarks covering text, code, image, and multimodal embeddings, e-means beats Lloyd baseline in roughly one-tenth the passes while running 10-45X faster on GPUs than Flash-KMeans and 8-15X faster on CPUs than Faiss."
+        },
+        {
+          "date": null,
+          "text": "Code shipped in Faiss 1.16.0 with PyTorch GPU and NumPy CPU versions under the MIT license.",
+          "quote": "in Faiss 1.16.0, offering both PyTorch GPU and NumPy CPU versions under Faiss’s commercial-friendly MIT license."
+        },
+        {
+          "date": null,
+          "text": "Teams on managed or third-party vector databases cannot plug e-means in themselves today.",
+          "quote": "Teams on managed or third-party vector databases (e.g., Pinecone, Milvus, Qdrant) cannot plug e-means in themselves today because clustering is hidden inside the storage engine."
+        }
+      ],
+      "confidence": "high"
+    }
+  ]
+}
