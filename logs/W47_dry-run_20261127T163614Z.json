@@ -1,0 +1,81 @@
+{
+ "stamp_utc": "20261127T163614Z",
+ "plan": {
+  "mode": "dry-run",
+  "iso_year": 2026,
+  "week": "W47",
+  "monday": "2026-11-16",
+  "sunday": "2026-11-22",
+  "run_started_utc": "2026-11-27T16:27:50+00:00",
+  "history_dir": "history/dryrun/W47",
+  "sends": false,
+  "labels_issues": false,
+  "advances_cutoff": false,
+  "window_utc": [
+   "2026-11-16T00:00:00+00:00",
+   "2026-11-23T00:00:00+00:00"
+  ]
+ },
+ "issues": 54,
+ "skipped": [
+  {
+   "sender": "AI Dev",
+   "sender_email": "aidev@deeplearning.ai",
+   "subject": "Just Announced: Technical Sessions at AI Dev NYC on coding agents, memory, and voice",
+   "reason": "ignored sender"
+  },
+  {
+   "sender": "Maddyness",
+   "sender_email": "contact@maddyness.com",
+   "subject": "Maddyness offre exceptionnellement des places pour assister à la Grande Finale du Fundtruck 2026 !",
+   "reason": "ignored sender"
+  },
+  {
+   "sender": "AI Dev",
+   "sender_email": "aidev@deeplearning.ai",
+   "subject": "AI Dev NYC is less than two weeks away: tickets are selling fast",
+   "reason": "ignored sender"
+  },
+  {
+   "sender": "Fortune",
+   "sender_email": "mail@em.fortune.com",
+   "subject": "Follow the authors and topics you care about",
+   "reason": "ignored sender"
+  },
+  {
+   "sender": "The Hustle",
+   "sender_email": "news@thehustle.co",
+   "subject": "👨🏻‍⚖️  Going once, going gummy",
+   "reason": "ignored sender"
+  }
+ ],
+ "summary": {
+  "week": null,
+  "mode": null,
+  "words": null,
+  "compact_level": null,
+  "html_bytes": null,
+  "checks": null,
+  "extraction_failed": null,
+  "repairs": null
+ },
+ "usage": {
+  "stages": {
+   "plan": {
+    "start": "16:27:49Z"
+   },
+   "collect": {
+    "end": "16:29:00Z"
+   },
+   "extract": {
+    "start": "16:29:12Z",
+    "end": "16:36:00Z"
+   }
+  },
+  "subagents": 11,
+  "get_message_calls_by_main": 0,
+  "list_threads_calls": 1,
+  "note": "all extractors lacked get_message; hold"
+ },
+ "note": "Held: extractor sub-agents had no get_message tool, 0 of 10 started extractions succeeded; nothing sent."
+}
