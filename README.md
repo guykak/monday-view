@@ -173,8 +173,8 @@ Done when:
 - [ ] Two separate extraction runs both pass `docs/w47_gate.md`. An independent agent ticks it first, then Guy reads the output.
 - [ ] Every T row in §5 has a passing test.
 - [ ] A dry run (spec §1) writes `email.html`, `email.txt` and `send_plan.json`, and sends nothing.
-- [ ] **Repo test:** a `fire_trigger` run in test mode, with the Mac off, attaches the repo, pushes a commit under `history/test/` and `logs/`, and sends a `[TEST]` email labelled `mv-test-…`. If the push fails, switch to the artifact fallback (spec §6) and pass the same test.
-- [ ] The test email is not in spam. It displays correctly in Gmail web and iPhone Mail. HTML is under 40 KB.
+- [x] **Repo test** (passed 27 Nov, commit `ebde4c9`; the repository is attached in the task settings, as a run cannot attach it itself): a `fire_trigger` run in test mode, with the Mac off, attaches the repo, pushes a commit under `history/test/` and `logs/`, and sends a `[TEST]` email labelled `mv-test-…`. If the push fails, switch to the artifact fallback (spec §6) and pass the same test.
+- [x] The test email is not in spam. It displays correctly in Gmail web and iPhone Mail. HTML is under 40 KB.
 - [ ] Guy's checklist (§7) items 1–6 are done. The agent verifies the task's settings with `list_triggers`.
 
 **Phase 0b (during the shadow runs):** reprint flags, late-item corrections, the monthly price check, and the full 1440 px page as a private artifact. This adds the artifacts connector, and the email gets "View the full page".
