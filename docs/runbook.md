@@ -10,7 +10,7 @@ All commands run from the repo root with `PYTHONPATH=src`.
 
 ## 0. Start
 
-1. Attach the repo with push access: call the tool `mcp__claude-code-remote__add_repo` with `owner: guykak`, `repo: monday-view`, `access: push` (if it is not loaded, load it by that full name; a search for "add_repo" alone may not find it). Clone as its result says, then `git pull --rebase` on `main`. A plain `git clone` without this call can read the repo but cannot push.
+1. The repo `guykak/monday-view` is attached to the task and already cloned; work in it. If it is missing, call `mcp__claude-code-remote__add_repo` (`owner: guykak`, `repo: monday-view`, `access: push`) and clone as its result says. Then `git pull --rebase` on `main` and check push access with `git push --dry-run origin main`. If the push is refused, hold.
 2. Note the start time. Check the clock again after each stage: past 45 minutes, hold.
 3. Write the plan. Pass through any override text the task was fired with (for example `mode=test week=W47`):
 
