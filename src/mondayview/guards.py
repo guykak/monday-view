@@ -37,8 +37,9 @@ def labels_for(mode, week_label, utc_stamp=None):
 
 def already_sent(thread_labels_lists, week_label):
     """True only if a thread carries both `sent` and the real label mv-WNN."""
-    real = f"mv-{week_label}"
-    return any("sent" in ls and real in ls for ls in thread_labels_lists)
+    real = f"mv-{week_label}".lower()   # AgentMail stores labels in lower case
+    return any("sent" in low and real in low
+               for low in ([str(l).lower() for l in ls] for ls in thread_labels_lists))
 
 
 def make_send_plan(mode, week_label, html, text, utc_stamp=None, settings=None):

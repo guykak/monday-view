@@ -10,7 +10,7 @@ All commands run from the repo root with `PYTHONPATH=src`.
 
 ## 0. Start
 
-1. The repo is attached and cloned (`add_repo guykak/monday-view`, push access). `git pull --rebase` on `main`.
+1. Attach the repo with push access: call the tool `mcp__claude-code-remote__add_repo` with `owner: guykak`, `repo: monday-view`, `access: push` (if it is not loaded, load it by that full name; a search for "add_repo" alone may not find it). Clone as its result says, then `git pull --rebase` on `main`. A plain `git clone` without this call can read the repo but cannot push.
 2. Note the start time. Check the clock again after each stage: past 45 minutes, hold.
 3. Write the plan. Pass through any override text the task was fired with (for example `mode=test week=W47`):
 
@@ -21,6 +21,8 @@ All commands run from the repo root with `PYTHONPATH=src`.
    It prints `run/plan.json`: `mode`, `week`, `history_dir`, `window_utc`, and whether this run sends, labels issues and advances the cut-off. Use those values below; do not work out dates yourself.
 
 ## 1. Already sent? (scheduled mode only)
+
+AgentMail stores labels in lower case, so write label filters in lower case (`mv-w47`, not `mv-W47`).
 
 `list_threads` on `chief.geek@agentmail.to` with `labels: ["sent", "mv-<week>"]`. If any thread comes back, stop: write the log (step 8) with the note "already sent" and send nothing.
 

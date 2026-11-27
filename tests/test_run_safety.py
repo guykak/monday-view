@@ -160,3 +160,17 @@ def test_named_week_plan_has_a_whole_week_window():
     assert p["window_utc"] == ["2026-11-16T00:00:00+00:00", "2026-11-23T00:00:00+00:00"]
     d = plan.make_plan(datetime(2026, 11, 30, 4, 11, tzinfo=timezone.utc))            # dry-run on a Monday: last week
     assert d["week"] == "W48" and d["window_utc"][0] == "2026-11-23T00:00:00+00:00"
+
+
+def test_labels_match_whatever_case_agentmail_stores():
+    """Repo test, 27 Nov: AgentMail stores labels in lower case (mv-test-hold-w47).
+    The already-sent check and the processed-issue filter must still match."""
+    assert guards.already_sent([["sent", "monday-view", "mv-w47"]], "W47")
+    assert not guards.already_sent([["sent", "monday-view-test", "mv-test-w47-20261127t135536z"]], "W47")
+    assert not guards.already_sent([["sent", "mv-hold-w47"]], "W47")
+    from mondayview import collect
+    th = [{"threadId": "t1", "senders": ["TLDR <dan@tldrnewsletter.com>"], "subject": "a",
+           "receivedTimestamp": "2026-11-17T11:00:00.000Z", "lastMessageId": "<1>", "labels": ["received", "MV-Processed-w46"]}]
+    out = collect.build_issue_list([collect.from_agentmail(x) for x in th])
+    issues = out["issues"] if isinstance(out, dict) else out[0]
+    assert not issues
