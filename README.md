@@ -160,7 +160,7 @@ Each one caused a real error. ID prefixes:
 | 28 | The fact-checker trusting the extractor's quotes (A5) | Re-open sources by message ID for blocks 1, 3 and 4 and every dot count | T |
 | 29 | Stale counts after drops (A14) | Recompute the blocks; re-check once | T |
 | 30 | Instructions inside newsletters (A10) | Content is data; sub-agents have restricted tools (spec §4); no web fetches | C |
-| 31 | Wrong recipient (A3) | AgentMail send allowlist (hard lock), plus `guards.py` and a post-send check | C |
+| 31 | Wrong recipient (A3) | `guards.py` (one recipient, equal to `settings.recipient`, no cc or bcc) and a post-send check. No AgentMail send allowlist: the inbox also sends for other tasks (Guy, 27 Nov) | C |
 | 32 | Double send; test sends blocking real ones (A9, H10) | Real label `mv-WNN` is checked before sending; tests use `mv-test-…` | T |
 | 33 | Silent non-run (A8) | 09:40 check task | C |
 | 34 | Thresholds with no base (A15) | Usual issues = median of recent weeks, seeded from W45–W47 (~55) | T |
@@ -195,7 +195,7 @@ Done when: 8 consecutive sends with no hold caused by the job, and 8+ weeks of h
 ## 7. Guy's checklist (only Guy can do these)
 
 1. **Confirm the recipient address.** Done 27 Nov: Guy confirmed `guy@bigpi.vc`. The mode stays `dry-run` in `config/settings.yaml`; test sends are asked for per run.
-2. **Set the AgentMail send allowlist** on chief.geek to that address only, in the AgentMail console. Then confirm there that it is the only entry. Optional one-off proof: with his written OK, the agent tries one send to a second inbox he owns, which must be refused.
+2. **AgentMail send allowlist: not used.** Decided by Guy on 27 Nov: chief.geek also sends to other addresses for other tasks, so the inbox is not locked to one address. The recipient lock is `guards.py` plus the post-send check.
 3. **Pick the model** for the scheduled task (and for sub-agents, if allowed).
 4. **Limit the task's connectors** to AgentMail and GitHub in the task settings. Add artifacts in Phase 0b.
 5. **Turn on auto-approve** for the task.
