@@ -60,7 +60,7 @@ def build_issue_list(threads, window=None, processed_label_prefix="mv-processed-
         if window and not (window[0] <= ts < window[1]):
             skipped.append({**meta, "reason": "outside window"})
             continue
-        if any(l.startswith(processed_label_prefix) for l in t.get("labels", [])):
+        if any(str(l).lower().startswith(processed_label_prefix.lower()) for l in t.get("labels", [])):  # AgentMail stores labels in lower case
             skipped.append({**meta, "reason": "already processed"})
             continue
         if mid in seen:
