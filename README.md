@@ -194,7 +194,7 @@ Done when: 8 consecutive sends with no hold caused by the job, and 8+ weeks of h
 
 ## 7. Guy's checklist (only Guy can do these)
 
-1. **Confirm the recipient address.** The inbox shows test mail from `guy@bigpi.vc`; confirm that this is the one. Until confirmed, runs stay in dry-run mode.
+1. **Confirm the recipient address.** Done 27 Nov: Guy confirmed `guy@bigpi.vc`. The mode stays `dry-run` in `config/settings.yaml`; test sends are asked for per run.
 2. **Set the AgentMail send allowlist** on chief.geek to that address only, in the AgentMail console. Then confirm there that it is the only entry. Optional one-off proof: with his written OK, the agent tries one send to a second inbox he owns, which must be refused.
 3. **Pick the model** for the scheduled task (and for sub-agents, if allowed).
 4. **Limit the task's connectors** to AgentMail and GitHub in the task settings. Add artifacts in Phase 0b.

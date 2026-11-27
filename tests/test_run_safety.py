@@ -15,9 +15,12 @@ def settings(**kw):
 HTML = "<html><body><table><tr><td>x</td></tr></table></body></html>"
 
 
-def test_default_mode_is_dry_run_and_recipient_unconfirmed():
+def test_default_mode_is_dry_run_with_one_test_recipient():
+    # Guy confirmed the address on 27 Nov 2026; the default mode stays dry-run.
     s = config.settings()
-    assert s["mode"] == "dry-run" and s["recipient"] == "" and s["subject_prefix"].startswith("[TEST]")
+    assert s["mode"] == "dry-run" and s["subject_prefix"].startswith("[TEST]")
+    r = s["recipient"]
+    assert isinstance(r, str) and r.count("@") == 1 and not any(c in r for c in ",; ")
 
 
 def test_dry_run_plan_sends_nothing_and_writes_under_dryrun():
