@@ -11,8 +11,9 @@ All commands run from the repo root with `PYTHONPATH=src`.
 ## 0. Start
 
 1. The repo `guykak/monday-view` is attached to the task and already cloned; work in it. If it is missing, call `mcp__claude-code-remote__add_repo` (`owner: guykak`, `repo: monday-view`, `access: push`) and clone as its result says. Then `git pull --rebase` on `main` and check push access with `git push --dry-run origin main`. If the push is refused, hold.
-2. Note the start time. Check the clock again after each stage: past 45 minutes, hold.
-3. Write the plan. Pass through any override text the task was fired with (for example `mode=test week=W47`):
+2. Install what the Python steps need (a fresh container may lack them): `python3 -m pip install -q -r requirements.txt`.
+3. Note the start time. Check the clock again after each stage: past 45 minutes, hold.
+4. Write the plan. Pass through any override text the task was fired with (for example `mode=test week=W47`):
 
    ```bash
    PYTHONPATH=src python3 -m mondayview.plan <override text, if any>
