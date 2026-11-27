@@ -77,7 +77,7 @@ Both are Claude Code agent definitions, run with the Agent tool.
   - Tools: `get_message`, `Bash` (the same one command), `Read`, `Write` (its report only).
   - Never sees the extractors' reasoning, only their output files.
 - **Honest limits.** Whether the `tools:` allowlist is enforced for MCP tools in a scheduled cloud run is unverified; Phase 0a checks it, by an extractor trying a disallowed tool on a test message. If it is not enforced, the restriction rests on instructions alone.
-  - The hard backstops are the AgentMail send allowlist and the task's limited connectors.
+  - The hard backstop is the task's limited connectors. There is no AgentMail send allowlist (Guy, 27 Nov: the inbox also sends for other tasks), so the recipient lock is `guards.py` plus the post-send check.
   - Remaining worst case: an odd email to Guy alone.
 
 ## 5. Guardrails and budgets
