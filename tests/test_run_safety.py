@@ -108,3 +108,52 @@ def test_body_helper_refuses_to_write_outside_run_or_scratch(tmp_path):
     text = out.read_text()
     assert "Acme raised €5m today." in text and "http" not in text and "<p>" not in text
     assert max(len(l) for l in text.split("\n")) <= body.MAX_LINE
+
+
+def test_collect_reads_a_saved_agentmail_listing_and_keeps_no_body_text(tmp_path):
+    """Spec §3 step 3: Python filters senders from the saved list_threads result; previews are dropped."""
+    import json
+    from mondayview import collect
+    page = {"count": 3, "threads": [
+        {"threadId": "t1", "labels": ["received"], "timestamp": "2026-11-22T03:55:56.000Z", "receivedTimestamp": "2026-11-22T03:55:56.000Z",
+         "senders": ["Dragos Novac <sundaycet@substack.com>"], "subject": "AI, fusion, London", "preview": "SECRET BODY TEXT", "lastMessageId": "<a@x>", "messageCount": 1},
+        {"threadId": "t2", "labels": ["received"], "timestamp": "2026-11-22T11:44:26.000Z", "senders": ["The Hustle <news@thehustle.co>"],
+         "subject": "Going once", "preview": "more body", "lastMessageId": "<b@x>"},
+        {"threadId": "t3", "labels": ["received", "mv-processed-W46"], "timestamp": "2026-11-20T11:00:00.000Z",
+         "senders": ["AI & Deeptech by Sifted <sifted@sifted.eu>"], "subject": "x", "preview": "p", "lastMessageId": "<c@x>"}]}
+    wrapped = {"result": json.dumps(page)}                       # the harness may wrap the tool result as text
+    threads = [collect.from_agentmail(t) for t in collect.find_threads(wrapped)]
+    assert [t["sender_email"] for t in threads] == ["sundaycet@substack.com", "news@thehustle.co", "sifted@sifted.eu"]
+    assert "SECRET" not in json.dumps(threads) and all("preview" not in t for t in threads)
+    issues, skipped = collect.build_issue_list(threads)
+    assert [(i["family"], i["thread_id"]) for i in issues] == [("Sunday CET", "t1")]
+    assert issues[0]["file"].startswith("2026-11-22_sunday-cet_") and issues[0]["file"].endswith(".json")
+    assert sorted(s["reason"] for s in skipped) == ["already processed", "ignored sender"]
+
+
+def test_hold_notice_goes_nowhere_in_dry_run_and_uses_hold_labels():
+    """Spec §1 and §5: hold notices carry mv-hold-WNN; in dry-run, or with no confirmed address, nothing is sent."""
+    from mondayview import close
+    assert close.hold_plan("W48", "inbox unreachable", mode="dry-run", settings=settings(recipient="r@example.org"))["send"] is False
+    assert close.hold_plan("W48", "inbox unreachable", mode="scheduled", settings=settings(recipient=""))["send"] is False
+    p = close.hold_plan("W48", "fact-check failed block 1", mode="scheduled", settings=settings(recipient="r@example.org"))
+    assert p["send"] and p["labels"] == ["monday-view-hold", "mv-hold-W48"] and p["subject"].startswith("[TEST] ")
+    assert p["cc"] == [] and p["bcc"] == [] and "fact-check failed block 1" in p["text"]
+    assert not guards.already_sent([["sent"] + p["labels"]], "W48")         # a hold notice is not "sent"
+    t = close.hold_plan("W47", "x", mode="test", settings=settings(recipient="r@example.org"))
+    assert "mv-hold-W47" not in t["labels"]
+
+
+def test_editor_brief_holds_quotes_only(w47):
+    from mondayview import editor_brief, merge
+    brief = editor_brief.make(merge.jsonable(w47["blocks"]), merge.jsonable(w47["events"]))
+    assert brief["block1"]["company"] == "Anthropic" and 3 <= len(brief["block1"]["candidate_facts"]) <= editor_brief.MAX_FACTS
+    assert all(len(f["quote"]) <= 300 for f in brief["block1"]["candidate_facts"])
+    assert any(c["company"] == "OpenAI" for c in brief["block5_candidates"])
+
+
+def test_named_week_plan_has_a_whole_week_window():
+    p = plan.make_plan(datetime(2026, 12, 9, 10, 0, tzinfo=timezone.utc), "mode=test week=W47")
+    assert p["window_utc"] == ["2026-11-16T00:00:00+00:00", "2026-11-23T00:00:00+00:00"]
+    d = plan.make_plan(datetime(2026, 11, 30, 4, 11, tzinfo=timezone.utc))            # dry-run on a Monday: last week
+    assert d["week"] == "W48" and d["window_utc"][0] == "2026-11-23T00:00:00+00:00"

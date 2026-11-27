@@ -1,6 +1,9 @@
 """Sender filter, family mapping and issue counts (pitfalls 22, 27, 34). Metadata only: no bodies."""
 import hashlib
+import json
 import re
+import sys
+from pathlib import Path
 from statistics import median
 
 from . import config
@@ -68,10 +71,41 @@ def build_issue_list(threads, window=None, processed_label_prefix="mv-processed-
             skipped.append({**meta, "reason": letter})
             continue
         seen.add(mid)
-        issues.append({"message_id": mid, "family": fam, "letter": letter, "sent_at": t["date"],
-                       "issue_date": t["date"][:10], "subject": t.get("subject")})
+        issues.append({"message_id": mid, "thread_id": t.get("threadId"), "family": fam, "letter": letter, "sent_at": t["date"],
+                       "issue_date": t["date"][:10], "subject": t.get("subject"),
+                       "file": out_name(t["date"][:10], fam, mid), "received": t["date"], "set": "counting"})
     issues.sort(key=lambda i: (i["sent_at"], i["message_id"]))
     return issues, skipped
+
+
+def find_threads(obj):
+    """Thread lists inside a saved list_threads result, however the harness wrapped it."""
+    out = []
+    if isinstance(obj, dict):
+        if isinstance(obj.get("threads"), list):
+            out += [t for t in obj["threads"] if isinstance(t, dict) and "threadId" in t]
+        for v in obj.values():
+            out += find_threads(v) if not (isinstance(v, list) and v is obj.get("threads")) else []
+    elif isinstance(obj, list):
+        for v in obj:
+            out += find_threads(v)
+    elif isinstance(obj, str) and obj.lstrip().startswith("{"):
+        try:
+            out += find_threads(json.loads(obj))
+        except ValueError:
+            pass
+    return out
+
+
+def from_agentmail(thread):
+    """An AgentMail thread summary -> the metadata this module uses. The preview is dropped:
+    no body text is kept, in memory or on disk."""
+    sender = (thread.get("senders") or [""])[0]
+    m = re.match(r"\s*(.*?)\s*<([^>]+)>\s*$", sender)
+    name, addr = (m.group(1).strip('"'), m.group(2)) if m else ("", sender)
+    return {"threadId": thread.get("threadId"), "sender": name, "sender_email": addr, "subject": thread.get("subject"),
+            "date": thread.get("receivedTimestamp") or thread.get("timestamp"), "lastMessageId": thread.get("lastMessageId"),
+            "labels": thread.get("labels") or [], "messageCount": thread.get("messageCount", 1)}
 
 
 def footer_counts(issues, fams=None):
@@ -109,3 +143,29 @@ def volume_check(n_issues, recent_counts=None):
     if n_issues > b["max_issues"]:
         return "hold", f"{n_issues} issues is over the limit of {b['max_issues']}"
     return "ok", f"{n_issues} issues (usual {usual:g})"
+
+
+def main(argv):
+    """python -m mondayview.collect <saved list_threads result>...
+    Reads run/plan.json for the window; writes run/issues.json and run/skipped.json; prints the volume check."""
+    plan = json.loads((config.ROOT / "run" / "plan.json").read_text())
+    threads, seen = [], set()
+    for p in argv[1:]:
+        for t in find_threads(json.loads(Path(p).read_text(encoding="utf-8"))):
+            if t["threadId"] not in seen:
+                seen.add(t["threadId"])
+                threads.append(from_agentmail(t))
+    window = [parse_ts(x) for x in plan["window_utc"]] if plan.get("window_utc") else None
+    issues, skipped = build_issue_list(threads, window)
+    (config.ROOT / "run" / "issues.json").write_text(json.dumps(issues, indent=1, ensure_ascii=False), encoding="utf-8")
+    (config.ROOT / "run" / "skipped.json").write_text(json.dumps(skipped, indent=1, ensure_ascii=False), encoding="utf-8")
+    recent = plan.get("recent_issue_counts")
+    action, why = volume_check(len(issues), recent)
+    foot = footer_counts(issues)
+    print(json.dumps({"threads_seen": len(threads), "issues": len(issues), "skipped": len(skipped), "action": action, "why": why,
+                      "per_family": foot["per_family"], "silent_deal_carrying": foot["silent_deal_carrying"]}, indent=1))
+    return 0 if action == "ok" else 3
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv))
