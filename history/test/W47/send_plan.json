@@ -1,0 +1,16 @@
+{
+ "mode": "test",
+ "week": "W47",
+ "recipient": "guy@bigpi.vc",
+ "subject": "[TEST] Monday view W47",
+ "send": true,
+ "labels": [
+  "monday-view-test",
+  "mv-test-W47-20261127T155212Z"
+ ],
+ "html_bytes": 31539,
+ "html_sha256": "49b9183b7c0eca577eb18ac55a985475936483662e8819d32dc66140f40d9a0d",
+ "text_bytes": 4894,
+ "cc": [],
+ "bcc": []
+}

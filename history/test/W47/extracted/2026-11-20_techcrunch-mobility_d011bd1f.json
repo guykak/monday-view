@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "message_id": "<GmgINEJURb2D9KwxzKC5Ig@geopod-ismtpd-23>",
+  "family": "TechCrunch Mobility",
+  "letter": "TechCrunch Mobility",
+  "issue_date": "2026-11-20",
+  "sent_at": "2026-11-20T22:15:27.000Z",
+  "subject": "A/B testing robots vs. humans",
+  "notes": null,
+  "stories": [
+    {
+      "headline": "Elysian Aircraft raises €12 million in private and public funding",
+      "quote": "**Elysian Aircraft**, the Dutch aerospace company developing aviation electrification technologies, [raised €12 million] in private and public funding from FideFlux, SecFund, and ROM InWest, as well as from individual investors and family offices.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Elysian Aircraft", "aliases": [],
+      "description": "Aerospace company developing aviation electrification technologies",
+      "hq": [{"city": null, "country": "NL"}],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": null, "currency": "EUR", "amount_qualifier": "exact",
+      "mixed_total": {"amount": 12000000, "currency": "EUR", "qualifier": "exact", "includes": ["equity", "other"]},
+      "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "founder_leads": [], "status_note": null,
+      "tech_area": "defence_aerospace", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Mahindra Last Mile Mobility is looking at an IPO in about 18 months, per Bloomberg",
+      "quote": "**Mahindra Last Mile Mobility**, an electric three-wheeler business under Mahindra & Mahindra, is looking at an IPO in about 18 months,[ per Bloomberg] .",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "ipo", "subtype": null, "status": "planned", "mention_type": "deal_list",
+      "company": "Mahindra Last Mile Mobility", "aliases": [],
+      "description": "Electric three-wheeler business under Mahindra & Mahindra",
+      "hq": [],
+      "status_note": "looking at",
+      "facts": [
+        {"date": null, "text": "IPO being looked at for about 18 months from now, per Bloomberg", "quote": "is looking at an IPO in about 18 months,[ per Bloomberg]"}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Numa raises $45 million Series C led by Blue Cloud Ventures",
+      "quote": "**Numa**, a startup developing an AI operating system for dealerships, raised a [$45 million Series C round] led by New York-based Blue Cloud Ventures.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Numa", "aliases": [],
+      "description": "Startup developing an AI operating system for dealerships",
+      "hq": [],
+      "stage": "series_c", "stage_as_written": "Series C", "is_combined_round": false,
+      "equity_amount": 45000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["Blue Cloud Ventures"], "founder_leads": [], "status_note": null,
+      "tech_area": "ai_applications", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Stark Future raises at least €150 million in equity led by Highland Europe, Reuters reported",
+      "quote": "**Stark Future**, a European electric motorcycle company, raised [at least €150 million] in equity, Reuters reported. The raise was led by Highland Europe, alongside Morgan Stanley Investment Management's 1GT and Axon Partners Group.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Stark Future", "aliases": [],
+      "description": "European electric motorcycle company",
+      "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 150000000, "currency": "EUR", "amount_qualifier": "at_least",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["Highland Europe"], "founder_leads": [], "status_note": null,
+      "tech_area": "energy_climate_hardware", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Vincue raises $93 million in round led by Wavecrest Growth Partners",
+      "quote": "**Vincue**, an automotive tech company that sells software to dealerships, [raised $93 million] in a round led by Wavecrest Growth Partners, with continued backing from FM Capital.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Vincue", "aliases": [],
+      "description": "Automotive tech company that sells software to dealerships",
+      "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 93000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["Wavecrest Growth Partners"], "founder_leads": [], "status_note": null,
+      "tech_area": "other_software_consumer", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "General Motors working with executive search firm on possible successors to CEO Mary Barra",
+      "quote": "You might have seen the Wall Street Journal [scoop] that **General Motors** is working with an executive search firm to identify possible candidates to replace CEO **Mary Barra**.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "leadership", "status": "reported", "mention_type": "story",
+      "company": "General Motors", "aliases": ["GM"], "hq": [],
+      "facts": [
+        {"date": null, "text": "GM has hired Heidrick & Struggles, per one source; board running a two-track search", "quote": "GM has hired executive search firm Heidrick & Struggles, according to one source, who noted it’s possible that the board has other executive search firms working on this as well."},
+        {"date": null, "text": "Names floated include José Muñoz, Doug Field and Larry Culp", "quote": "One name that has come up from the executive search firm is José Muñoz, who is president and CEO of Hyundai."},
+        {"date": null, "text": "Internal candidates include Sterling Anderson and Paul Jacobson", "quote": "There are internal GM folks who are also in the mix, including Sterling Anderson, co-founder of self-driving trucks company Aurora who became [chief product officer] at GM in May 2025, and Paul Jacobson"},
+        {"date": null, "text": "GM declined to comment", "quote": "And, for the record, GM declined to comment."}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Waymo pulls its robotaxis off freeways again",
+      "quote": "Waymo pulling its [robotaxis off freeways] (again) and Zoox robotaxis [launching on the Uber app ] illustrate the push and pull between progress and setbacks in the autonomous vehicle industry.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "product", "status": "reported", "mention_type": "story",
+      "company": "Waymo", "aliases": [], "hq": [],
+      "facts": [
+        {"date": null, "text": "Texas robotaxi registrations: Tesla 1,507, Waymo 1,345", "quote": "Tesla has now surpassed Waymo in Texas in the number of robotaxis registered with the state (Tesla has 1,507 and Waymo has 1,345)."}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Uber adds Zoox robotaxis to its ride-hailing app in Las Vegas",
+      "quote": "Uber, as mentioned above, just added Zoox to its ride-hailing app in Las Vegas.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "product", "status": "reported", "mention_type": "story",
+      "company": "Zoox", "aliases": [], "hq": [],
+      "facts": [
+        {"date": null, "text": "Uber plans a dedicated autonomous option in its app", "quote": "The company plans to introduce a dedicated autonomous option in its app as “availability and reliability improve,” Uber CEO Dara Khosrowshahi said during the company’s third-quarter earnings call in November."},
+        {"date": null, "text": "Las Vegas to be first US city with two driverless partners on Uber", "quote": "Las Vegas will also become the first U.S. city where riders can access two fully driverless partners through the Uber app, he said."}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Tesla to spend about $3.3 billion expanding Berlin gigafactory to produce Cybercabs",
+      "quote": "**Tesla **said it will [spend about $3.3 billion] to expand its Berlin gigafactory to produce Cybercabs — yet another signal of the company’s global autonomy ambitions.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "market_move", "status": "reported", "mention_type": "story",
+      "company": "Tesla", "aliases": [], "hq": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Tesla invites select customers to preorder Cybercab for personal use at $29,990",
+      "quote": "Over the weekend, Tesla invited “select customers” to [preorder the company’s autonomous, golden Cybercab] “for personal use.” The Cybercab is priced at $29,990, but there is a lot more to ownership.",
+      "story_date": null, "date_basis": "stated", "timing": "new",
+      "event_type": "other", "subtype": "product", "status": "reported", "mention_type": "story",
+      "company": "Tesla", "aliases": [], "hq": [],
+      "facts": [
+        {"date": null, "text": "Owners charged $299 a month; delivery and operations geographically limited", "quote": "The company will charge owners $299 a month to use the vehicles, delivery will only occur in a handful of cities, and operations will be limited to specific locations."}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Uber notifying close to 150,000 drivers of personal data stolen in October breach",
+      "quote": "Meanwhile, Uber said it’s notifying [close to 150,000 drivers] that their personal information was stolen in an October data breach.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "other", "status": "reported", "mention_type": "story",
+      "company": "Uber", "aliases": [], "hq": [],
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Also pauses deliveries of its new e-bike over software and battery problems",
+      "quote": "**Also**, the electric micromobility startup that spun out of Rivian last year, has paused deliveries of its new e-bike over problems with its software and batteries, [The Verge reported] .",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "product", "status": "reported", "mention_type": "story",
+      "company": "Also", "aliases": [],
+      "description": "Electric micromobility startup that spun out of Rivian",
+      "hq": [],
+      "facts": [],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Zipline and Uber officially launch drone delivery for Uber Eats in a Houston suburb",
+      "quote": "The companies had previously announced a partnership for drones to deliver for Uber Eats, but it [officially launched this week ] in a Houston suburb.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "product", "status": "reported", "mention_type": "story",
+      "company": "Zipline", "aliases": [],
+      "description": "Autonomous drone delivery business",
+      "hq": [],
+      "facts": [
+        {"date": null, "text": "Target of 1 million drone deliveries a day by end of 2029", "quote": "Uber and Zipline say they aim to make 1 million deliveries a day using the startup’s drones by the end of 2029."}
+      ],
+      "confidence": "high"
+    }
+  ]
+}

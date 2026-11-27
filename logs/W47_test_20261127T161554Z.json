@@ -1,0 +1,125 @@
+{
+ "stamp_utc": "20261127T161554Z",
+ "plan": {
+  "mode": "test",
+  "iso_year": 2026,
+  "week": "W47",
+  "monday": "2026-11-16",
+  "sunday": "2026-11-22",
+  "run_started_utc": "2026-11-27T15:52:12+00:00",
+  "history_dir": "history/test/W47",
+  "sends": true,
+  "labels_issues": false,
+  "advances_cutoff": false,
+  "window_utc": [
+   "2026-11-16T00:00:00+00:00",
+   "2026-11-23T00:00:00+00:00"
+  ]
+ },
+ "issues": 54,
+ "skipped": [
+  {
+   "sender": "AI Dev",
+   "sender_email": "aidev@deeplearning.ai",
+   "subject": "Just Announced: Technical Sessions at AI Dev NYC on coding agents, memory, and voice",
+   "reason": "ignored sender"
+  },
+  {
+   "sender": "Maddyness",
+   "sender_email": "contact@maddyness.com",
+   "subject": "Maddyness offre exceptionnellement des places pour assister à la Grande Finale du Fundtruck 2026 !",
+   "reason": "ignored sender"
+  },
+  {
+   "sender": "AI Dev",
+   "sender_email": "aidev@deeplearning.ai",
+   "subject": "AI Dev NYC is less than two weeks away: tickets are selling fast",
+   "reason": "ignored sender"
+  },
+  {
+   "sender": "Fortune",
+   "sender_email": "mail@em.fortune.com",
+   "subject": "Follow the authors and topics you care about",
+   "reason": "ignored sender"
+  },
+  {
+   "sender": "The Hustle",
+   "sender_email": "news@thehustle.co",
+   "subject": "👨🏻‍⚖️  Going once, going gummy",
+   "reason": "ignored sender"
+  }
+ ],
+ "summary": {
+  "week": "2026-W47",
+  "mode": "test",
+  "words": 810,
+  "compact_level": 3,
+  "html_bytes": 31539,
+  "checks": {
+   "words_in_range": true,
+   "html_under_limit": true,
+   "editorial_problems": [],
+   "dollar_totals": [],
+   "trend_claims": []
+  },
+  "extraction_failed": [],
+  "repairs": {
+   "2026-11-20_maddyness_255b1fcd.json": [
+    "0:fact_quote_cut"
+   ]
+  }
+ },
+ "usage": {
+  "stages": {
+   "start_plan": {
+    "start_utc": "2026-11-27T15:52:11Z",
+    "end_utc": "2026-11-27T15:52:12Z"
+   },
+   "collect": {
+    "start_utc": "2026-11-27T15:52:12Z",
+    "end_utc": "2026-11-27T15:53:40Z"
+   },
+   "extract": {
+    "start_utc": "2026-11-27T15:53:40Z",
+    "end_utc": "2026-11-27T16:00:24Z"
+   },
+   "build_editorial": {
+    "start_utc": "2026-11-27T16:00:24Z",
+    "end_utc": "2026-11-27T16:01:27Z"
+   },
+   "factcheck": {
+    "start_utc": "2026-11-27T16:01:27Z",
+    "end_utc": "2026-11-27T16:13:09Z"
+   },
+   "send": {
+    "start_utc": "2026-11-27T16:13:09Z",
+    "end_utc": "2026-11-27T16:15:16Z"
+   }
+  },
+  "sub_agents": {
+   "extractor": 54,
+   "extractor_retries": 0,
+   "factcheck": 2,
+   "total": 56
+  },
+  "get_message_calls": {
+   "extractors": 54,
+   "factcheck": 78,
+   "main_session_send_verify": 1
+  },
+  "list_threads_pages": 1,
+  "threads_seen": 59,
+  "tokens": {
+   "factcheck_subagents": [
+    296084,
+    289308
+   ],
+   "extractors": "per-agent figures between about 15k and 37k were shown; not summed"
+  },
+  "notes": [
+   "python module jsonschema was missing in the container and was installed with pip before the build",
+   "no previous-week summary exists, so --prior and --cutoff had no value in test mode"
+  ]
+ },
+ "note": "Test run W47: 54 of 54 issues extracted, fact-check 64 of 66 passed, 2 items withheld (EdgeCore, Majority/Rebtel), re-check 64 of 64; test email sent to the configured recipient with recipient, subject, labels and text matching the plan; stored HTML differs from the built file only by AgentMail's own normalisation (style semicolons, nbsp, br tags, role attribute), visible text identical; jsonschema had to be pip-installed in the container before the build."
+}

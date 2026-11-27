@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "message_id": "<010001a1f9167a25-261c7879-f6d1-4af4-8201-cf7f036ce7aa-000000@email.amazonses.com>",
+  "family": "TLDR",
+  "letter": "TLDR IT",
+  "issue_date": "2026-11-20",
+  "sent_at": "2026-11-20T13:12:42.000Z",
+  "subject": "Palo Alto’s $4.5B AI deal 💰, OVHcloud unveils 55 products ☁️, Google’s AI reviews Linux 🐧",
+  "notes": null,
+  "stories": [
+    {
+      "headline": "Palo Alto Networks agrees to acquire Applied Compute for $4.5 billion in stock",
+      "quote": "Palo Alto Networks agreed to acquire Applied Compute for $4.5 billion in stock, adding tools for training and serving customized open-weight AI models.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "acquisition",
+      "subtype": null,
+      "status": "signed",
+      "mention_type": "story",
+      "company": "Applied Compute",
+      "aliases": [],
+      "description": "Tools for training and serving customized open-weight AI models",
+      "hq": [],
+      "stake": "full",
+      "acquirer": "Palo Alto Networks",
+      "acquirer_type": "company",
+      "price": {"amount": 4500000000, "currency": "USD", "qualifier": "exact"},
+      "consideration": "stock",
+      "confirmed_by_company": false,
+      "is_pe_buy_and_build": false,
+      "status_note": null,
+      "tech_area": "ai_infrastructure",
+      "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [
+        {
+          "date": null,
+          "text": "Deal expected to close in Palo Alto Networks' fiscal third quarter of 2027; will support deployments across public and sovereign clouds.",
+          "quote": "The deal is expected to close in its fiscal third quarter of 2027 and will support deployments across public and sovereign clouds."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Microsoft and Intel expand long-term collaboration on Azure cloud and AI infrastructure",
+      "quote": "Microsoft and Intel have announced an expansion of their collaboration under a long-term agreement to advance Azure cloud and AI infrastructure.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Microsoft",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [
+        {
+          "date": null,
+          "text": "Microsoft will be first to use Intel Foundry's EMIB advanced packaging for its first-party silicon and secures multi-year Intel Xeon supply, including Diamond Rapids.",
+          "quote": "Microsoft will become the first company to use Intel Foundry's EMIB advanced packaging technology for its first-party silicon and secure multi-year Intel Xeon supply capacity, including the upcoming Diamond Rapids server CPUs."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Workday plans Ireland-based company with EU-citizen board to operate its EU Sovereign Cloud",
+      "quote": "Workday plans to establish an Ireland-based company with an EU-citizen board to operate its EU Sovereign Cloud, keeping governance and operational decisions in Europe.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Workday",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [
+        {
+          "date": null,
+          "text": "Service runs on AWS European Sovereign Cloud; new entity and safeguards expected operational in early 2027.",
+          "quote": "The service runs on AWS European Sovereign Cloud, with the new entity and additional safeguards expected to become operational in early 2027."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Nvidia and Microsoft expand Azure VMs powered by Vera Rubin systems and on-premises AI options",
+      "quote": "Nvidia and Microsoft are expanding access to Azure virtual machines powered by Vera Rubin systems and adding more model customization capabilities through Microsoft Foundry.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Nvidia",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [
+        {
+          "date": null,
+          "text": "Planned Azure Local support for additional Nvidia GPUs and Jetson platforms.",
+          "quote": "Planned Azure Local support for additional Nvidia GPUs and Jetson platforms will extend deployment options to on-premises and industrial environments."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "OVHcloud unveils 55 cloud and AI offerings at its Paris summit",
+      "quote": "OVHcloud unveiled 55 cloud and AI offerings spanning infrastructure, networking, development tools, and enterprise applications at its Paris summit.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "OVHcloud",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [
+        {
+          "date": null,
+          "text": "Plans to add Nvidia Blackwell B300 and Rubin R200 GPUs.",
+          "quote": "The announcements include plans to add Nvidia Blackwell B300 and Rubin R200 GPUs as the company expands its European-hosted services."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Microsoft introduces agent controls, a managed Azure service for governing AI agent behavior",
+      "quote": "Microsoft has introduced agent controls, a managed Azure service designed to help enterprises centrally define, manage, and evaluate policies governing AI agent behavior.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Microsoft",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [],
+      "confidence": "high"
+    }
+  ]
+}

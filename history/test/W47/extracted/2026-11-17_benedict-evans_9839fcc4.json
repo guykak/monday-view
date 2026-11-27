@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "message_id": "<b98e2de85f03865f1d38de74f.529cc53ee0.20261117150103.91583e0935.c5bc3592@mail53.suw13.rsgsv.net>",
+  "family": "Benedict Evans",
+  "letter": "Benedict Evans",
+  "issue_date": "2026-11-17",
+  "sent_at": "2026-11-17T15:03:51.000Z",
+  "subject": "Benedict's Newsletter: No. 669",
+  "notes": "Free edition, headed 'SUNDAY 15 NOV 2026' and sent on 17 Nov. The premium column is truncated in the visible text. Sponsor block (Larridin) ignored.",
+  "stories": [
+    {
+      "headline": "Anthropic plans to raise $64bn in its IPO at a $1.4tr valuation, pricing on the 18th",
+      "quote": "Anthropic is planning to raise $64bn at a $1.4tr valuation in its IPO. It will price on the 18th and trade the next day.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "ipo",
+      "subtype": null,
+      "status": "planned",
+      "mention_type": "story",
+      "company": "Anthropic",
+      "aliases": [],
+      "description": "AI company, maker of the Claude models",
+      "hq": [],
+      "status_note": null,
+      "facts": [
+        {
+          "date": null,
+          "text": "Plans to raise $64bn at a $1.4tr valuation in the IPO",
+          "quote": "Anthropic is planning to raise $64bn at a $1.4tr valuation in its IPO."
+        },
+        {
+          "date": "2026-11-18",
+          "text": "IPO is due to price on 18 Nov and trade the next day",
+          "quote": "It will price on the 18th and trade the next day."
+        },
+        {
+          "date": null,
+          "text": "Nvidia plans (or planned) to buy $10bn of stock in a $26bn private placement accompanying the IPO",
+          "quote": "Nvidia plans (planned?) to buy $10bn of stock in a $26bn private placement accompanying the IPO."
+        },
+        {
+          "date": null,
+          "text": "Marketing video says Claude got Anthropic's models running on AMD's chip architecture in three days",
+          "quote": "they used Claude to get their models running on AMD’s chip architecture in just three days, with ‘basically no human intervention’"
+        },
+        {
+          "date": null,
+          "text": "Also referred to in a podcast item on the financials of the Anthropic IPO",
+          "quote": "I joined my friend financial analyst Stephen Clapham to discuss the financials of the Anthropic IPO."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Nvidia's board fired founder and CEO Jensen Huang; CFO is temporary CEO",
+      "quote": "Nvidia’s board fired the founder and CEO, Jensen Huang, after discovering that not only had he been having an affair with the founder of a customer who may or may not be a Chinese intelligence asset",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "leadership",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Nvidia",
+      "aliases": [],
+      "description": "Dominant maker of AI chips",
+      "hq": [],
+      "status_note": null,
+      "facts": [
+        {
+          "date": null,
+          "text": "The CFO is temporary CEO while the board looks for a new leader",
+          "quote": "Meanwhile, there’s a temporary CEO (the CFO, who Huang apparently belittled recently), while the board looks for a new leader."
+        },
+        {
+          "date": "2026-11-15",
+          "text": "FT reports Huang is talking to shareholders about getting his job back",
+          "quote": "And... on Sunday evening, the FT reports that Huang is talking to shareholders about getting his job back."
+        },
+        {
+          "date": null,
+          "text": "20% of Nvidia revenue went through Singapore before it stopped disclosing the number",
+          "quote": "20% of revenue was going through Singapore before it stopped disclosing the number"
+        },
+        {
+          "date": null,
+          "text": "Customer Megaspeed may have been shipping chips directly to China",
+          "quote": "Megaspeed was one of these - but may also simply have been shipping the chips directly to China anyway."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Google announced smart glasses with camera, microphone, speaker and AI assistant, no display",
+      "quote": "Google announced its own smart glasses: following Meta, these have a camera, microphone, speaker, and an AI assistant, but no display",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Google",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "facts": [
+        {
+          "date": null,
+          "text": "Bloomberg's Mark Gurman reports Apple is planning similar glasses that might arrive in 2027",
+          "quote": "Bloomberg’s Mark Gurman reports similar glasses in planning, that might arrive in 2027."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "United joined the companies blocking consumer shopping agents",
+      "quote": "This week United added itself to the list of companies blocking this, explicitly for two reasons: first operational questions of security and liability, which are in principle solvable, but second because, in the CEO’s words, “we don’t want to create another middleman”",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "United",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Reddit will launch its own reviews product after saying it would go logged-in only",
+      "quote": "Reddit, which last week said it would transition to a logged-in only experience to stop LLMs scraping its content, will launch its own reviews product.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Reddit",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "OpenAI launched a payment wallet and a way for businesses to claim their identity in ChatGPT",
+      "quote": "Meanwhile, OpenAI launched a new payment wallet (trying to solve some of those liability questions), its ad business launched a way for businesses to claim their identity inside ChatGPT, Google expanded AI Overview ads",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "OpenAI",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Anthropic launched a way for Claude to join video calls and generate documents live",
+      "quote": "Anthropic launched a way for Claude to join your video calls and dynamically generate documents, whiteboards and spreadsheets based on the ongoing conversation.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Anthropic",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Meta is now offering Muse on Google Cloud",
+      "quote": "Meta is now offering Muse on Google Cloud.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Meta",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Microsoft's Office 365 went down for a day and a half",
+      "quote": "Half the enterprises on earth got a day off as Microsoft’s Office 365 went down for a day and half, prompting an extremely obvious joke.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Microsoft",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "facts": [],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "message_id": "<1795144285941.b166fa7e-d43f-499a-95dc-b567bb4b7f2f@bf54x.hubspotemail.net>",
+  "family": "DeepLearning.AI",
+  "letter": "DeepLearning.AI",
+  "issue_date": "2026-11-20",
+  "sent_at": "2026-11-20T03:11:30.000Z",
+  "subject": "Jensen Huang’s Nvidia legacy, Claude Fable 5.2 and Anthropic’s IPO, World Labs Releases Atlas to Developers",
+  "notes": "Anthropic IPO: the issue says both that the company 'began selling shares to the public' and that it 'expects shares to start trading on November 19'; status set to listed with a status_note. The World Labs item is headed 'AMD's World Model Arrives'; the AMD deal is cited as background and its 16 Nov closing is a separate follow-up entry.",
+  "stories": [
+    {
+      "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim CEO, Harvey Jones chairman",
+      "quote": "On November 11, Nvidia’s board convened an emergency meeting, then announced a CEO transition . Jensen Huang resigned and Colette Kress assumed duties as interim CEO.",
+      "story_date": "2026-11-11",
+      "date_basis": "stated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "leadership",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Nvidia",
+      "aliases": [],
+      "description": "Designs chips for training and running AI",
+      "hq": [],
+      "status_note": null,
+      "facts": [
+        {
+          "date": null,
+          "text": "Resignation followed reports of Huang's relationship with a possible Chinese intelligence asset; board appointed Kress interim CEO and Jones first chairman.",
+          "quote": "leading to Huang’s apologetic resignation and the Nvidia board’s appointments of Chief Financial Officer Colette Kress as interim CEO and Harvey Jones as its first chairman."
+        },
+        {
+          "date": null,
+          "text": "The New York Times made the relationship public in late October 2026.",
+          "quote": "Reporters at The New York Times made Jensen Huang’s relationship with Huang Le public in late October 2026, along with the charge that Ms. Huang gathered information for Chinese intelligence."
+        },
+        {
+          "date": null,
+          "text": "Huang offered to return as CEO; the chair said the board had no plans to reinstate him.",
+          "quote": "But newly appointed chair Harvey Jones said on an earnings call for investors that the board had unanimously accepted Huang’s resignation and did not have plans to reinstate him."
+        },
+        {
+          "date": null,
+          "text": "Nvidia under the interim CEO promised more disciplined capital investments.",
+          "quote": "Nvidia has promised to be more “disciplined” in its capital investments"
+        },
+        {
+          "date": null,
+          "text": "A Megaspeed affiliate in Malaysia spent $4.8 billion on Nvidia chips and other AI infrastructure between June 2024 and February 2026, per The New York Times.",
+          "quote": "Between June 2024 and February 2026, a Megaspeed affiliate in Malaysia spent $4.8 billion on Nvidia chips and other AI infrastructure, The New York Times reported ."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Anthropic begins selling shares to the public at a $1.5 trillion market capitalization",
+      "quote": "Anthropic introduced its updated models a day before it began marketing its initial public offering to investors . It expects shares to start trading on November 19.",
+      "story_date": "2026-11-19",
+      "date_basis": "stated",
+      "timing": "new",
+      "event_type": "ipo",
+      "subtype": null,
+      "status": "listed",
+      "mention_type": "story",
+      "company": "Anthropic",
+      "aliases": [],
+      "description": "Developer of the Claude AI models",
+      "hq": [],
+      "status_note": "expected to trade",
+      "facts": [
+        {
+          "date": null,
+          "text": "Shares sold to the public for the first time at a market capitalization of $1.5 trillion.",
+          "quote": "Meanwhile, the company began selling shares to the public for the first time at a market capitalization of $1.5 trillion."
+        },
+        {
+          "date": "2026-11-19",
+          "text": "Anthropic expects shares to start trading on November 19; IPO marketing began a day after the model update.",
+          "quote": "Anthropic introduced its updated models a day before it began marketing its initial public offering to investors . It expects shares to start trading on November 19."
+        },
+        {
+          "date": null,
+          "text": "IPO roadshow video said Claude Mythos ported prompt processing for one model to AMD MI355X GPUs in about three days.",
+          "quote": "In its initial public offering roadshow video, Anthropic said Claude Mythos, writing or porting almost all of the kernels, ran prompt processing (reading input before generating a response) for one Anthropic model on AMD MI355X GPUs in about three days."
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Anthropic releases Claude Fable 5.2 at 20 percent less per token than Fable 5.1; Claude Mythos 5.2 opened to approved organizations",
+      "quote": "Anthropic introduced Claude Fable 5.2 , which costs 20 percent less per token than Claude Fable 5.1.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "pricing",
+      "subtype": null,
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Anthropic",
+      "aliases": [],
+      "description": "Developer of the Claude AI models",
+      "hq": [],
+      "status_note": null,
+      "facts": [
+        {
+          "date": null,
+          "text": "Claude Fable 5.2 API price: 8/0.20/$40 per million input/cached/output tokens; cache writes 10/16 per million; 50 percent off batch; fast mode 16/80 per million input/output.",
+          "quote": "Price: Via API 8/0.20/$40 per million input/cached/output tokens with cache writes at 10/16 per million tokens for five-minute/one-hour caches and 50 percent off for batched requests; fast mode 16/80 per million input/output tokens"
+        },
+        {
+          "date": null,
+          "text": "Artificial Analysis measured Claude Fable 5.2 at max reasoning at $26.54 per task, versus Gemini 4 Carbon at $5.48 and Claude Opus 5.5 at $10.04 per task.",
+          "quote": "Claude Fable 5.2 set to max reasoning ranks first (65 points, $26.54 and 40.9 minutes per task), ahead of Gemini 4 Carbon (60 points at $5.48 per task) and Claude Opus 5.5 (59 at $10.04 per task)."
+        },
+        {
+          "date": null,
+          "text": "Vals AI measured Claude Fable 5.2 at $17.94 per test on the Vals Index.",
+          "quote": "Claude Fable 5.2 set to max reasoning ranks first (71.31 percent accuracy, $17.94 and 43.7 minutes per test)"
+        },
+        {
+          "date": null,
+          "text": "April: Claude Mythos Preview priced at $25/125 per million input/output tokens, partners only.",
+          "quote": "In April, Anthropic introduced Claude Mythos Preview only for partners in its Project Glasswing cybersecurity program, at $25/125 per million tokens of input/output."
+        },
+        {
+          "date": null,
+          "text": "June: Claude Fable 5 generally available at $10/50 per million input/output tokens.",
+          "quote": "In June, it made Claude Fable 5 , a version of Mythos Preview’s successor with added safeguards, generally available at $10/50 per million tokens of input/output, while keeping Claude Mythos 5 for selected partners."
+        },
+        {
+          "date": null,
+          "text": "September: Claude Fable 5.1 kept the Fable 5 prices.",
+          "quote": "In September, Claude Fable 5.1 kept those prices and limited Claude Mythos 5.1 to U.S. cybersecurity and life sciences organizations that Anthropic selected."
+        },
+        {
+          "date": null,
+          "text": "Claude Ultra plan ($200 per month) yields about $2500 of Opus 5.5 usage at API prices but only $630 of Fable 5.2 usage.",
+          "quote": "a Claude Ultra plan ($200 per month) might yield approximately $2500 worth of Opus 5.5 usage (as priced via the API) but only $630 of Fable 5.2 usage."
+        },
+        {
+          "date": null,
+          "text": "Claude Mythos 5.2 is available only to organizations Anthropic approves.",
+          "quote": "Claude Mythos 5.2, a version with fewer biology and cybersecurity safeguards, is available only to organizations that Anthropic approves."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "World Labs opens its Atlas world model to the public with a pay-as-you-go API price list",
+      "quote": "Generating a view costs $0.04 for the first frame and $0.008 for each subsequent frame at 720p (the highest resolution that the API offers). Turning views into refined splats is priced at $5.",
+      "story_date": "2026-11-12",
+      "date_basis": "stated",
+      "timing": "new",
+      "event_type": "pricing",
+      "subtype": null,
+      "status": "reported",
+      "mention_type": "story",
+      "company": "World Labs",
+      "aliases": [],
+      "description": "World model developer co-founded by Fei-Fei Li",
+      "hq": [],
+      "status_note": null,
+      "facts": [
+        {
+          "date": "2026-11-12",
+          "text": "Atlas released to everyone on November 12 after a September announcement.",
+          "quote": "After announcing Atlas in September, World Labs released its new model to everyone on November 12."
+        },
+        {
+          "date": null,
+          "text": "View generation: $0.04 for the first frame and $0.008 per subsequent frame at 720p; refined splats $5.",
+          "quote": "Generating a view costs $0.04 for the first frame and $0.008 for each subsequent frame at 720p (the highest resolution that the API offers). Turning views into refined splats is priced at $5."
+        },
+        {
+          "date": null,
+          "text": "Users receive $10 of free API credits and a separate $10 for the web apps.",
+          "quote": "Users receive $10 of free API credits and a separate $10 for the web apps to get started."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "AMD agreed in September 2026 to acquire World Labs in an all-stock deal valued at about $8.2 billion",
+      "quote": "In September 2026, AMD agreed to acquire World Labs in an all-stock deal valued at about $8.2 billion.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "background",
+      "event_type": "acquisition",
+      "subtype": null,
+      "status": "completed",
+      "mention_type": "passing",
+      "company": "World Labs",
+      "aliases": [],
+      "description": "World model developer co-founded by Fei-Fei Li",
+      "hq": [],
+      "stake": "full",
+      "acquirer": "AMD",
+      "acquirer_type": "company",
+      "price": {"amount": 8200000000, "currency": "USD", "qualifier": "about"},
+      "consideration": "stock",
+      "confirmed_by_company": true,
+      "is_pe_buy_and_build": false,
+      "status_note": null,
+      "tech_area": "ai_infrastructure",
+      "is_press_release_reprint": false,
+      "facts": [
+        {
+          "date": null,
+          "text": "Deal agreed in September 2026, all-stock, valued at about $8.2 billion.",
+          "quote": "In September 2026, AMD agreed to acquire World Labs in an all-stock deal valued at about $8.2 billion."
+        },
+        {
+          "date": "2026-11-16",
+          "text": "Deal closed on November 16; Fei-Fei Li named AMD chief scientist and executive vice president.",
+          "quote": "The deal closed on November 16, and the company named Li AMD’s chief scientist and executive vice president."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "AMD's acquisition of World Labs closed on 16 November; no word on Atlas or World Labs' products",
+      "quote": "The deal closed on November 16, and the company named Li AMD’s chief scientist and executive vice president. Neither AMD’s initial announcement nor its closing statement mentions Atlas or says what will happen to World Labs’ products.",
+      "story_date": "2026-11-16",
+      "date_basis": "stated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "passing",
+      "company": "World Labs",
+      "aliases": [],
+      "description": "World model developer co-founded by Fei-Fei Li",
+      "hq": [],
+      "status_note": null,
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Nvidia's acquisition of Hugging Face cited as part of its support for open-weight models",
+      "quote": "Nvidia under Huang was among the biggest boosters of open weight AI models, whether through its own Nemotron series, its acquisition of Hugging Face, or support for models outside its own ecosystem.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "background",
+      "event_type": "acquisition",
+      "subtype": null,
+      "status": "completed",
+      "mention_type": "passing",
+      "company": "Hugging Face",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "stake": null,
+      "acquirer": "Nvidia",
+      "acquirer_type": "company",
+      "price": null,
+      "consideration": "unstated",
+      "confirmed_by_company": false,
+      "is_pe_buy_and_build": false,
+      "status_note": null,
+      "tech_area": "ai_infrastructure",
+      "is_press_release_reprint": false,
+      "facts": [],
+      "confidence": "medium"
+    }
+  ]
+}

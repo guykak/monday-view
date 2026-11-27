@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "message_id": "<010001a1e47cb457-10c51075-fa20-4937-95f8-aa94ecafb180-000000@email.amazonses.com>",
+  "family": "TLDR",
+  "letter": "TLDR IT",
+  "issue_date": "2026-11-16",
+  "sent_at": "2026-11-16T13:12:20.000Z",
+  "subject": "Microsoft 365 recovers 📧, Claude joins meetings 🤝, AWS syncs secrets 🔑",
+  "notes": "No funding rounds, acquisitions, IPOs or funds in this issue. The Microsoft cloud price change is not an AI model or API price list, so it is recorded as other/market_move.",
+  "stories": [
+    {
+      "headline": "Microsoft restores Exchange Online, Teams and Copilot after an outage running Thursday into Saturday",
+      "quote": "Microsoft says it restored service to all customers after an outage disrupted Exchange Online, Teams, Copilot, and other connected services from Thursday into Saturday.",
+      "story_date": "2026-11-12",
+      "date_basis": "stated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Microsoft",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [
+        {
+          "date": "2026-11-12",
+          "text": "Outage ran from Thursday into Saturday (12 to 14 Nov).",
+          "quote": "disrupted Exchange Online, Teams, Copilot, and other connected services from Thursday into Saturday"
+        },
+        {
+          "date": null,
+          "text": "Servers failing automated health checks contributed; first recovery attempts did not give the expected relief.",
+          "quote": "Servers failing automated health checks contributed to the disruption, and initial recovery attempts failed to provide the expected relief."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Microsoft to raise commercial cloud prices 15.7% in India and 10% in New Zealand from 1 Jan 2027",
+      "quote": "Microsoft will increase commercial cloud prices by 15.7% in India and 10% in New Zealand starting January 1, 2027, citing currency adjustments.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "market_move",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Microsoft",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [
+        {
+          "date": "2027-01-01",
+          "text": "Commercial cloud prices rise 15.7% in India and 10% in New Zealand, effective 1 January 2027, citing currency adjustments.",
+          "quote": "Microsoft will increase commercial cloud prices by 15.7% in India and 10% in New Zealand starting January 1, 2027, citing currency adjustments."
+        },
+        {
+          "date": null,
+          "text": "Prices fall in China, Australia and Norway; some on-premises products in India rise by up to 20%.",
+          "quote": "Prices will fall in China, Australia, and Norway, while some on-premises products in India face increases of up to 20%."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Anthropic rolls out Claude Meetings in beta for Team and Enterprise customers",
+      "quote": "Anthropic is rolling out Claude Meetings in beta for Team and Enterprise customers, letting Claude join Google Meet calls to answer questions, draft documents, and capture action items.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Anthropic",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [
+        {
+          "date": null,
+          "text": "Integrations planned with Granola, Gong, Attention, Fireflies.ai, Otter and Plaud.",
+          "quote": "Upcoming integrations with Granola, Gong, Attention, Fireflies.ai, Otter, and Plaud will let teams send meeting transcripts to their existing tools."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "LMSYS launches SGLang Consortium with Nvidia, AMD, Intel, Google and Meta as founding members",
+      "quote": "LMSYS launched the SGLang Consortium to coordinate engineering work on its open-source AI inference engine, with founding members including Nvidia, AMD, Intel, Google, and Meta.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "LMSYS",
+      "aliases": ["SGLang Consortium", "SGLang"],
+      "description": "Open-source AI inference engine (SGLang)",
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [
+        {
+          "date": null,
+          "text": "Members contribute feedback, testing and development; SGLang maintainers keep control of technical decisions.",
+          "quote": "Members will contribute deployment feedback, testing resources, and development work, while SGLang's maintainers retain control over technical decisions."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "AWS Secrets Manager adds cross-account replication",
+      "quote": "AWS Secrets Manager now supports cross-account replication, allowing teams to maintain synchronized copies of primary secrets across AWS accounts for backup, disaster recovery, and cross-account access.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "AWS",
+      "aliases": ["AWS Secrets Manager"],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "GitHub to retire six Copilot models on 14 December",
+      "quote": "GitHub will retire six selected Copilot models on December 14.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "GitHub",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "is_press_release_reprint": false,
+      "facts": [
+        {
+          "date": "2026-12-14",
+          "text": "Six selected Copilot models are scheduled for retirement on 14 December.",
+          "quote": "GitHub will retire six selected Copilot models on December 14."
+        }
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "message_id": "<20261117233213.3.796870a4a6e9bd3f@mg-d0.substack.com>",
+  "family": "Newcomer",
+  "letter": "Newcomer",
+  "issue_date": "2026-11-17",
+  "sent_at": "2026-11-17T23:32:13.000Z",
+  "subject": "13 Videos from CVAI: Igor Babuschkin, Ryan Daniels, Guillermo Rauch & More",
+  "notes": "Recap of 13 onstage conversations from the Cerebral Valley AI Summit held the previous week. No funding rounds, acquisitions, funds or pricing changes reported. Sponsor list ignored.",
+  "stories": [
+    {
+      "headline": "Jensen Huang forced to resign from Nvidia; summit speakers react",
+      "quote": "Last week, top founders and investors gathered for the Cerebral Valley AI Summit during one of the most turbulent weeks the industry has seen, marked by global cyberattacks and Jensen Huang’s forced resignation.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "recap",
+      "event_type": "other",
+      "subtype": "leadership",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Nvidia",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "facts": [
+        {
+          "date": null,
+          "text": "Nikesh Arora would not say whether he would take Huang's place at Nvidia; expects short-term instability.",
+          "quote": "Arora wouldn’t say whether he’d take Huang’s spot at Nvidia, as some tech leaders have suggested. He expects Huang’s resignation to cause short-term instability but doesn’t think it will seriously hurt the company."
+        },
+        {
+          "date": null,
+          "text": "Hemant Taneja said the shakeup raises continuity concerns but could help chip startups.",
+          "quote": "General Catalyst CEO Hemant Taneja said the Nvidia shakeup raises “huge concerns” about continuity in AI leadership, but could also open the door for more chip startups."
+        },
+        {
+          "date": null,
+          "text": "Ali Ghodsi said Huang's exit removes a financial backstop for the AI industry.",
+          "quote": "Databricks CEO Ali Ghodsi said Huang’s exit removes a financial backstop for the AI industry, since Huang was quick to support companies whenever investors hesitated."
+        },
+        {
+          "date": null,
+          "text": "Etched employs more than 100 former Nvidia workers.",
+          "quote": "Robert Wachen, co-founder and president of AI chip and rack maker Etched, said Huang’s resignation hit hard at a company that employs more than 100 former Nvidia workers."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Global cyberattacks marked the week of the Cerebral Valley AI Summit",
+      "quote": "Last week, top founders and investors gathered for the Cerebral Valley AI Summit during one of the most turbulent weeks the industry has seen, marked by global cyberattacks and Jensen Huang’s forced resignation.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "recap",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "passing",
+      "company": null,
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "facts": [
+        {
+          "date": null,
+          "text": "Palo Alto Networks CEO said defending against AI agent attackers will take many models.",
+          "quote": "Palo Alto Networks CEO Nikesh Arora said that defending against AI agent attackers will take many models, not one."
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Fireworks discussed its recently disclosed security incident, an attack to steal compute and tokens",
+      "quote": "Qiao discussed the security incident Fireworks disclosed recently, describing it as an attack aimed at stealing compute and tokens to resell. Fireworks worked with Palo Alto Networks on forensics and used detection tools from CrowdStrike and Wiz.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "recap",
+      "event_type": "other",
+      "subtype": "other",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Fireworks",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "facts": [],
+      "confidence": "high"
+    },
+    {
+      "headline": "Databricks CEO says 2026 is a bad year to go public but the company will not stay private forever",
+      "quote": "He still thinks 2026 is a bad year to go public, but said Databricks won’t stay private forever.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "ipo",
+      "subtype": null,
+      "status": "planned",
+      "mention_type": "passing",
+      "company": "Databricks",
+      "aliases": [],
+      "description": null,
+      "hq": [],
+      "status_note": "no timing set",
+      "non_raise_figures": [
+        {
+          "kind": "other",
+          "text": "Databricks routes more than four quadrillion tokens across OpenAI, Anthropic, Google, and open-source models"
+        }
+      ],
+      "facts": [
+        {
+          "date": null,
+          "text": "Bessemer's Byron Deeter discussed why 2027 could bring a wave of AI IPOs.",
+          "quote": "Afterward, Deeter joined Eric Newcomer to discuss why Anthropic ranks ahead of OpenAI, how Databricks and Stripe fit into the AI economy, and why 2027 could bring a wave of AI IPOs."
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "headline": "River AI, new company of xAI co-founder Igor Babuschkin, offers post-training and running models on own hardware",
+      "quote": "His new company, River AI, wants to give businesses, and eventually individuals, models they can own and improve themselves. Its first product lets companies post-train and run models on their own hardware.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "product",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "River AI",
+      "aliases": [],
+      "description": "Lets companies post-train and run AI models on their own hardware",
+      "hq": [],
+      "status_note": null,
+      "founder_background": "xAI co-founder",
+      "facts": [],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Bessemer AI 100 list companies worth a combined $3.6 trillion",
+      "quote": "The companies on the list are worth a combined $3.6 trillion, 36 times the value of the first Cloud 100 in 2016.",
+      "story_date": null,
+      "date_basis": "undated",
+      "timing": "new",
+      "event_type": "other",
+      "subtype": "market_move",
+      "status": "reported",
+      "mention_type": "story",
+      "company": "Bessemer Venture Partners",
+      "aliases": ["Bessemer"],
+      "description": null,
+      "hq": [],
+      "status_note": null,
+      "facts": [],
+      "confidence": "medium"
+    }
+  ]
+}

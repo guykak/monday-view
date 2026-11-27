@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "message_id": "<1794826714782.fd6c9b98-27f1-47ea-9cbf-99fcafaa4b5c@20037605m.sifted.eu>",
+  "family": "Sifted",
+  "letter": "AI & Deeptech by Sifted",
+  "issue_date": "2026-11-16",
+  "sent_at": "2026-11-16T10:59:36.000Z",
+  "subject": "Europe's Jensen exposure",
+  "notes": "Nebuly deal line appears twice in the issue; extracted once. Nscale's $35bn is written as 'planned $35bn IPO' without saying whether it is a valuation or a raise; kept in facts only.",
+  "stories": [
+    {
+      "headline": "Defence startup Uforce raised $700m, backed by UK National Wealth Fund and Valor Equity Partners",
+      "quote": "Defence startup Uforce raised $700m backed by the UK National Wealth Fund and Valor Equity Partners, confirming Sifted reporting from earlier this year.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Uforce", "aliases": [], "description": "Defence startup", "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 700000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "founder_leads": [], "status_note": null, "tech_area": "defence_aerospace", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Agile Robotics raised $500m backed by SoftBank, Nvidia and Hitachi",
+      "quote": "Agile Robotics raised a $500m funding round backed by SoftBank, Nvidia and Hitachi.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Agile Robotics", "aliases": [], "description": null, "hq": [],
+      "stage": "unstated", "stage_as_written": "funding round", "is_combined_round": false,
+      "equity_amount": 500000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "founder_leads": [], "status_note": null, "tech_area": "robotics_manufacturing", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Amsterdam-based Onodrim raised $300m Series A to buy defence, space and industrial manufacturing startups",
+      "quote": "Amsterdam-based Onodrim raised $300m in Series A funding to buy up existing defence, space, and industrial manufacturing startups.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Onodrim", "aliases": [], "description": "Buys up existing defence, space and industrial manufacturing startups",
+      "hq": [{"city": "Amsterdam", "country": "NL"}],
+      "stage": "series_a", "stage_as_written": "Series A", "is_combined_round": false,
+      "equity_amount": 300000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "founder_leads": [], "status_note": null, "tech_area": "other", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "medium"
+    },
+    {
+      "headline": "Defence startup SE3 raised $30m backed by Accel, Seedcamp and Lakestar",
+      "quote": "Defence startup SE3 raised $30m backed by Accel, Seedcamp and Lakestar.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "SE3", "aliases": [], "description": "Defence startup", "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 30000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "founder_leads": [], "status_note": null, "tech_area": "defence_aerospace", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "UK chips company Fractile raised £540m, described as Europe's largest ever semiconductor round",
+      "quote": "Also last week, UK chips company Fractile announced it had raised £540m, confirming Sifted’s earlier scoop",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "announced", "mention_type": "story",
+      "company": "Fractile", "aliases": [], "description": "UK chips company",
+      "hq": [{"city": null, "country": "GB"}],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 540000000, "currency": "GBP", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "founder_leads": [], "status_note": null, "tech_area": "chips_photonics", "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [
+        {"date": null, "text": "Described as Europe's largest ever semiconductor round", "quote": "Fractile raises £540m, Europe’s largest ever semiconductor round."}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Unity and Nvidia's NVentures joined a $700m round for London-based DeepMind offshoot Emulate",
+      "quote": "Software maker Unity and NVentures, the investment arm of chip giant Nvidia, have joined a $700m round for London-based DeepMind offshoot Emulate.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "announced", "mention_type": "story",
+      "company": "Emulate", "aliases": [], "description": "World models startup, DeepMind offshoot",
+      "hq": [{"city": "London", "country": "GB"}],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 700000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "founder_leads": [], "status_note": null, "tech_area": "ai_infrastructure", "is_press_release_reprint": false,
+      "founder_background": "DeepMind offshoot",
+      "facts": [
+        {"date": null, "text": "Unity and Nvidia named as the two biggest backers of the round", "quote": "Last week we revealed more details about world models startup Emulate’s new $700m round, including the two biggest backers: software maker Unity and — as has become ubiquitous in fundraise announcements — Nvidia."}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Nscale could delay its planned $35bn IPO until next year, according to reports",
+      "quote": "Nscale could delay its planned $35bn IPO until next year, following a global sell-off in technology stocks, according to reports.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "ipo", "subtype": null, "status": "planned", "mention_type": "deal_list",
+      "company": "Nscale", "aliases": [], "description": null, "hq": [],
+      "status_note": "could delay",
+      "facts": [
+        {"date": null, "text": "Planned IPO described as $35bn; may be delayed until next year after a global sell-off in technology stocks, according to reports", "quote": "Nscale could delay its planned $35bn IPO until next year, following a global sell-off in technology stocks, according to reports."}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Robotics startup Mosaico raises €7.5m",
+      "quote": "Robotics startup Mosaico raises €7.5m to tackle AI’s data problem",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Mosaico", "aliases": [], "description": "Robotics startup tackling AI's data problem", "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 7500000, "currency": "EUR", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "founder_leads": [], "status_note": null, "tech_area": "robotics_manufacturing", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Cambridge-based Tendrils Compute raised $30m led by Benchmark",
+      "quote": "Cambridge, UK-based Tendrils Compute, which designs and develops new CPU architectues aimed at improving computing performance and efficiency, raised $30m in funding. Benchmark led the round",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Tendrils Compute", "aliases": [], "description": "Designs new CPU architectures for computing performance and efficiency",
+      "hq": [{"city": "Cambridge", "country": "GB"}],
+      "stage": "unstated", "stage_as_written": "funding", "is_combined_round": false,
+      "equity_amount": 30000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["Benchmark"], "founder_leads": [], "status_note": null, "tech_area": "chips_photonics", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Turin-based Nebuly raised $21m Series A led by Planven",
+      "quote": "Turin, Italy-based Nebuly, which helps businesses measure, optimise, and track the impact of their AI investments, raised $21m in Series A funding. Planven led the round",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Nebuly", "aliases": [], "description": "Helps businesses measure, optimise and track impact of AI investments",
+      "hq": [{"city": "Turin", "country": "IT"}],
+      "stage": "series_a", "stage_as_written": "Series A", "is_combined_round": false,
+      "equity_amount": 21000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["Planven"], "founder_leads": [], "status_note": null, "tech_area": "ai_applications", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Bremen-based Marble Imaging raised €6m seed led by Cherry Ventures",
+      "quote": "Bremen, Germany-based Marble Imaging, which builds its constellation of very high resolution satellites and provides EO data and analytics, raised €6m in seed funding led by Cherry Ventures.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Marble Imaging", "aliases": [], "description": "Builds very high resolution satellite constellation; EO data and analytics",
+      "hq": [{"city": "Bremen", "country": "DE"}],
+      "stage": "seed", "stage_as_written": "seed", "is_combined_round": false,
+      "equity_amount": 6000000, "currency": "EUR", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["Cherry Ventures"], "founder_leads": [], "status_note": null, "tech_area": "space", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Prague-based Kardi Ai raised €5.3m Series A led by Callisto Health",
+      "quote": "Prague-based Kardi Ai, which develops AI-powered heart monitoring solutions to predict and prevent cardiovascular events in patients, raised €5.3m in Series A funding. Callisto Health led the round",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Kardi Ai", "aliases": [], "description": "AI-powered heart monitoring to predict and prevent cardiovascular events",
+      "hq": [{"city": "Prague", "country": "CZ"}],
+      "stage": "series_a", "stage_as_written": "Series A", "is_combined_round": false,
+      "equity_amount": 5300000, "currency": "EUR", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["Callisto Health"], "founder_leads": [], "status_note": null, "tech_area": "health", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Samsung led Mistral's €3bn Series D earlier this year (cited as context)",
+      "quote": "This year Samsung led two growth-stage rounds itself: French AI scaleup Mistral ’s €3bn Series D and AI infrastructure firm Euclyd ’s €200m Series A.",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Mistral", "aliases": [], "description": "French AI scaleup",
+      "hq": [{"city": null, "country": "FR"}],
+      "stage": "series_d_plus", "stage_as_written": "Series D", "is_combined_round": false,
+      "equity_amount": 3000000000, "currency": "EUR", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["Samsung"], "founder_leads": [], "status_note": null, "tech_area": "ai_infrastructure", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Samsung led Euclyd's €200m Series A earlier this year (cited as context)",
+      "quote": "This year Samsung led two growth-stage rounds itself: French AI scaleup Mistral ’s €3bn Series D and AI infrastructure firm Euclyd ’s €200m Series A.",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Euclyd", "aliases": [], "description": "AI infrastructure firm", "hq": [],
+      "stage": "series_a", "stage_as_written": "Series A", "is_combined_round": false,
+      "equity_amount": 200000000, "currency": "EUR", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["Samsung"], "founder_leads": [], "status_note": null, "tech_area": "ai_infrastructure", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Samsung led a €44m round for e-fuel developer Liquid Wind in 2024 (cited as context)",
+      "quote": "Prior to 2026, Samsung had only led two small rounds: a €44m round for e-fuel developer Liquid Wind in 2024 and a €10m round for semiconductor tech company Wooptix in 2023, according to Sifted data.",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Liquid Wind", "aliases": [], "description": "E-fuel developer", "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 44000000, "currency": "EUR", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["Samsung"], "founder_leads": [], "status_note": null, "tech_area": "energy_climate_hardware", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Samsung led a €10m round for semiconductor tech company Wooptix in 2023 (cited as context)",
+      "quote": "Prior to 2026, Samsung had only led two small rounds: a €44m round for e-fuel developer Liquid Wind in 2024 and a €10m round for semiconductor tech company Wooptix in 2023, according to Sifted data.",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Wooptix", "aliases": [], "description": "Semiconductor tech company", "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 10000000, "currency": "EUR", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["Samsung"], "founder_leads": [], "status_note": null, "tech_area": "chips_photonics", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Nvidia's agreed purchase of French open source AI startup Hugging Face (earlier deal, cited as context)",
+      "quote": "One of the other questions for European tech sparked by Jensen’s departure surrounds Nvidia’s agreement to buy French open source AI startup Hugging Face. The deal isn’t scheduled to close until 2027.",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "acquisition", "subtype": null, "status": "signed", "mention_type": "passing",
+      "company": "Hugging Face", "aliases": [], "description": "French open source AI startup",
+      "hq": [{"city": null, "country": "FR"}],
+      "stake": null, "acquirer": "Nvidia", "acquirer_type": "company", "price": null,
+      "consideration": "unstated", "confirmed_by_company": false, "is_pe_buy_and_build": false,
+      "status_note": null, "tech_area": "ai_infrastructure", "is_press_release_reprint": false,
+      "facts": [
+        {"date": null, "text": "Deal not scheduled to close until 2027", "quote": "The deal isn’t scheduled to close until 2027."}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Open question whether Nvidia's Hugging Face deal is affected by Jensen Huang's exit; neither company commented",
+      "quote": "Nvidia and Hugging Face did not respond to request to comment on whether the transaction could be affected by the change in leadership.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "other", "status": "reported", "mention_type": "passing",
+      "company": "Hugging Face", "aliases": [], "description": "French open source AI startup",
+      "hq": [{"city": null, "country": "FR"}],
+      "status_note": null,
+      "facts": [
+        {"date": null, "text": "Deal not scheduled to close until 2027", "quote": "The deal isn’t scheduled to close until 2027."}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Nvidia CEO and founder Jensen Huang resigned after 33 years",
+      "quote": "Jensen Huang, CEO and founder of Nvidia, resigned from the company after 33 years last week, following reports of two affairs, including one with a suspected Chinese spy.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "leadership", "status": "reported", "mention_type": "story",
+      "company": "Nvidia", "aliases": [], "description": "US chip giant and active investor in European tech", "hq": [],
+      "status_note": null,
+      "facts": [
+        {"date": null, "text": "Nvidia made 20 investments into European tech so far this year, versus 15 in 2025 and seven the year prior", "quote": "It’s made 20 investments into European tech so far this year, compared to 15 in 2025 and seven the year prior."},
+        {"date": null, "text": "Deals Nvidia participated in this year total €13.2bn, versus €4.2bn last year", "quote": "the deals it has participated in this year total €13.2bn, compared to €4.2bn last year."}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Mistral pushed back on new AI copyright proposals",
+      "quote": "Mistral pushed back on new AI copyright proposals, sparking outcry from creatives.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "regulation", "status": "reported", "mention_type": "story",
+      "company": "Mistral", "aliases": [], "description": "French AI company",
+      "hq": [{"city": null, "country": "FR"}],
+      "status_note": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "European chip funding almost quadruples as investors back Nvidia's inference challengers",
+      "quote": "European chip funding almost quadruples as investors back Nvidia’s inference challengers.",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "market_move", "status": "reported", "mention_type": "story",
+      "company": null, "aliases": [], "description": null, "hq": [],
+      "status_note": null, "facts": [], "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "message_id": "<94ccd3ae223561415b05892ab.68b3441285.20261116010617.8f71e1c8fb.c80ff079@mail60.atl281.mcsv.net>",
+  "family": "Techmeme",
+  "letter": "Techmeme",
+  "issue_date": "2026-11-16",
+  "sent_at": "2026-11-16T01:06:35.000Z",
+  "subject": "Jensen Huang plots comeback, Apple to unveil smart glasses at WWDC",
+  "notes": "Issue is headed 'Sun, Nov 15'. Headlines only; no per-item event dates stated.",
+  "stories": [
+    {
+      "headline": "Databento raised a $100M Series C at a $1.1B valuation",
+      "quote": "DATABENTO, WHICH OFFERS MARKET DATA APIS AND SAYS IT HAS CONTRACTS WITH FIVE OF THE SIX LARGEST FRONTIER AI LABS, RAISED A $100M SERIES C AT A $1.1B VALUATION",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Databento", "aliases": [], "description": "Market data APIs; contracts with five of six largest frontier AI labs", "hq": [],
+      "stage": "series_c", "stage_as_written": "Series C", "is_combined_round": false,
+      "equity_amount": 100000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [],
+      "valuation": {"amount": 1100000000, "currency": "USD", "qualifier": "exact"}, "valuation_basis": "unstated",
+      "non_raise_figures": [],
+      "leads": [], "founder_leads": [], "status_note": null, "tech_area": "fintech", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Charta Health raised a $55M Series B led by Insight Partners",
+      "quote": "CHARTA HEALTH, WHICH OFFERS AI-POWERED TOOLS TO AUTOMATE MEDICAL CHART REVIEW, BILLING, AND CODING WORKFLOWS, RAISED A $55M SERIES B LED BY INSIGHT PARTNERS",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Charta Health", "aliases": [], "description": "AI tools automating medical chart review, billing and coding workflows", "hq": [],
+      "stage": "series_b", "stage_as_written": "Series B", "is_combined_round": false,
+      "equity_amount": 55000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["Insight Partners"], "founder_leads": [], "status_note": null, "tech_area": "ai_applications", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Operand raised $31M across a seed and a Series A led by Khosla Ventures at a $220M valuation",
+      "quote": "OPERAND, WHICH OFFERS AI-POWERED DUE DILIGENCE TOOLS FOR PE FIRMS, RAISED $31M ACROSS A SEED AND A SERIES A LED BY KHOSLA VENTURES AT A $220M VALUATION",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Operand", "aliases": [], "description": "AI-powered due diligence tools for PE firms", "hq": [],
+      "stage": "series_a", "stage_as_written": "a seed and a Series A", "is_combined_round": true,
+      "equity_amount": 31000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [],
+      "valuation": {"amount": 220000000, "currency": "USD", "qualifier": "exact"}, "valuation_basis": "unstated",
+      "non_raise_figures": [],
+      "leads": ["Khosla Ventures"], "founder_leads": [], "status_note": null, "tech_area": "ai_applications", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Tendrils raised $30M led by Benchmark",
+      "quote": "CAMBRIDGE, UK-BASED TENDRILS, WHICH IS DESIGNING A CPU ARCHITECTURE WITH THOUSANDS OF CORES OPERATING IN PARALLEL, RAISED $30M LED BY BENCHMARK",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Tendrils", "aliases": [], "description": "Designing a CPU architecture with thousands of cores operating in parallel",
+      "hq": [{"city": "Cambridge", "country": "GB"}],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": 30000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": ["Benchmark"], "founder_leads": [], "status_note": null, "tech_area": "chips_photonics", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Luminal raised a $25M Series A",
+      "quote": "LUMINAL, WHICH PROVIDES AN INFERENCE CLOUD AND DEVELOPS INFERENCE COMPILER SOFTWARE TO TEST RUNNING AI MODELS ON DIFFERENT CHIPS, RAISED A $25M SERIES A",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Luminal", "aliases": [], "description": "Inference cloud and inference compiler software for running models on different chips", "hq": [],
+      "stage": "series_a", "stage_as_written": "Series A", "is_combined_round": false,
+      "equity_amount": 25000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "founder_leads": [], "status_note": null, "tech_area": "ai_infrastructure", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Whitematter raised a $20M Series A",
+      "quote": "WHITEMATTER, WHICH BUILDS “GUARDIAN” AI AGENTS TO OVERSEE FILE ACCESS, SOFTWARE USE, DECISION MAKING, AND ACTIONS OF EXISTING AI AGENTS, RAISED A $20M SERIES A",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Whitematter", "aliases": [], "description": "Builds \"guardian\" AI agents that oversee actions of existing AI agents", "hq": [],
+      "stage": "series_a", "stage_as_written": "Series A", "is_combined_round": false,
+      "equity_amount": 20000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "founder_leads": [], "status_note": null, "tech_area": "ai_applications", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Nidus raised $30M across a pre-seed and a seed",
+      "quote": "NIDUS, WHICH IS DEVELOPING AI-POWERED TECH FOR MANUFACTURING ROBOTS USED BY US DEFENSE INDUSTRIAL COMPANIES, RAISED $30M ACROSS A PRE-SEED AND A SEED",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Nidus", "aliases": [], "description": "AI-powered tech for manufacturing robots used by US defense industrial companies", "hq": [],
+      "stage": "seed", "stage_as_written": "a pre-seed and a seed", "is_combined_round": true,
+      "equity_amount": 30000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "founder_leads": [], "status_note": null, "tech_area": "robotics_manufacturing", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Nebuly raised a $21M Series A",
+      "quote": "NEBULY, WHOSE TECH HELPS ENTERPRISES MEASURE THE BUSINESS VALUE OF AI AGENTS BY ANALYZING THEIR IMPACT ON PRODUCTIVITY AND REVENUE, RAISED A $21M SERIES A",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "deal_list",
+      "company": "Nebuly", "aliases": [], "description": "Helps enterprises measure the business value of AI agents", "hq": [],
+      "stage": "series_a", "stage_as_written": "Series A", "is_combined_round": false,
+      "equity_amount": 21000000, "currency": "USD", "amount_qualifier": "exact",
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "founder_leads": [], "status_note": null, "tech_area": "ai_applications", "is_press_release_reprint": false,
+      "founder_background": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Sources: Anthropic's IPO is about 7x oversubscribed; up to $90.4B sought via IPO and a separate private placement",
+      "quote": "SOURCES: ANTHROPIC'S IPO IS ~7X OVERSUBSCRIBED; ANTHROPIC AND SOME OF ITS BACKERS ARE SEEKING TO RAISE UP TO $90.4B VIA THE IPO AND A SEPARATE PRIVATE PLACEMENT",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "ipo", "subtype": null, "status": "planned", "mention_type": "story",
+      "company": "Anthropic", "aliases": [], "description": null, "hq": [],
+      "status_note": null, "is_press_release_reprint": false,
+      "facts": [
+        {"date": null, "text": "IPO reported by sources as about 7x oversubscribed", "quote": "SOURCES: ANTHROPIC'S IPO IS ~7X OVERSUBSCRIBED"},
+        {"date": null, "text": "Anthropic and some backers seek to raise up to $90.4B through the IPO plus a separate private placement (one combined figure)", "quote": "ANTHROPIC AND SOME OF ITS BACKERS ARE SEEKING TO RAISE UP TO $90.4B VIA THE IPO AND A SEPARATE PRIVATE PLACEMENT"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Analysis values Sam Bankman-Fried's former Anthropic stake at about $37B if Anthropic lists at about $1.5T",
+      "quote": "ANALYSIS: SAM BANKMAN-FRIED'S $500M ANTHROPIC INVESTMENT IN 2021 WOULD BE WORTH ~$37B IF ANTHROPIC LISTS AT ~$1.5T; HE RELINQUISHED HIS STAKE IN 2024 FOR ~$1.3B",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "ipo", "subtype": null, "status": "planned", "mention_type": "passing",
+      "company": "Anthropic", "aliases": [], "description": null, "hq": [],
+      "status_note": null, "is_press_release_reprint": false,
+      "facts": [
+        {"date": null, "text": "Analysis assumes a listing at about $1.5T; a $500M 2021 investment would then be worth about $37B", "quote": "SAM BANKMAN-FRIED'S $500M ANTHROPIC INVESTMENT IN 2021 WOULD BE WORTH ~$37B IF ANTHROPIC LISTS AT ~$1.5T"},
+        {"date": null, "text": "Bankman-Fried relinquished the stake in 2024 for about $1.3B", "quote": "HE RELINQUISHED HIS STAKE IN 2024 FOR ~$1.3B"}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "headline": "Background: Sam Bankman-Fried invested $500M in Anthropic in 2021",
+      "quote": "ANALYSIS: SAM BANKMAN-FRIED'S $500M ANTHROPIC INVESTMENT IN 2021 WOULD BE WORTH ~$37B IF ANTHROPIC LISTS AT ~$1.5T; HE RELINQUISHED HIS STAKE IN 2024 FOR ~$1.3B",
+      "story_date": null, "date_basis": "undated", "timing": "background",
+      "event_type": "round", "subtype": null, "status": "closed", "mention_type": "passing",
+      "company": "Anthropic", "aliases": [], "description": null, "hq": [],
+      "stage": "unstated", "stage_as_written": null, "is_combined_round": false,
+      "equity_amount": null, "currency": null, "amount_qualifier": null,
+      "mixed_total": null, "other_finance": [], "valuation": null, "non_raise_figures": [],
+      "leads": [], "founder_leads": [], "status_note": null, "tech_area": "ai_infrastructure", "is_press_release_reprint": false,
+      "founder_background": null,
+      "facts": [
+        {"date": null, "text": "$500M is one investor's 2021 investment, not a stated round size", "quote": "SAM BANKMAN-FRIED'S $500M ANTHROPIC INVESTMENT IN 2021"}
+      ],
+      "confidence": "low"
+    },
+    {
+      "headline": "JD.com completes takeover of Ceconomy after acquiring about 60% for about $1.5B",
+      "quote": "JD.COM COMPLETES ITS TAKEOVER OF GERMAN ELECTRONICS RETAILER CECONOMY, AFTER ACQUIRING A ~60% STAKE FOR ~$1.5B, FOLLOWING THE EU'S APPROVAL OF THE DEAL",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "acquisition", "subtype": null, "status": "completed", "mention_type": "story",
+      "company": "Ceconomy", "aliases": [], "description": "German electronics retailer",
+      "hq": [{"city": null, "country": "DE"}],
+      "stake": "majority", "acquirer": "JD.com", "acquirer_type": "company",
+      "price": {"amount": 1500000000, "currency": "USD", "qualifier": "about"},
+      "consideration": "unstated", "confirmed_by_company": false, "is_pe_buy_and_build": false,
+      "status_note": null, "tech_area": "other", "is_press_release_reprint": false,
+      "facts": [
+        {"date": null, "text": "Stake acquired is about 60%; completion followed EU approval", "quote": "AFTER ACQUIRING A ~60% STAKE FOR ~$1.5B, FOLLOWING THE EU'S APPROVAL OF THE DEAL"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "TSMC plans a new $500M fund to invest in chip startups, suppliers and upstream partners",
+      "quote": "TSMC PLANS TO SET UP A NEW $500M FUND TO INVEST IN CHIP STARTUPS, SUPPLIERS, AND OTHER UPSTREAM PARTNERS, SAYING “WE ALSO WANT TO SUPPORT THE FUTURE'S NVIDIA”",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "fund", "subtype": null, "status": "planned", "mention_type": "story",
+      "company": "TSMC", "aliases": [], "description": null, "hq": [],
+      "fund_name": null,
+      "fund_size": {"amount": 500000000, "currency": "USD", "qualifier": "exact"},
+      "fund_strategy": "other", "fund_geography": null, "fund_focus": "chip startups, suppliers and upstream partners",
+      "status_note": null, "is_press_release_reprint": false, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Sources: Jensen Huang has discussed a comeback as Nvidia CEO; allies form a \"war room\" to lobby for his return",
+      "quote": "SOURCES: JENSEN HUANG HAS DISCUSSED A COMEBACK AS NVIDIA CEO WITH CONFIDANTS, AS ALLIES FORM A “WAR ROOM” TO LOBBY FOR HIS RETURN AND SEEK WHITE HOUSE SUPPORT",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "leadership", "status": "reported", "mention_type": "story",
+      "company": "Nvidia", "aliases": [], "hq": [], "status_note": null,
+      "facts": [
+        {"date": null, "text": "Petition to reinstate Huang tops 100K signatures; organizers say 5K+ Nvidia staff signed", "quote": "A PETITION TO REINSTATE JENSEN HUANG AS NVIDIA CEO TOPS 100K SIGNATURES, INCLUDING ELON MUSK, TIM SWEENEY, AND GARRY TAN; ORGANIZERS SAY 5K+ NVIDIA STAFF SIGNED"},
+        {"date": null, "text": "Altimeter's Brad Gerstner and Atreides's Gavin Baker, owning $2.13B in Nvidia, urge the board to consider Huang's return", "quote": "LETTER: ALTIMETER'S BRAD GERSTNER AND ATREIDES'S GAVIN BAKER URGE NVIDIA'S BOARD TO CONSIDER “THE POTENTIAL RETURN OF JENSEN HUANG”; THEY OWN $2.13B IN NVIDIA"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Scott Bessent urges Nvidia to hire an outside CEO and wants answers within 10 days on China chip sales",
+      "quote": "SCOTT BESSENT URGES NVIDIA TO HIRE AN OUTSIDE CEO AND WANTS ANSWERS WITHIN 10 DAYS ON WHETHER IT PUSHED “SEEMINGLY ILLICIT” CHIP SALES TO CHINA TO BOOST REVENUE",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "regulation", "status": "reported", "mention_type": "story",
+      "company": "Nvidia", "aliases": [], "hq": [], "status_note": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Sources: Apple plans to unveil smart glasses at WWDC and ship them by end of 2027",
+      "quote": "SOURCES: APPLE PLANS TO UNVEIL SMART GLASSES AT WWDC AND SHIP THEM BY THE END OF 2027, FOCUSING HEAVILY ON INTEGRATION OF THIRD-PARTY IPHONE APPS WITH SIRI AI",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "product", "status": "reported", "mention_type": "story",
+      "company": "Apple", "aliases": [], "hq": [], "status_note": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Tesla opens Cybercab orders to select customers at $30K plus a required $299/month autonomy subscription",
+      "quote": "TESLA SAYS “SELECT CUSTOMERS” CAN NOW PLACE ORDERS FOR ITS CYBERCAB “FOR PERSONAL USE”, FOR $30K PLUS A REQUIRED $299/MONTH AUTONOMY SUBSCRIPTION TO OPERATE",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "product", "status": "reported", "mention_type": "story",
+      "company": "Tesla", "aliases": [], "hq": [], "status_note": null,
+      "facts": [
+        {"date": null, "text": "Subscription agreement limits the vehicles to Tesla-enabled geofences, which Tesla can change at any time", "quote": "TESLA'S CYBERCAB AUTONOMY SUBSCRIPTION AGREEMENT STATES THE VEHICLES WILL ONLY WORK INSIDE TESLA-ENABLED GEOFENCES, WHICH THE COMPANY CAN CHANGE AT ANY TIME"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Italy's data protection agency fines Meta €805M over access to Android users' photos and videos",
+      "quote": "ITALY'S DATA PROTECTION AGENCY FINES META €805M FOR ALLEGEDLY ACCESSING ANDROID USERS' PHOTOS AND VIDEOS WITHOUT THEIR CONSENT OR INFORMING THEM",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "regulation", "status": "reported", "mention_type": "story",
+      "company": "Meta", "aliases": [], "hq": [], "status_note": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "US and Pax Silica allies agree to create a joint list of AI technologies and supply chains to protect from China",
+      "quote": "THE US AND PAX SILICA ALLIES, INCLUDING JAPAN, THE UK, AND INDIA, AGREE TO CREATE A JOINT LIST OF AI TECHNOLOGIES AND SUPPLY CHAINS TO PROTECT FROM CHINA",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "regulation", "status": "reported", "mention_type": "story",
+      "company": null, "aliases": [], "hq": [], "status_note": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Amazon loses 40 Leo satellites after ULA's Vulcan rocket fails 10 minutes into flight",
+      "quote": "AMAZON LOSES 40 LEO SATELLITES AFTER ULA'S VULCAN ROCKET FAILS 10 MINUTES INTO FLIGHT, MARKING THE FIRST MISSION FAILURE FOR THE BOEING-LOCKHEED JOINT VENTURE",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "other", "status": "reported", "mention_type": "story",
+      "company": "Amazon", "aliases": [], "hq": [], "status_note": null, "facts": [], "confidence": "high"
+    },
+    {
+      "headline": "Trump Media faces a Nov. 30 deadline to repay up to $1B in convertible bonds; shares down 60+% this year",
+      "quote": "TRUMP MEDIA FACES A NOV. 30 DEADLINE TO REPAY UP TO $1B IN CONVERTIBLE BONDS SOLD LAST MAY TO FUND A “BITCOIN TREASURY,” AS ITS SHARES ARE DOWN 60+% THIS YEAR",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "market_move", "status": "reported", "mention_type": "story",
+      "company": "Trump Media", "aliases": [], "hq": [], "status_note": null,
+      "facts": [
+        {"date": "2026-11-30", "text": "Deadline to repay up to $1B in convertible bonds", "quote": "TRUMP MEDIA FACES A NOV. 30 DEADLINE TO REPAY UP TO $1B IN CONVERTIBLE BONDS SOLD LAST MAY"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "headline": "Microsoft says all Microsoft 365 products are operational, ending a global outage",
+      "quote": "MICROSOFT SAYS ALL MICROSOFT 365 PRODUCTS ARE OPERATIONAL, ENDING AN OUTAGE THAT DISRUPTED GOVERNMENTS, TRADERS, HOSPITALS, AND BUSINESSES AROUND THE WORLD",
+      "story_date": null, "date_basis": "undated", "timing": "new",
+      "event_type": "other", "subtype": "other", "status": "reported", "mention_type": "story",
+      "company": "Microsoft", "aliases": [], "hq": [], "status_note": null, "facts": [], "confidence": "high"
+    }
+  ]
+}

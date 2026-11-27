@@ -1,0 +1,1379 @@
+{
+ "week": {
+  "monday": "2026-11-16",
+  "sunday": "2026-11-22",
+  "iso_week": 47,
+  "iso_year": 2026,
+  "label": "16–22 Nov 2026"
+ },
+ "headline": "Anthropic listed on Nasdaq at a $1.3T market cap, and Europe's early-stage rounds were led by AI applications and agents.",
+ "block1": {
+  "id": "ipo:anthropic:2026-11-18",
+  "company": "Anthropic",
+  "event_type": "ipo",
+  "families": [
+   "Benedict Evans",
+   "DeepLearning.AI",
+   "Newcomer",
+   "Not Boring",
+   "Sifted",
+   "Sunday CET",
+   "TLDR",
+   "Techmeme",
+   "Term Sheet"
+  ],
+  "n_families": 9,
+  "dots": "●●●●●",
+  "status_history": [
+   {
+    "status": "planned",
+    "date": "2026-11-15",
+    "family": "Techmeme"
+   },
+   {
+    "status": "filed",
+    "date": "2026-11-17",
+    "family": "Techmeme"
+   },
+   {
+    "status": "priced",
+    "date": "2026-11-18",
+    "family": "Techmeme"
+   },
+   {
+    "status": "listed",
+    "date": "2026-11-19",
+    "family": "Term Sheet"
+   }
+  ],
+  "new_statuses": [
+   {
+    "status": "filed",
+    "date": "2026-11-17",
+    "family": "Techmeme"
+   },
+   {
+    "status": "priced",
+    "date": "2026-11-18",
+    "family": "Techmeme"
+   },
+   {
+    "status": "listed",
+    "date": "2026-11-19",
+    "family": "Term Sheet"
+   }
+  ],
+  "title": "Anthropic goes public",
+  "facts": [
+   {
+    "date": "2026-11-18",
+    "text": "priced at $83 a share, above the $70-$78 range. $81.3B raised, the largest offering on record.",
+    "sources": [
+     {
+      "file": "2026-11-19_techmeme_00c0ac91.json",
+      "quote": "ANTHROPIC PRICES ITS UPSIZED IPO AT $83 PER SHARE, ABOVE THE $70-$78 MARKETED RANGE, RAISING $81.3B IN THE LARGEST OFFERING ON RECORD, TOPPING SPACEX"
+     }
+    ]
+   },
+   {
+    "date": "2026-11-19",
+    "text": "opened at $111.50 (+34%), closed at $97.17 (+17%). Market cap $1.3T.",
+    "sources": [
+     {
+      "file": "2026-11-20_techmeme_98c4e18a.json",
+      "quote": "ANTHROPIC CLOSES UP 17% AT $97.17 IN ITS NASDAQ DEBUT, GIVING IT A MARKET CAP OF $1.3T, AFTER OPENING AT $111.50, UP 34% FROM ITS IPO PRICE"
+     }
+    ]
+   },
+   {
+    "date": "2026-11-20",
+    "text": "underwriters exercised the greenshoe for a further $12.2B, taking the total raised to $93.5B.",
+    "sources": [
+     {
+      "file": "2026-11-21_techmeme_183d15c4.json",
+      "quote": "ANTHROPIC RAISES AN ADDITIONAL $12.2B AS UNDERWRITERS EXERCISE THEIR “GREENSHOE” OVERALLOTMENT OF SHARES, BRINGING THE TOTAL RAISED IN ITS IPO TO $93.5B"
+     }
+    ]
+   }
+  ],
+  "for_us": "public investors have now priced a frontier lab. Late-stage AI marks get a public comparable, and early-stage pricing does not.",
+  "runner_up": {
+   "company": "Genesis AI",
+   "n_families": 7
+  }
+ },
+ "block2": {
+  "count_world": 62,
+  "count_europe": 36,
+  "mix_world": {
+   "family": "Term Sheet",
+   "carried": 33,
+   "total": 62,
+   "without": 40,
+   "dominant": true,
+   "label": "worldwide"
+  },
+  "mix_europe": {
+   "family": "Sifted",
+   "carried": 21,
+   "total": 36,
+   "without": 29,
+   "dominant": false,
+   "label": "Europe"
+  },
+  "big_early_world": 7,
+  "big_early_europe": [
+   "Genesis AI",
+   "Boltz",
+   "Tiberius Aerospace",
+   "Commit Biologics"
+  ],
+  "big_early_rest_of_world": 3,
+  "area_table": [
+   {
+    "area": "ai_applications",
+    "label": "AI applications and agents",
+    "rounds": 14
+   },
+   {
+    "area": "ai_infrastructure",
+    "label": "AI infrastructure (compilers, edge, model training)",
+    "rounds": 4
+   },
+   {
+    "area": "fintech",
+    "label": "Fintech",
+    "rounds": 3
+   },
+   {
+    "area": "robotics_manufacturing",
+    "label": "Robotics and manufacturing",
+    "rounds": 2
+   },
+   {
+    "area": "defence_aerospace",
+    "label": "Defence and aerospace",
+    "rounds": 2
+   },
+   {
+    "area": "health",
+    "label": "Health",
+    "rounds": 2
+   },
+   {
+    "area": "other",
+    "label": "Other",
+    "rounds": 2
+   },
+   {
+    "area": "space",
+    "label": "Space",
+    "rounds": 1
+   },
+   {
+    "area": "energy_climate_hardware",
+    "label": "Energy and climate hardware",
+    "rounds": 1
+   },
+   {
+    "area": "other_software_consumer",
+    "label": "Other software and consumer",
+    "rounds": 1
+   }
+  ],
+  "area_total": 32,
+  "area_note_ok": true,
+  "named": [
+   {
+    "id": "round:daisytuner:2026-11-17",
+    "company": "Daisytuner",
+    "hq": "Darmstadt",
+    "hq_list": [
+     {
+      "city": "Darmstadt",
+      "country": "DE",
+      "mentions": 3
+     }
+    ],
+    "amount": "€6m",
+    "mixed": false,
+    "stage": "seed",
+    "leads": [
+     "Elaia",
+     "LEA Ventures"
+    ],
+    "status_note": null,
+    "description": "Optimises AI model performance across NVIDIA, AMD and emerging chip architectures",
+    "valuation": null,
+    "valuation_basis": null,
+    "families": [
+     "EU-Startups",
+     "Sifted",
+     "Term Sheet"
+    ],
+    "n_families": 3,
+    "dots": "●●●",
+    "tech_area": "ai_infrastructure",
+    "usd": 6480000.0,
+    "founder_background": null,
+    "n_reprints": 0,
+    "other_finance": []
+   },
+   {
+    "id": "round:mountain:2026-11-18",
+    "company": "MountAIn",
+    "hq": "Grenoble / Meylan",
+    "hq_list": [
+     {
+      "city": "Grenoble",
+      "country": "FR",
+      "mentions": 2
+     },
+     {
+      "city": "Meylan",
+      "country": "FR",
+      "mentions": 1
+     }
+    ],
+    "amount": "€7.3m",
+    "mixed": false,
+    "stage": "seed",
+    "leads": [
+     "360 Capital",
+     "Supernova Invest"
+    ],
+    "status_note": null,
+    "description": "Software that runs AI applications on low-cost, low-power chips",
+    "valuation": null,
+    "valuation_basis": null,
+    "families": [
+     "EU-Startups",
+     "Sifted",
+     "Term Sheet"
+    ],
+    "n_families": 3,
+    "dots": "●●●",
+    "tech_area": "ai_infrastructure",
+    "usd": 7884000.000000001,
+    "founder_background": null,
+    "n_reprints": 0,
+    "other_finance": []
+   },
+   {
+    "id": "round:pretxt:2026-11-18",
+    "company": "Pretxt",
+    "hq": "Aspen / Dublin",
+    "hq_list": [
+     {
+      "city": "Aspen",
+      "country": "US",
+      "mentions": 1
+     },
+     {
+      "city": "Dublin",
+      "country": "IE",
+      "mentions": 1
+     }
+    ],
+    "amount": "$5M",
+    "mixed": false,
+    "stage": "seed",
+    "leads": [],
+    "status_note": null,
+    "description": "Runtime supervision software for enterprise AI agents",
+    "valuation": null,
+    "valuation_basis": null,
+    "families": [
+     "Term Sheet"
+    ],
+    "n_families": 1,
+    "dots": "●",
+    "tech_area": "ai_infrastructure",
+    "usd": 5000000.0,
+    "founder_background": null,
+    "n_reprints": 0,
+    "other_finance": []
+   },
+   {
+    "id": "round:mosaico:2026-11-16",
+    "company": "Mosaico",
+    "hq": "Reggio Emilia",
+    "hq_list": [
+     {
+      "city": "Reggio Emilia",
+      "country": "IT",
+      "mentions": 1
+     }
+    ],
+    "amount": "€7.5m",
+    "mixed": false,
+    "stage": "seed",
+    "leads": [
+     "United Ventures"
+    ],
+    "status_note": null,
+    "description": "Helps companies manage sensor data needed to develop AI-powered robots",
+    "valuation": null,
+    "valuation_basis": null,
+    "families": [
+     "Sifted",
+     "Term Sheet"
+    ],
+    "n_families": 2,
+    "dots": "●●",
+    "tech_area": "robotics_manufacturing",
+    "usd": 8100000.000000001,
+    "founder_background": null,
+    "n_reprints": 0,
+    "other_finance": []
+   },
+   {
+    "id": "round:vetaion:2026-11-18",
+    "company": "Vetaion",
+    "hq": "Munich",
+    "hq_list": [
+     {
+      "city": "Munich",
+      "country": "DE",
+      "mentions": 2
+     }
+    ],
+    "amount": "€5.7m",
+    "mixed": false,
+    "stage": "pre-seed",
+    "leads": [
+     "Visionaries Tomorrow",
+     "UVC Partners"
+    ],
+    "status_note": null,
+    "description": "Automates the manufacturing of custom electrical control cabinets",
+    "valuation": null,
+    "valuation_basis": null,
+    "families": [
+     "EU-Startups",
+     "Sifted"
+    ],
+    "n_families": 2,
+    "dots": "●●",
+    "tech_area": "robotics_manufacturing",
+    "usd": 6156000.0,
+    "founder_background": null,
+    "n_reprints": 0,
+    "other_finance": []
+   },
+   {
+    "id": "round:elysian-aircraft:2026-11-18",
+    "company": "Elysian Aircraft",
+    "hq": "Hoofddorp",
+    "hq_list": [
+     {
+      "city": "Hoofddorp",
+      "country": "NL",
+      "mentions": 1
+     }
+    ],
+    "amount": "€12m+ in grants and equity",
+    "mixed": true,
+    "stage": null,
+    "leads": [],
+    "status_note": null,
+    "description": "Battery-electric aviation technologies for commercial and defence applications",
+    "valuation": null,
+    "valuation_basis": null,
+    "families": [
+     "EU-Startups",
+     "Sifted",
+     "TechCrunch Mobility"
+    ],
+    "n_families": 3,
+    "dots": "●●●",
+    "tech_area": "defence_aerospace",
+    "usd": null,
+    "founder_background": null,
+    "n_reprints": 0,
+    "other_finance": []
+   },
+   {
+    "id": "round:stryx-ai:2026-11-20",
+    "company": "Stryx AI",
+    "hq": "Paris",
+    "hq_list": [
+     {
+      "city": "Paris",
+      "country": "FR",
+      "mentions": 1
+     }
+    ],
+    "amount": "€7.7m",
+    "mixed": false,
+    "stage": "seed",
+    "leads": [
+     "Armand Thiberge (founder)",
+     "Impala"
+    ],
+    "status_note": null,
+    "description": "Low-cost drone interception technology",
+    "valuation": null,
+    "valuation_basis": null,
+    "families": [
+     "Maddyness",
+     "Sifted"
+    ],
+    "n_families": 2,
+    "dots": "●●",
+    "tech_area": "defence_aerospace",
+    "usd": 8316000.000000001,
+    "founder_background": "Armand Thiberge, founder of Brevo",
+    "n_reprints": 0,
+    "other_finance": []
+   },
+   {
+    "id": "round:dcubed:2026-11-19",
+    "company": "Dcubed",
+    "hq": "Munich",
+    "hq_list": [
+     {
+      "city": "Munich",
+      "country": "DE",
+      "mentions": 1
+     }
+    ],
+    "amount": "€27.2m",
+    "mixed": false,
+    "stage": "Series A",
+    "leads": [
+     "Warsaw Equity Group"
+    ],
+    "status_note": null,
+    "description": "Deployment and power systems for satellites and other space applications",
+    "valuation": null,
+    "valuation_basis": null,
+    "families": [
+     "Sifted"
+    ],
+    "n_families": 1,
+    "dots": "●",
+    "tech_area": "space",
+    "usd": 29376000.000000004,
+    "founder_background": null,
+    "n_reprints": 0,
+    "other_finance": []
+   },
+   {
+    "id": "round:anyos:2026-11-18",
+    "company": "Anyos",
+    "hq": "FR",
+    "hq_list": [
+     {
+      "city": null,
+      "country": "FR",
+      "mentions": 1
+     }
+    ],
+    "amount": "€5.5m",
+    "mixed": false,
+    "stage": null,
+    "leads": [],
+    "status_note": "being finalised",
+    "description": "French maker of upgradeable EV charging stations",
+    "valuation": null,
+    "valuation_basis": null,
+    "families": [
+     "Maddyness"
+    ],
+    "n_families": 1,
+    "dots": "●",
+    "tech_area": "energy_climate_hardware",
+    "usd": 5940000.0,
+    "founder_background": null,
+    "n_reprints": 0,
+    "other_finance": []
+   }
+  ],
+  "notable_team": [
+   {
+    "id": "round:remanence:2026-11-17",
+    "company": "Remanence",
+    "hq": "Paris",
+    "hq_list": [
+     {
+      "city": "Paris",
+      "country": "FR",
+      "mentions": 3
+     }
+    ],
+    "amount": "$30M",
+    "mixed": false,
+    "stage": "seed",
+    "leads": [
+     "EQT Ventures",
+     "FirstMark"
+    ],
+    "status_note": null,
+    "description": "Turns AI agents' execution traces into specialised models customers own",
+    "valuation": null,
+    "valuation_basis": null,
+    "families": [
+     "Maddyness",
+     "Sifted",
+     "Sunday CET",
+     "Techmeme",
+     "Term Sheet"
+    ],
+    "n_families": 5,
+    "dots": "●●●●●",
+    "tech_area": "ai_infrastructure",
+    "usd": 30000000.0,
+    "founder_background": "ex-CTO of H Company",
+    "n_reprints": 0,
+    "other_finance": []
+   },
+   {
+    "id": "round:treat:2026-11-18",
+    "company": "Treat",
+    "hq": "Helsinki",
+    "hq_list": [
+     {
+      "city": "Helsinki",
+      "country": "FI",
+      "mentions": 2
+     }
+    ],
+    "amount": "€3m",
+    "mixed": false,
+    "stage": "pre-seed",
+    "leads": [
+     "byFounders",
+     "Illusian"
+    ],
+    "status_note": null,
+    "description": "Private healthcare with AI-assisted patient intake and medical consultations",
+    "valuation": null,
+    "valuation_basis": null,
+    "families": [
+     "EU-Startups",
+     "Sunday CET",
+     "Term Sheet"
+    ],
+    "n_families": 3,
+    "dots": "●●●",
+    "tech_area": "health",
+    "usd": 3240000.0,
+    "founder_background": "co-founded by Swappie's former CEO",
+    "n_reprints": 0,
+    "other_finance": []
+   }
+  ],
+  "ids_world": [
+   "round:accountable:2026-11-16",
+   "round:aevius:2026-11-18",
+   "round:alecto:2026-11-18",
+   "round:ancep:2026-11-16",
+   "round:anyos:2026-11-18",
+   "round:arva-ai:2026-11-19",
+   "round:astranu:2026-11-18",
+   "round:athlete-to-athlete:2026-11-16",
+   "round:bevado:2026-11-17",
+   "round:bharat-semi:2026-11-16",
+   "round:blackbird-coffee:2026-11-19",
+   "round:boltz:2026-11-19",
+   "round:codex:2026-11-17",
+   "round:commit-biologics:2026-11-18",
+   "round:corma:2026-11-16",
+   "round:daisytuner:2026-11-17",
+   "round:dcubed:2026-11-19",
+   "round:disseqt:2026-11-18",
+   "round:dreamteam:2026-11-16",
+   "round:each-labs:2026-11-19",
+   "round:elysian-aircraft:2026-11-18",
+   "round:everful:2026-11-19",
+   "round:fairly:2026-11-17",
+   "round:fermat:2026-11-18",
+   "round:genesis-ai:2026-11-17",
+   "round:hone-health:2026-11-18",
+   "round:iconic:2026-11-19",
+   "round:intelliprove:2026-11-18",
+   "round:knit-health:2026-11-16",
+   "round:lato:2026-11-18",
+   "round:matchwornshirt:2026-11-18",
+   "round:metano:2026-11-20",
+   "round:modern-industrials:2026-11-20",
+   "round:mosaico:2026-11-16",
+   "round:mount-thor:2026-11-16",
+   "round:mountain:2026-11-18",
+   "round:mulga:2026-11-18",
+   "round:nodal-networks:2026-11-20",
+   "round:numina:2026-11-16",
+   "round:perry-ai:2026-11-18",
+   "round:pretxt:2026-11-18",
+   "round:previsia:2026-11-18",
+   "round:remanence:2026-11-17",
+   "round:rhise-ai:2026-11-18",
+   "round:rivio:2026-11-16",
+   "round:seawolf-therapeutics:2026-11-17",
+   "round:seva-money:2026-11-16",
+   "round:sleep-ai:2026-11-16",
+   "round:sqwish-labs:2026-11-18",
+   "round:stepsecurity:2026-11-19",
+   "round:stryx-ai:2026-11-20",
+   "round:sumary:2026-11-16",
+   "round:tesorai:2026-11-20",
+   "round:tiberius-aerospace:2026-11-17",
+   "round:traitomic:2026-11-18",
+   "round:treat:2026-11-18",
+   "round:valeria:2026-11-17",
+   "round:vero-security:2026-11-19",
+   "round:vetaion:2026-11-18",
+   "round:voyage-labs:2026-11-19",
+   "round:well:2026-11-16",
+   "round:wilgot:2026-11-20"
+  ],
+  "ids_europe": [
+   "round:alecto:2026-11-18",
+   "round:ancep:2026-11-16",
+   "round:anyos:2026-11-18",
+   "round:arva-ai:2026-11-19",
+   "round:blackbird-coffee:2026-11-19",
+   "round:boltz:2026-11-19",
+   "round:commit-biologics:2026-11-18",
+   "round:daisytuner:2026-11-17",
+   "round:dcubed:2026-11-19",
+   "round:disseqt:2026-11-18",
+   "round:elysian-aircraft:2026-11-18",
+   "round:fermat:2026-11-18",
+   "round:genesis-ai:2026-11-17",
+   "round:iconic:2026-11-19",
+   "round:intelliprove:2026-11-18",
+   "round:lato:2026-11-18",
+   "round:matchwornshirt:2026-11-18",
+   "round:mosaico:2026-11-16",
+   "round:mountain:2026-11-18",
+   "round:numina:2026-11-16",
+   "round:perry-ai:2026-11-18",
+   "round:pretxt:2026-11-18",
+   "round:previsia:2026-11-18",
+   "round:remanence:2026-11-17",
+   "round:rhise-ai:2026-11-18",
+   "round:seva-money:2026-11-16",
+   "round:sqwish-labs:2026-11-18",
+   "round:stryx-ai:2026-11-20",
+   "round:sumary:2026-11-16",
+   "round:tiberius-aerospace:2026-11-17",
+   "round:traitomic:2026-11-18",
+   "round:treat:2026-11-18",
+   "round:valeria:2026-11-17",
+   "round:vetaion:2026-11-18",
+   "round:well:2026-11-16",
+   "round:wilgot:2026-11-20"
+  ],
+  "lead_with_raw_count": false
+ },
+ "block3": {
+  "rows": [
+   {
+    "id": "round:isomorphic-labs:2026-11-17",
+    "company": "Isomorphic Labs",
+    "hq": "London",
+    "hq_list": [
+     {
+      "city": "London",
+      "country": "GB",
+      "mentions": 1
+     }
+    ],
+    "amount": "$5B",
+    "mixed": false,
+    "stage": "Series C",
+    "leads": [
+     "Greenoaks",
+     "Sequoia"
+    ],
+    "status_note": null,
+    "description": "Alphabet-backed AI drug-design company building the IsoDDE design engine",
+    "valuation": null,
+    "valuation_basis": null,
+    "families": [
+     "EU-Startups",
+     "Newcomer",
+     "Not Boring",
+     "Sifted",
+     "TLDR",
+     "Techmeme",
+     "Term Sheet"
+    ],
+    "n_families": 7,
+    "dots": "●●●●●",
+    "tech_area": "health",
+    "usd": 5000000000.0,
+    "founder_background": null,
+    "n_reprints": 0,
+    "other_finance": []
+   },
+   {
+    "id": "round:genesis-ai:2026-11-17",
+    "company": "Genesis AI",
+    "hq": "Paris / San Carlos",
+    "hq_list": [
+     {
+      "city": "Paris",
+      "country": "FR",
+      "mentions": 2
+     },
+     {
+      "city": "San Carlos",
+      "country": "US",
+      "mentions": 1
+     }
+    ],
+    "amount": "$500M",
+    "mixed": false,
+    "stage": "Series A",
+    "leads": [
+     "Premji Invest",
+     "Khosla Ventures"
+    ],
+    "status_note": null,
+    "description": "Builds Eno, a headless wheeled robot with in-house actuators and hands",
+    "valuation": "$3.5B",
+    "valuation_basis": null,
+    "families": [
+     "Maddyness",
+     "Newcomer",
+     "Not Boring",
+     "Sifted",
+     "TLDR",
+     "Techmeme",
+     "Term Sheet"
+    ],
+    "n_families": 7,
+    "dots": "●●●●●",
+    "tech_area": "robotics_manufacturing",
+    "usd": 500000000.0,
+    "founder_background": null,
+    "n_reprints": 0,
+    "other_finance": []
+   },
+   {
+    "id": "round:payhawk:2026-11-18",
+    "company": "Payhawk",
+    "hq": "London",
+    "hq_list": [
+     {
+      "city": "London",
+      "country": "GB",
+      "mentions": 3
+     }
+    ],
+    "amount": "$280M",
+    "mixed": false,
+    "stage": "Series C",
+    "leads": [
+     "Growth Equity at Goldman Sachs Alternatives",
+     "Goldman Sachs"
+    ],
+    "status_note": null,
+    "description": "Enterprise SaaS now selling AI agents from a native-AI platform",
+    "valuation": "$2B",
+    "valuation_basis": null,
+    "families": [
+     "EU-Startups",
+     "Newcomer",
+     "Sifted",
+     "Sunday CET",
+     "Techmeme",
+     "Term Sheet"
+    ],
+    "n_families": 6,
+    "dots": "●●●●●",
+    "tech_area": "fintech",
+    "usd": 280000000.0,
+    "founder_background": null,
+    "n_reprints": 0,
+    "other_finance": []
+   },
+   {
+    "id": "round:model-ml:2026-11-17",
+    "company": "Model ML",
+    "hq": "London",
+    "hq_list": [
+     {
+      "city": "London",
+      "country": "GB",
+      "mentions": 3
+     }
+    ],
+    "amount": "$250M",
+    "mixed": false,
+    "stage": "Series B",
+    "leads": [
+     "General Atlantic",
+     "QED Investors"
+    ],
+    "status_note": null,
+    "description": "AI agents in Excel or PowerPoint automating pitch deck, research, diligence tasks",
+    "valuation": "$1.5B",
+    "valuation_basis": null,
+    "families": [
+     "EU-Startups",
+     "Sifted",
+     "Techmeme",
+     "Term Sheet"
+    ],
+    "n_families": 4,
+    "dots": "●●●●",
+    "tech_area": "ai_applications",
+    "usd": 250000000.0,
+    "founder_background": null,
+    "n_reprints": 0,
+    "other_finance": []
+   },
+   {
+    "id": "round:stark-future:2026-11-17",
+    "company": "Stark Future",
+    "hq": "Barcelona",
+    "hq_list": [
+     {
+      "city": "Barcelona",
+      "country": "ES",
+      "mentions": 2
+     }
+    ],
+    "amount": "€150m",
+    "mixed": false,
+    "stage": null,
+    "leads": [
+     "Highland Europe"
+    ],
+    "status_note": null,
+    "description": "Designs, builds and sells high-performance electric motorcycles",
+    "valuation": "€1.2bn pre-money",
+    "valuation_basis": "pre_money",
+    "families": [
+     "EU-Startups",
+     "Sifted",
+     "TechCrunch Mobility"
+    ],
+    "n_families": 3,
+    "dots": "●●●",
+    "tech_area": "energy_climate_hardware",
+    "usd": 162000000.0,
+    "founder_background": null,
+    "n_reprints": 0,
+    "other_finance": []
+   },
+   {
+    "id": "round:boltz:2026-11-19",
+    "company": "Boltz",
+    "hq": "London",
+    "hq_list": [
+     {
+      "city": "London",
+      "country": "GB",
+      "mentions": 2
+     }
+    ],
+    "amount": "$110M",
+    "mixed": false,
+    "stage": "Series A",
+    "leads": [
+     "Bessemer",
+     "Bessemer Venture Partners"
+    ],
+    "status_note": null,
+    "description": "AI models for pharma and biotech researchers to design drug candidates",
+    "valuation": null,
+    "valuation_basis": null,
+    "families": [
+     "Newcomer",
+     "Not Boring",
+     "Sifted",
+     "Techmeme"
+    ],
+    "n_families": 4,
+    "dots": "●●●●",
+    "tech_area": "health",
+    "usd": 110000000.0,
+    "founder_background": null,
+    "n_reprints": 0,
+    "other_finance": []
+   },
+   {
+    "id": "round:tiberius-aerospace:2026-11-17",
+    "company": "Tiberius Aerospace",
+    "hq": "London / Newport Beach",
+    "hq_list": [
+     {
+      "city": "London",
+      "country": "GB",
+      "mentions": 1
+     },
+     {
+      "city": "Newport Beach",
+      "country": "US",
+      "mentions": 1
+     }
+    ],
+    "amount": "$85M",
+    "mixed": false,
+    "stage": "Series A",
+    "leads": [
+     "Lakestar",
+     "Rochefort Asset Management"
+    ],
+    "status_note": null,
+    "description": "Defense-as-a-service startup using AI to design long-range supersonic artillery munitions",
+    "valuation": "$1B+",
+    "valuation_basis": null,
+    "families": [
+     "Sifted",
+     "Techmeme",
+     "Term Sheet"
+    ],
+    "n_families": 3,
+    "dots": "●●●",
+    "tech_area": "defence_aerospace",
+    "usd": 85000000.0,
+    "founder_background": null,
+    "n_reprints": 0,
+    "other_finance": []
+   },
+   {
+    "id": "round:commit-biologics:2026-11-18",
+    "company": "Commit Biologics",
+    "hq": "Copenhagen",
+    "hq_list": [
+     {
+      "city": "Copenhagen",
+      "country": "DK",
+      "mentions": 1
+     }
+    ],
+    "amount": "€54m",
+    "mixed": false,
+    "stage": "seed",
+    "leads": [],
+    "status_note": null,
+    "description": "Next-generation immunotherapies targeting cancer and autoimmune diseases",
+    "valuation": null,
+    "valuation_basis": null,
+    "families": [
+     "EU-Startups"
+    ],
+    "n_families": 1,
+    "dots": "●",
+    "tech_area": "health",
+    "usd": 58320000.00000001,
+    "founder_background": null,
+    "n_reprints": 0,
+    "other_finance": []
+   }
+  ],
+  "more": [
+   "Resilience",
+   "Mistral AI (top-up)"
+  ],
+  "mega_count_world": 16,
+  "mega_ids": [
+   "round:blue-j:2026-11-16",
+   "round:boltz:2026-11-19",
+   "round:corma:2026-11-16",
+   "round:genesis-ai:2026-11-17",
+   "round:isomorphic-labs:2026-11-17",
+   "round:langchain:2026-11-16",
+   "round:megarobo:2026-11-19",
+   "round:mistral-ai:2026-11-18",
+   "round:model-ml:2026-11-17",
+   "round:noeri:2026-11-16",
+   "round:payhawk:2026-11-18",
+   "round:ramon-space:2026-11-18",
+   "round:science-corp:2026-11-17",
+   "round:seawolf-therapeutics:2026-11-17",
+   "round:stark-future:2026-11-17",
+   "round:variational:2026-11-18"
+  ],
+  "in_talks": [
+   {
+    "id": "round:databricks:2026-11-20:talks",
+    "company": "Databricks",
+    "amount": null,
+    "valuation": "~$225B",
+    "families": [
+     "Techmeme"
+    ],
+    "status": "in_talks",
+    "status_note": "early talks"
+   },
+   {
+    "id": "round:cognition:2026-11-20:talks",
+    "company": "Cognition",
+    "amount": "$2B+",
+    "valuation": "$75B",
+    "families": [
+     "Techmeme"
+    ],
+    "status": "planned",
+    "status_note": "considering"
+   },
+   {
+    "id": "round:ramp:2026-11-17:talks",
+    "company": "Ramp",
+    "amount": "$1B+",
+    "valuation": "$70B+",
+    "families": [
+     "Techmeme"
+    ],
+    "status": "in_talks",
+    "status_note": "early talks"
+   },
+   {
+    "id": "round:sierra:2026-11-18:talks",
+    "company": "Sierra",
+    "amount": "~$1.5B",
+    "valuation": "~$30B",
+    "families": [
+     "Techmeme"
+    ],
+    "status": "in_talks",
+    "status_note": null
+   }
+  ]
+ },
+ "block4": {
+  "confirmed": [
+   {
+    "id": "acquisition:applied-compute:2026-11-18",
+    "acquirer": "Palo Alto Networks",
+    "target": "Applied Compute",
+    "price": "$4.5B",
+    "price_usd": 4500000000.0,
+    "consideration": "stock",
+    "status": "signed",
+    "stake": "full",
+    "status_note": null,
+    "families": [
+     "Newcomer",
+     "TLDR",
+     "Techmeme"
+    ],
+    "n_families": 3,
+    "dots": "●●●",
+    "description": "Tools for training and serving customized open-weight AI models",
+    "note": "Applied Compute was valued at $3.25B earlier in November",
+    "confirmed_by_company": false
+   },
+   {
+    "id": "acquisition:mailchimp:2026-11-19",
+    "acquirer": "Bending Spoons",
+    "target": "Mailchimp",
+    "price": "$3.68B",
+    "price_usd": 3680000000.0,
+    "consideration": "cash_and_stock",
+    "status": "signed",
+    "stake": "full",
+    "status_note": null,
+    "families": [
+     "Newcomer",
+     "Sunday CET",
+     "Techmeme"
+    ],
+    "n_families": 3,
+    "dots": "●●●",
+    "description": "Marketing subsidiary of Intuit",
+    "note": "Intuit paid $12B in 2021",
+    "confirmed_by_company": false
+   }
+  ],
+  "single_source": [
+   {
+    "id": "acquisition:avio:2026-11-21",
+    "acquirer": "Iceye",
+    "target": "Avio",
+    "price": "€2.05bn",
+    "price_usd": 2214000000.0,
+    "consideration": "cash",
+    "status": "bid",
+    "stake": null,
+    "status_note": null,
+    "families": [
+     "Sunday CET"
+    ],
+    "n_families": 1,
+    "dots": "●",
+    "description": "Milan-listed Italian rocket manufacturer",
+    "note": null,
+    "confirmed_by_company": false
+   },
+   {
+    "id": "acquisition:inception:2026-11-19",
+    "acquirer": "Nvidia",
+    "target": "Inception",
+    "price": "$500M+",
+    "price_usd": 500000000.0,
+    "consideration": null,
+    "status": "in_talks",
+    "stake": null,
+    "status_note": "advanced talks",
+    "families": [
+     "Techmeme"
+    ],
+    "n_families": 1,
+    "dots": "●",
+    "description": "Diffusion LLM developer",
+    "note": null,
+    "confirmed_by_company": false
+   },
+   {
+    "id": "acquisition:criteo:2026-11-17",
+    "acquirer": "AppLovin",
+    "target": "Criteo",
+    "price": null,
+    "price_usd": null,
+    "consideration": null,
+    "status": "in_talks",
+    "stake": null,
+    "status_note": null,
+    "families": [
+     "Techmeme"
+    ],
+    "n_families": 1,
+    "dots": "●",
+    "description": "Ad tech company",
+    "note": null,
+    "confirmed_by_company": false
+   },
+   {
+    "id": "acquisition:zscaler:2026-11-20",
+    "acquirer": "CrowdStrike",
+    "target": "Zscaler",
+    "price": null,
+    "price_usd": null,
+    "consideration": null,
+    "status": "in_talks",
+    "stake": null,
+    "status_note": null,
+    "families": [
+     "Techmeme"
+    ],
+    "n_families": 1,
+    "dots": "●",
+    "description": "Cybersecurity company",
+    "note": null,
+    "confirmed_by_company": false
+   },
+   {
+    "id": "acquisition:coingecko:2026-11-18",
+    "acquirer": "Solana Foundation",
+    "target": "CoinGecko",
+    "price": null,
+    "price_usd": null,
+    "consideration": null,
+    "status": "announced",
+    "stake": "majority",
+    "status_note": null,
+    "families": [
+     "Techmeme"
+    ],
+    "n_families": 1,
+    "dots": "●",
+    "description": "Crypto price-tracking platform",
+    "note": null,
+    "confirmed_by_company": false
+   },
+   {
+    "id": "acquisition:firebolt:2026-11-19",
+    "acquirer": "MongoDB",
+    "target": "Firebolt",
+    "price": null,
+    "price_usd": null,
+    "consideration": null,
+    "status": "completed",
+    "stake": null,
+    "status_note": null,
+    "families": [
+     "TLDR"
+    ],
+    "n_families": 1,
+    "dots": "●",
+    "description": "Analytics engine",
+    "note": null,
+    "confirmed_by_company": true
+   }
+  ],
+  "single_source_more": [
+   {
+    "id": "acquisition:techwolf:2026-11-18",
+    "acquirer": "SAP",
+    "target": "TechWolf",
+    "price": null,
+    "price_usd": null,
+    "consideration": null,
+    "status": "completed",
+    "stake": null,
+    "status_note": null,
+    "families": [
+     "TLDR"
+    ],
+    "n_families": 1,
+    "dots": "●",
+    "description": "Talent and work intelligence, joining SAP SuccessFactors portfolio",
+    "note": null,
+    "confirmed_by_company": false
+   }
+  ],
+  "ipos": [],
+  "funds_european_early": [
+   {
+    "id": "fund:plural:2026-11-16",
+    "firm": "Plural",
+    "fund_name": "third fund",
+    "size": "€1bn",
+    "strategy": "early_stage",
+    "geography": "Europe",
+    "focus": "non-obvious companies",
+    "description": null,
+    "european_early": true,
+    "families": [
+     "EU-Startups",
+     "Sifted",
+     "Sunday CET",
+     "Techmeme"
+    ],
+    "n_families": 4,
+    "dots": "●●●●",
+    "note": "30+ companies",
+    "status": "closed",
+    "size_usd": 1080000000.0
+   }
+  ],
+  "funds_other": [
+   {
+    "id": "fund:sofinnova-partners:2026-11-17",
+    "firm": "Sofinnova Partners",
+    "fund_name": "Sofinnova Crossover II",
+    "size": "€725m",
+    "strategy": "late_stage",
+    "geography": "Europe",
+    "focus": "life sciences (biopharma and medtech)",
+    "description": null,
+    "european_early": false,
+    "families": [
+     "Maddyness",
+     "Sifted"
+    ],
+    "n_families": 2,
+    "dots": "●●",
+    "note": null,
+    "status": "final_close",
+    "size_usd": 783000000.0
+   },
+   {
+    "id": "fund:norwest:2026-11-16",
+    "firm": "Norwest",
+    "fund_name": "18th fund",
+    "size": "$4B",
+    "strategy": "multi_stage",
+    "geography": "U.S., India, and Israel",
+    "focus": "technology, health care, and consumer",
+    "description": null,
+    "european_early": false,
+    "families": [
+     "Term Sheet"
+    ],
+    "n_families": 1,
+    "dots": "●",
+    "note": null,
+    "status": "closed",
+    "size_usd": 4000000000.0
+   }
+  ]
+ },
+ "block5": {
+  "text": "OpenAI's GPT-6.2 Astra: API tokens 20% cheaper than GPT-6 Astra, at $8 / $40 per million input/output tokens (Techmeme, AlphaSignal, 18 Nov). OpenAI also says Astra runs its work and science evals at under a third of GPT-6 Astra's cost; AlphaSignal gives that as per task. Google's Gemini 4 Neon: $3 / $15 per million input/output tokens. Cheaper inference helps application startups and squeezes resellers.",
+  "sources": [
+   {
+    "file": "2026-11-18_techmeme_0efa0513.json",
+    "quote": "GPT-6.2 ASTRA COSTS $8/1M INPUT AND $40/1M OUTPUT TOKENS, DOWN 20% FROM GPT-6 ASTRA"
+   },
+   {
+    "file": "2026-11-18_techmeme_0efa0513.json",
+    "quote": "SAYING ASTRA SETS RECORDS ON WORK AND SCIENCE EVALS AT UNDER A THIRD OF GPT-6 ASTRA'S COST"
+   },
+   {
+    "file": "2026-11-18_alphasignal_65669854.json",
+    "quote": "Astra costs less than 1/3 the price per task"
+   },
+   {
+    "file": "2026-11-19_techmeme_00c0ac91.json",
+    "quote": "GEMINI 4 NEON COSTS $3/1M INPUT TOKENS AND $15/1M OUTPUT TOKENS"
+   }
+  ]
+ },
+ "footer": {
+  "total": 54,
+  "per_family": {
+   "TLDR": 12,
+   "Sifted": 9,
+   "AlphaSignal": 6,
+   "Techmeme": 6,
+   "Maddyness": 5,
+   "Term Sheet": 5,
+   "Newcomer": 4,
+   "Benedict Evans": 1,
+   "DeepLearning.AI": 1,
+   "EU-Startups": 1,
+   "Import AI": 1,
+   "Not Boring": 1,
+   "Sunday CET": 1,
+   "TechCrunch Mobility": 1
+  },
+  "per_letter": {
+   "Techmeme": 6,
+   "Sifted Daily": 5,
+   "Maddyness": 5,
+   "AI & Deeptech by Sifted": 1,
+   "TLDR Data": 2,
+   "Term Sheet": 5,
+   "TLDR IT": 5,
+   "AlphaSignal": 6,
+   "Import AI": 1,
+   "TLDR Hardware": 3,
+   "TLDR Fintech": 2,
+   "Fintech by Sifted": 1,
+   "Newcomer": 4,
+   "Benedict Evans": 1,
+   "Startup Life by Sifted": 1,
+   "EU-Startups": 1,
+   "DeepLearning.AI": 1,
+   "Up Round by Sifted": 1,
+   "Not Boring": 1,
+   "TechCrunch Mobility": 1,
+   "Sunday CET": 1
+  },
+  "silent_families": [],
+  "silent_letters": [
+   "Maddyness IA"
+  ],
+  "silent_deal_carrying": [],
+  "next_price_check": "7 Dec",
+  "withheld": 2
+ },
+ "fx_log": [
+  {
+   "currency": "EUR",
+   "usd_per_unit": 1.08,
+   "as_of": "2026-11-20"
+  }
+ ],
+ "context_note": "W47 was Slush week, so no comparison with previous weeks.",
+ "extraction": {
+  "issues": 54,
+  "loaded": 54,
+  "failed": {},
+  "flags": {
+   "2026-11-20_maddyness_255b1fcd.json": [
+    "0:fact_quote_cut"
+   ]
+  }
+ },
+ "compact_level": 3
+}

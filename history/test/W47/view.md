@@ -1,0 +1,80 @@
+# Monday view — week of 16–22 Nov 2026
+
+**Anthropic listed on Nasdaq at a $1.3T market cap, and Europe's early-stage rounds were led by AI applications and agents.**
+
+Each ● is one source family (Sifted, TLDR, Term Sheet, Techmeme, etc.) carrying the item. ●●●●● means 5 or more. Breadth of coverage, not importance: a press release reprinted by three deal digests gets three dots.
+
+---
+
+## 1. The week's story: Anthropic goes public ●●●●● (9 families)
+
+- **Wed 18 Nov:** priced at $83 a share, above the $70-$78 range. $81.3B raised, the largest offering on record.
+- **Thu 19 Nov:** opened at $111.50 (+34%), closed at $97.17 (+17%). Market cap $1.3T.
+- **Fri 20 Nov:** underwriters exercised the greenshoe for a further $12.2B, taking the total raised to $93.5B.
+
+For us: public investors have now priced a frontier lab. Late-stage AI marks get a public comparable, and early-stage pricing does not.
+
+## 2. Early-stage rounds (pre-seed to Series A, all sizes)
+
+**62 rounds reported, 36 in Europe.** Term Sheet carried 33 of the 62; the total is 40 without it. W47 was Slush week, so no comparison with previous weeks.
+
+| Europe, by area | Rounds |
+|---|---|
+| AI applications and agents | 14 |
+| AI infrastructure (compilers, edge, model training) | 4 |
+| Fintech | 3 |
+| Robotics and manufacturing | 2 |
+| Defence and aerospace | 2 |
+| Health | 2 |
+| Other | 2 |
+| Space; Energy and climate hardware; Other software and consumer | 1 each |
+
+32 = 36 European rounds less the 4 of $50M or more (section 3). Rest of world: 3 early rounds of $50M or more.
+
+**European deep tech:**
+- **Daisytuner** (Darmstadt), €6m seed, Elaia. Optimises AI model performance across NVIDIA, AMD and emerging chip architectures. ●●●
+- **MountAIn** (Grenoble / Meylan), €7.3m seed, 360 Capital. Software that runs AI applications on low-cost, low-power chips. ●●●
+- **Pretxt** (Aspen / Dublin), $5M seed. ●
+- **Mosaico** (Reggio Emilia), €7.5m seed, United Ventures. ●●
+- **Vetaion** (Munich), €5.7m pre-seed, Visionaries Tomorrow. ●●
+- **Elysian Aircraft** (Hoofddorp), €12m+ in grants and equity. Battery-electric aviation technologies for commercial and defence applications. ●●●
+- **Stryx AI** (Paris), €7.7m seed, Armand Thiberge (founder). ●●
+- **Dcubed** (Munich), €27.2m Series A, Warsaw Equity Group. ●
+- **Anyos** (FR), €5.5m, being finalised. ●
+
+Notable team: **Remanence** (Paris), $30M seed, EQT Ventures. Ex-CTO of H Company. ●●●●●
+
+## 3. Big rounds and marks
+
+| Company | Round | Valuation | Sources |
+|---|---|---|---|
+| Isomorphic Labs (London) | $5B Series C | – | ●●●●● |
+| Genesis AI (Paris / San Carlos) | $500M Series A | $3.5B | ●●●●● |
+| Payhawk (London) | $280M Series C | $2B | ●●●●● |
+| Model ML (London) | $250M Series B | $1.5B | ●●●● |
+| Stark Future (Barcelona) | €150m | €1.2bn pre-money | ●●● |
+| Boltz (London) | $110M Series A | – | ●●●● |
+| Tiberius Aerospace (London / Newport Beach) | $85M Series A | $1B+ | ●●● |
+| Commit Biologics (Copenhagen) | €54m seed | – | ● |
+
+Also $50M or more in Europe: Resilience, Mistral AI (top-up). 16 rounds of $100M or more were reported, equity only. In talks, not closed: Databricks early talks at ~$225B, Cognition considering $2B+ at $75B, Ramp early talks $1B+ at $70B+, Sierra ~$1.5B at ~$30B.
+
+## 4. Exits and new funds
+
+- **Palo Alto Networks → Applied Compute**: $4.5B in stock. Applied Compute was valued at $3.25B earlier in November. ●●●
+- **Bending Spoons → Mailchimp**: $3.68B in cash and stock. Intuit paid $12B in 2021. ●●●
+- Single source, unconfirmed:
+  - Iceye → Avio, €2.05bn cash, bid (Sunday CET)
+  - Nvidia → Inception, $500M+, advanced talks (Techmeme)
+  - AppLovin → Criteo, talks (Techmeme)
+  - CrowdStrike → Zscaler, talks (Techmeme)
+  - Also, one source each: CoinGecko (Techmeme); Firebolt, TechWolf (TLDR)
+- **Funds:** Plural closes €1bn for European early stage, 30+ companies. ●●●● Also closed: Sofinnova Crossover II €725m (Europe late stage, life sciences (biopharma and medtech)) ●●; Norwest 18th fund $4B (U.S., India, and Israel venture and growth, technology, health care, and consumer) ●.
+
+## 5. Market move
+
+OpenAI's GPT-6.2 Astra: API tokens 20% cheaper than GPT-6 Astra, at $8 / $40 per million input/output tokens (Techmeme, AlphaSignal, 18 Nov). OpenAI also says Astra runs its work and science evals at under a third of GPT-6 Astra's cost; AlphaSignal gives that as per task. Google's Gemini 4 Neon: $3 / $15 per million input/output tokens. Cheaper inference helps application startups and squeezes resellers.
+
+---
+
+*Sources this week (issues): TLDR 12, Sifted 9, AlphaSignal 6, Techmeme 6, Maddyness 5, Term Sheet 5, Newcomer 4; others 1 each. Maddyness IA sent none. 2 items withheld after the fact-check. Next monthly price check: 7 Dec.*

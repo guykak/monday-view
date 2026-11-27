@@ -1,0 +1,95 @@
+{
+ "_note": "The editor's words for W47 (test run). Every figure is tied to a quote held in the extraction; guards.check_editorial verifies it.",
+ "headline": "Anthropic listed on Nasdaq at a $1.3T market cap, and Europe's early-stage rounds were led by AI applications and agents.",
+ "context_note": "W47 was Slush week, so no comparison with previous weeks.",
+ "block1": {
+  "company": "Anthropic",
+  "event_type": "ipo",
+  "title": "Anthropic goes public",
+  "facts": [
+   {
+    "date": "2026-11-18",
+    "text": "priced at $83 a share, above the $70-$78 range. $81.3B raised, the largest offering on record.",
+    "sources": [
+     {
+      "file": "2026-11-19_techmeme_00c0ac91.json",
+      "quote": "ANTHROPIC PRICES ITS UPSIZED IPO AT $83 PER SHARE, ABOVE THE $70-$78 MARKETED RANGE, RAISING $81.3B IN THE LARGEST OFFERING ON RECORD, TOPPING SPACEX"
+     }
+    ]
+   },
+   {
+    "date": "2026-11-19",
+    "text": "opened at $111.50 (+34%), closed at $97.17 (+17%). Market cap $1.3T.",
+    "sources": [
+     {
+      "file": "2026-11-20_techmeme_98c4e18a.json",
+      "quote": "ANTHROPIC CLOSES UP 17% AT $97.17 IN ITS NASDAQ DEBUT, GIVING IT A MARKET CAP OF $1.3T, AFTER OPENING AT $111.50, UP 34% FROM ITS IPO PRICE"
+     }
+    ]
+   },
+   {
+    "date": "2026-11-20",
+    "text": "underwriters exercised the greenshoe for a further $12.2B, taking the total raised to $93.5B.",
+    "sources": [
+     {
+      "file": "2026-11-21_techmeme_183d15c4.json",
+      "quote": "ANTHROPIC RAISES AN ADDITIONAL $12.2B AS UNDERWRITERS EXERCISE THEIR “GREENSHOE” OVERALLOTMENT OF SHARES, BRINGING THE TOTAL RAISED IN ITS IPO TO $93.5B"
+     }
+    ]
+   }
+  ],
+  "for_us": "public investors have now priced a frontier lab. Late-stage AI marks get a public comparable, and early-stage pricing does not."
+ },
+ "block5": {
+  "text": "OpenAI's GPT-6.2 Astra: API tokens 20% cheaper than GPT-6 Astra, at $8 / $40 per million input/output tokens (Techmeme, AlphaSignal, 18 Nov). OpenAI also says Astra runs its work and science evals at under a third of GPT-6 Astra's cost; AlphaSignal gives that as per task. Google's Gemini 4 Neon: $3 / $15 per million input/output tokens. Cheaper inference helps application startups and squeezes resellers.",
+  "sources": [
+   {
+    "file": "2026-11-18_techmeme_0efa0513.json",
+    "quote": "GPT-6.2 ASTRA COSTS $8/1M INPUT AND $40/1M OUTPUT TOKENS, DOWN 20% FROM GPT-6 ASTRA"
+   },
+   {
+    "file": "2026-11-18_techmeme_0efa0513.json",
+    "quote": "SAYING ASTRA SETS RECORDS ON WORK AND SCIENCE EVALS AT UNDER A THIRD OF GPT-6 ASTRA'S COST"
+   },
+   {
+    "file": "2026-11-18_alphasignal_65669854.json",
+    "quote": "Astra costs less than 1/3 the price per task"
+   },
+   {
+    "file": "2026-11-19_techmeme_00c0ac91.json",
+    "quote": "GEMINI 4 NEON COSTS $3/1M INPUT TOKENS AND $15/1M OUTPUT TOKENS"
+   }
+  ]
+ },
+ "block4_notes": {
+  "Applied Compute": {
+   "text": "Applied Compute was valued at $3.25B earlier in November",
+   "sources": [
+    {
+     "file": "2026-11-19_techmeme_00c0ac91.json",
+     "quote": "IT WAS VALUED AT $3.25B THIS MONTH"
+    }
+   ]
+  },
+  "Mailchimp": {
+   "text": "Intuit paid $12B in 2021",
+   "sources": [
+    {
+     "file": "2026-11-20_techmeme_98c4e18a.json",
+     "quote": "INTUIT PAID $12B TO BUY MAILCHIMP IN 2021"
+    }
+   ]
+  }
+ },
+ "fund_notes": {
+  "Plural": {
+   "text": "30+ companies",
+   "sources": [
+    {
+     "file": "2026-11-17_techmeme_e19a9091.json",
+     "quote": "PLANNING TO BACK 30+ STARTUPS"
+    }
+   ]
+  }
+ }
+}
